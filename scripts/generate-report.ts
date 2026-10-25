@@ -182,6 +182,7 @@ export async function generate(deps: GenerateDeps): Promise<Snapshot> {
     usage.feedsFailed = news.failed.length;
     if (news.failed.length) warnings.push(`${news.failed.length} news feed(s) could not be read this time: ${news.failed.slice(0, 6).join('; ')}.`);
     latest = selectHeadlines(news.items, 60).map((x) => x.h);
+    usage.headlines = latest.length;
     if (!deps.claude) throw new Error('FREE_MODE');
     const notes = selectNotes(news.items);
     usage.headlines = notes.length;
