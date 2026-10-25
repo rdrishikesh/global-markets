@@ -156,3 +156,29 @@ export interface Snapshot {
   warnings: string[];
   usage: { headlines: number; feedsOk: number; feedsFailed: number; inputTokens: number; outputTokens: number };
 }
+
+/** public/data/extra.json, written by the Python collectors (official NSE and BSE files). */
+export interface NseIndexRow {
+  index: string;
+  date: string;
+  close: number;
+  change_pct: number | null;
+  pe: number | null;
+  pb: number | null;
+  div_yield: number | null;
+  source: string;
+}
+export interface BseMover {
+  symbol: string;
+  name: string;
+  close: number;
+  prev_close: number;
+  change_pct: number;
+  volume: number | null;
+}
+export interface Extra {
+  generatedAt: string;
+  problems: string[];
+  nse_indices?: NseIndexRow[];
+  bse_movers?: { date: string; gainers: BseMover[]; losers: BseMover[]; source: string };
+}

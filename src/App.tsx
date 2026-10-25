@@ -1,5 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react';
-import type { Snapshot } from './types/report.js';
+import type { Extra, Snapshot } from './types/report.js';
+import { IndiaPanel } from './components/IndiaPanel.js';
 import { Overview, Analysis, Events, History, Headlines, Methodology } from './components/Sections.js';
 import { MarketTable } from './components/MarketTable.js';
 import { SourcesList } from './components/Cite.js';
@@ -31,6 +32,17 @@ async function loadSnapshot(): Promise<Snapshot> {
   return s;
 }
 
+async function loadExtra(): Promise<Extra | null> {
+  try {
+    const url = new URL('data/extra.json', document.baseURI);
+    url.searchParams.set('v', String(Math.floor(Date.now() / 60000)));
+    const res = await fetch(url.toString(), { cache: 'no-cache' });
+    return res.ok ? ((await res.json()) as Extra) : null;
+  } catch {
+    return null; // optional file
+  }
+}
+
 const Banner: React.FC<{ tone: 'warn' | 'info'; children?: React.ReactNode }> = ({ tone, children }) => (
   <div role="status" className={`border-b text-xs ${tone === 'warn' ? 'bg-amber-50 dark:bg-amber-950/40 border-amber-300 dark:border-amber-800 text-amber-900 dark:text-amber-200' : 'bg-blue-50 dark:bg-blue-950/40 border-blue-200 dark:border-blue-900 text-blue-900 dark:text-blue-200'}`}>
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex gap-2 items-start">
@@ -43,6 +55,7 @@ const Banner: React.FC<{ tone: 'warn' | 'info'; children?: React.ReactNode }> = 
 export default function App() {
   const [dark, setDark] = useState<boolean>(initialDark);
   const [snap, setSnap] = useState<Snapshot | null>(null);
+  const [extra, setExtra] = useState<Extra | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
   const [jargon, setJargon] = useState<{ open: boolean; term?: string }>({ open: false });
@@ -60,6 +73,7 @@ export default function App() {
     setLoading(true);
     try {
       setSnap(await loadSnapshot());
+      setExtra(await loadExtra());
       setError(null);
     } catch (e) {
       setError((e as Error).message);
@@ -133,6 +147,7 @@ export default function App() {
             items={snap.market.filter((m) => m.kind === 'factor')}
             all={snap.market}
           />
+          <IndiaPanel extra={extra} />
           <Headlines snap={snap} />
           {snap.report && <Events report={snap.report} />}
           <History market={snap.market} />
