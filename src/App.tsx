@@ -1,5 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import type { Extra, Snapshot } from './types/report.js';
+import { TickerTape, LiveCharts } from './components/TradingViewWidgets.js';
 import { IndiaPanel } from './components/IndiaPanel.js';
 import { Overview, Analysis, Events, History, Headlines, Methodology } from './components/Sections.js';
 import { MarketTable } from './components/MarketTable.js';
@@ -111,6 +112,8 @@ export default function App() {
         </div>
       </header>
 
+      <TickerTape dark={dark} />
+
       {stale && snap && <Banner tone="warn"><strong>This data is {ageText(snap.generatedAt).replace(' ago', '')} old.</strong> Scheduled updates may have stopped; figures may be out of date.</Banner>}
       {reportOld && snap?.report && <Banner tone="warn">Today's written analysis could not be produced, so the explanations below are from {fmtWhen(snap.report.generatedAt)}. The numbers in the tables are current.</Banner>}
       {snap && snap.warnings.length > 0 && (
@@ -148,6 +151,7 @@ export default function App() {
             all={snap.market}
           />
           <IndiaPanel extra={extra} />
+          <LiveCharts dark={dark} />
           <Headlines snap={snap} />
           {snap.report && <Events report={snap.report} />}
           <History market={snap.market} />
