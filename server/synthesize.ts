@@ -83,7 +83,7 @@ export const REPORT_TOOL = {
   },
 };
 
-const SYSTEM = `You write a markets dashboard for two audiences at once: finance professionals ("technical") and ordinary people ("layman").
+export const SYSTEM = `You write a markets dashboard for two audiences at once: finance professionals ("technical") and ordinary people ("layman").
 You receive (A) NOTES: headlines and summaries collected from news and official feeds, each with an id like N12 and its publisher and time, and (B) MARKET DATA: numbers computed from price history, each with an id like sp500.
 Strict rules:
 1. Use ONLY information in A and B. No outside knowledge. If the notes do not explain something, leave that item out; never guess a reason.

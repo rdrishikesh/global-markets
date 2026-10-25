@@ -15,6 +15,7 @@ import type { HeavyweightRow, MacroItem, MarketItem, Report, Snapshot } from '..
 import { HEAVYWEIGHTS } from '../src/data/heavyweights.js';
 import { createHash } from 'node:crypto';
 import { computeAnalog, computeEpisodes, computeMood, computeRelations, computeStats, describeStats, type Bar } from '../server/stats.js';
+import { REPORT_TOOL, SYSTEM, buildSynthesisPrompt } from '../server/synthesize.js';
 import { fetchAll, type FetchLike } from '../server/yahoo.js';
 import { fetchHeadlines, retrievedFrom, selectHeadlines, selectNotes, tagItem, type Headline, type TextFetch } from '../server/news.js';
 import { runSynthesis, type ClaudeLike } from '../server/synthesize.js';
@@ -36,6 +37,8 @@ export interface GenerateDeps {
   now?: () => number;
   synthesisModel?: string;
   yahooDelayMs?: number;
+  /** Free mode only: where to write the evidence file that a scheduled Claude task analyses. */
+  evidencePath?: string;
 }
 
 export function readJson<T>(file: string): T | null {
@@ -46,7 +49,7 @@ export function readJson<T>(file: string): T | null {
   }
 }
 
-function writeJsonAtomic(file: string, data: unknown) {
+export function writeJsonAtomic(file: string, data: unknown) {
   const tmp = `${file}.tmp`;
   fs.writeFileSync(tmp, JSON.stringify(data, null, 1));
   fs.renameSync(tmp, file);
@@ -102,7 +105,8 @@ const rd = (v: number) => Number(v.toFixed(Math.abs(v) < 10 ? 4 : 2));
 
 export async function generate(deps: GenerateDeps): Promise<Snapshot> {
   const now = deps.now ?? Date.now;
-  const today = new Date(now()).toISOString().slice(0, 10);
+  const generatedAt = new Date(now()).toISOString();
+  const today = generatedAt.slice(0, 10);
   const warnings: string[] = [];
   const synthesisModel = deps.synthesisModel ?? DEFAULT_MODEL;
   const file = path.join(deps.dataDir, 'snapshot.json');
@@ -182,17 +186,38 @@ export async function generate(deps: GenerateDeps): Promise<Snapshot> {
     usage.feedsFailed = news.failed.length;
     if (news.failed.length) warnings.push(`${news.failed.length} news feed(s) could not be read this time: ${news.failed.slice(0, 6).join('; ')}.`);
     latest = selectHeadlines(news.items, 60).map((x) => x.h);
-    usage.headlines = latest.length;
-    if (!deps.claude) throw new Error('FREE_MODE');
     const notes = selectNotes(news.items);
-    usage.headlines = notes.length;
-    if (notes.length < MIN_HEADLINES) throw new Error(`only ${notes.length} fresh headlines were collected (need ${MIN_HEADLINES})`);
+    usage.headlines = latest.length;
+    if (!deps.claude && notes.length < MIN_HEADLINES) throw new Error('FREE_MODE');
+    if (deps.claude && notes.length < MIN_HEADLINES) throw new Error(`only ${notes.length} fresh headlines were collected (need ${MIN_HEADLINES})`);
 
     // Skip the paid step when nothing has changed since the last run.
     inputHash = createHash('sha256')
       .update(JSON.stringify([notes.map((n) => n.urls[0]), market.map((m) => m.stats?.asOf + ':' + m.stats?.last), macro.map((m) => m.id + m.date + m.value)]))
       .digest('hex')
       .slice(0, 16);
+    if (!deps.claude) {
+      // Free mode: leave everything a scheduled Claude task needs to write the analysis (no API key, no cost here).
+      if (deps.evidencePath) {
+        const marketLines = [...marketText].map(([id, t]) => `${id} | ${t}`);
+        const used = new Set(notes.flatMap((n) => n.urls));
+        const retrieved = [...retrievedFrom(news.items)].filter(([u]) => used.has(u));
+        fs.mkdirSync(path.dirname(deps.evidencePath), { recursive: true });
+        writeJsonAtomic(deps.evidencePath, {
+          schemaVersion: 1,
+          snapshotGeneratedAt: generatedAt,
+          inputHash,
+          today,
+          instructions: SYSTEM,
+          reportSchema: REPORT_TOOL.input_schema,
+          prompt: buildSynthesisPrompt(notes, marketLines, today),
+          notes,
+          marketLines,
+          retrieved,
+        });
+      }
+      throw new Error('FREE_MODE');
+    }
     if (previous?.report && previous.inputHash === inputHash) {
       report = { ...previous.report, generatedAt: new Date(now()).toISOString() };
       carriedWhy = true;
@@ -222,10 +247,15 @@ export async function generate(deps: GenerateDeps): Promise<Snapshot> {
     const msg = (err as Error).message;
     inputHash = previous?.inputHash;
     if (msg === 'FREE_MODE') {
-      warnings.push('Free mode: no Claude key is configured, so there is no written analysis. Prices, statistics, look-alike history and the latest headlines (with links) are shown. Add ANTHROPIC_API_KEY to switch on the plain-English and technical analysis.');
-      report = null;
-      sources = [];
-      carriedWhy = false;
+      if (previous?.report) {
+        // Keep showing the last analysis until a scheduled Claude task writes the new one.
+        warnings.push(`The written analysis is from ${previous.report.generatedAt.slice(0, 10)} and is being refreshed; the numbers are current.`);
+      } else {
+        warnings.push('Free mode: no written analysis yet. It is added by a scheduled Claude task after each refresh (or set ANTHROPIC_API_KEY to write it here).');
+        report = null;
+        sources = [];
+        carriedWhy = false;
+      }
     } else if (previous?.report) {
       warnings.push(`Today's analysis could not be produced (${msg}). The written analysis shown is from ${previous.report.generatedAt.slice(0, 10)}; the numbers are current.`);
     } else {
@@ -241,7 +271,7 @@ export async function generate(deps: GenerateDeps): Promise<Snapshot> {
 
   const snapshot: Snapshot = {
     schemaVersion: 2,
-    generatedAt: new Date(now()).toISOString(),
+    generatedAt,
     models: { synthesis: synthesisModel },
     inputHash,
     mood,
@@ -286,6 +316,7 @@ async function main() {
       textFetch: (url, init) => fetch(url, { ...init, signal: AbortSignal.timeout(15_000) }) as any,
       claude,
       dataDir: path.resolve('public/data'),
+      evidencePath: path.resolve('claude-project/evidence.json'),
       synthesisModel: process.env.ANTHROPIC_MODEL || DEFAULT_MODEL,
       yahooDelayMs: 1500,
     });

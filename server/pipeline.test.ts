@@ -8,6 +8,7 @@ import { parseFeed, toHeadline, selectNotes, fetchHeadlines, tagItem, MAX_PER_PU
 import { SourceRegistry, tierOf } from './sources.js';
 import type { ClaudeLike } from './synthesize.js';
 import { generate, readJson } from '../scripts/generate-report.js';
+import { applyAnalysis } from '../scripts/apply-analysis.js';
 import { CATALOG } from '../src/data/catalog.js';
 import type { Snapshot } from '../src/types/report.js';
 
@@ -301,4 +302,37 @@ test('generate: macro indicators from the Python step and company effects reach 
   assert.ok(JSON.stringify(claude.calls[0]).includes('macro:us_cpi'));
   assert.ok(JSON.stringify(claude.calls[0]).includes('hw:sp500'));
   assert.deepEqual(snap.report!.companyEffects.map((c) => c.company), ['Apple']);
+});
+
+test('free mode writes an evidence file; applyAnalysis validates and merges a Claude-written report', async () => {
+  const dir = tmp();
+  const evidencePath = path.join(dir, 'ev', 'evidence.json');
+  const snap = await generate(base({ dataDir: dir, claude: null, evidencePath }));
+  assert.equal(snap.report, null);
+  const ev = readJson<any>(evidencePath)!;
+  assert.equal(ev.snapshotGeneratedAt, snap.generatedAt);
+  assert.ok(ev.notes.length >= 20 && ev.marketLines.some((l: string) => l.startsWith('sp500 | ')));
+  // A report as the scheduled Claude task would write it: one good item, one with an invented number.
+  const n1 = ev.notes.find((n: any) => /fell 1\.23%/i.test(n.text)).id;
+  const good = (t: string) => ({ technical: t, layman: 'US shares dropped a bit because borrowing costs went up.' });
+  const item = (title: string, tech: string) => ({
+    title, status: good(tech), consequence: good('If yields stay elevated, valuation pressure may persist.'), impact: good('Rate-sensitive growth stocks are most exposed.'),
+    outlook: good('Base rates only: not a prediction for the next session.'), notes: [n1], market: ['sp500'],
+  });
+  const analysis = path.join(dir, 'analysis.json');
+  fs.writeFileSync(analysis, JSON.stringify({ global: item('Global', 'The S&P 500 fell 1.23% as yields rose.'), regions: [item('Bad', 'Shares fell 77.7% in a day.')], drivers: [], indexNotes: [], events: [], companyEffects: [] }));
+  const r = applyAnalysis(evidencePath, analysis, dir);
+  assert.equal(r.kept, 1);
+  const after = readJson<Snapshot>(path.join(dir, 'snapshot.json'))!;
+  assert.ok(after.report?.global);
+  assert.equal(after.report!.regions.length, 0);
+  assert.equal(after.inputHash, ev.inputHash);
+  assert.ok(after.sources.length >= 1);
+  assert.ok(!after.warnings.some((w) => w.startsWith('Free mode')));
+  // A stale evidence file is refused.
+  fs.writeFileSync(evidencePath, JSON.stringify({ ...ev, snapshotGeneratedAt: '2000-01-01T00:00:00.000Z' }));
+  assert.throws(() => applyAnalysis(evidencePath, analysis, dir), /different data refresh/);
+  // Next free-mode refresh keeps the analysis on the site until a new one arrives.
+  const again = await generate(base({ dataDir: dir, claude: null, evidencePath, now: () => NOW + 3600_000, salt: 'z' }));
+  assert.ok(again.report?.global);
 });
