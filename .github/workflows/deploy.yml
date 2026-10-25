@@ -1,0 +1,103 @@
+name: Update market data and deploy
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    # Weekdays, twice: 10:30 UTC (4:00 pm IST, Asia closed, Europe open) and 23:15 UTC (4:45 am IST, after the US close).
+    # A run costs a few cents of Claude usage (see START-HERE.md). Delete one line to update once a day.
+    - cron: '30 10 * * 1-5'
+    - cron: '15 23 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write   # lets the job save the refreshed data file
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      # Optional repository *Variables*, only needed to switch models
+      ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Run self-checks
+        run: npm test
+        continue-on-error: true
+
+      # Uploading files to GitHub (a "push") does NOT use Claude when data already exists.
+      # Data is refreshed on the schedule, or when you press "Run workflow".
+      - name: Decide whether to refresh data
+        id: plan
+        run: |
+          if [ "${{ github.event_name }}" = "push" ] && [ -f public/data/snapshot.json ]; then
+            echo "refresh=false" >> "$GITHUB_OUTPUT"
+            echo "Existing data found; skipping the paid refresh on a plain push." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "refresh=true" >> "$GITHUB_OUTPUT"
+          fi
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "### Action needed: ANTHROPIC_API_KEY secret is missing" >> "$GITHUB_STEP_SUMMARY"
+            echo "Add it under Settings > Secrets and variables > Actions, then run this workflow again (Actions tab > Run workflow). See START-HERE.md step 4." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      # If this step fails, the PREVIOUS data stays published and the site shows its true age.
+      - name: Generate fresh market data
+        if: steps.plan.outputs.refresh == 'true'
+        run: npm run generate
+        continue-on-error: true
+
+      - name: Save refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/snapshot.json
+          if git diff --cached --quiet; then
+            echo "No data changes to save."
+          else
+            git commit -m "chore: update market data [skip ci]"
+            git pull --rebase --autostash
+            git push
+          fi
+
+      - name: Build site
+        run: npm run build
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+      - name: Publish
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Show the live link
+        run: |
+          echo "### Your site is live" >> "$GITHUB_STEP_SUMMARY"
+          echo "${{ steps.deployment.outputs.page_url }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "Share this link with your friends." >> "$GITHUB_STEP_SUMMARY"
