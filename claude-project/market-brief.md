@@ -1,4 +1,4 @@
-# Market brief (generated 2026-10-25T21:28:18.780Z)
+# Market brief (generated 2026-10-25T21:36:53.099Z)
 
 Prices are Yahoo Finance daily closes; macro figures are official releases. Statistics are computed by code. Base rates describe the past and are not predictions.
 
@@ -39,12 +39,12 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 - US Dollar Index: 101.81 (1d +0.20%, 1m +0.51%) as of 2026-10-23
 - EUR/USD: 1.12 (1d +0.02%, 1m -1.33%) as of 2026-10-25
 - USD/INR: 94.93 (1d +0.23%, 1m -1.28%) as of 2026-10-25
-- USD/JPY: 157.02 (1d +0.34%, 1m -1.13%) as of 2026-10-25
+- USD/JPY: 157.01 (1d +0.33%, 1m -1.13%) as of 2026-10-25
 - Brent crude oil: 111.70 (1d -1.30%, 1m +4.78%) as of 2026-10-23
 - WTI crude oil: 103.27 (1d +3.82%, 1m +9.15%) as of 2026-10-23
 - Gold: 4007.90 (1d -1.29%, 1m -6.75%) as of 2026-10-23
 - Copper: 6.51 (1d +2.28%, 1m -3.14%) as of 2026-10-23
-- Bitcoin: 80381.15 (1d -0.51%, 1m -7.05%) as of 2026-10-25
+- Bitcoin: 80353.32 (1d -0.54%, 1m -7.08%) as of 2026-10-25
 
 ## Macro indicators (official sources)
 
@@ -118,7 +118,11 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Headlines collected today
 
+- How To Set Up an AI-Powered Company (Bloomberg, 2026-10-25T21:31:56.000Z) https://news.google.com/rss/articles/CBMiogFBVV95cUxNLWp0V01IdnpXRXpaUFFPbVlSOXhsOHdVT3BOdnVOTjhwbHJHUHRNbWNqUzdtWEdTRzhLR1F6cFpPTVJFSm1fZFU4aVAtMTBGdzhIRHVqbW9PYUhZLUlsMlM5NG5RaXJnOW1makxlaFcySFAwbFN4WDBvWktDMXQ0SUF3NXhOUkxUMU9xVXViMEtEYTU0UG5iSVVyaWtJRWpHSGc?oc=5
+- Apple to Unveil Touch MacBook Pro After Two Decades of Resistance (Bloomberg, 2026-10-25T21:30:21.000Z) https://news.google.com/rss/articles/CBMiygFBVV95cUxQU050VmdaXzZvZzVfNXRjQXo2SnVzYVRPOHppZ3QxcmN5ejItUy10Mm50Z1VkdGVSUlNKaXJRVnBUbmdmdEs2T1Z2UXhzRmNQYTZzdVFmeVdXcmt5VmRvOFA5dHRCX2RDajBlZFF1ZlZnWE03Qk1ZWUpNUndjTHNEWnpXOEpuV080OXFXTTN1UldKU3N2YjdfNzlCbENQWkNmWVJPbEJ6eHVQRU85MzJBNGMzS2VyakJGanJIZTMzUTlNUnpicXJKbDJR?oc=5
 - More pain may be coming for the AI trade. Why I’m not giving up on it (CNBC, 2026-10-25T21:13:50.000Z) https://www.cnbc.com/investingclub/2026/10/25/jim-cramer-ai-trade-nvidia-coreweave.html
+- Brazil’s Supreme Court extends voting as transport complaints mar election (Financial Times, 2026-10-25T21:13:36.000Z) https://www.ft.com/content/29033fb9-2dc7-4af0-a2ff-55d1bdd5dece?syn-25a6b1a6=1
+- Serbia’s ex-president Vučić concedes defeat to Student List in parliamentary poll (Financial Times, 2026-10-25T21:01:24.000Z) https://www.ft.com/content/546f21f5-22d3-4696-8371-7bef8c0410b3?syn-25a6b1a6=1
 - Opinion | California’s Wealth Tax and the French Economist (WSJ, 2026-10-25T21:01:00.000Z) https://www.wsj.com/opinion/californias-wealth-tax-and-the-french-economist-0e9e86cb?mod=rss_worldnews
 - Musk says SpaceX raised $40 billion in debt for GPUs (Investing.com, 2026-10-25T21:00:24.000Z) https://www.investing.com/news/stock-market-news/musk-says-spacex-raised-40-billion-in-debt-for-gpus-4971248
 - Texas, Ohio, Michigan Voters Turn Away From Trump, GOP in Midterm Elections 2026 (Bloomberg, 2026-10-25T21:00:17.000Z) https://www.bloomberg.com/features/2026-us-midterm-election-affordability/
@@ -130,21 +134,17 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 - Opinion | María Corina Machado Needs Trump’s Protection (WSJ, 2026-10-25T20:57:00.000Z) https://www.wsj.com/opinion/maria-corina-machado-needs-trumps-protection-venezuela-f884da1b?mod=rss_worldnews
 - Zelenskiy says US warnings on ballistic strikes have fully resumed (Investing.com, 2026-10-25T20:42:24.000Z) https://www.investing.com/news/stock-market-news/zelenskiy-says-us-warnings-on-ballistic-strikes-have-fully-resumed-4971254
 - Serbian Longtime Leader Vucic Concedes Defeat in Snap Vote (Bloomberg, 2026-10-25T20:35:33.000Z) https://www.bloomberg.com/news/articles/2026-10-25/serbian-long-time-leader-vucic-concedes-defeat-in-snap-vote
-- Europe’s Top Five Defense Powers to Call Russia Biggest Threat (Bloomberg, 2026-10-25T20:33:25.000Z) https://www.bloomberg.com/news/articles/2026-10-25/europe-s-top-five-defense-powers-to-call-russia-biggest-threat
 - America First in Lithium Logistics: Elektros Eyes a New York Resource Opportunity (Morningstar, 2026-10-25T20:30:00.000Z) https://news.google.com/rss/articles/CBMi0AFBVV95cUxOeDhlZ2RQdzNmb0ZNT3Vjb0xJS2g0THVBZHNmaFpnUVJ4T1pmSWZHbUE3YU9KZ0VxMGk4VXpPczRuVmFxTm9reHpsNDdJbEQzTU1xaFlqaXZUX25kdjhzV3JOOW5ZZ2V6eEpseC1JZ2w4el81QWJIbjIyazQzVWVydTk3Zl9yV3daNjY5TkJZZUFwNTdmVVU1VHRtbkpRcWxQbDRWeU1zUVJxa1ozV204RDdQMGtlNk1JQnRzRm5HX0l6by1yOFF4RlQ1SEtQbm5U?oc=5
 - Blanche defends Trump-ordered lawsuit over Alaska Senate election certification (CNBC, 2026-10-25T20:28:55.000Z) https://www.cnbc.com/2026/10/25/blanche-doj-alaska-senate-certification-lawsuit.html
-- Apple to Unveil Touch MacBook Pro After Two Decades of Resistance (Bloomberg, 2026-10-25T20:28:49.000Z) https://news.google.com/rss/articles/CBMiygFBVV95cUxQU050VmdaXzZvZzVfNXRjQXo2SnVzYVRPOHppZ3QxcmN5ejItUy10Mm50Z1VkdGVSUlNKaXJRVnBUbmdmdEs2T1Z2UXhzRmNQYTZzdVFmeVdXcmt5VmRvOFA5dHRCX2RDajBlZFF1ZlZnWE03Qk1ZWUpNUndjTHNEWnpXOEpuV080OXFXTTN1UldKU3N2YjdfNzlCbENQWkNmWVJPbEJ6eHVQRU85MzJBNGMzS2VyakJGanJIZTMzUTlNUnpicXJKbDJR?oc=5
 - AI Drives Record Growth in Information Technology (WSJ, 2026-10-25T20:14:53.000Z) https://news.google.com/rss/articles/CBMilAFBVV95cUxNM1FUNXNYbUQ4NDMxOTNhQmtMS0J5cmxXakloQlRfa1NaTkwtOV9pRldOMldOXzk0VUczZm9FbkhKV250cTlrWjVMZXhvMG9pdWhHc0daelhvRkNjVGxGY3JjLXhuT3hiSjYxV0xhZDhYazAzY3hwTnNzcEZ2OURVaUV2Ylh0bE03WWprYkRPV2NUZVdF?oc=5
-- Brazil Extends Voting by Two Hours After Briefly Starting Count (Bloomberg, 2026-10-25T20:08:50.000Z) https://www.bloomberg.com/news/articles/2026-10-25/brazil-court-extends-voting-by-two-hours-on-candidate-requests
+- Voting in Brazil Extended Hours as Tensions Rise in Election (Bloomberg, 2026-10-25T20:08:50.000Z) https://www.bloomberg.com/news/articles/2026-10-25/brazil-court-extends-voting-by-two-hours-on-candidate-requests
 - Le Pen Pitches Herself as France’s Unifier After Another Weekend of Protests (WSJ, 2026-10-25T19:54:00.000Z) https://www.wsj.com/world/europe/le-pen-pitches-herself-as-frances-unifier-after-another-weekend-of-protests-1ddb802c?mod=rss_worldnews
 - Hon’ble Prime Minister of India inaugurates the Reserve Bank of India’s Data Centre and Cybersecurity Training Institute in Bhubaneswar, Odisha (RBI, 2026-10-25T19:50:00.000Z) https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63862
 - Lula Cast Vote in Brazil’s Presidential Runoff Election (Bloomberg, 2026-10-25T19:43:28.000Z) https://www.bloomberg.com/news/videos/2026-10-25/lula-cast-vote-in-brazil-s-presidential-runoff-election-video
 - Venezuela’s Machado Returns Home, Challenging U.S.-Backed Government (WSJ, 2026-10-25T19:36:35.000Z) https://news.google.com/rss/articles/CBMirgFBVV95cUxNM0lTb0NEMnVncU9kM1czaHNGWDN0WkdwYTE3TExjVEVqZHRIZ01VMmNSckNsVmxBZU1NN0FaU3BZR0NMU2s3VWtnVmtid2lrbkVfcUpKc1BxclR0b1B1WGFhSGozQW91dXdrN2FyWlF0N2kxeFA1ZGlfcW9CU2FjT1kzbUVaWWplSU1yTjZ0VFJ2MWpXT3c5OENyaU95RDVvd2RWZ1JwNk9mdGpYYUE?oc=5
-- See How Gas Prices Are Easing Across the U.S. (WSJ, 2026-10-25T19:29:43.000Z) https://news.google.com/rss/articles/CBMigwFBVV95cUxQVWs2dEhDRlNqdXFYck1MVXJaUnR0LUwyNTVvLUlvYTZTdnI0OE9HSGNiaEduTVdWQjdyTVgwdXJWLVNzRDRIaXpFYXJyQXBGcURJdHZWLVBfSm5TVlJ5ZktIS2pSNVpYSmJIMUJadlhOUzlKbVd1aHF2ZE1KQkEyNzZPSQ?oc=5
+- U.S, Canada “very close” to trade deal, White House’s Hassett says (Yahoo Finance, 2026-10-25T19:29:15.000Z) https://news.google.com/rss/articles/CBMilAFBVV95cUxQNFFUd0hJLUVXdFJlRXVqQlFyeng5WER3QXFrZGJjTlZrdWhYTUVFOTAtS0YyZjNJcVVBdEhRamJlVkJCMkVKVHk5RnRBWXRjcldjdUpKbjJKc2lNMUlzMjQ3S2REbGdQbHhGOHVxUmxhc2Rxcm5yOHFId1RUUHVWb3p5SVpFd0ZlWGRoTlBKTm05R0Zj?oc=5
 - Britain will not join Canada’s defence bank, source says (Investing.com, 2026-10-25T19:24:28.000Z) https://www.investing.com/news/economy-news/britain-will-not-join-canadas-defence-bank-source-says-4971243
 - The U.S. Shipbuilding Revival Is Taking Lessons Halfway Around the World (WSJ, 2026-10-25T19:00:00.000Z) https://www.wsj.com/world/asia/the-u-s-shipbuilding-revival-is-taking-lessons-halfway-around-the-world-d60f1816?mod=rss_worldnews
-- U.S, Canada “very close” to trade deal, White House’s Hassett says (Investing.com, 2026-10-25T18:59:15.000Z) https://www.investing.com/news/economy-news/us-canada-very-close-to-trade-deal-white-houses-hassett-says-4971239
-- Bon Secours nears $6bn takeover of Bain-backed Surgery Partners (Financial Times, 2026-10-25T18:56:37.000Z) https://www.ft.com/content/e7b82fe0-db51-49cf-bad4-2168a905652b?syn-25a6b1a6=1
 - US Stock Markets this week: Wall Street gears up for Fed rate decision; Q3 earnings from Alphabet, Microsoft, Amazon (Mint, 2026-10-25T18:00:39.000Z) https://www.livemint.com/market/us-stock-markets-this-week-wall-street-gears-up-for-fed-rate-decision-q3-earnings-from-alphabet-microsoft-amazon-11792944787786.html
 - 'The world's super company': Wall Street weighs SpaceX earnings, company's likely Tesla tie-up (Yahoo Finance, 2026-10-25T17:39:49.000Z) https://news.google.com/rss/articles/CBMi5wFBVV95cUxPM2FvMEk4MFF5d0d3cDBiOTcxLW81U2IxdDY2SWt1R0NLUTR4eWRrWjltR2hwNktSVTZudXgyUC1waDJXUFdNMjlFcktuVVprWTJZOFlIUjNZZHFWVzdWRE5RZFBqaVJCWmZCS09EMFM5NEM5YTA2WGhkNVdDOEVkWW1lOVNkN0hEamlUaW94UndEZGhwY0Z3SzlJaDZnaUUzdi1Ibm80VDNuMjVBQXlKaEFTRWhqUWVyYnJOQ0Y2X0JoZjJyOTREN2p4UV9rZjZfanRzeWM4aE5yX1ZIOEZ0LW1DNDdZZmc?oc=5
 - Dividend buzz: Dalmia Bharat, Mazagon Dock, Coal India, NTPC, others to consider payouts this week - Check full list (Mint, 2026-10-25T16:19:37.000Z) https://www.livemint.com/market/stock-market-news/dividend-buzz-dalmia-bharat-mazagon-dock-coal-india-ntpc-2-others-to-consider-payouts-this-week-11792943992658.html
@@ -158,9 +158,9 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 - What’s next for Hong Kong developers in mainland China? (SCMP, 2026-10-25T06:00:26.000Z) https://www.scmp.com/property/article/3371965/whats-next-hong-kong-developers-mainland-china
 - Singapore’s Wong Vows More Support for Workers, Energy Security (Bloomberg, 2026-10-25T05:40:56.000Z) https://www.bloomberg.com/news/articles/2026-10-25/singapore-s-wong-vows-more-support-for-workers-energy-security
 - Mercuria challenging the ‘Dow Jones of shipping’ in court after Hormuz losses (Financial Times, 2026-10-25T05:01:30.000Z) https://news.google.com/rss/articles/CBMihAFBVV95cUxPNjhsRDZrVDlFU2tJMW05dldNenRENFdnLVJoUmQyN0hJek1vYlBaMFpna1FzUXozbFZsVjdmLUxETlVzOHhQbzVJSWl2MDZtQTZmenh2aWlNbHJSRlFsSzRkUUNxYUhSdGpCT0pPQVZTTFFqT0hIM2h4bE41aVhIME9mOHo?oc=5
-- Bolsonaro and Lula face off in knife-edge Brazil election (Financial Times, 2026-10-25T05:00:10.000Z) https://www.ft.com/content/29033fb9-2dc7-4af0-a2ff-55d1bdd5dece?syn-25a6b1a6=1
 - Indonesia Begins Trimming Pipeline Gas Exports to Singapore (Bloomberg, 2026-10-25T04:54:00.000Z) https://news.google.com/rss/articles/CBMirwFBVV95cUxPdkl5N0dmU2lFWEYtZjRidTBXb2VXeUdiSkFpUF92VjdSX3RBTkJyaENvdmZheXdjVHIwTEhiZXlHSk5LTXZrdkJmNmEycFFDUGdjOHkzUjFTbGVJR2M4OHR5bU5xbUw4UkxYcXdqaTBDc05GN3FQVnJBNkd4ZlVybTdvZ3BHUVdlb2JVVEdtQnZhbWQzbnphNGhXZUFRRnRaaWRUVkI4cGtBSXdjYWgw?oc=5
 - Yen surges as investors flee to safe havens; SGX chief to step down in 2027 (Straits Times, 2026-10-25T04:00:00.000Z) https://www.straitstimes.com/business/yen-surges-as-investors-flee-to-safe-havens-sgx-chief-to-step-down-in-2027
+- ASX to fall after oil resurgence ahead of huge week for investors (AFR, 2026-10-25T03:10:00.000Z) https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUWZiVldJM1VnUHJCa2FmU0NTbkE3SjRheGZnaFg4VzJWTXlIUVJoZGNxMmRVWTRhUDRxQ1U5VkVlRDZzd0FHbkpDbV9iS3JCUjNaTjhlX0xkTTlSSWp3dnVyZWg4OTJOTVhUZWFLb2pNOGVMNVpjbGtFWWVYNUJqS1hJZlFtdXdFM0k0TDVWc2ZtdnJvTTRQb3F4VjJBSzI3a29tbG5WS2U4MWd2SDFtbVVrbG1CRDJrd3lHOHg3TWNBUQ?oc=5
 - Singapore Expands Haze Investigation to 10 Locally Based Firms (Bloomberg, 2026-10-25T01:43:00.000Z) https://news.google.com/rss/articles/CBMiswFBVV95cUxOd1hvdzdJMm5nYThaQkhXa3E0Rkt4WnZuWkJqZ2NnME1CRXFJbF9tcEI3Ymxlblg3d2Utc3NDcjZBSWRuLVY0ekhBSXI2ZkZ2S0pDcUhBeGxZSnlXblQ0NE82VkRza0pwTnVRWEZpN0dvVXFlMUtVQ2VkNkFzZHBBSDV4WW5td0Jsc3g1SnFaN1ZSSEZ1dGtKdi1SY0cyMHpVLXdTcmI2aHJJVkpKSDlTaTlQOA?oc=5
 - Paris Police Use Tear Gas, Water Cannon to Disperse Protesters (Bloomberg, 2026-10-24T19:24:20.000Z) https://news.google.com/rss/articles/CBMitgFBVV95cUxQbVFScDJ1SVVuME1jTXpQV21DNkVFSHJydi1ycHJQVEUzVS1GN0hEbUVVWlRaY25Zc2lsUXg1ci1NZDNWV3RDU0Njc194X0xXVkluZndYdWNnVTFkQVFjbmlDUF8wRU9UTEJDanJhREFNZDhRVk80dW5ndXhCazFMZm15a2FHNGJEZmRubmdKM1F4dGdSX0U2NlVidEdXSlphZzB0aGJGZ2w3UVBYSl85Ym5tQ2Q3dw?oc=5
 - Hundreds of Thousands Protest Across France as Clashes Erupt in Paris (WSJ, 2026-10-24T19:22:00.000Z) https://www.wsj.com/world/europe/france-girds-for-another-day-of-protest-after-widespread-violence-0504934c?mod=rss_worldnews
@@ -182,7 +182,7 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 5 news feed(s) could not be read this time: Google News: site:wsj.com stock markets indices (no items); Google News: site:economist.com central bank inflation oil dollar (no items); Google News: site:morningstar.com central bank inflation oil dollar (no items); Google News: European shares STOXX DAX FTSE ECB (no items); Google News: Bovespa Brazil Mexico stocks (no items).
-- Free mode: no Claude key is configured, so there is no written analysis. Prices, statistics, look-alike history and the latest headlines (with links) are shown. Add ANTHROPIC_API_KEY to switch on the plain-English and technical analysis.
+- Free mode: no written analysis yet. It is added by a scheduled Claude task after each refresh (or set ANTHROPIC_API_KEY to write it here).
 
 ## How to use this file
 
