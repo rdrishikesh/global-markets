@@ -39,6 +39,9 @@ export const InsightCard: React.FC<{ insight: Insight; market: Record<string, Ma
       <div className="flex flex-wrap items-center gap-1.5">
         <span className="font-semibold text-neutral-600 dark:text-neutral-400">Data behind this:</span>
         {insight.quant.map((id) => {
+          if (id.startsWith('macro:') || id.startsWith('hw:')) {
+            return <span key={id} className="rounded-full border border-neutral-300 dark:border-neutral-700 px-2 py-0.5">{id.startsWith('macro:') ? 'Macro data' : 'Largest companies'}</span>;
+          }
           const m = market[id];
           if (!m?.stats) return null;
           return (

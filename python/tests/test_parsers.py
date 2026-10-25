@@ -6,7 +6,7 @@ import unittest
 import urllib.error
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
-from markets_collect import bse, feeds, http, nse, screener_import, yahoo  # noqa: E402
+from markets_collect import bse, feeds, http, macro, nse, screener_import, yahoo  # noqa: E402
 
 RSS = b"""\xef\xbb\xbf<?xml version="1.0"?><rss><channel>
 <item><title><![CDATA[Nifty ends higher &amp; Sensex gains]]></title><link>https://www.investing.com/n1</link>
@@ -59,6 +59,42 @@ class Parsers(unittest.TestCase):
         self.assertEqual(rows[0]["CMP Rs."], 3900.5)
 
 
+class Macro(unittest.TestCase):
+    def test_fred_yoy_and_missing_values(self):
+        # 14 monthly index values: 100 ... then a "." that must be ignored
+        vals = [100 + i for i in range(14)]
+        obs = [{"date": f"2025-{m:02d}-01", "value": str(v)} for m, v in zip(range(1, 13), vals[:12])]
+        obs += [{"date": "2026-01-01", "value": str(vals[12])}, {"date": "2026-02-01", "value": str(vals[13])}, {"date": "2026-03-01", "value": "."}]
+        obs.reverse()  # API returns newest first when sort_order=desc
+        it = macro.fred_item("CPIAUCSL", "US CPI YoY", "%", "yoy12", {"observations": obs})
+        self.assertEqual(it["date"], "2026-02-01")
+        self.assertEqual(it["value"], round((113 / 101 - 1) * 100, 2))  # 13th obs vs 1st... index 13 vs index 1
+        self.assertEqual(it["previous_date"], "2026-01-01")
+        self.assertTrue(it["url"].endswith("CPIAUCSL"))
+
+    def test_fred_payroll_change_and_level(self):
+        payload = {"observations": [{"date": "2026-02-01", "value": "159500"}, {"date": "2026-01-01", "value": "159300"}]}
+        self.assertEqual(macro.fred_item("PAYEMS", "x", "k", "diff", payload)["value"], 200.0)
+        self.assertEqual(macro.fred_item("UNRATE", "x", "%", "level", {"observations": [{"date": "2026-02-01", "value": "4.1"}]})["value"], 4.1)
+        self.assertIsNone(macro.fred_item("UNRATE", "x", "%", "level", {"observations": [{"date": "2026-02-01", "value": "."}]}))
+
+    def test_ecb_sdmx_json(self):
+        payload = {"dataSets": [{"series": {"0:0:0:0:0:0:0": {"observations": {"0": [2.15], "1": [2.0]}}}}],
+                   "structure": {"dimensions": {"observation": [{"values": [{"id": "2026-08"}, {"id": "2026-09"}]}]}}}
+        it = macro.ecb_item("ea_hicp", "Euro area inflation", "%", "ICP", "M.U2.N.000000.4.ANR", payload)
+        self.assertEqual((it["value"], it["date"], it["previous"], it["previous_date"]), (2.0, "2026-09", 2.15, "2026-08"))
+
+    def test_worldbank_most_recent_value(self):
+        payload = [{"page": 1}, [
+            {"countryiso3code": "IND", "date": "2024", "value": 6.5},
+            {"countryiso3code": "XXX", "date": "2024", "value": 1.0},
+            {"countryiso3code": "CHN", "date": "2024", "value": None},
+        ]]
+        items = macro.worldbank_items("NY.GDP.MKTP.KD.ZG", "gdp", "real GDP growth", payload)
+        self.assertEqual(len(items), 1)
+        self.assertEqual((items[0]["id"], items[0]["value"], items[0]["date"]), ("macro:wb_ind_gdp", 6.5, "2024"))
+
+
 class Http(unittest.TestCase):
     def setUp(self):
         http._robots.clear()
@@ -87,6 +123,26 @@ class Http(unittest.TestCase):
         with self.assertRaises(RuntimeError):
             http.get("https://example.com/x", opener=opener, check_robots=False)
         self.assertEqual(len(calls), 1)
+
+
+
+class BriefTests(unittest.TestCase):
+    def test_brief_lists_macro_and_movers(self):
+        from markets_collect import brief
+        snap = {
+            "generatedAt": "2026-10-26T00:00:00Z",
+            "market": [{"id": "sp500", "name": "S&P 500", "kind": "index", "region": "Americas",
+                        "stats": {"last": 5000.0, "change1d": 1.2, "asOf": "2026-10-23"}}],
+            "macro": [{"id": "macro:cpi", "name": "CPI", "region": "US", "value": 3.1, "unit": "%", "date": "2026-09",
+                       "previous": 3.0, "previous_date": "2026-08", "source": "FRED", "url": "https://fred.stlouisfed.org"}],
+            "heavyweights": [{"name": "Apple", "indices": ["sp500"], "change1d": -2.5, "change5d": None}],
+            "headlines": [], "warnings": [],
+        }
+        text = brief.build(snap)
+        self.assertIn("S&P 500", text)
+        self.assertIn("CPI (US): 3.1 %", text)
+        self.assertIn("Apple", text)
+        self.assertIn("5d n/a", text)
 
 
 if __name__ == "__main__":

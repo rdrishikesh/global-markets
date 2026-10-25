@@ -61,30 +61,40 @@ jobs:
             echo "The site shows prices, statistics, history look-alikes and headlines. To add the written plain-English and technical analysis, add the secret (START-HERE.md step 4) and run this workflow again." >> "$GITHUB_STEP_SUMMARY"
           fi
 
-      # If this step fails, the PREVIOUS data stays published and the site shows its true age.
-      - name: Generate fresh market data
-        if: steps.plan.outputs.refresh == 'true'
-        run: npm run generate
-        continue-on-error: true
-
-      # Free official exchange data (NSE index P/E, BSE top movers). Safe to fail: those tables then show "unavailable".
+      # Free official data (macro indicators, NSE index P/E, BSE movers). Runs BEFORE the report so Claude can use the macro figures.
+      # Safe to fail: those tables then show "unavailable". FRED_API_KEY is optional (free at fred.stlouisfed.org) and adds US series.
       - name: Setup Python
         if: steps.plan.outputs.refresh == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Collect NSE and BSE data
+      - name: Collect macro, NSE and BSE data
         if: steps.plan.outputs.refresh == 'true'
         working-directory: python
-        run: python -m markets_collect --only nse,bse --out ../public/data/extra.json
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: python -m markets_collect --only macro,nse,bse --out ../public/data/extra.json
+        continue-on-error: true
+
+      # If this step fails, the PREVIOUS data stays published and the site shows its true age.
+      - name: Generate fresh market data
+        if: steps.plan.outputs.refresh == 'true'
+        run: npm run generate
+        continue-on-error: true
+
+      # One markdown file with everything above, ready to attach to a Claude Project (see START-HERE.md).
+      - name: Write the Claude Project brief
+        if: steps.plan.outputs.refresh == 'true'
+        working-directory: python
+        run: python -m markets_collect.brief --snapshot ../public/data/snapshot.json --extra ../public/data/extra.json --out ../claude-project/market-brief.md
         continue-on-error: true
 
       - name: Save refreshed data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/data
+          git add public/data claude-project
           if git diff --cached --quiet; then
             echo "No data changes to save."
           else

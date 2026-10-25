@@ -11,7 +11,8 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { CATALOG, INDICES, FACTORS } from '../src/data/catalog.js';
-import type { MarketItem, Report, Snapshot, TwoLevel } from '../src/types/report.js';
+import type { HeavyweightRow, MacroItem, MarketItem, Report, Snapshot } from '../src/types/report.js';
+import { HEAVYWEIGHTS } from '../src/data/heavyweights.js';
 import { createHash } from 'node:crypto';
 import { computeAnalog, computeEpisodes, computeMood, computeRelations, computeStats, describeStats, type Bar } from '../server/stats.js';
 import { fetchAll, type FetchLike } from '../server/yahoo.js';
@@ -49,6 +50,52 @@ function writeJsonAtomic(file: string, data: unknown) {
   const tmp = `${file}.tmp`;
   fs.writeFileSync(tmp, JSON.stringify(data, null, 1));
   fs.renameSync(tmp, file);
+}
+
+/** Largest names per index: one short Yahoo request each; failures are simply left out. */
+async function fetchHeavyweights(fetchFn: FetchLike, delayMs?: number): Promise<HeavyweightRow[]> {
+  const symbols = [...new Set(HEAVYWEIGHTS.map((h) => h.symbol))];
+  const { ok } = await fetchAll(symbols, fetchFn, { range: '3mo', delayMs, attempts: 2 });
+  const pct = (a: number, b: number) => Number((((a - b) / b) * 100).toFixed(2));
+  const rows: HeavyweightRow[] = [];
+  for (const h of HEAVYWEIGHTS) {
+    const bars = ok[h.symbol]?.bars;
+    if (!bars || bars.length < 6) continue;
+    const last = bars[bars.length - 1];
+    rows.push({
+      symbol: h.symbol,
+      name: h.name,
+      indices: h.indices,
+      asOf: last.date,
+      change1d: pct(last.close, bars[bars.length - 2].close),
+      change5d: pct(last.close, bars[bars.length - 6].close),
+    });
+  }
+  return rows;
+}
+
+/** Reads macro indicators written by the Python collectors (python -m markets_collect). Missing file = no macro data. */
+export function readMacro(dir: string): MacroItem[] {
+  const extra = readJson<{ macro?: MacroItem[] }>(path.join(dir, 'extra.json'));
+  return (extra?.macro ?? []).filter((m) => m && typeof m.id === 'string' && Number.isFinite(m.value) && m.date);
+}
+
+const macroLine = (m: MacroItem) =>
+  `${m.name} (${m.region}): ${m.value} ${m.unit} for ${m.date}${m.previous !== null ? `; previous ${m.previous} for ${m.previous_date}` : ''}. Source: ${m.source}`;
+
+function heavyweightLines(rows: HeavyweightRow[], market: MarketItem[]): Array<[string, string]> {
+  const out: Array<[string, string]> = [];
+  for (const m of market) {
+    if (m.kind !== 'index') continue;
+    const mine = rows.filter((r) => r.indices.includes(m.id));
+    if (mine.length < 2) continue;
+    const up = mine.filter((r) => r.change1d > 0).length;
+    out.push([
+      `hw:${m.id}`,
+      `Largest names in ${m.name} (hand-kept list, no weights): ${mine.map((r) => `${r.name} ${r.change1d >= 0 ? '+' : ''}${r.change1d.toFixed(2)}% (1d), ${r.change5d === null ? 'n/a' : `${r.change5d >= 0 ? '+' : ''}${r.change5d.toFixed(2)}%`} (5d)`).join('; ')}. ${up} of ${mine.length} rose on the day`,
+    ]);
+  }
+  return out;
 }
 
 const rd = (v: number) => Number(v.toFixed(Math.abs(v) < 10 ? 4 : 2));
@@ -106,9 +153,16 @@ export async function generate(deps: GenerateDeps): Promise<Snapshot> {
     vix ? { last: vix.last, change1d: vix.change1d } : null
   );
 
+  // 1b. Biggest names per index (best effort) and macro indicators collected by the Python step (best effort)
+  const hw = await fetchHeavyweights(deps.fetchFn, deps.yahooDelayMs);
+  const macro = readMacro(deps.dataDir);
+  if (macro.length === 0) warnings.push('No macro indicators were available (the Python step may have failed, or no FRED key is set for US data).');
+
   // 2-4. Claude research -> report -> validation
   const marketText = new Map<string, string>();
   for (const m of market) if (m.stats) marketText.set(m.id, describeStats(m.name, m.stats, m.analog, m.relations, m.episodes));
+  for (const m of macro) marketText.set(m.id, macroLine(m));
+  for (const [id, t] of heavyweightLines(hw, market)) marketText.set(id, t);
   const brief = ['sp500', 'vix', 'us10y', 'brent']
     .filter((id) => marketText.has(id))
     .map((id) => marketText.get(id)!.split('; ').slice(0, 2).join('; '))
@@ -135,7 +189,7 @@ export async function generate(deps: GenerateDeps): Promise<Snapshot> {
 
     // Skip the paid step when nothing has changed since the last run.
     inputHash = createHash('sha256')
-      .update(JSON.stringify([notes.map((n) => n.urls[0]), market.map((m) => m.stats?.asOf + ':' + m.stats?.last)]))
+      .update(JSON.stringify([notes.map((n) => n.urls[0]), market.map((m) => m.stats?.asOf + ':' + m.stats?.last), macro.map((m) => m.id + m.date + m.value)]))
       .digest('hex')
       .slice(0, 16);
     if (previous?.report && previous.inputHash === inputHash) {
@@ -192,6 +246,8 @@ export async function generate(deps: GenerateDeps): Promise<Snapshot> {
     mood,
     market,
     report,
+    macro,
+    heavyweights: hw,
     headlines: latest.map((h) => ({
       title: h.title,
       url: h.url,

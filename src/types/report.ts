@@ -117,6 +117,39 @@ export interface EventItem {
   sources: number[];
 }
 
+export interface CompanyEffect {
+  company: string;
+  /** Tracked index ids this company is said to be moving. */
+  indices: string[];
+  direction: 'up' | 'down' | 'mixed';
+  technical: string;
+  layman: string;
+  sources: number[];
+}
+
+export interface MacroItem {
+  id: string;
+  name: string;
+  region: string;
+  value: number;
+  unit: string;
+  date: string;
+  previous: number | null;
+  previous_date: string | null;
+  source: string;
+  url: string;
+}
+
+/** One of the largest companies in an index and how its stock moved (list kept by hand; weights not shown). */
+export interface HeavyweightRow {
+  symbol: string;
+  name: string;
+  indices: string[];
+  asOf: string;
+  change1d: number;
+  change5d: number | null;
+}
+
 export interface Report {
   generatedAt: string;
   headline: TwoLevel | null;
@@ -124,6 +157,7 @@ export interface Report {
   regions: Insight[];
   drivers: Insight[];
   events: EventItem[];
+  companyEffects: CompanyEffect[];
 }
 
 export interface Mood {
@@ -150,6 +184,8 @@ export interface Snapshot {
   mood: Mood;
   market: MarketItem[];
   report: Report | null;
+  macro: MacroItem[];
+  heavyweights: HeavyweightRow[];
   /** The newest headlines read by the code, shown even when no written analysis is available. */
   headlines: HeadlineItem[];
   sources: Source[];

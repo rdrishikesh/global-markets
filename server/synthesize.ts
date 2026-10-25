@@ -44,6 +44,22 @@ export const REPORT_TOOL = {
       global: insight,
       regions: { type: 'array', items: insight, description: 'Up to 3: Americas, Europe, Asia-Pacific' },
       drivers: { type: 'array', items: insight, description: 'Up to 5 macro drivers (rates, dollar, oil, geopolitics, earnings ...) that the notes support' },
+      companyEffects: {
+        type: 'array',
+        description: 'Companies that the notes say are moving one or more indices (earnings, guidance, big deals, regulatory news). Only what the notes state.',
+        items: {
+          type: 'object',
+          properties: {
+            company: text('Company name', 60),
+            indices: ids('Index ids from MARKET DATA that the company affects'),
+            direction: { type: 'string', enum: ['up', 'down', 'mixed'], description: 'Direction of its effect on those indices' },
+            technical: text('What happened and how it feeds into the index, professionals', 300),
+            layman: text('Same, in plain words', 260),
+            notes: ids('Note ids'),
+          },
+          required: ['company', 'indices', 'direction', 'technical', 'layman', 'notes'],
+        },
+      },
       indexNotes: {
         type: 'array',
         description: 'One entry per index for which the notes give a reason for its latest move. Omit indices without a sourced reason.',
@@ -63,7 +79,7 @@ export const REPORT_TOOL = {
         },
       },
     },
-    required: ['headline', 'global', 'regions', 'drivers', 'indexNotes', 'events'],
+    required: ['headline', 'global', 'regions', 'drivers', 'indexNotes', 'events', 'companyEffects'],
   },
 };
 
@@ -78,7 +94,8 @@ Strict rules:
 5. When a note attributes a forecast or opinion to someone, attribute it the same way.
 6. Technical voice: precise, uses terms like basis points, RSI, volatility percentile. Layman voice: short sentences, no jargon, explain any term you must use, an everyday analogy is welcome.
 7. IMPACT should say who is affected and how, as supported by the notes. Say plainly when evidence is thin.
-8. Index ids for indexNotes must be exactly the ids in MARKET DATA.
+8. MARKET DATA also contains official macro statistics (ids starting macro:, e.g. inflation, policy rates, unemployment) and the day's moves of each index's largest companies (ids starting hw:, a hand-kept list without weights). Use macro:* ids to ground statements about the economy and rates; use hw:* ids when the notes name a company. Never state a company's weight or contribution to an index, because those figures are not provided.
+9. Index ids for indexNotes must be exactly the ids in MARKET DATA.
 Call submit_report exactly once.`;
 
 export function buildSynthesisPrompt(notes: Note[], marketLines: string[], today: string): string {

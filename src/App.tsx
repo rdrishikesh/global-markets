@@ -1,6 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import type { Extra, Snapshot } from './types/report.js';
 import { TickerTape, LiveCharts } from './components/TradingViewWidgets.js';
+import { MacroTable, Heavyweights, CompanyEffects } from './components/MacroSection.js';
 import { IndiaPanel } from './components/IndiaPanel.js';
 import { Overview, Analysis, Events, History, Headlines, Methodology } from './components/Sections.js';
 import { MarketTable } from './components/MarketTable.js';
@@ -144,6 +145,9 @@ export default function App() {
             all={snap.market}
             groupByRegion
           />
+          <MacroTable macro={snap.macro ?? []} />
+          {snap.report && <CompanyEffects items={snap.report.companyEffects ?? []} market={snap.market} />}
+          <Heavyweights rows={snap.heavyweights ?? []} market={snap.market} />
           <MarketTable
             title="Factors that move markets"
             blurb="Rates, the dollar, oil, gold, volatility, currencies and Bitcoin. 24-hour markets show the latest price at update time."

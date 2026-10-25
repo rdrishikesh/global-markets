@@ -1,4 +1,4 @@
-"""python -m markets_collect --out extra.json [--screener export.csv] [--only yahoo,news,nse,bse]"""
+"""python -m markets_collect --out extra.json [--screener export.csv] [--only yahoo,news,nse,bse,macro]"""
 from __future__ import annotations
 
 import argparse
@@ -6,7 +6,7 @@ import json
 import sys
 from datetime import datetime, timezone
 
-from . import bse, feeds, nse, screener_import, yahoo
+from . import bse, feeds, macro, nse, screener_import, yahoo
 
 SYMBOLS = {"S&P 500": "^GSPC", "Nasdaq Composite": "^IXIC", "Nifty 50": "^NSEI", "BSE Sensex": "^BSESN", "Nikkei 225": "^N225", "FTSE 100": "^FTSE"}
 
@@ -14,7 +14,7 @@ SYMBOLS = {"S&P 500": "^GSPC", "Nasdaq Composite": "^IXIC", "Nifty 50": "^NSEI",
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="extra.json")
-    ap.add_argument("--only", default="yahoo,news,nse,bse")
+    ap.add_argument("--only", default="yahoo,news,nse,bse,macro")
     ap.add_argument("--screener", help="CSV you exported from your own Screener.in account")
     a = ap.parse_args(argv)
     want = set(a.only.split(","))
@@ -37,6 +37,8 @@ def main(argv=None) -> int:
         step("news", news)
     if "nse" in want:
         step("nse_indices", nse.latest)
+    if "macro" in want:
+        step("macro", macro.collect)
     if "bse" in want:
         step("bse_movers", bse.latest)
     if a.screener:

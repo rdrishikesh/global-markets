@@ -61,3 +61,8 @@ To spend less: delete one of the two `cron` lines in `.github/workflows/deploy.y
 - Edit a file: open it on GitHub, click the pencil icon, change, **Commit**. The site rebuilds itself.
 - Add or remove tracked indices: `src/data/catalog.ts`.
 - Add or remove news feeds: `server/news.ts`. Add or remove trusted publishers: `server/sources.ts`.
+
+## Macro data and the Claude Project brief
+
+- **Macro indicators** (inflation, rates, jobs) come from official feeds. US series need a free key: create one at fred.stlouisfed.org, then add it as a repository secret named `FRED_API_KEY`. Without it, the US series are skipped and the rest still work.
+- **Claude Project:** Python cannot write into a claude.ai Project, because there is no public way to do that. Instead, every refresh writes `claude-project/market-brief.md` to this repo. In your Claude Project, add the GitHub repo as a source (Project knowledge, then GitHub) and sync it. Ask Claude to summarise the brief whenever you like. That costs nothing extra beyond your normal Claude plan.

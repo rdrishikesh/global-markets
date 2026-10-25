@@ -17,7 +17,7 @@ export interface PriceSeries {
   bars: Bar[];
 }
 
-export function parseChart(json: any, symbol: string): PriceSeries {
+export function parseChart(json: any, symbol: string, minBars = 25): PriceSeries {
   const r = json?.chart?.result?.[0];
   if (!r) throw new Error(json?.chart?.error?.description ?? 'no chart result');
   const ts: number[] = r.timestamp ?? [];
@@ -32,14 +32,14 @@ export function parseChart(json: any, symbol: string): PriceSeries {
     if (bars.length && bars[bars.length - 1].date === date) bars[bars.length - 1].close = c;
     else bars.push({ date, close: c });
   }
-  if (bars.length < 25) throw new Error(`only ${bars.length} usable daily closes`);
+  if (bars.length < minBars) throw new Error(`only ${bars.length} usable daily closes`);
   return { symbol, currency: r.meta?.currency ?? null, bars };
 }
 
 export async function fetchSeries(
   symbol: string,
   fetchFn: FetchLike,
-  opts: { attempts?: number; delayMs?: number } = {}
+  opts: { attempts?: number; delayMs?: number; range?: string } = {}
 ): Promise<PriceSeries> {
   const attempts = opts.attempts ?? 3;
   const delayMs = opts.delayMs ?? 1500;
@@ -47,10 +47,10 @@ export async function fetchSeries(
   for (let i = 1; i <= attempts; i++) {
     for (const host of ['query1.finance.yahoo.com', 'query2.finance.yahoo.com']) {
       try {
-        const url = `https://${host}/v8/finance/chart/${encodeURIComponent(symbol)}?range=5y&interval=1d&includePrePost=false`;
+        const url = `https://${host}/v8/finance/chart/${encodeURIComponent(symbol)}?range=${opts.range ?? '5y'}&interval=1d&includePrePost=false`;
         const res = await fetchFn(url, { headers: { 'User-Agent': 'Mozilla/5.0 (compatible; global-markets-intelligence)' } });
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        return parseChart(await res.json(), symbol);
+        return parseChart(await res.json(), symbol, opts.range && opts.range !== '5y' ? 10 : 25);
       } catch (err) {
         lastErr = (err as Error).message;
       }
@@ -64,7 +64,7 @@ export async function fetchSeries(
 export async function fetchAll(
   symbols: string[],
   fetchFn: FetchLike,
-  opts: { concurrency?: number; attempts?: number; delayMs?: number } = {}
+  opts: { concurrency?: number; attempts?: number; delayMs?: number; range?: string } = {}
 ): Promise<{ ok: Record<string, PriceSeries>; failed: Record<string, string> }> {
   const ok: Record<string, PriceSeries> = {};
   const failed: Record<string, string> = {};

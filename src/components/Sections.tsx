@@ -176,7 +176,7 @@ export const Methodology: React.FC<{ snap: Snapshot }> = ({ snap }) => (
       </div>
       <div className="space-y-2">
         <p><strong>Outlooks are base rates, not predictions.</strong> They show how often, and by how much, this market moved after days that looked like the latest one. They describe the past and can fail.</p>
-        <p><strong>Known limits.</strong> A headline is only what its publisher said; it may be wrong or incomplete, and feeds show only the headline and summary, not the whole article. Yahoo Finance is an unofficial free feed and can be delayed. 24-hour markets (oil, gold, Bitcoin, currencies) show the latest price at update time. Correlation is not cause. Valuation ratios (P/E) are not included because there is no reliable free feed.</p>
+        <p><strong>Known limits.</strong> A headline is only what its publisher said; it may be wrong or incomplete, and feeds show only the headline and summary, not the whole article. Yahoo Finance is an unofficial free feed and can be delayed. 24-hour markets (oil, gold, Bitcoin, currencies) show the latest price at update time. Correlation is not cause. Macro figures are official releases and arrive with a lag (monthly or quarterly). The list of largest companies is kept by hand and carries no index weights, so the page does not claim how much any company contributed.</p>
         <p><strong>This is information, not investment advice.</strong> Check key figures against an official source before acting. Last update: {new Date(snap.generatedAt).toUTCString()}.</p>
       </div>
     </div>

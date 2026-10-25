@@ -6,7 +6,7 @@
  * otherwise it is dropped and a warning is recorded.
  */
 import { CATALOG, CATALOG_BY_ID } from '../src/data/catalog.js';
-import type { EventItem, Insight, Report, TwoLevel } from '../src/types/report.js';
+import type { CompanyEffect, EventItem, Insight, Report, TwoLevel } from '../src/types/report.js';
 import type { Note } from './news.js';
 import type { SourceRegistry } from './sources.js';
 
@@ -153,5 +153,17 @@ export function validateReport(raw: any, ctx: ValidateCtx): Validated {
     events.push({ when: str(v?.when, 50), title, ...t, sources: sourceNumbers(notes) });
   }
 
-  return { report: { headline, global, regions, drivers, events }, why, warnings };
+  const companyEffects: CompanyEffect[] = [];
+  for (const v of (Array.isArray(raw?.companyEffects) ? raw.companyEffects : []).slice(0, 12)) {
+    const t = two(v, 300, 260);
+    const company = str(v?.company, 60);
+    const indices = [...new Set(strs(v?.indices))].filter((id) => CATALOG_BY_ID[id]?.kind === 'index' && ctx.marketText.has(id));
+    const direction = v?.direction === 'up' || v?.direction === 'down' || v?.direction === 'mixed' ? v.direction : null;
+    const { notes } = resolve(v?.notes, []);
+    if (!t || !company || !direction || indices.length === 0 || notes.length === 0) continue;
+    if (!lint(company, [t.technical, t.layman], evidenceText(notes, indices))) continue;
+    companyEffects.push({ company, indices, direction, ...t, sources: sourceNumbers(notes) });
+  }
+
+  return { report: { headline, global, regions, drivers, events, companyEffects }, why, warnings };
 }

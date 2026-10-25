@@ -200,6 +200,11 @@ function fakeClaude(opts: { fail?: boolean; badReport?: boolean } = {}): ClaudeL
             { id: 'dax', technical: 'Fell on tariffs.', layman: 'Fell on tariffs.', notes: ['N9999'] },
           ],
           events: [],
+          companyEffects: [
+            { company: 'Apple', indices: ['sp500'], direction: 'down', technical: 'Apple shares fell, which weighed on the S&P 500 which fell 1.23%.', layman: 'Apple dropped, which dragged US shares lower.', notes: [N1] },
+            { company: 'Ghost Inc', indices: ['sp500'], direction: 'up', technical: 'Ghost Inc jumped 42.5% and lifted the index.', layman: 'Ghost rose a lot.', notes: [N1] },
+            { company: 'No Source', indices: ['sp500'], direction: 'up', technical: 'No source is cited for this claim.', layman: 'No source is cited for this.', notes: [] },
+          ],
         };
         return { stop_reason: 'tool_use', usage: { input_tokens: 500, output_tokens: 300 }, content: [{ type: 'tool_use', id: 't1', name: 'submit_report', input: opts.badReport ? { global: null } : report }] };
       },
@@ -283,4 +288,17 @@ test('generate: free mode (no Claude) publishes numbers, look-alikes and headlin
   assert.ok(snap.headlines.length >= 20);
   assert.ok(snap.headlines.every((h) => /^https?:/.test(h.url) && h.publisher));
   assert.ok(snap.warnings.some((w) => /Free mode/.test(w)));
+});
+
+test('generate: macro indicators from the Python step and company effects reach the snapshot (invalid effects dropped)', async () => {
+  const dir = tmp();
+  const m = { id: 'macro:us_cpi', name: 'US CPI inflation', region: 'US', value: 3.1, unit: '% yoy', date: '2026-09', previous: 3, previous_date: '2026-08', source: 'FRED', url: 'https://fred.stlouisfed.org/series/CPIAUCSL' };
+  fs.writeFileSync(path.join(dir, 'extra.json'), JSON.stringify({ macro: [m, { id: 'bad', value: 'x' }] }));
+  const claude = fakeClaude();
+  const snap = await generate(base({ dataDir: dir, claude }));
+  assert.equal(snap.macro.length, 1);
+  assert.ok(snap.heavyweights.length > 20);
+  assert.ok(JSON.stringify(claude.calls[0]).includes('macro:us_cpi'));
+  assert.ok(JSON.stringify(claude.calls[0]).includes('hw:sp500'));
+  assert.deepEqual(snap.report!.companyEffects.map((c) => c.company), ['Apple']);
 });
