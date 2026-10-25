@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import type { Snapshot } from './types/report.js';
-import { Overview, Analysis, Events, History, Methodology } from './components/Sections.js';
+import { Overview, Analysis, Events, History, Headlines, Methodology } from './components/Sections.js';
 import { MarketTable } from './components/MarketTable.js';
 import { SourcesList } from './components/Cite.js';
 import { JargonModal } from './components/JargonModal.js';
@@ -133,6 +133,7 @@ export default function App() {
             items={snap.market.filter((m) => m.kind === 'factor')}
             all={snap.market}
           />
+          <Headlines snap={snap} />
           {snap.report && <Events report={snap.report} />}
           <History market={snap.market} />
           {snap.sources.length > 0 && <SourcesList sources={snap.sources} />}

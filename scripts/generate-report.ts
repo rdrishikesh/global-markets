@@ -15,10 +15,10 @@ import type { MarketItem, Report, Snapshot, TwoLevel } from '../src/types/report
 import { createHash } from 'node:crypto';
 import { computeAnalog, computeEpisodes, computeMood, computeRelations, computeStats, describeStats, type Bar } from '../server/stats.js';
 import { fetchAll, type FetchLike } from '../server/yahoo.js';
-import { fetchHeadlines, retrievedFrom, selectNotes, type TextFetch } from '../server/news.js';
+import { fetchHeadlines, retrievedFrom, selectNotes, tagItem, type Headline, type TextFetch } from '../server/news.js';
 import { runSynthesis, type ClaudeLike } from '../server/synthesize.js';
 import { validateReport } from '../server/validate.js';
-import { SourceRegistry } from '../server/sources.js';
+import { SourceRegistry, tierOf } from '../server/sources.js';
 
 export const MIN_INDICES = 18; // of 25
 export const MIN_FACTORS = 7; // of 11
@@ -29,7 +29,8 @@ export interface GenerateDeps {
   fetchFn: FetchLike;
   /** Fetches RSS feeds as text. */
   textFetch: TextFetch;
-  claude: ClaudeLike;
+  /** null = free mode: numbers, statistics and headlines only, no written analysis. */
+  claude: ClaudeLike | null;
   dataDir: string;
   now?: () => number;
   synthesisModel?: string;
@@ -118,6 +119,7 @@ export async function generate(deps: GenerateDeps): Promise<Snapshot> {
   let usage = { headlines: 0, feedsOk: 0, feedsFailed: 0, inputTokens: 0, outputTokens: 0 };
   let carriedWhy = true;
   let inputHash: string | undefined = previous?.inputHash;
+  let latest: Headline[] = [];
 
   try {
     // 2. Headlines collected by plain code (no AI, no cost)
@@ -125,6 +127,8 @@ export async function generate(deps: GenerateDeps): Promise<Snapshot> {
     usage.feedsOk = news.ok;
     usage.feedsFailed = news.failed.length;
     if (news.failed.length) warnings.push(`${news.failed.length} news feed(s) could not be read this time: ${news.failed.slice(0, 6).join('; ')}.`);
+    latest = [...news.items].sort((a, b) => b.published - a.published).slice(0, 60);
+    if (!deps.claude) throw new Error('FREE_MODE');
     const notes = selectNotes(news.items);
     usage.headlines = notes.length;
     if (notes.length < MIN_HEADLINES) throw new Error(`only ${notes.length} fresh headlines were collected (need ${MIN_HEADLINES})`);
@@ -140,7 +144,7 @@ export async function generate(deps: GenerateDeps): Promise<Snapshot> {
       warnings.push('Headlines and prices are unchanged since the last update, so the existing analysis was reused (no Claude usage).');
     } else {
       // 3. One Claude call: analyse the collected evidence (no web search, no tools besides the report form)
-      const synth = await runSynthesis(deps.claude, {
+      const synth = await runSynthesis(deps.claude!, {
         model: synthesisModel,
         notes,
         marketLines: [...marketText].map(([id, t]) => `${id} | ${t}`),
@@ -162,7 +166,12 @@ export async function generate(deps: GenerateDeps): Promise<Snapshot> {
   } catch (err) {
     const msg = (err as Error).message;
     inputHash = previous?.inputHash;
-    if (previous?.report) {
+    if (msg === 'FREE_MODE') {
+      warnings.push('Free mode: no Claude key is configured, so there is no written analysis. Prices, statistics, look-alike history and the latest headlines (with links) are shown. Add ANTHROPIC_API_KEY to switch on the plain-English and technical analysis.');
+      report = null;
+      sources = [];
+      carriedWhy = false;
+    } else if (previous?.report) {
       warnings.push(`Today's analysis could not be produced (${msg}). The written analysis shown is from ${previous.report.generatedAt.slice(0, 10)}; the numbers are current.`);
     } else {
       warnings.push(`The written analysis could not be produced (${msg}). Only the computed market data is shown.`);
@@ -183,6 +192,14 @@ export async function generate(deps: GenerateDeps): Promise<Snapshot> {
     mood,
     market,
     report,
+    headlines: latest.map((h) => ({
+      title: h.title,
+      url: h.url,
+      publisher: h.publisher,
+      tier: tierOf(h.tierUrl),
+      published: new Date(h.published).toISOString(),
+      about: tagItem(h),
+    })),
     sources,
     warnings,
     usage,
@@ -200,13 +217,13 @@ async function main() {
     /* .env support is optional: on GitHub the key comes from repository secrets */
   }
   const key = process.env.ANTHROPIC_API_KEY;
-  if (!key) {
-    console.log('::notice::ANTHROPIC_API_KEY is not set, so no data update was done. Add it as a repository secret (see START-HERE.md).');
-    return;
-  }
+  if (!key) console.log('::notice::No ANTHROPIC_API_KEY set: running in free mode (numbers, statistics and headlines, no written analysis).');
   try {
-    const { default: Anthropic } = await import('@anthropic-ai/sdk');
-    const claude = new Anthropic({ apiKey: key, maxRetries: 6, timeout: 600_000 }) as unknown as ClaudeLike;
+    let claude: ClaudeLike | null = null;
+    if (key) {
+      const { default: Anthropic } = await import('@anthropic-ai/sdk');
+      claude = new Anthropic({ apiKey: key, maxRetries: 6, timeout: 600_000 }) as unknown as ClaudeLike;
+    }
     const snap = await generate({
       fetchFn: (url, init) => fetch(url, { ...init, signal: AbortSignal.timeout(20_000) }) as any,
       textFetch: (url, init) => fetch(url, { ...init, signal: AbortSignal.timeout(15_000) }) as any,

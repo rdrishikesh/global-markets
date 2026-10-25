@@ -132,6 +132,15 @@ export interface Mood {
   basis: string[];
 }
 
+export interface HeadlineItem {
+  title: string;
+  url: string;
+  publisher: string;
+  tier: Tier;
+  published: string; // ISO
+  about: string[]; // tracked index ids the headline mentions
+}
+
 export interface Snapshot {
   schemaVersion: 2;
   generatedAt: string;
@@ -141,6 +150,8 @@ export interface Snapshot {
   mood: Mood;
   market: MarketItem[];
   report: Report | null;
+  /** The newest headlines read by the code, shown even when no written analysis is available. */
+  headlines: HeadlineItem[];
   sources: Source[];
   warnings: string[];
   usage: { headlines: number; feedsOk: number; feedsFailed: number; inputTokens: number; outputTokens: number };

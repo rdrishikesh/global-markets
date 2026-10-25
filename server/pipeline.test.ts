@@ -255,3 +255,12 @@ test('generate: a report whose items all fail validation is not published as ana
   const snap = await generate(base({ claude: fakeClaude({ badReport: true }) }));
   assert.equal(snap.report, null);
 });
+
+test('generate: free mode (no Claude) publishes numbers, look-alikes and headlines at zero AI cost', async () => {
+  const snap = await generate(base({ claude: null }));
+  assert.equal(snap.report, null);
+  assert.ok(snap.market.every((m) => m.stats));
+  assert.ok(snap.headlines.length >= 20);
+  assert.ok(snap.headlines.every((h) => /^https?:/.test(h.url) && h.publisher));
+  assert.ok(snap.warnings.some((w) => /Free mode/.test(w)));
+});

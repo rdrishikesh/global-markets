@@ -143,13 +143,36 @@ export const History: React.FC<{ market: MarketItem[] }> = ({ market }) => {
   );
 };
 
+export const Headlines: React.FC<{ snap: Snapshot }> = ({ snap }) => {
+  if (snap.report || snap.headlines.length === 0) return null;
+  return (
+    <Wrap title="Latest headlines" blurb="Read from publisher feeds by the update job. Each links to the publisher. These are the publisher's own headlines, not verified by this site.">
+      <div className="overflow-x-auto rounded-xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900">
+        <table className="w-full text-sm">
+          <thead className="bg-neutral-100 dark:bg-neutral-950 text-xs text-neutral-600 dark:text-neutral-400"><tr><th className="px-3 py-2 text-left">Headline</th><th className="px-3 py-2 text-left">Publisher</th><th className="px-3 py-2 text-left">Mentions</th><th className="px-3 py-2 text-left">Published (UTC)</th></tr></thead>
+          <tbody>
+            {snap.headlines.slice(0, 40).map((h) => (
+              <tr key={h.url} className="border-t border-neutral-200 dark:border-neutral-800">
+                <td className="px-3 py-2"><a href={h.url} target="_blank" rel="noopener noreferrer" className="text-blue-700 dark:text-blue-400 hover:underline">{h.title}</a></td>
+                <td className="px-3 py-2 whitespace-nowrap">{h.publisher}</td>
+                <td className="px-3 py-2 text-xs">{h.about.map((id) => snap.market.find((m) => m.id === id)?.name ?? id).join(', ') || '-'}</td>
+                <td className="px-3 py-2 whitespace-nowrap text-xs">{h.published.slice(0, 16).replace('T', ' ')}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </Wrap>
+  );
+};
+
 export const Methodology: React.FC<{ snap: Snapshot }> = ({ snap }) => (
   <Wrap id="method" title="How this page is made (and what it cannot do)">
     <div className="grid md:grid-cols-2 gap-4 text-sm leading-relaxed text-neutral-700 dark:text-neutral-300">
       <div className="space-y-2">
         <p><strong>Numbers are computed, not written by AI.</strong> Prices come from Yahoo Finance daily closes. Changes, moving averages, RSI, volatility, drawdowns, correlations, the "what usually happened next" base rates and the look-alike-day model are calculated by code from about 5 years of those closes.</p>
         <p><strong>News is collected by code.</strong> Headlines and summaries are read from the RSS feeds of central banks, established news outlets and market sites (this run: {snap.usage.headlines} headlines from {snap.usage.feedsOk} feeds). Items from sites outside the trusted list are discarded.</p>
-        <p><strong>Claude only analyses.</strong> {snap.models.synthesis} reads that evidence in one pass, without browsing, and writes status, consequence, impact and outlook in two voices. Code then drops any item that cites something that does not exist, or whose numbers cannot be found in its evidence. Where no reason for a move was found, the page says so.</p>
+        <p><strong>Claude only analyses (when a key is configured).</strong> {snap.models.synthesis} reads that evidence in one pass, without browsing, and writes status, consequence, impact and outlook in two voices. Code then drops any item that cites something that does not exist, or whose numbers cannot be found in its evidence. Where no reason for a move was found, the page says so.</p>
       </div>
       <div className="space-y-2">
         <p><strong>Outlooks are base rates, not predictions.</strong> They show how often, and by how much, this market moved after days that looked like the latest one. They describe the past and can fail.</p>
