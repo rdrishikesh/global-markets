@@ -15,7 +15,7 @@ import type { MarketItem, Report, Snapshot, TwoLevel } from '../src/types/report
 import { createHash } from 'node:crypto';
 import { computeAnalog, computeEpisodes, computeMood, computeRelations, computeStats, describeStats, type Bar } from '../server/stats.js';
 import { fetchAll, type FetchLike } from '../server/yahoo.js';
-import { fetchHeadlines, retrievedFrom, selectNotes, tagItem, type Headline, type TextFetch } from '../server/news.js';
+import { fetchHeadlines, retrievedFrom, selectHeadlines, selectNotes, tagItem, type Headline, type TextFetch } from '../server/news.js';
 import { runSynthesis, type ClaudeLike } from '../server/synthesize.js';
 import { validateReport } from '../server/validate.js';
 import { SourceRegistry, tierOf } from '../server/sources.js';
@@ -127,7 +127,7 @@ export async function generate(deps: GenerateDeps): Promise<Snapshot> {
     usage.feedsOk = news.ok;
     usage.feedsFailed = news.failed.length;
     if (news.failed.length) warnings.push(`${news.failed.length} news feed(s) could not be read this time: ${news.failed.slice(0, 6).join('; ')}.`);
-    latest = [...news.items].sort((a, b) => b.published - a.published).slice(0, 60);
+    latest = selectHeadlines(news.items, 60).map((x) => x.h);
     if (!deps.claude) throw new Error('FREE_MODE');
     const notes = selectNotes(news.items);
     usage.headlines = notes.length;

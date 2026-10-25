@@ -76,6 +76,16 @@ test('selectNotes keeps the source mix broad: one publisher cannot fill the list
   for (const p of ['Bloomberg', 'Financial Times', 'WSJ', 'Reuters']) assert.ok(notes.some((n) => n.text.includes(`(${p},`)), p);
 });
 
+test('general-news feeds keep only finance-related items; publisher names are tidy', async () => {
+  const xml = `<rss><channel>
+<item><title>Oil jumps as OPEC cuts output</title><link>https://www.aljazeera.com/a</link><pubDate>${new Date(NOW - 3600_000).toUTCString()}</pubDate></item>
+<item><title>Festival opens in Cairo</title><link>https://www.aljazeera.com/b</link><pubDate>${new Date(NOW - 3600_000).toUTCString()}</pubDate></item>
+</channel></rss>`;
+  const r = await fetchHeadlines((async () => ({ ok: true, status: 200, text: async () => xml })) as any, NOW, { feeds: [{ name: 'AJ', url: 'x', general: true }] });
+  assert.equal(r.items.length, 1);
+  assert.equal(r.items[0].publisher, 'Al Jazeera');
+});
+
 test('fetchHeadlines tolerates failing feeds and old items', async () => {
   const feeds = [{ name: 'good', url: 'g' }, { name: 'bad', url: 'b' }, { name: 'empty', url: 'e' }];
   const f = async (u: string) => (u === 'g' ? { ok: true, status: 200, text: async () => ATOM.replace('2026-10-20', '2026-10-01') + '' } : u === 'b' ? { ok: false, status: 503, text: async () => '' } : { ok: true, status: 200, text: async () => '<rss></rss>' });

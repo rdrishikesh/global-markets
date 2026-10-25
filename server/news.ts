@@ -11,6 +11,8 @@ export type TextFetch = (url: string, init?: { headers?: Record<string, string> 
 export interface Feed {
   name: string;
   url: string;
+  /** General-news feed: only items that look finance-related are kept. */
+  general?: boolean;
 }
 
 const google = (q: string): Feed => ({
@@ -44,7 +46,7 @@ export const FEEDS: Feed[] = [
   { name: 'MarketWatch market pulse', url: 'https://feeds.content.dowjones.io/public/rss/mw_marketpulse' },
   { name: 'BBC business', url: 'https://feeds.bbci.co.uk/news/business/rss.xml' },
   { name: 'Guardian business', url: 'https://www.theguardian.com/business/rss' },
-  { name: 'Al Jazeera', url: 'https://www.aljazeera.com/xml/rss/all.xml' },
+  { name: 'Al Jazeera', url: 'https://www.aljazeera.com/xml/rss/all.xml', general: true },
   { name: 'Nikkei Asia', url: 'https://asia.nikkei.com/rss/feed/nar' },
   { name: 'SCMP business', url: 'https://www.scmp.com/rss/92/feed' },
   { name: 'Economic Times markets', url: 'https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms' },
@@ -139,6 +141,23 @@ export function parseFeed(xml: string): RawItem[] {
   return out;
 }
 
+const FINANCE_RE = /\b(market|markets|stock|stocks|shares|equit|bond|yield|oil|crude|opec|gold|dollar|currency|inflation|rates?|central bank|economy|economic|gdp|tariff|trade|sanction|bank|earnings|profit|investor|recession|fed|ecb|imf|budget|debt|export|import|energy|gas prices|supply chain)/i;
+
+const HOST_NAMES: Record<string, string> = {
+  'cnbc.com': 'CNBC', 'marketwatch.com': 'MarketWatch', 'wsj.com': 'WSJ', 'bloomberg.com': 'Bloomberg', 'ft.com': 'Financial Times',
+  'reuters.com': 'Reuters', 'economist.com': 'The Economist', 'barrons.com': "Barron's", 'bbc.com': 'BBC', 'bbc.co.uk': 'BBC',
+  'theguardian.com': 'The Guardian', 'aljazeera.com': 'Al Jazeera', 'asia.nikkei.com': 'Nikkei Asia', 'scmp.com': 'SCMP',
+  'livemint.com': 'Mint', 'economictimes.indiatimes.com': 'Economic Times', 'business-standard.com': 'Business Standard',
+  'moneycontrol.com': 'Moneycontrol', 'federalreserve.gov': 'Federal Reserve', 'ecb.europa.eu': 'ECB', 'bankofengland.co.uk': 'Bank of England',
+  'rbi.org.in': 'RBI', 'finance.yahoo.com': 'Yahoo Finance', 'investing.com': 'Investing.com', 'euronews.com': 'Euronews',
+  'straitstimes.com': 'Straits Times', 'financialexpress.com': 'Financial Express', 'morningstar.com': 'Morningstar',
+};
+function nameFor(url: string): string {
+  const host = hostOf(url);
+  const key = Object.keys(HOST_NAMES).find((d) => host === d || host.endsWith(`.${d}`));
+  return key ? HOST_NAMES[key] : host;
+}
+
 export function toHeadline(r: RawItem, feed: Feed): Headline | null {
   if (r.published === null) return null; // an undated item cannot be vetted for freshness
   // Google News titles end with " - Publisher"; remove it, the publisher is kept separately.
@@ -146,7 +165,7 @@ export function toHeadline(r: RawItem, feed: Feed): Headline | null {
   if (r.sourceName && title.endsWith(` - ${r.sourceName}`)) title = title.slice(0, -(r.sourceName.length + 3));
   const tierUrl = r.sourceUrl || r.url;
   if (tierOf(tierUrl) === 'other') return null;
-  const publisher = r.sourceName || hostOf(r.url).replace(/^(www|feeds|rss)\./, '');
+  const publisher = nameFor(r.sourceUrl || r.url) !== hostOf(r.sourceUrl || r.url) ? nameFor(r.sourceUrl || r.url) : r.sourceName || nameFor(r.url);
   return { title, snippet: r.snippet, url: r.url, publisher, tierUrl, published: r.published, feed: feed.name };
 }
 
@@ -171,6 +190,7 @@ export async function fetchHeadlines(
         ok++;
         for (const r of parsed) {
           const h = toHeadline(r, f);
+          if (h && f.general && !FINANCE_RE.test(`${h.title} ${h.snippet}`)) continue;
           if (h && now - h.published <= maxAge && h.published <= now + 3600_000) items.push(h);
         }
       } catch (err) {
@@ -226,7 +246,7 @@ const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim().s
  * Picks the headlines Claude will read: newest first, duplicates removed, and a guaranteed few per index
  * so smaller markets are not crowded out by US news. Keeps Claude's input (and your bill) small.
  */
-export function selectNotes(items: Headline[], cap = 130, perIndex = 3): Note[] {
+export function selectHeadlines(items: Headline[], cap = 130, perIndex = 3): Array<{ h: Headline; tags: string[] }> {
   const seen = new Set<string>();
   const fresh = [...items]
     .sort((a, b) => b.published - a.published)
@@ -256,16 +276,18 @@ export function selectNotes(items: Headline[], cap = 130, perIndex = 3): Note[] 
     chosen.add(x);
     perPub[x.h.publisher] = (perPub[x.h.publisher] ?? 0) + 1;
   }
-  return fresh
-    .filter((x) => chosen.has(x))
-    .slice(0, cap)
-    .map(({ h, tags }, i) => ({
-      id: `N${i + 1}`,
-      topic: tags.length ? tags.join(',') : 'macro',
-      text: `${h.title}${h.snippet ? ` - ${h.snippet}` : ''} (${h.publisher}, ${new Date(h.published).toISOString().slice(0, 16).replace('T', ' ')} UTC)`,
-      excerpts: [],
-      urls: [h.url],
-    }));
+  return fresh.filter((x) => chosen.has(x)).slice(0, cap);
+}
+
+/** The headlines Claude will read, as numbered notes. Keeps Claude's input (and your bill) small. */
+export function selectNotes(items: Headline[], cap = 130, perIndex = 3): Note[] {
+  return selectHeadlines(items, cap, perIndex).map(({ h, tags }, i) => ({
+    id: `N${i + 1}`,
+    topic: tags.length ? tags.join(',') : 'macro',
+    text: `${h.title}${h.snippet ? ` - ${h.snippet}` : ''} (${h.publisher}, ${new Date(h.published).toISOString().slice(0, 16).replace('T', ' ')} UTC)`,
+    excerpts: [],
+    urls: [h.url],
+  }));
 }
 
 /** The set of pages the code itself fetched; used to make sure every citation is real. */
