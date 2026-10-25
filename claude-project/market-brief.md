@@ -1,4 +1,4 @@
-# Market brief (generated 2026-10-25T21:21:06.152Z)
+# Market brief (generated 2026-10-25T21:28:18.780Z)
 
 Prices are Yahoo Finance daily closes; macro figures are official releases. Statistics are computed by code. Base rates describe the past and are not predictions.
 
@@ -37,14 +37,14 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 - VIX (volatility): 19.45 (1d +2.21%, 1m +24.12%) as of 2026-10-23
 - US 10-year Treasury yield: 4.99 (1d +0.71%, 1m -3.37%) as of 2026-10-23
 - US Dollar Index: 101.81 (1d +0.20%, 1m +0.51%) as of 2026-10-23
-- EUR/USD: 1.12 (1d +0.04%, 1m -1.31%) as of 2026-10-25
+- EUR/USD: 1.12 (1d +0.02%, 1m -1.33%) as of 2026-10-25
 - USD/INR: 94.93 (1d +0.23%, 1m -1.28%) as of 2026-10-25
-- USD/JPY: 157.01 (1d +0.33%, 1m -1.14%) as of 2026-10-25
+- USD/JPY: 157.02 (1d +0.34%, 1m -1.13%) as of 2026-10-25
 - Brent crude oil: 111.70 (1d -1.30%, 1m +4.78%) as of 2026-10-23
 - WTI crude oil: 103.27 (1d +3.82%, 1m +9.15%) as of 2026-10-23
 - Gold: 4007.90 (1d -1.29%, 1m -6.75%) as of 2026-10-23
 - Copper: 6.51 (1d +2.28%, 1m -3.14%) as of 2026-10-23
-- Bitcoin: 80399.52 (1d -0.48%, 1m -7.03%) as of 2026-10-25
+- Bitcoin: 80381.15 (1d -0.51%, 1m -7.05%) as of 2026-10-25
 
 ## Macro indicators (official sources)
 
@@ -140,11 +140,11 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 - Hon’ble Prime Minister of India inaugurates the Reserve Bank of India’s Data Centre and Cybersecurity Training Institute in Bhubaneswar, Odisha (RBI, 2026-10-25T19:50:00.000Z) https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63862
 - Lula Cast Vote in Brazil’s Presidential Runoff Election (Bloomberg, 2026-10-25T19:43:28.000Z) https://www.bloomberg.com/news/videos/2026-10-25/lula-cast-vote-in-brazil-s-presidential-runoff-election-video
 - Venezuela’s Machado Returns Home, Challenging U.S.-Backed Government (WSJ, 2026-10-25T19:36:35.000Z) https://news.google.com/rss/articles/CBMirgFBVV95cUxNM0lTb0NEMnVncU9kM1czaHNGWDN0WkdwYTE3TExjVEVqZHRIZ01VMmNSckNsVmxBZU1NN0FaU3BZR0NMU2s3VWtnVmtid2lrbkVfcUpKc1BxclR0b1B1WGFhSGozQW91dXdrN2FyWlF0N2kxeFA1ZGlfcW9CU2FjT1kzbUVaWWplSU1yTjZ0VFJ2MWpXT3c5OENyaU95RDVvd2RWZ1JwNk9mdGpYYUE?oc=5
-- U.S, Canada “very close” to trade deal, White House’s Hassett says (Yahoo Finance, 2026-10-25T19:29:15.000Z) https://news.google.com/rss/articles/CBMilAFBVV95cUxQNFFUd0hJLUVXdFJlRXVqQlFyeng5WER3QXFrZGJjTlZrdWhYTUVFOTAtS0YyZjNJcVVBdEhRamJlVkJCMkVKVHk5RnRBWXRjcldjdUpKbjJKc2lNMUlzMjQ3S2REbGdQbHhGOHVxUmxhc2Rxcm5yOHFId1RUUHVWb3p5SVpFd0ZlWGRoTlBKTm05R0Zj?oc=5
+- See How Gas Prices Are Easing Across the U.S. (WSJ, 2026-10-25T19:29:43.000Z) https://news.google.com/rss/articles/CBMigwFBVV95cUxQVWs2dEhDRlNqdXFYck1MVXJaUnR0LUwyNTVvLUlvYTZTdnI0OE9HSGNiaEduTVdWQjdyTVgwdXJWLVNzRDRIaXpFYXJyQXBGcURJdHZWLVBfSm5TVlJ5ZktIS2pSNVpYSmJIMUJadlhOUzlKbVd1aHF2ZE1KQkEyNzZPSQ?oc=5
 - Britain will not join Canada’s defence bank, source says (Investing.com, 2026-10-25T19:24:28.000Z) https://www.investing.com/news/economy-news/britain-will-not-join-canadas-defence-bank-source-says-4971243
 - The U.S. Shipbuilding Revival Is Taking Lessons Halfway Around the World (WSJ, 2026-10-25T19:00:00.000Z) https://www.wsj.com/world/asia/the-u-s-shipbuilding-revival-is-taking-lessons-halfway-around-the-world-d60f1816?mod=rss_worldnews
+- U.S, Canada “very close” to trade deal, White House’s Hassett says (Investing.com, 2026-10-25T18:59:15.000Z) https://www.investing.com/news/economy-news/us-canada-very-close-to-trade-deal-white-houses-hassett-says-4971239
 - Bon Secours nears $6bn takeover of Bain-backed Surgery Partners (Financial Times, 2026-10-25T18:56:37.000Z) https://www.ft.com/content/e7b82fe0-db51-49cf-bad4-2168a905652b?syn-25a6b1a6=1
-- France’s Le Pen vows national ‘renewal’ in campaign launch (Financial Times, 2026-10-25T18:37:17.000Z) https://www.ft.com/content/fd1c3f30-2789-4fca-a93f-57850b1448a8?syn-25a6b1a6=1
 - US Stock Markets this week: Wall Street gears up for Fed rate decision; Q3 earnings from Alphabet, Microsoft, Amazon (Mint, 2026-10-25T18:00:39.000Z) https://www.livemint.com/market/us-stock-markets-this-week-wall-street-gears-up-for-fed-rate-decision-q3-earnings-from-alphabet-microsoft-amazon-11792944787786.html
 - 'The world's super company': Wall Street weighs SpaceX earnings, company's likely Tesla tie-up (Yahoo Finance, 2026-10-25T17:39:49.000Z) https://news.google.com/rss/articles/CBMi5wFBVV95cUxPM2FvMEk4MFF5d0d3cDBiOTcxLW81U2IxdDY2SWt1R0NLUTR4eWRrWjltR2hwNktSVTZudXgyUC1waDJXUFdNMjlFcktuVVprWTJZOFlIUjNZZHFWVzdWRE5RZFBqaVJCWmZCS09EMFM5NEM5YTA2WGhkNVdDOEVkWW1lOVNkN0hEamlUaW94UndEZGhwY0Z3SzlJaDZnaUUzdi1Ibm80VDNuMjVBQXlKaEFTRWhqUWVyYnJOQ0Y2X0JoZjJyOTREN2p4UV9rZjZfanRzeWM4aE5yX1ZIOEZ0LW1DNDdZZmc?oc=5
 - Dividend buzz: Dalmia Bharat, Mazagon Dock, Coal India, NTPC, others to consider payouts this week - Check full list (Mint, 2026-10-25T16:19:37.000Z) https://www.livemint.com/market/stock-market-news/dividend-buzz-dalmia-bharat-mazagon-dock-coal-india-ntpc-2-others-to-consider-payouts-this-week-11792943992658.html
