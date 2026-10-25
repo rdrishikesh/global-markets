@@ -7,7 +7,7 @@ A free static website showing the 25 major global stock indices and 11 macro fac
 | Layer | Who produces it | How it is kept honest |
 |---|---|---|
 | Prices, changes, trend, RSI, volatility, drawdown, correlations, base rates, look-alike-day model | Code (`server/stats.ts`) from ~5 years of Yahoo Finance daily closes | Deterministic and unit-tested; no AI |
-| Headlines (news, central banks, scheduled events) | Code (`server/news.ts`): ~30 RSS/Atom feeds, including Google News queries filtered to trusted publishers | Dated, de-duplicated, trusted domains only; links and publishers come from the feed itself |
+| Headlines (news, central banks, scheduled events) | Code (`server/news.ts`): ~60 RSS/Atom feeds (Bloomberg, Financial Times, WSJ, Economist, CNBC, MarketWatch, BBC, central banks, Indian and Asian outlets) plus Google News queries restricted to reuters.com, bloomberg.com, ft.com, wsj.com, barrons.com, economist.com and morningstar.com | Dated, de-duplicated, trusted domains only; links and publishers come from the feed itself |
 | Status / consequence / impact / outlook in two voices | **One** Claude call with no browsing (`server/synthesize.ts`) | `server/validate.ts` drops any item that cites unknown notes or series, or contains a number not found in its evidence |
 | Mood label | Code, rule published on the page | Inputs shown |
 
@@ -44,6 +44,7 @@ npm run dev
 ## Limits
 
 - Claude sees headlines and short summaries, not full articles. Validation proves a cited item was fetched by the code and that numbers trace to the evidence; it cannot prove the publisher is right or that a headline supports every nuance of Claude's wording.
+- Paywalled publishers (Bloomberg, FT, WSJ, Reuters) share only headlines and short summaries in their feeds; that is all the site shows and all Claude reads. No paywall is bypassed. No single publisher may supply more than 14 of the ~130 headlines Claude reads.
 - Feed addresses change; the feed list is not guaranteed to work on day one. Broken feeds are reported and skipped.
 - No valuation ratios (P/E, P/B): there is no reliable free feed, and scraping sites such as Screener or Morningstar may breach their terms.
 - Yahoo Finance's chart endpoint is unofficial and may change or throttle GitHub runner IPs.

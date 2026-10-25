@@ -15,7 +15,8 @@ export const PRESS = [
   'reuters.com', 'bloomberg.com', 'ft.com', 'wsj.com', 'cnbc.com', 'marketwatch.com', 'barrons.com', 'economist.com',
   'apnews.com', 'bbc.com', 'nytimes.com', 'theguardian.com', 'aljazeera.com', 'dw.com', 'asia.nikkei.com', 'scmp.com',
   'livemint.com', 'economictimes.indiatimes.com', 'business-standard.com', 'moneycontrol.com', 'thehindubusinessline.com',
-  'thehindu.com', 'kitco.com', 'oilprice.com',
+  'thehindu.com', 'kitco.com', 'oilprice.com', 'euronews.com', 'france24.com', 'straitstimes.com', 'abc.net.au',
+  'afr.com', 'japantimes.co.jp', 'koreaherald.com', 'financialexpress.com', 'ndtvprofit.com', 'businesstoday.in',
 ];
 export const DATA = [
   'morningstar.com', 'morningstar.in', 'screener.in', 'tradingeconomics.com', 'finance.yahoo.com', 'investing.com',

@@ -4,7 +4,7 @@ import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
 import { unsupportedNumbers, validateReport } from './validate.js';
-import { parseFeed, toHeadline, selectNotes, fetchHeadlines, tagItem, type Headline, type Note } from './news.js';
+import { parseFeed, toHeadline, selectNotes, fetchHeadlines, tagItem, MAX_PER_PUBLISHER, type Headline, type Note } from './news.js';
 import { SourceRegistry, tierOf } from './sources.js';
 import type { ClaudeLike } from './synthesize.js';
 import { generate, readJson } from '../scripts/generate-report.js';
@@ -65,6 +65,15 @@ test('tagItem and selectNotes: dedupe, per-index coverage, ids', () => {
   assert.equal(notes.filter((n) => /story 1 /.test(n.text + ' ')).length, 1, 'duplicate removed');
   assert.equal(notes[0].id, 'N1');
   assert.match(notes[0].text, /\(CNBC, 2026-10-20 \d\d:\d\d UTC\)/);
+});
+
+test('selectNotes keeps the source mix broad: one publisher cannot fill the list', () => {
+  const mk = (title: string, minsAgo: number, publisher: string): Headline => ({ title, snippet: '', url: `https://www.cnbc.com/${publisher}/${encodeURIComponent(title)}`, publisher, tierUrl: 'https://www.cnbc.com', published: NOW - minsAgo * 60000, feed: 'f' });
+  const cnbc = Array.from({ length: 40 }, (_, i) => mk(`CNBC item ${i}`, i, 'CNBC'));
+  const others = ['Bloomberg', 'Financial Times', 'WSJ', 'Reuters'].flatMap((p) => Array.from({ length: 5 }, (_, i) => mk(`${p} item ${i}`, 100 + i, p)));
+  const notes = selectNotes([...cnbc, ...others], 40);
+  assert.ok(notes.filter((n) => /\(CNBC,/.test(n.text)).length <= MAX_PER_PUBLISHER);
+  for (const p of ['Bloomberg', 'Financial Times', 'WSJ', 'Reuters']) assert.ok(notes.some((n) => n.text.includes(`(${p},`)), p);
 });
 
 test('fetchHeadlines tolerates failing feeds and old items', async () => {
@@ -143,8 +152,9 @@ function fakeFeeds(opts: { down?: boolean; at?: number; salt?: string } = {}) {
       .map((i) => {
         const first = url.includes('cnbc.com/id/10000664') && i === 0;
         const title = first ? 'S&P 500 fell 1.23% as Treasury yields rose' : `Markets story ${tag}-${i}`;
-        const link = first ? URL_A : `https://www.cnbc.com/story-${tag}-${i}${opts.salt ?? ''}`;
-        return `<item><title>${title}</title><link>${link}</link><pubDate>${when}</pubDate><description>Summary ${tag}-${i}</description></item>`;
+        const hosts = ['cnbc.com', 'ft.com', 'wsj.com', 'bloomberg.com', 'bbc.com', 'livemint.com', 'scmp.com', 'dw.com'];
+        const link = first ? URL_A : `https://www.${hosts[tag % hosts.length]}/story-${tag}-${i}${opts.salt ?? ''}`;
+        return `<item><title>${title}</title><link>${link}</link><pubDate>${first ? new Date((opts.at ?? NOW) - 60_000).toUTCString() : when}</pubDate><description>Summary ${tag}-${i}</description></item>`;
       })
       .join('');
     return { ok: true, status: 200, text: async () => `<rss><channel>${items}</channel></rss>` };

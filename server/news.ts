@@ -24,6 +24,21 @@ export const FEEDS: Feed[] = [
   { name: 'ECB press', url: 'https://www.ecb.europa.eu/rss/press.html' },
   { name: 'Bank of England news', url: 'https://www.bankofengland.co.uk/rss/news' },
   { name: 'RBI press releases', url: 'https://rbi.org.in/pressreleases_rss.xml' },
+  { name: 'Bloomberg markets', url: 'https://feeds.bloomberg.com/markets/news.rss' },
+  { name: 'Bloomberg economics', url: 'https://feeds.bloomberg.com/economics/news.rss' },
+  { name: 'Bloomberg politics', url: 'https://feeds.bloomberg.com/politics/news.rss' },
+  { name: 'Bloomberg wealth', url: 'https://feeds.bloomberg.com/wealth/news.rss' },
+  { name: 'Financial Times home', url: 'https://www.ft.com/rss/home' },
+  { name: 'Financial Times markets', url: 'https://www.ft.com/markets?format=rss' },
+  { name: 'WSJ markets', url: 'https://feeds.content.dowjones.io/public/rss/RSSMarketsMain' },
+  { name: 'WSJ world news', url: 'https://feeds.content.dowjones.io/public/rss/RSSWorldNews' },
+  { name: 'WSJ economy', url: 'https://feeds.content.dowjones.io/public/rss/socialeconomyfeed' },
+  { name: 'The Economist finance', url: 'https://www.economist.com/finance-and-economics/rss.xml' },
+  { name: 'Investing.com news', url: 'https://www.investing.com/rss/news.rss' },
+  { name: 'Yahoo Finance', url: 'https://finance.yahoo.com/news/rssindex' },
+  { name: 'Euronews business', url: 'https://www.euronews.com/rss?level=theme&name=business' },
+  { name: 'Straits Times business', url: 'https://www.straitstimes.com/news/business/rss.xml' },
+  { name: 'Financial Express markets', url: 'https://www.financialexpress.com/market/feed/' },
   { name: 'CNBC finance', url: 'https://www.cnbc.com/id/10000664/device/rss/rss.html' },
   { name: 'CNBC top news', url: 'https://www.cnbc.com/id/100003114/device/rss/rss.html' },
   { name: 'MarketWatch market pulse', url: 'https://feeds.content.dowjones.io/public/rss/mw_marketpulse' },
@@ -36,6 +51,11 @@ export const FEEDS: Feed[] = [
   { name: 'Mint markets', url: 'https://www.livemint.com/rss/markets' },
   { name: 'Business Standard markets', url: 'https://www.business-standard.com/rss/markets-106.rss' },
   { name: 'Moneycontrol market reports', url: 'https://www.moneycontrol.com/rss/marketreports.xml' },
+  // Publishers without a usable RSS feed (Reuters) or with several (Bloomberg, FT, WSJ): searched by site name.
+  ...['reuters.com', 'bloomberg.com', 'ft.com', 'wsj.com', 'barrons.com', 'economist.com', 'morningstar.com'].flatMap((d) => [
+    google(`site:${d} stock markets indices`),
+    google(`site:${d} central bank inflation oil dollar`),
+  ]),
   google('stock market today Wall Street'),
   google('Federal Reserve interest rates Treasury yields'),
   google('oil prices Brent OPEC'),
@@ -199,6 +219,7 @@ export function tagItem(h: Pick<Headline, 'title' | 'snippet'>): string[] {
   return CATALOG.filter((c) => c.kind === 'index' && KEY_RE[c.id]?.test(t)).map((c) => c.id);
 }
 
+export const MAX_PER_PUBLISHER = 14;
 const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim().slice(0, 70);
 
 /**
@@ -225,7 +246,16 @@ export function selectNotes(items: Headline[], cap = 130, perIndex = 3): Note[] 
       for (const t of x.tags) count[t] = (count[t] ?? 0) + 1;
     }
   }
-  for (const x of fresh) if (chosen.size < cap) chosen.add(x);
+  // Fill the rest by recency, but no single publisher may take more than MAX_PER_PUBLISHER places,
+  // so the mix of sources stays broad (Reuters, Bloomberg, FT, WSJ, Indian and Asian outlets ...).
+  const perPub: Record<string, number> = {};
+  for (const x of chosen) perPub[x.h.publisher] = (perPub[x.h.publisher] ?? 0) + 1;
+  for (const x of fresh) {
+    if (chosen.size >= cap || chosen.has(x)) continue;
+    if ((perPub[x.h.publisher] ?? 0) >= MAX_PER_PUBLISHER) continue;
+    chosen.add(x);
+    perPub[x.h.publisher] = (perPub[x.h.publisher] ?? 0) + 1;
+  }
   return fresh
     .filter((x) => chosen.has(x))
     .slice(0, cap)
