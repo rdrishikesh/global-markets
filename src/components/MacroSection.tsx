@@ -5,8 +5,8 @@ import { fmtPct, pctClass } from '../utils/format.js';
 
 const Wrap: React.FC<{ title: string; blurb: string; children: React.ReactNode }> = ({ title, blurb, children }) => (
   <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-    <h2 className="text-lg font-bold">{title}</h2>
-    <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-3">{blurb}</p>
+    <h2 className="text-xl font-semibold tracking-tight">{title}</h2>
+    <p className="text-sm text-neutral-600 dark:text-neutral-400 mt-1 mb-4 max-w-[75ch]">{blurb}</p>
     {children}
   </section>
 );

@@ -1,3 +1,43 @@
 @import "tailwindcss";
 
 @custom-variant dark (&:where(.dark, .dark *));
+
+/* Fonts: Source Serif 4 for the reading text, IBM Plex Sans for data and controls. System fonts are the fallback. */
+@theme {
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-serif: "Source Serif 4", "Iowan Old Style", Georgia, serif;
+
+  /* Cool slate neutrals replace the default grey scale across the whole site. */
+  --color-neutral-50: #f5f7f9;
+  --color-neutral-100: #eceff3;
+  --color-neutral-200: #dde2e8;
+  --color-neutral-300: #c3cbd4;
+  --color-neutral-400: #8f9aa7;
+  --color-neutral-500: #66737f;
+  --color-neutral-600: #4d5965;
+  --color-neutral-700: #38424d;
+  --color-neutral-800: #222c37;
+  --color-neutral-900: #151e28;
+  --color-neutral-950: #0d141c;
+
+  --color-emerald-700: #0f7459;
+  --color-rose-700: #b3302e;
+  --color-indigo-600: #214fb4;
+  --color-indigo-700: #1a4096;
+}
+
+:root {
+  --gain: 15 116 89;
+  --loss: 179 48 46;
+}
+.dark {
+  --gain: 46 184 146;
+  --loss: 238 98 96;
+}
+
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body { font-feature-settings: "tnum" 1, "lnum" 1; -webkit-font-smoothing: antialiased; }
+.prose-brief { font-family: var(--font-serif); }
+:focus-visible { outline: 2px solid var(--color-indigo-600); outline-offset: 2px; border-radius: 4px; }
+.dark :focus-visible { outline-color: #8fb0ff; }

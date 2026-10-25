@@ -3,12 +3,15 @@ import type { Extra, Snapshot } from './types/report.js';
 import { TickerTape, LiveCharts } from './components/TradingViewWidgets.js';
 import { MacroTable, Heavyweights, CompanyEffects } from './components/MacroSection.js';
 import { IndiaPanel } from './components/IndiaPanel.js';
-import { Overview, Analysis, Events, History, Headlines, Methodology } from './components/Sections.js';
+import { Analysis, Events, History, Headlines, Methodology } from './components/Sections.js';
+import { ReaderProvider, VoiceToggle } from './components/Reader.js';
+import { Today, MarketMap, Expectations } from './components/Today.js';
+import { SectionNav } from './components/SectionNav.js';
 import { MarketTable } from './components/MarketTable.js';
 import { SourcesList } from './components/Cite.js';
 import { JargonModal } from './components/JargonModal.js';
 import { ageText, fmtWhen } from './utils/format.js';
-import { AlertTriangle, BookOpen, Globe, Moon, RefreshCw, Sun } from 'lucide-react';
+import { AlertTriangle, BookOpen, Moon, RefreshCw, Sun } from 'lucide-react';
 
 const DARK_KEY = 'gmi_dark';
 /** Updates run on weekdays, so a Friday snapshot is legitimately ~3 days old on Monday morning. */
@@ -54,7 +57,7 @@ const Banner: React.FC<{ tone: 'warn' | 'info'; children?: React.ReactNode }> = 
   </div>
 );
 
-export default function App() {
+function AppInner() {
   const [dark, setDark] = useState<boolean>(initialDark);
   const [snap, setSnap] = useState<Snapshot | null>(null);
   const [extra, setExtra] = useState<Extra | null>(null);
@@ -91,27 +94,22 @@ export default function App() {
   const reportOld = snap?.report ? new Date(snap.generatedAt).getTime() - new Date(snap.report.generatedAt).getTime() > 3600_000 : false;
 
   return (
-    <div className="min-h-screen bg-neutral-50 dark:bg-neutral-950 text-neutral-900 dark:text-neutral-100 font-sans">
-      <header className="sticky top-0 z-40 bg-white/90 dark:bg-neutral-900/90 backdrop-blur border-b border-neutral-200 dark:border-neutral-800">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-3">
-          <div className="flex items-center gap-3 min-w-0">
-            <div className="p-2 rounded-xl bg-indigo-600 text-white"><Globe className="w-5 h-5" /></div>
-            <div className="min-w-0">
-              <h1 className="font-bold text-base sm:text-lg leading-tight truncate">Global Markets Intelligence</h1>
-              <p className="text-[11px] text-neutral-500 dark:text-neutral-400 truncate">
-                {snap ? `Updated ${fmtWhen(snap.generatedAt)} (${ageText(snap.generatedAt)}) - every claim linked to a source` : 'Facts, sources and plain-English explanations'}
-              </p>
-            </div>
+    <div className="min-h-screen bg-neutral-50 dark:bg-neutral-950 text-neutral-900 dark:text-neutral-100 font-sans antialiased">
+      <header className="sticky top-0 z-40 bg-white/95 dark:bg-neutral-900/95 backdrop-blur border-b border-neutral-200 dark:border-neutral-800">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between gap-3">
+          <div className="min-w-0">
+            <h1 className="font-semibold text-base sm:text-lg leading-tight truncate tracking-tight">Global Markets Intelligence</h1>
+            {snap && <p className="text-xs text-neutral-500 dark:text-neutral-400 truncate">Updated {ageText(snap.generatedAt)}. Every claim links to its source.</p>}
           </div>
-          <nav className="flex items-center gap-1.5 text-xs">
-            <a href="#sources" className="hidden sm:inline px-2.5 py-1.5 rounded-lg hover:bg-neutral-100 dark:hover:bg-neutral-800">Sources</a>
-            <a href="#method" className="hidden sm:inline px-2.5 py-1.5 rounded-lg hover:bg-neutral-100 dark:hover:bg-neutral-800">Method</a>
-            <button onClick={() => setJargon({ open: true })} className="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg border border-neutral-200 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800"><BookOpen className="w-3.5 h-3.5" />Glossary</button>
-            <button onClick={() => void load()} disabled={loading} aria-label="Check for newer data" className="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-indigo-600 text-white hover:bg-indigo-700 disabled:opacity-60"><RefreshCw className={`w-3.5 h-3.5 ${loading ? 'animate-spin' : ''}`} /><span className="hidden sm:inline">Reload</span></button>
+          <div className="flex items-center gap-2 text-xs">
+            <VoiceToggle />
+            <button onClick={() => setJargon({ open: true })} className="hidden sm:inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg border border-neutral-200 dark:border-neutral-700 hover:bg-neutral-100 dark:hover:bg-neutral-800"><BookOpen className="w-3.5 h-3.5" />Glossary</button>
+            <button onClick={() => void load()} disabled={loading} aria-label="Check for newer data" className="p-2 rounded-lg hover:bg-neutral-100 dark:hover:bg-neutral-800 disabled:opacity-60"><RefreshCw className={`w-4 h-4 ${loading ? 'animate-spin' : ''}`} /></button>
             <button onClick={() => setDark(!dark)} aria-label="Toggle dark mode" className="p-2 rounded-lg hover:bg-neutral-100 dark:hover:bg-neutral-800">{dark ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}</button>
-          </nav>
+          </div>
         </div>
       </header>
+      {snap && <SectionNav />}
 
       <TickerTape dark={dark} />
 
@@ -136,31 +134,40 @@ export default function App() {
 
       {snap && (
         <main>
-          <Overview snap={snap} onTerm={(t) => setJargon({ open: true, term: t })} />
-          {snap.report && <Analysis report={snap.report} market={snap.market} />}
+          <Today snap={snap} onTerm={(t) => setJargon({ open: true, term: t })} />
+          <MarketMap market={snap.market} />
+          <Expectations market={snap.market} />
+          {snap.report && <Events report={snap.report} />}
+          <div id="why" className="scroll-mt-28">
+            {snap.report ? <Analysis report={snap.report} market={snap.market} /> : (
+              <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+                <h2 className="text-xl font-semibold tracking-tight">Why markets moved</h2>
+                <p className="text-sm text-neutral-600 dark:text-neutral-400 mt-1">The written explanation is added after each data refresh. It appears here once it has passed the source checks.</p>
+              </section>
+            )}
+          </div>
           <MarketTable
-            title="25 global indices"
-            blurb="Latest close, changes over several periods and a 60-day trend line. Prices: Yahoo Finance daily closes."
+            title="All 25 indices in detail"
+            blurb="Latest close, changes over several periods and a 60-day trend line. Select a row for statistics, drivers and past look-alike days."
             items={snap.market.filter((m) => m.kind === 'index')}
             all={snap.market}
             groupByRegion
           />
-          <MacroTable macro={snap.macro ?? []} />
-          {snap.report && <CompanyEffects items={snap.report.companyEffects ?? []} market={snap.market} />}
-          <Heavyweights rows={snap.heavyweights ?? []} market={snap.market} />
           <MarketTable
-            title="Factors that move markets"
-            blurb="Rates, the dollar, oil, gold, volatility, currencies and Bitcoin. 24-hour markets show the latest price at update time."
+            title="What moves markets"
+            blurb="Interest rates, the dollar, oil, gold, volatility, currencies and Bitcoin. 24-hour markets show the latest price at update time."
             items={snap.market.filter((m) => m.kind === 'factor')}
             all={snap.market}
           />
-          <IndiaPanel extra={extra} />
-          <LiveCharts dark={dark} />
-          <Headlines snap={snap} />
-          {snap.report && <Events report={snap.report} />}
+          <div id="economy" className="scroll-mt-28"><MacroTable macro={snap.macro ?? []} /><IndiaPanel extra={extra} /></div>
+          <div id="companies" className="scroll-mt-28">
+            {snap.report && <CompanyEffects items={snap.report.companyEffects ?? []} market={snap.market} />}
+            <Heavyweights rows={snap.heavyweights ?? []} market={snap.market} />
+          </div>
+          <div id="news" className="scroll-mt-28"><Headlines snap={snap} /><LiveCharts dark={dark} /></div>
           <History market={snap.market} />
           {snap.sources.length > 0 && <SourcesList sources={snap.sources} />}
-          <Methodology snap={snap} />
+          <div id="method" className="scroll-mt-28"><Methodology snap={snap} /></div>
         </main>
       )}
 
@@ -169,5 +176,13 @@ export default function App() {
       </footer>
       <JargonModal isOpen={jargon.open} onClose={() => setJargon({ open: false })} initialTerm={jargon.term} />
     </div>
+  );
+}
+
+export default function App() {
+  return (
+    <ReaderProvider>
+      <AppInner />
+    </ReaderProvider>
   );
 }

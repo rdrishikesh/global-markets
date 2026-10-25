@@ -139,9 +139,9 @@ export const MarketTable: React.FC<{ items: MarketItem[]; all: MarketItem[]; gro
   const regions: Region[] = groupByRegion ? ['Americas', 'Europe', 'Asia-Pacific'] : ['Global'];
 
   return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-      <h2 className="text-lg font-bold">{title}</h2>
-      <p className="text-xs text-neutral-500 dark:text-neutral-400 mb-3">{blurb}</p>
+    <section id={groupByRegion ? 'table-indices' : 'table-factors'} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 scroll-mt-28">
+      <h2 className="text-xl font-semibold tracking-tight">{title}</h2>
+      <p className="text-sm text-neutral-600 dark:text-neutral-400 mt-1 mb-4 max-w-[75ch]">{blurb}</p>
       <div className="overflow-x-auto rounded-xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900">
         <table className="w-full text-sm">
           <thead className="bg-neutral-100 dark:bg-neutral-950 text-xs text-neutral-600 dark:text-neutral-400">

@@ -1,69 +1,17 @@
 import React from 'react';
-import type { MarketItem, Mood, Report, Snapshot } from '../types/report.js';
+import type { MarketItem, Report, Snapshot } from '../types/report.js';
 import { Cites } from './Cite.js';
 import { InsightCard } from './InsightCard.js';
 import { fmtPct, pctClass } from '../utils/format.js';
+import { useVoice } from './Reader.js';
 
 const Wrap: React.FC<{ title: string; blurb?: string; children?: React.ReactNode; id?: string }> = ({ title, blurb, children, id }) => (
   <section id={id} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-    <h2 className="text-lg font-bold">{title}</h2>
-    {blurb && <p className="text-xs text-neutral-500 dark:text-neutral-400 mb-3">{blurb}</p>}
+    <h2 className="text-xl font-semibold tracking-tight">{title}</h2>
+    {blurb && <p className="text-sm text-neutral-600 dark:text-neutral-400 mt-1 mb-4 max-w-[75ch]">{blurb}</p>}
     {children}
   </section>
 );
-
-const MOOD_STYLE: Record<Mood['label'], string> = {
-  'Risk-on': 'bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300',
-  'Risk-off': 'bg-rose-100 text-rose-800 dark:bg-rose-950 dark:text-rose-300',
-  Mixed: 'bg-amber-100 text-amber-800 dark:bg-amber-950 dark:text-amber-300',
-};
-
-export const Overview: React.FC<{ snap: Snapshot; onTerm: (t: string) => void }> = ({ snap, onTerm }) => {
-  const r = snap.report;
-  const head = r?.headline ?? r?.global?.status ?? null;
-  const idx = snap.market.filter((m) => m.kind === 'index' && m.stats);
-  const best = [...idx].sort((a, b) => b.stats!.change1d - a.stats!.change1d);
-  return (
-    <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-4">
-      <div className="flex flex-wrap items-center gap-3 mb-3">
-        <span className={`rounded-full px-3 py-1 text-sm font-bold ${MOOD_STYLE[snap.mood.label]}`}>{snap.mood.label}</span>
-        <button onClick={() => onTerm('risk-on')} className="text-xs text-blue-700 dark:text-blue-400 hover:underline">What does this mean?</button>
-      </div>
-      {head ? (
-        <div className="grid md:grid-cols-2 gap-4">
-          <div>
-            <div className="text-[10px] font-semibold uppercase text-emerald-700 dark:text-emerald-400 mb-1">In plain English</div>
-            <p className="text-xl sm:text-2xl font-bold leading-snug">{head.layman}</p>
-          </div>
-          <div>
-            <div className="text-[10px] font-semibold uppercase text-neutral-500 mb-1">Technical</div>
-            <p className="text-sm text-neutral-700 dark:text-neutral-300 leading-relaxed">{head.technical}</p>
-          </div>
-        </div>
-      ) : (
-        <p className="text-sm text-neutral-600 dark:text-neutral-400">No sourced written summary is available in this update. The computed market data is below.</p>
-      )}
-      <div className="mt-4 grid sm:grid-cols-3 gap-3 text-xs">
-        <div className="rounded-xl border border-neutral-200 dark:border-neutral-800 p-3">
-          <div className="font-semibold mb-1">How the mood label is computed</div>
-          <ul className="space-y-0.5 text-neutral-600 dark:text-neutral-400">{snap.mood.basis.map((b) => <li key={b}>{b}</li>)}</ul>
-        </div>
-        {best.length > 0 && (
-          <>
-            <div className="rounded-xl border border-neutral-200 dark:border-neutral-800 p-3">
-              <div className="font-semibold mb-1">Strongest (latest session)</div>
-              {best.slice(0, 3).map((m) => <div key={m.id} className="flex justify-between"><span>{m.name}</span><span className={`font-mono ${pctClass(m.stats!.change1d)}`}>{fmtPct(m.stats!.change1d)}</span></div>)}
-            </div>
-            <div className="rounded-xl border border-neutral-200 dark:border-neutral-800 p-3">
-              <div className="font-semibold mb-1">Weakest (latest session)</div>
-              {best.slice(-3).reverse().map((m) => <div key={m.id} className="flex justify-between"><span>{m.name}</span><span className={`font-mono ${pctClass(m.stats!.change1d)}`}>{fmtPct(m.stats!.change1d)}</span></div>)}
-            </div>
-          </>
-        )}
-      </div>
-    </section>
-  );
-};
 
 export const Analysis: React.FC<{ report: Report; market: MarketItem[] }> = ({ report, market }) => {
   const by = Object.fromEntries(market.map((m) => [m.id, m]));
@@ -88,19 +36,20 @@ export const Analysis: React.FC<{ report: Report; market: MarketItem[] }> = ({ r
   );
 };
 
-export const Events: React.FC<{ report: Report }> = ({ report }) =>
-  report.events.length === 0 ? null : (
+export const Events: React.FC<{ report: Report }> = ({ report }) => {
+  const { voice } = useVoice();
+  return report.events.length === 0 ? null : (
     <Wrap title="Coming up in the next 7 days" blurb="Scheduled events found in the research, with why they matter.">
       <div className="overflow-x-auto rounded-xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900">
         <table className="w-full text-sm">
-          <thead className="bg-neutral-100 dark:bg-neutral-950 text-xs text-neutral-600 dark:text-neutral-400"><tr><th className="px-3 py-2 text-left">When</th><th className="px-3 py-2 text-left">Event</th><th className="px-3 py-2 text-left">Plain English</th><th className="px-3 py-2 text-left">Technical</th></tr></thead>
+          <thead className="bg-neutral-100 dark:bg-neutral-950 text-xs text-neutral-600 dark:text-neutral-400"><tr><th className="px-3 py-2 text-left">When</th><th className="px-3 py-2 text-left">Event</th>{voice !== 'technical' && <th className="px-3 py-2 text-left">Plain English</th>}{voice !== 'plain' && <th className="px-3 py-2 text-left">Technical</th>}</tr></thead>
           <tbody>
             {report.events.map((e) => (
               <tr key={e.title + e.when} className="border-t border-neutral-200 dark:border-neutral-800 align-top">
                 <td className="px-3 py-2 whitespace-nowrap font-medium">{e.when}</td>
                 <td className="px-3 py-2 font-semibold">{e.title}</td>
-                <td className="px-3 py-2">{e.layman}</td>
-                <td className="px-3 py-2 text-neutral-700 dark:text-neutral-300">{e.technical} <Cites sources={e.sources} /></td>
+                {voice !== 'technical' && <td className="px-3 py-2">{e.layman}{voice === 'plain' && <> <Cites sources={e.sources} /></>}</td>}
+                {voice !== 'plain' && <td className="px-3 py-2 text-neutral-700 dark:text-neutral-300">{e.technical} <Cites sources={e.sources} /></td>}
               </tr>
             ))}
           </tbody>
@@ -108,6 +57,7 @@ export const Events: React.FC<{ report: Report }> = ({ report }) =>
       </div>
     </Wrap>
   );
+};
 
 const LOOKALIKE_IDS = ['sp500', 'nasdaq', 'nifty50', 'sensex', 'ftse100', 'dax', 'nikkei', 'hangseng'];
 

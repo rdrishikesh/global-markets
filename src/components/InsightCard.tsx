@@ -3,6 +3,7 @@ import type { Insight, MarketItem } from '../types/report.js';
 import { yahooQuoteUrl } from '../data/catalog.js';
 import { Cites } from './Cite.js';
 import { fmtPct, pctClass } from '../utils/format.js';
+import { Say, useVoice } from './Reader.js';
 
 const ROWS: Array<{ key: 'status' | 'consequence' | 'impact' | 'outlook'; label: string; hint: string }> = [
   { key: 'status', label: 'Status', hint: 'What is happening now' },
@@ -12,26 +13,21 @@ const ROWS: Array<{ key: 'status' | 'consequence' | 'impact' | 'outlook'; label:
 ];
 
 /** Status, consequence, impact and outlook, each in plain English and in technical terms, with its evidence. */
-export const InsightCard: React.FC<{ insight: Insight; market: Record<string, MarketItem> }> = ({ insight, market }) => (
+export const InsightCard: React.FC<{ insight: Insight; market: Record<string, MarketItem> }> = ({ insight, market }) => {
+  useVoice();
+  return (
   <article className="rounded-2xl border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 overflow-hidden">
     <header className="px-4 py-3 border-b border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-950/40">
       <h3 className="font-bold text-sm sm:text-base">{insight.title}</h3>
     </header>
     <div className="divide-y divide-neutral-200 dark:divide-neutral-800">
       {ROWS.map((r) => (
-        <div key={r.key} className="grid grid-cols-1 md:grid-cols-[110px_1fr_1fr] gap-x-4 gap-y-1 px-4 py-3">
+        <div key={r.key} className="grid grid-cols-1 md:grid-cols-[130px_1fr] gap-x-4 gap-y-1 px-4 py-3.5">
           <div>
-            <div className="text-xs font-bold uppercase tracking-wide text-indigo-700 dark:text-indigo-300">{r.label}</div>
-            <div className="text-[11px] text-neutral-500 dark:text-neutral-400">{r.hint}</div>
+            <div className="text-sm font-semibold text-indigo-700 dark:text-indigo-300">{r.label}</div>
+            <div className="text-xs text-neutral-500 dark:text-neutral-400">{r.hint}</div>
           </div>
-          <div>
-            <div className="text-[10px] font-semibold uppercase text-emerald-700 dark:text-emerald-400 mb-0.5">In plain English</div>
-            <p className="text-sm leading-relaxed">{insight[r.key].layman}</p>
-          </div>
-          <div>
-            <div className="text-[10px] font-semibold uppercase text-neutral-500 dark:text-neutral-400 mb-0.5">Technical</div>
-            <p className="text-sm leading-relaxed text-neutral-700 dark:text-neutral-300">{insight[r.key].technical}</p>
-          </div>
+          <div className="max-w-[75ch]"><Say t={insight[r.key]} /></div>
         </div>
       ))}
     </div>
@@ -63,4 +59,5 @@ export const InsightCard: React.FC<{ insight: Insight; market: Record<string, Ma
       </div>
     </footer>
   </article>
-);
+  );
+};
