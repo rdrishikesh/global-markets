@@ -116,6 +116,13 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 - Allianz (dax, eurostoxx50): 1d -1.09%, 5d -1.38%
 - HSBC (ftse100): 1d -1.07%, 5d -5.32%
 
+## Written analysis already produced (each item was checked against its sources)
+
+**Headline:** Economic Times reported US stocks fell on persistent AI doubts ahead of the Fed meet (Dow 1d -1.23%, S&P 500 1d -0.52%); Mint reported Indian equities fell as crude surged, with Nifty 50 down 2.36% on the week.
+- Company effect, Alphabet, Microsoft, Amazon (mixed on sp500, nasdaq): Mint: Q3 results from Alphabet, Microsoft and Amazon will test AI investment optimism. The notes do not state the direction of their effect.
+- Company effect, SpaceX / Tesla (mixed on sp500): Yahoo Finance: Wall Street weighs SpaceX earnings and a likely Tesla tie-up; Investing.com: Musk says SpaceX raised $40 billion in debt for GPUs. No market effect is stated.
+- Company effect, HDFC Bank, Bajaj Finance (down on sensex): Business Standard: eight of the top 10 firms lost ₹1.55 trillion in mcap, with HDFC Bank and Bajaj Finance accounting for most of the losses.
+
 ## Headlines collected today
 
 - How To Set Up an AI-Powered Company (Bloomberg, 2026-10-25T21:31:56.000Z) https://news.google.com/rss/articles/CBMiogFBVV95cUxNLWp0V01IdnpXRXpaUFFPbVlSOXhsOHdVT3BOdnVOTjhwbHJHUHRNbWNqUzdtWEdTRzhLR1F6cFpPTVJFSm1fZFU4aVAtMTBGdzhIRHVqbW9PYUhZLUlsMlM5NG5RaXJnOW1makxlaFcySFAwbFN4WDBvWktDMXQ0SUF3NXhOUkxUMU9xVXViMEtEYTU0UG5iSVVyaWtJRWpHSGc?oc=5
@@ -182,7 +189,6 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 5 news feed(s) could not be read this time: Google News: site:wsj.com stock markets indices (no items); Google News: site:economist.com central bank inflation oil dollar (no items); Google News: site:morningstar.com central bank inflation oil dollar (no items); Google News: European shares STOXX DAX FTSE ECB (no items); Google News: Bovespa Brazil Mexico stocks (no items).
-- Free mode: no written analysis yet. It is added by a scheduled Claude task after each refresh (or set ANTHROPIC_API_KEY to write it here).
 
 ## How to use this file
 
