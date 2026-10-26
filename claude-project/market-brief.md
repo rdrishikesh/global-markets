@@ -118,15 +118,10 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** European indices closed higher (DAX 0.84%, CAC 40 0.73%) as Brent fell -5.88%, while Nikkei -0.80% and KOSPI -1.46% lagged ahead of the Fed decision and big-tech earnings.
-- Company effect, Alphabet (mixed on sp500, nasdaq): Economic Times said Alphabet's earnings this week coincide with the Fed decision and will test whether AI investment pays off.
-- Company effect, Microsoft (mixed on sp500, nasdaq, dow): Economic Times said Microsoft's earnings this week coincide with the Fed decision and test AI returns.
-- Company effect, Amazon (mixed on sp500, nasdaq): Economic Times said Amazon's earnings this week coincide with the Fed decision and test AI returns.
-- Company effect, CoreWeave (down on sp500, nasdaq): Bloomberg reported a CoreWeave rout; strategists warn declines in AI cloud providers may spill into other tech.
-- Company effect, Meta Platforms (mixed on sp500, nasdaq): Economic Times reported Meta plans publicly traded non-voting Class C shares to fund AI investment while preserving Zuckerberg's control.
-- Company effect, Lockheed Martin (up on sp500): Investing.com reported Morgan Stanley upgraded Lockheed Martin on an F-35 deal.
-- Company effect, Kotak Mahindra Bank (up on nifty50, sensex): Mint reported Kotak Mahindra Bank shares rose 2% as top Nifty gainer; Economic Times said Kotak and Adani Ports lifted the rebound.
-- Company effect, HSBC (mixed on hangseng): Straits Times reported Hang Seng's investment arm is set to merge with HSBC's asset business, sources say.
+**Headline:** S&P 500 gained 0.70% and Nasdaq 0.82% as Anthropic's IPO filing revived AI optimism (Reuters, Bloomberg), while Bovespa fell 13.88% after Lula's win.
+- Company effect, Anthropic (up on sp500, nasdaq): Anthropic's IPO filing rekindled AI interest; the S&P 500 gained 0.70% and the Nasdaq rose by 0.83% (one report).
+- Company effect, Meta (mixed on sp500, nasdaq): FT reported Meta plans $95bn stock offering to bankroll AI expansion, with Nvidia, AMD and Broadcom as cornerstone investors.
+- Company effect, Goldman Sachs (down on kospi): Mint: Goldman Sachs cut its 12-month KOSPI target to 9,000 from 12,000, citing doubts about the AI trade and falling chip stocks.
 
 ## Headlines collected today
 
@@ -194,7 +189,6 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 2 news feed(s) could not be read this time: Google News: site:economist.com stock markets indices (no items); Google News: Hang Seng China stocks PBOC (no items).
-- The written analysis is from 2026-10-26 and is being refreshed; the numbers are current.
 
 ## How to use this file
 
