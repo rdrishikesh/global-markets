@@ -118,10 +118,15 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** Economic Times reported US stocks fell on persistent AI doubts ahead of the Fed meet (Dow 1d -1.23%, S&P 500 1d -0.52%); Mint reported Indian equities fell as crude surged, with Nifty 50 down 2.36% on the week.
-- Company effect, Alphabet, Microsoft, Amazon (mixed on sp500, nasdaq): Mint: Q3 results from Alphabet, Microsoft and Amazon will test AI investment optimism. The notes do not state the direction of their effect.
-- Company effect, SpaceX / Tesla (mixed on sp500): Yahoo Finance: Wall Street weighs SpaceX earnings and a likely Tesla tie-up; Investing.com: Musk says SpaceX raised $40 billion in debt for GPUs. No market effect is stated.
-- Company effect, HDFC Bank, Bajaj Finance (down on sensex): Business Standard: eight of the top 10 firms lost ₹1.55 trillion in mcap, with HDFC Bank and Bajaj Finance accounting for most of the losses.
+**Headline:** European indices closed higher (DAX 0.84%, CAC 40 0.73%) as Brent fell -5.88%, while Nikkei -0.80% and KOSPI -1.46% lagged ahead of the Fed decision and big-tech earnings.
+- Company effect, Alphabet (mixed on sp500, nasdaq): Economic Times said Alphabet's earnings this week coincide with the Fed decision and will test whether AI investment pays off.
+- Company effect, Microsoft (mixed on sp500, nasdaq, dow): Economic Times said Microsoft's earnings this week coincide with the Fed decision and test AI returns.
+- Company effect, Amazon (mixed on sp500, nasdaq): Economic Times said Amazon's earnings this week coincide with the Fed decision and test AI returns.
+- Company effect, CoreWeave (down on sp500, nasdaq): Bloomberg reported a CoreWeave rout; strategists warn declines in AI cloud providers may spill into other tech.
+- Company effect, Meta Platforms (mixed on sp500, nasdaq): Economic Times reported Meta plans publicly traded non-voting Class C shares to fund AI investment while preserving Zuckerberg's control.
+- Company effect, Lockheed Martin (up on sp500): Investing.com reported Morgan Stanley upgraded Lockheed Martin on an F-35 deal.
+- Company effect, Kotak Mahindra Bank (up on nifty50, sensex): Mint reported Kotak Mahindra Bank shares rose 2% as top Nifty gainer; Economic Times said Kotak and Adani Ports lifted the rebound.
+- Company effect, HSBC (mixed on hangseng): Straits Times reported Hang Seng's investment arm is set to merge with HSBC's asset business, sources say.
 
 ## Headlines collected today
 
@@ -189,7 +194,12 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 4 news feed(s) could not be read this time: Google News: site:wsj.com stock markets indices (no items); Google News: site:economist.com stock markets indices (no items); Google News: site:economist.com central bank inflation oil dollar (no items); Google News: Hang Seng China stocks PBOC (no items).
-- The written analysis is from 2026-10-25 and is being refreshed; the numbers are current.
+- Dropped "Europe firmer, Asia softer before Fed and tech earnings": number(s) 77 not found in its cited evidence.
+- Dropped "Europe: modest gains, French bonds steady, energy costly": number(s) 94, 82 not found in its cited evidence.
+- Dropped "Asia-Pacific: Japan and Korea slide, India rebounds": number(s) 92, 115, 88 not found in its cited evidence.
+- Dropped "Fed and other central banks this week": number(s) 80 not found in its cited evidence.
+- Dropped "AI earnings and valuation worries": number(s) 116, 34, 101 not found in its cited evidence.
+- Dropped "French bonds and the ECB succession": number(s) 91, 94 not found in its cited evidence.
 
 ## How to use this file
 
