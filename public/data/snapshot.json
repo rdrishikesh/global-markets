@@ -2,9 +2,9 @@
  "schemaVersion": 2,
  "generatedAt": "2026-10-27T11:04:16.292Z",
  "models": {
-  "synthesis": "claude-sonnet-5-5"
+  "synthesis": "Claude (scheduled task)"
  },
- "inputHash": "48970cd1857977b9",
+ "inputHash": "225c13ff2301ca1c",
  "mood": {
   "label": "Mixed",
   "basis": [
@@ -186,11 +186,11 @@
     7676.77
    ],
    "why": {
-    "technical": "Reuters: equities ended higher as Anthropic's IPO filing buoyed AI stocks. Another note puts the S&P 500 gain at 0.70%.",
-    "layman": "US stocks rose after Anthropic filed to go public, lifting AI shares.",
+    "technical": "Financial Times said tech stocks rallied as the AI trade revived after Anthropic's IPO filing; CNBC said UPS beat estimates and raised guidance.",
+    "layman": "Tech shares rose on AI optimism, and UPS reported good results.",
     "sources": [
      1,
-     8
+     36
     ]
    }
   },
@@ -539,8 +539,8 @@
     26169.38
    ],
    "why": {
-    "technical": "The Nasdaq rose by 0.83% after the Anthropic IPO filing rekindled interest in AI related stocks, per one report.",
-    "layman": "The Nasdaq rose as the Anthropic IPO news revived interest in AI shares.",
+    "technical": "Financial Times attributed the tech rally to a revived AI trade after Anthropic's IPO filing.",
+    "layman": "Tech shares rose after Anthropic filed to go public.",
     "sources": [
      1
     ]
@@ -1064,11 +1064,11 @@
     176608
    ],
    "why": {
-    "technical": "FT: Brazil's currency plunged most since 1999 after Lula's surprise victory and the Sao Paulo bourse sustained heavy sell-off.",
-    "layman": "Brazil's stocks fell hard after Lula's surprise election win.",
+    "technical": "Morningstar headline linked Brazil's crash to Lula's surprise election win; FT said it was the worst day for the currency in more than 25 years.",
+    "layman": "A surprise election result hit Brazil's stocks and currency.",
     "sources": [
-     9,
-     32
+     7,
+     8
     ]
    }
   },
@@ -1416,7 +1416,14 @@
     10767.3,
     10693.82
    ],
-   "why": null
+   "why": {
+    "technical": "Yahoo Finance said European shares fell as an HSBC slump and energy fears offset AI optimism; CNBC said HSBC slumped on a revenue miss.",
+    "layman": "HSBC fell after disappointing results, dragging the FTSE 100.",
+    "sources": [
+     11,
+     13
+    ]
+   }
   },
   {
    "id": "dax",
@@ -1762,13 +1769,7 @@
     7847.32,
     7877.06
    ],
-   "why": {
-    "technical": "FT: French bonds rallied after Moody's rating reprieve; France's 10-year yield dropped more than 0.1 percentage points.",
-    "layman": "French bonds recovered after Moody's did not downgrade France.",
-    "sources": [
-     15
-    ]
-   }
+   "why": null
   },
   {
    "id": "eurostoxx50",
@@ -1941,7 +1942,14 @@
     6116.23,
     6132.49
    ],
-   "why": null
+   "why": {
+    "technical": "Yahoo Finance said HSBC's slump and energy fears offset AI optimism in Europe; WSJ said eurozone banks report declining loan demand.",
+    "layman": "Bank weakness and energy worries offset AI optimism in Europe.",
+    "sources": [
+     11,
+     14
+    ]
+   }
   },
   {
    "id": "ibex35",
@@ -2806,7 +2814,13 @@
     62189.65,
     63268.37
    ],
-   "why": null
+   "why": {
+    "technical": "Reuters via Mint said the Nikkei rose as Anthropic's IPO filing lifted AI-related shares.",
+    "layman": "Japan's market rose on AI-related shares.",
+    "sources": [
+     16
+    ]
+   }
   },
   {
    "id": "hangseng",
@@ -2979,7 +2993,13 @@
     23211.81,
     23041.32
    ],
-   "why": null
+   "why": {
+    "technical": "Economic Times said China and Hong Kong stocks slipped as weakness in technology and AI-related shares outweighed faster industrial-profit growth.",
+    "layman": "Tech weakness pulled Hong Kong and Chinese stocks lower.",
+    "sources": [
+     19
+    ]
+   }
   },
   {
    "id": "shanghai",
@@ -3499,10 +3519,12 @@
     22749.75
    ],
    "why": {
-    "technical": "Business Standard: Nifty rose 153 points to 22,753.20, ending a four-day losing streak as metal, telecom and healthcare stocks rallied.",
-    "layman": "India's Nifty rose after four down days, led by metals, telecom and healthcare.",
+    "technical": "Mint reported Nifty IT fell 2.3% on AI-disruption worries while defence stocks rose on DAC approvals; Economic Times cited high oil at $115 per barrel.",
+    "layman": "IT shares fell, defence shares rose, and oil worries kept investors cautious.",
     "sources": [
-     18
+     24,
+     29,
+     42
     ]
    }
   },
@@ -3678,10 +3700,10 @@
     73598.67
    ],
    "why": {
-    "technical": "Business Standard: Sensex gained 483 points to close at 73,606.75 as metal, telecom and healthcare stocks rallied.",
-    "layman": "India's Sensex climbed after four down days.",
+    "technical": "Economic Times said investors stayed cautious because oil is at $115 per barrel while small caps rallied.",
+    "layman": "High oil prices kept investors cautious.",
     "sources": [
-     18
+     24
     ]
    }
   },
@@ -3856,7 +3878,15 @@
     5469.47,
     5638.34
    ],
-   "why": null
+   "why": {
+    "technical": "Euronews and Al Jazeera reported South Korea's GDP beat forecasts on AI chip demand; Yahoo Finance said Seoul halted program buying before SK Hynix earnings.",
+    "layman": "South Korea's economy grew faster than expected thanks to chips.",
+    "sources": [
+     17,
+     18,
+     41
+    ]
+   }
   },
   {
    "id": "asx200",
@@ -6051,33 +6081,34 @@
   }
  ],
  "report": {
-  "generatedAt": "2026-10-26T23:41:15.909Z",
+  "generatedAt": "2026-10-27T23:29:56.349Z",
   "headline": {
-   "technical": "S&P 500 gained 0.70% and Nasdaq 0.82% as Anthropic's IPO filing revived AI optimism (Reuters, Bloomberg), while Bovespa fell 13.88% after Lula's win.",
-   "layman": "US stocks rose after AI company Anthropic filed to go public. Brazil's stock market dropped sharply after Lula won the election."
+   "technical": "Financial Times reported tech stocks rallied as Anthropic's IPO filing revived the AI trade; Brent closed at 110.24 (-4.81%) on renewed Mideast diplomacy, and Bovespa fell -13.88% after Brazil's election surprise.",
+   "layman": "Tech shares rose after Anthropic filed to go public, oil prices fell on peace-talk hopes, and Brazil's stock market had a very bad day."
   },
   "global": {
-   "title": "AI optimism lifts Wall Street; Brazil sells off",
+   "title": "AI rally lifts tech; oil stays high, Brazil rout",
    "status": {
-    "technical": "S&P 500 1d 0.70%, Nasdaq Composite 1d 0.82%, Brent 1d -5.52%. Reuters said equities ended higher as Anthropic's IPO filing buoyed AI stocks; Bloomberg said oil fell for a second day on hopes a broader US-Iran war escalation may be averted.",
-    "layman": "US stocks rose after Anthropic filed for its IPO, which revived enthusiasm for AI. Oil fell for a second day on hopes the Iran conflict will not widen, Bloomberg says."
+    "technical": "Financial Times reported tech stocks rallied as the AI trade revived after Anthropic's IPO filing. CNBC reported renewed diplomacy to end the U.S.-Israeli war with Iran pushed oil lower; Brent closed at 110.24 (1d -4.81%). Nasdaq rose 0.82% and the S&P 500 0.70% in the prior US session.",
+    "layman": "Tech shares rose after AI company Anthropic filed to go public. Oil fell on renewed peace efforts, but a barrel still costs 110.24 for Brent."
    },
    "consequence": {
-    "technical": "Bloomberg said the Fed is expected to keep rates steady this week; Barron's headlined that this week could help decide whether the Fed raises rates in December. If so, rate expectations may drive markets after earnings.",
-    "layman": "The Fed is expected to hold rates this week. Barron's says this week could help decide if it raises them in December."
+    "technical": "Bloomberg reported the Bank of Canada is expected to hike for the first time in more than three years as oil fuels inflation fears; Reuters reported bond investors are thinking less about the Fed and more about AI and deficits.",
+    "layman": "If oil stays this high, prices for everyday goods can rise and central banks may raise rates. Bloomberg says the Bank of Canada is expected to do so."
    },
    "impact": {
-    "technical": "CNBC said with the AI trade sputtering of late and interest rates on the rise, Anthropic's IPO is taking on outsized importance; Straits Times said analysts see a successful flotation reshaping how markets value parts of AI.",
-    "layman": "CNBC says the Anthropic IPO matters a lot because AI shares have been wobbly and rates are rising."
+    "technical": "Rate-sensitive borrowers are exposed: Economic Times reported Indian lenders such as Canara Bank, PNB and Bank of India deferred dollar debt sales as US Treasury yields rose. The US 10-year yield closed at 4.99.",
+    "layman": "Borrowing abroad has become pricier, so some Indian banks are waiting before selling dollar debt."
    },
    "outlook": {
-    "technical": "Base rates only, not predictions: after S&P 500 days with a rise bigger than 1 standard deviation, the next day rose 52% of 192 times and the next 5 days rose 54% of 192 times.",
-    "layman": "Past patterns, not predictions: after strong days like this, the S&P 500 rose the next day 52% of 192 times and over the next 5 days 54% of 192 times."
+    "technical": "Base rates, not predictions: after S&P 500 days with a rise bigger than 1 standard deviation, the next day rose 52% of 192 times and the next 5 days rose 54% of 192 times. CNBC noted yields were flat ahead of a Fed policy meeting.",
+    "layman": "Past patterns are not predictions. After similar up days, the S&P 500 rose the next day 52% of 192 times. A Fed meeting is coming up."
    },
    "quant": [
+    "sp500",
     "nasdaq",
     "brent",
-    "sp500"
+    "us10y"
    ],
    "sources": [
     1,
@@ -6085,99 +6116,102 @@
     3,
     4,
     5,
-    6,
-    7,
-    8
+    6
    ]
   },
   "regions": [
    {
-    "title": "Americas: Wall Street up, Brazil battered",
+    "title": "Americas: Brazil rout overshadows firm US and Canada",
     "status": {
-     "technical": "S&P 500 1d 0.70%, Dow 1d 0.28%, Nasdaq Composite 1d 0.82%, Bovespa 1d -13.88%. Financial Times reported Brazil's currency plunged most since 1999 after Lula's surprise victory and the Sao Paulo bourse sustained a heavy sell-off.",
-     "layman": "US stocks rose. Brazil's stocks and currency fell hard after Lula's surprise win, the Financial Times reports."
+     "technical": "Bovespa closed at 176608.00 (1d -13.88%, RSI14 30.3). Morningstar's headline linked the crash to Lula's surprise election win; the FT said it was the worst day for Brazil's currency in more than 25 years. S&P 500 rose 0.70%, Dow 0.28%, TSX 0.44%.",
+     "layman": "Brazil's stock market fell 13.88% in one day after a surprise election result, per Morningstar. The US and Canadian markets edged up."
     },
     "consequence": {
-     "technical": "Financial Times said Lula must rein in spending and build a coalition. If investors doubt that, then Al Jazeera's report of concern over spending and fiscal challenges could keep pressure on Brazil.",
-     "layman": "Brazil's president must control spending. If investors doubt he will, pressure on Brazil's markets may continue."
+     "technical": "The FT said Lula faces a fiscal reckoning after the rout. If fiscal worries persist, volatility may stay high; Bovespa's 20-day volatility is 60.1% (percentile 100).",
+     "layman": "If worries about Brazil's government finances continue, big price swings may continue too."
     },
     "impact": {
-     "technical": "Hand-kept names: Petrobras -8.18% (1d), Itau Unibanco -13.66% (1d), Vale +4.01% (1d). Bloomberg reported Bolsonaro dropped his bid to annul the election.",
-     "layman": "Big Brazilian companies like Petrobras and Itau Unibanco fell sharply; Vale rose."
+     "technical": "Bloomberg reported the yen's role in Latin American carry trades withstood the Brazil rout. Bloomberg Wall Street coverage also flagged Anthropic's IPO as the talk of the Street.",
+     "layman": "Investors who borrow cheap yen to invest in Latin America were not forced out by the Brazil selloff, Bloomberg reported."
     },
     "outlook": {
-     "technical": "Base rates only, not predictions: after S&P 500 days with a rise bigger than 1 standard deviation, the next day rose 52% of 192 times and the next 5 days rose 54% of 192 times.",
-     "layman": "Past patterns, not predictions: after strong days like this, the S&P 500 rose the next day 52% of 192 times and over the next 5 days 54% of 192 times."
+     "technical": "Base rates, not predictions: after Bovespa falls bigger than 1 standard deviation, the next day rose 48% of 157 times and the next 5 days rose 50% of 157 times; look-alike days rose 4 of 5 times over 21 days (median 3.81%).",
+     "layman": "Past patterns are not predictions. After big drops like this, Brazil's market rose the next day only 48% of 157 times, close to a coin flip."
     },
     "quant": [
      "bovespa",
+     "sp500",
      "dow",
-     "nasdaq",
-     "hw:bovespa",
-     "sp500"
+     "tsx"
     ],
     "sources": [
+     7,
+     8,
      9,
-     10,
-     11,
-     12
+     10
     ]
    },
    {
-    "title": "Europe: stocks rebound, French bonds rally",
+    "title": "Europe: HSBC slump and energy fears weigh",
     "status": {
-     "technical": "Reuters said European stocks rebounded as corporate optimism lifted mood ahead of rate decisions; Yahoo Finance said they closed higher as oil eased and bond yields stabilized. FT: France's 10-year yield dropped more than 0.1 percentage points after Moody's reprieve. FTSE 100 1d 0.72%.",
-     "layman": "European shares rose as oil eased and bond yields settled. French bond yields fell after Moody's did not downgrade France."
+     "technical": "Yahoo Finance reported European shares fell as an HSBC slump and energy fears offset AI optimism. FT said HSBC's third-quarter profits and revenues missed expectations. FTSE 100 closed 1d -0.68%; DAX rose 0.33% and CAC 40 0.38%. FT said French bonds rallied after Moody's rating reprieve.",
+     "layman": "Europe was mixed. HSBC, Europe's biggest bank, fell after results missed forecasts. The FTSE 100 fell 0.68%, while Germany's DAX rose 0.33%."
     },
     "consequence": {
-     "technical": "If bond yields stay stable and oil keeps easing, then Yahoo Finance's framing suggests European stocks have support; the notes give no forecast.",
-     "layman": "If oil keeps easing and yields stay calm, European stocks have some support. The notes do not predict this."
+     "technical": "WSJ reported eurozone banks see declining loan demand and tougher conditions, signalling rate rises are cooling activity. If that persists, credit growth may slow. ECB main refinancing rate is 2.65 %.",
+     "layman": "Banks report fewer people want loans and more are turned down. If that continues, the economy may cool."
     },
     "impact": {
-     "technical": "Morningstar reported European gas at a four-year high on winter supply concerns.",
-     "layman": "European gas prices are at a four-year high, Morningstar reports."
+     "technical": "CNBC reported HSBC announced a share buyback of up to $1 billion alongside the revenue miss. Banks and energy-sensitive sectors are the names in the notes.",
+     "layman": "HSBC will buy back up to $1 billion of its own shares, even though its results disappointed."
     },
     "outlook": {
-     "technical": "Base rates only, not predictions: after S&P 500 days with a rise bigger than 1 standard deviation, the next day rose 52% of 192 times and the next 5 days rose 54% of 192 times.",
-     "layman": "Past patterns, not predictions: after strong days like this, the S&P 500 rose the next day 52% of 192 times and over the next 5 days 54% of 192 times."
+     "technical": "Base rates, not predictions: after FTSE 100 falls bigger than 1 standard deviation, the next day rose 53% of 157 times and the next 5 days rose 64% of 157 times (10th-90th pct -1.93% to 2.62%).",
+     "layman": "Past patterns are not predictions. After similar drops, the FTSE 100 rose over the next 5 days 64% of 157 times."
     },
     "quant": [
      "ftse100",
-     "sp500"
+     "dax",
+     "cac40",
+     "eurostoxx50",
+     "macro:ecb_refi"
     ],
     "sources": [
+     11,
+     12,
      13,
      14,
-     15,
-     16,
-     17
+     15
     ]
    },
    {
-    "title": "Asia-Pacific: India rebounds, Korea tests AI trade",
+    "title": "Asia-Pacific: AI lifts Japan and Korea, China slips",
     "status": {
-     "technical": "Business Standard: Sensex gained 483 points to close at 73,606.75 and Nifty rose 153 points to 22,753.20, ending a four-day losing streak. Bloomberg: South Korea's economy grew faster than expected in Q3 on an AI-driven chip boom.",
-     "layman": "India's stocks bounced back after four down days. South Korea's economy grew faster than expected thanks to the AI chip boom, Bloomberg says."
+     "technical": "Mint (Reuters) reported Nikkei rose as Anthropic's IPO filing lifted AI-related shares; it closed 1d 1.73%. KOSPI rose 3.09% as South Korea's GDP beat forecasts amid the AI boom (Al Jazeera). Economic Times said China and Hong Kong stocks slipped on technology weakness; Shanghai Composite -1.33%, Shenzhen Component -2.50%.",
+     "layman": "Japan and South Korea rose on AI optimism. Chinese stocks fell as tech shares dropped."
     },
     "consequence": {
-     "technical": "Bloomberg said the growth backs the case for further interest-rate increases in South Korea. Mint reported Goldman Sachs cut its 12-month KOSPI target to 9,000 from 12,000, citing doubts about the AI trade and falling chip stocks.",
-     "layman": "Strong growth supports more rate rises in Korea, Bloomberg says. Goldman Sachs lowered its Korean stock target over doubts about AI."
+     "technical": "Euronews reported analysts warned South Korea's heavy reliance on chips leaves it vulnerable to a slowdown in global AI spending. If that spending slows, chip-heavy markets are exposed.",
+     "layman": "South Korea's growth leans heavily on chips. If AI spending cools worldwide, it could hurt."
     },
     "impact": {
-     "technical": "Mint said Nifty Smallcap 100 sank 9% in a month; experts say the rebound may not signal a lasting turnaround.",
-     "layman": "Indian small companies have fallen a lot this month, and experts doubt the rebound will last."
+     "technical": "Economic Times reported Japanese government bond prices fell as the AI equity rally cut demand for safe havens; the 10-year JGB yield rose to 2.795%. Bloomberg said the BOJ's price gauge rose above 3%, backing the case for hikes.",
+     "layman": "Japanese government bonds got cheaper as investors moved into stocks, and the Bank of Japan may keep raising rates."
     },
     "outlook": {
-     "technical": "Base rates only, not predictions: after S&P 500 days with a rise bigger than 1 standard deviation, the next day rose 52% of 192 times and the next 5 days rose 54% of 192 times.",
-     "layman": "Past patterns, not predictions: after strong days like this, the S&P 500 rose the next day 52% of 192 times and over the next 5 days 54% of 192 times."
+     "technical": "Base rates, not predictions: after Nikkei rises bigger than 1 standard deviation, the next day rose 56% of 176 times and the next 5 days rose 59% of 176 times. After Shenzhen falls, the next 5 days rose 46% of 165 times.",
+     "layman": "Past patterns are not predictions. After similar up days, Japan's Nikkei rose the next day 56% of 176 times."
     },
     "quant": [
-     "nifty50",
-     "sensex",
+     "nikkei",
      "kospi",
-     "sp500"
+     "shanghai",
+     "shenzhen",
+     "hangseng"
     ],
     "sources": [
+     16,
+     17,
      18,
      19,
      20,
@@ -6187,22 +6221,52 @@
   ],
   "drivers": [
    {
-    "title": "Anthropic IPO and AI sentiment",
+    "title": "Oil and Mideast diplomacy",
     "status": {
-     "technical": "Anthropic filed its Form S-1 on Monday (CNBC); Bloomberg said it expects to trade on the Nasdaq Global Select Market under the symbol ANT. S&P 500 1d 0.70%, Nasdaq Composite 1d 0.82%.",
-     "layman": "AI company Anthropic filed to go public and plans to trade on the Nasdaq. US stocks rose."
+     "technical": "Brent closed at 110.24 (1d -4.81%, YTD 81.17%). CNBC reported renewed diplomacy to end the U.S.-Israeli war with Iran pushed oil lower. Business Standard quoted an analyst saying the White House is leaning on regional channels to cool prices before the Mid-Term election on November 3 and dips are likely short-lived.",
+     "layman": "Oil fell on renewed peace efforts but is still very expensive at 110.24 for Brent. One analyst expects the dip to be short."
     },
     "consequence": {
-     "technical": "If the flotation succeeds, Straits Times says analysts expect it could reshape how markets value parts of AI; Bloomberg reported Anthropic flagged more debt and CNBC cited its risk warnings, so the outcome is uncertain.",
-     "layman": "If the IPO goes well, analysts say it could change how AI firms are valued. Risks and debt were flagged in the filing."
+     "technical": "Bloomberg said the Bank of Canada is likely to hike for the first time in more than three years as oil at $115 fuels inflation fears. If oil stays high, more central banks may lean toward tighter policy.",
+     "layman": "If oil stays high, inflation worries grow and central banks may raise rates."
     },
     "impact": {
-     "technical": "Euronews reported the filing shows soaring revenues alongside warnings of catastrophic or existential risks to humanity if AI is not safeguarded.",
-     "layman": "The filing shows fast-growing revenue but also serious risk warnings."
+     "technical": "Economic Times reported India's rupee was boxed in a range with escalating oil and equity outflows as challenges; Sensex investors stayed cautious with oil at $115 per barrel.",
+     "layman": "Expensive oil is a worry for India, which buys a lot of it, and its currency is under pressure."
     },
     "outlook": {
-     "technical": "Base rates only, not predictions: after S&P 500 days with a rise bigger than 1 standard deviation, the next day rose 52% of 192 times and the next 5 days rose 54% of 192 times.",
-     "layman": "Past patterns, not predictions: after strong days like this, the S&P 500 rose the next day 52% of 192 times and over the next 5 days 54% of 192 times."
+     "technical": "Base rates, not predictions: after Brent falls bigger than 1 standard deviation, the next day rose 49% of 168 times and the next 5 days rose 54% of 168 times (10th-90th pct -6.13% to 7.21%).",
+     "layman": "Past patterns are not predictions. After big oil drops, oil rose over the next 5 days 54% of 168 times."
+    },
+    "quant": [
+     "brent",
+     "wti"
+    ],
+    "sources": [
+     2,
+     3,
+     22,
+     23,
+     24
+    ]
+   },
+   {
+    "title": "AI trade and Anthropic's IPO filing",
+    "status": {
+     "technical": "Financial Times reported tech stocks rallied as the AI trade revived after Anthropic's IPO filing; Morningstar said US futures steadied as the Anthropic rally softened. CNBC reported Nvidia will invest $3 billion in Meta, which plans to raise a total of $95 billion for AI infrastructure.",
+     "layman": "Tech shares rose after Anthropic filed to go public. Nvidia plans to invest $3 billion in Meta, which is raising $95 billion for AI."
+    },
+    "consequence": {
+     "technical": "Mint reported Morgan Stanley and UBS raised Amazon price targets, but rising AI infrastructure spending could weigh on free cash flow. Economic Times said Anthropic's prospectus warns of catastrophic or existential risks if AI is deployed without safeguards.",
+     "layman": "Big AI spending may pay off, but it also eats into cash. Anthropic's own filing warns about serious risks."
+    },
+    "impact": {
+     "technical": "Mint reported Nifty IT fell 2.3% as investors weighed AI-driven disruption and elevated valuations; brokerages see recovery depending on earnings growth.",
+     "layman": "Indian IT firms dropped as investors worry AI may disrupt their business."
+    },
+    "outlook": {
+     "technical": "Base rates, not predictions: after ordinary Nasdaq days, the next day rose 55% of 825 times and the next 5 days rose 59% of 823 times; look-alike days saw the next 5 days rise 1 of 5 times (median -2.11%).",
+     "layman": "Past patterns are not predictions. After ordinary days, the Nasdaq rose over the next 5 days 59% of 823 times."
     },
     "quant": [
      "nasdaq",
@@ -6210,102 +6274,132 @@
     ],
     "sources": [
      1,
-     7,
-     22,
-     23,
-     24,
-     25
-    ]
-   },
-   {
-    "title": "Oil and the Iran conflict",
-    "status": {
-     "technical": "Brent crude is 110.28, 1d -5.52%. Bloomberg: oil fell for a second day as stepped-up diplomacy bolstered hopes a broader escalation in the US-Iran war may be averted. CNBC: Saudi defense minister met Iran's president in Tehran.",
-     "layman": "Oil fell for a second day as diplomats try to stop the Iran conflict from widening."
-    },
-    "consequence": {
-     "technical": "If diplomacy holds, oil pressure may ease; CNBC says investors still worry about the vulnerability of Saudi energy infrastructure and another disruption.",
-     "layman": "If talks work, oil may stay lower. Investors still worry about attacks on energy sites."
-    },
-    "impact": {
-     "technical": "Al Jazeera: the war is driving up fuel and fertiliser costs across Africa, threatening food security. CNBC: JetBlue posted a bigger loss on fuel costs.",
-     "layman": "Costly fuel hurts African food supplies and airlines like JetBlue."
-    },
-    "outlook": {
-     "technical": "Base rates only, not predictions: after S&P 500 days with a rise bigger than 1 standard deviation, the next day rose 52% of 192 times and the next 5 days rose 54% of 192 times.",
-     "layman": "Past patterns, not predictions: after strong days like this, the S&P 500 rose the next day 52% of 192 times and over the next 5 days 54% of 192 times."
-    },
-    "quant": [
-     "brent",
-     "sp500"
-    ],
-    "sources": [
-     3,
+     25,
      26,
      27,
-     28
+     28,
+     29
     ]
    },
    {
-    "title": "Central banks and the Fed",
+    "title": "Fed communication, yields and bonds",
     "status": {
-     "technical": "Bloomberg: Fed decision this week expected to keep rates steady; gold held above $4,000 an ounce. CNBC: Fed expected to keep its overnight rate unchanged. Barron's: this week could help decide whether the Fed raises rates in December. ECB deposit facility rate is 2.5 %.",
-     "layman": "The Fed is expected to hold rates this week. Gold stayed above $4,000 an ounce."
+     "technical": "WSJ reported Fed Chairman Kevin Warsh wants to stop previewing coming moves while several colleagues say the Fed still owes the public an explanation. CNBC said Treasury yields were flat ahead of the Fed meeting; US 10-year closed at 4.99. Reuters said bond investors are thinking less about the Fed and more about AI and deficits.",
+     "layman": "The Fed's chair wants it to stop hinting at future moves, but some colleagues disagree. Bond yields were flat before the meeting."
     },
     "consequence": {
-     "technical": "If the Fed signals a December hike, then Barron's view is that markets may react this week; the notes do not say what the Fed will do.",
-     "layman": "If the Fed hints at a December rate rise, markets may react. The notes do not say what it will do."
+     "technical": "If the Fed previews less, markets may react more to each decision, per the WSJ framing of colleagues' concerns. Reuters said bond focus has shifted toward AI and deficits.",
+     "layman": "If the Fed says less in advance, markets may be more surprised by its decisions."
     },
     "impact": {
-     "technical": "Economic Times-sourced note: Bank of Japan expected to keep rates at 1.25% but may signal tightening, potentially in December. Investing.com: RBA hike bets top 60%.",
-     "layman": "Japan may hint at later rate rises; Australian rate-hike bets are above 60%."
+     "technical": "ECB main refinancing rate is 2.65 % (previous 2.4); WSJ said eurozone loan demand is declining. Japanese 10-year yield rose to 2.795% per Economic Times.",
+     "layman": "Higher interest rates are making loans more expensive and cooling borrowing in Europe."
     },
     "outlook": {
-     "technical": "Base rates only, not predictions: after S&P 500 days with a rise bigger than 1 standard deviation, the next day rose 52% of 192 times and the next 5 days rose 54% of 192 times.",
-     "layman": "Past patterns, not predictions: after strong days like this, the S&P 500 rose the next day 52% of 192 times and over the next 5 days 54% of 192 times."
+     "technical": "Base rates, not predictions: after ordinary US 10-year yield days, the next day rose 52% of 856 times and the next 5 days rose 56% of 853 times.",
+     "layman": "Past patterns are not predictions. After ordinary days, US yields rose over the next 5 days 56% of 853 times."
     },
     "quant": [
-     "macro:ecb_deposit",
-     "gold",
-     "sp500"
+     "us10y",
+     "macro:ecb_refi"
     ],
     "sources": [
      4,
-     5,
-     29,
+     6,
+     14,
+     20,
      30,
      31
+    ]
+   },
+   {
+    "title": "Gold's selloff",
+    "status": {
+     "technical": "Gold closed at 4020.00 (5d -2.96%, drawdown from 52w high -24.41%). Mint reported Amundi expects a recovery to around $4,500 an ounce after a selloff to a three-month low. Business Standard said gold ETFs have declined up to 26% from January highs.",
+     "layman": "Gold has dropped a lot from its high. Asset manager Amundi expects a recovery to around $4,500 an ounce."
+    },
+    "consequence": {
+     "technical": "Mint reported Chinese households are buying gold's dip, providing support while bullion tests $4,000. If buying continues, it may cushion further falls.",
+     "layman": "Chinese households are buying gold as it gets cheaper, which could help hold the price up."
+    },
+    "impact": {
+     "technical": "Mint said silver fell over 2% on MCX as a stronger US dollar, inflation concerns and Fed uncertainty pressured precious metals. US Dollar Index closed at 102.21.",
+     "layman": "A stronger dollar and Fed uncertainty are pushing metals down for Indian buyers."
+    },
+    "outlook": {
+     "technical": "Base rates, not predictions: after ordinary gold days, the next day rose 54% of 856 times and the next 5 days rose 56% of 853 times.",
+     "layman": "Past patterns are not predictions. After ordinary days, gold rose over the next 5 days 56% of 853 times."
+    },
+    "quant": [
+     "gold",
+     "dxy"
+    ],
+    "sources": [
+     32,
+     33,
+     34,
+     35
+    ]
+   },
+   {
+    "title": "Earnings: raised guidance in the US, mixed in India",
+    "status": {
+     "technical": "CNBC reported UPS beat third-quarter expectations and raised full-year guidance for the second quarter in a row, and Coca-Cola hiked its earnings outlook despite lackluster North American demand. Economic Times reported Cipla's Q2 net profit fell 35% to Rs 878 crore while Bajaj Auto's profit jumped 35%.",
+     "layman": "UPS and Coca-Cola raised their outlooks. In India, Cipla's profit fell 35% while Bajaj Auto's rose 35%."
+    },
+    "consequence": {
+     "technical": "Economic Times said Maruti Suzuki's revenue rose 26% but profit fell 26% as costs grew about 30%. If cost growth outpaces sales, profit margins shrink.",
+     "layman": "If a company's costs grow faster than its sales, it keeps less profit."
+    },
+    "impact": {
+     "technical": "Evidence is thin for index-level effects; the notes cover individual firms across US and Indian large caps.",
+     "layman": "These are single-company results, so the effect on whole markets is small and unclear."
+    },
+    "outlook": {
+     "technical": "Base rates, not predictions: look-alike days for the S&P 500 saw the next 5 days rise 4 of 5 times (median 1.32%), a very small sample.",
+     "layman": "Past patterns are not predictions. In 5 similar past cases the S&P 500 rose over the next 5 days in 4."
+    },
+    "quant": [
+     "sp500",
+     "nifty50"
+    ],
+    "sources": [
+     36,
+     37,
+     38,
+     39,
+     40
     ]
    }
   ],
   "events": [
    {
-    "when": "This week",
-    "title": "US Federal Reserve rate decision",
-    "technical": "Bloomberg and CNBC: Fed expected to keep rates steady; Barron's says the week could shape a December hike decision.",
-    "layman": "The US central bank decides on rates; it is expected to hold.",
+    "when": "Upcoming (date not given)",
+    "title": "US Federal Reserve policy meeting",
+    "technical": "CNBC said Treasury yields were flat ahead of the Fed meeting; WSJ reported debate over Chairman Kevin Warsh's wish to stop previewing moves.",
+    "layman": "The Fed meets soon. Markets are waiting to see what it says.",
     "sources": [
-     4,
-     5,
-     29
-    ]
-   },
-   {
-    "when": "This week",
-    "title": "Big tech earnings",
-    "technical": "Yahoo Finance UK: futures gained ahead of earnings and central bank meetings.",
-    "layman": "Large tech companies report results this week.",
-    "sources": [
-     33
-    ]
-   },
-   {
-    "when": "Not stated",
-    "title": "Bank of Japan meeting",
-    "technical": "Economic Times: BOJ expected to keep rates at 1.25% but may signal tightening, potentially in December.",
-    "layman": "Japan's central bank is expected to hold rates and may hint at later increases.",
-    "sources": [
+     6,
      30
+    ]
+   },
+   {
+    "when": "Upcoming (date not given)",
+    "title": "ECB and BOJ policy decisions",
+    "technical": "Yahoo Finance mentioned Fed and ECB decisions ahead; Economic Times said JGB investors await BOJ and Fed decisions.",
+    "layman": "Europe's and Japan's central banks also have decisions coming.",
+    "sources": [
+     20,
+     43
+    ]
+   },
+   {
+    "when": "November 3",
+    "title": "US Mid-Term election",
+    "technical": "Business Standard quoted an analyst saying the White House is leaning on regional channels to cool oil prices ahead of the vote.",
+    "layman": "The US votes on November 3, and one analyst says the White House wants lower oil prices before then.",
+    "sources": [
+     22
     ]
    }
   ],
@@ -6314,39 +6408,136 @@
     "company": "Anthropic",
     "indices": [
      "sp500",
-     "nasdaq"
+     "nasdaq",
+     "nikkei"
     ],
     "direction": "up",
-    "technical": "Anthropic's IPO filing rekindled AI interest; the S&P 500 gained 0.70% and the Nasdaq rose by 0.83% (one report).",
-    "layman": "Anthropic's IPO filing lifted AI shares, and US indexes rose.",
+    "technical": "Its IPO filing revived the AI trade and lifted AI-related shares in Asia (FT, Reuters via Mint); Morningstar said the rally softened in US futures.",
+    "layman": "Anthropic's plan to go public boosted AI-related shares, though the lift faded a bit in US futures.",
     "sources": [
      1,
-     8
+     16,
+     25
     ]
    },
    {
-    "company": "Meta",
+    "company": "UPS",
     "indices": [
      "sp500",
-     "nasdaq"
+     "dow"
     ],
-    "direction": "mixed",
-    "technical": "FT reported Meta plans $95bn stock offering to bankroll AI expansion, with Nvidia, AMD and Broadcom as cornerstone investors.",
-    "layman": "Meta plans a large share sale to fund AI, with chipmakers as cornerstone investors, the FT reports.",
+    "direction": "up",
+    "technical": "CNBC reported UPS beat third-quarter expectations and raised full-year guidance for the second quarter in a row.",
+    "layman": "UPS beat forecasts and raised its yearly outlook again.",
     "sources": [
-     34
+     36
     ]
    },
    {
-    "company": "Goldman Sachs",
+    "company": "Coca-Cola",
     "indices": [
-     "kospi"
+     "sp500",
+     "dow"
+    ],
+    "direction": "mixed",
+    "technical": "CNBC reported Coca-Cola hiked its earnings outlook but sees lackluster demand in North America; the stock is up about 32% this year.",
+    "layman": "Coca-Cola raised its profit outlook but expects weak demand in North America.",
+    "sources": [
+     37
+    ]
+   },
+   {
+    "company": "Nvidia and Meta",
+    "indices": [
+     "nasdaq",
+     "sp500"
+    ],
+    "direction": "mixed",
+    "technical": "CNBC reported Nvidia will invest $3 billion in Meta, which plans to raise a total of $95 billion for AI infrastructure.",
+    "layman": "Nvidia will invest $3 billion in Meta, which is raising $95 billion for AI.",
+    "sources": [
+     26
+    ]
+   },
+   {
+    "company": "Amazon",
+    "indices": [
+     "nasdaq",
+     "sp500"
+    ],
+    "direction": "mixed",
+    "technical": "Morgan Stanley and UBS raised price targets ahead of Q3 results, but AI infrastructure spending could weigh on free cash flow (Mint).",
+    "layman": "Analysts are more upbeat on Amazon, but heavy AI spending could cut its cash.",
+    "sources": [
+     27
+    ]
+   },
+   {
+    "company": "HSBC",
+    "indices": [
+     "ftse100",
+     "hangseng"
     ],
     "direction": "down",
-    "technical": "Mint: Goldman Sachs cut its 12-month KOSPI target to 9,000 from 12,000, citing doubts about the AI trade and falling chip stocks.",
-    "layman": "Goldman Sachs lowered its target for Korea's market over doubts about AI.",
+    "technical": "HSBC slumped on a third-quarter revenue miss (CNBC, FT) while announcing a share buyback of up to $1 billion.",
+    "layman": "HSBC fell after results disappointed, even with a buyback of up to $1 billion.",
     "sources": [
-     20
+     11,
+     12,
+     13
+    ]
+   },
+   {
+    "company": "Cipla",
+    "indices": [
+     "nifty50",
+     "sensex"
+    ],
+    "direction": "down",
+    "technical": "Economic Times reported Q2 net profit fell 35% to Rs 878 crore with weaker North American sales.",
+    "layman": "Cipla's profit fell 35% on weaker North American sales.",
+    "sources": [
+     38,
+     44
+    ]
+   },
+   {
+    "company": "Bajaj Auto",
+    "indices": [
+     "nifty50",
+     "sensex"
+    ],
+    "direction": "up",
+    "technical": "Economic Times reported Q2 profit jumped 35% to Rs 3,354 crore and revenue rose 34%.",
+    "layman": "Bajaj Auto's profit jumped 35%.",
+    "sources": [
+     39
+    ]
+   },
+   {
+    "company": "Maruti Suzuki",
+    "indices": [
+     "nifty50",
+     "sensex"
+    ],
+    "direction": "mixed",
+    "technical": "Economic Times reported Q2 profit fell 26% year on year while revenue rose 26% to Rs 53,356 crore as costs grew about 30%.",
+    "layman": "Maruti sold more, but higher costs cut its profit by 26%.",
+    "sources": [
+     40
+    ]
+   },
+   {
+    "company": "Bharti Airtel",
+    "indices": [
+     "nifty50",
+     "sensex"
+    ],
+    "direction": "up",
+    "technical": "Business Standard reported shares up 3% and 12% in October; Motilal Oswal expects strong earnings.",
+    "layman": "Bharti Airtel's shares rose 3% and are up 12% in October.",
+    "sources": [
+     45
     ]
    }
   ]
@@ -8162,115 +8353,115 @@
  "sources": [
   {
    "n": 1,
-   "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-markets-today-us-stocks-end-higher-as-anthropic-ipo-filing-revives-ai-optimism-tesla-hits-3-month-high/articleshow/135219329.cms",
-   "title": "US Markets Today: S&P, Nasdaq end higher as Anthropic IPO filing revives AI optimism; Tesla hits 3 month high",
-   "publisher": "Economic Times",
+   "url": "https://www.ft.com/content/a4f9f81e-df30-4669-9eca-865d9d14e441?syn-25a6b1a6=1",
+   "title": "Tech stocks rally as AI trade revives",
+   "publisher": "Financial Times",
    "tier": "press",
-   "pageAge": "2026-10-26"
+   "pageAge": "2026-10-27"
   },
   {
    "n": 2,
-   "url": "https://www.bloomberg.com/news/articles/2026-10-26/stock-market-today-dow-s-p-live-updates",
-   "title": "Asian Stocks to Rise on Tech Rebound, Oil Drops: Markets Wrap",
-   "publisher": "Bloomberg",
+   "url": "https://www.cnbc.com/2026/10/27/oil-today-iran-us-crude-wti-brent-trump.html",
+   "title": "Oil prices seesaw amid renewed diplomatic efforts to end Mideast conflict",
+   "publisher": "CNBC",
    "tier": "press",
-   "pageAge": "2026-10-26"
+   "pageAge": "2026-10-27"
   },
   {
    "n": 3,
-   "url": "https://www.bloomberg.com/news/articles/2026-10-26/latest-oil-market-news-and-analysis-for-oct-27",
-   "title": "Latest Oil Market News and Analysis for Oct. 27",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-27/bank-of-canada-rate-hike-expected-as-oil-prices-at-115-fuel-inflation-fears",
+   "title": "Bank of Canada Rate Hike Expected as Oil Prices at $115 Fuel Inflation Fears",
    "publisher": "Bloomberg",
    "tier": "press",
-   "pageAge": "2026-10-26"
+   "pageAge": "2026-10-27"
   },
   {
    "n": 4,
-   "url": "https://www.bloomberg.com/news/articles/2026-10-26/gold-steadies-above-4-000-with-fed-rate-decision-in-focus",
-   "title": "Gold Steadies Above $4,000 With Fed Rate Decision in Focus",
-   "publisher": "Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTVZDTFViUjF0VS1rM2FQX1ZjYmpIQncyQi1pMldoZ1N2U2JXUjIydVFJUGN1dXV4STlvYlVEM3FPSEZaSEt3Rnkxc0R5c3JrOEg2b0g2d2pUemFMbXpKNjZ6M1NabkwxcmJrbE5sdWtnU2pDd3R0X3ZkakhTNTZraUU0ejJKdDVRR0NheWhzcXBLUnU2dGxGUXFURnJZaExIM1hTRW9LWE5KbkNJN2RZ?oc=5",
+   "title": "Bond investors are thinking less about the Fed and more about AI, deficits",
+   "publisher": "Reuters",
    "tier": "press",
-   "pageAge": "2026-10-26"
+   "pageAge": "2026-10-27"
   },
   {
    "n": 5,
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYWZVWGRLaUJBMi1YZHFfc0lnX1N4YkUxZFBMV2lyWTFaQ0o4NTBMRjQ5LWxSWlYtZzFIR0pVLV9uU1BrdHk0aVhGc1NIZFZYc3ZhMmFxN1dxd1VRR3JrV2VxVkZuNTBucWFCaE1uOThWclpvOUJMR2RRbWpGTE1EdE9zcm5fOEx6V2xTVQ?oc=5",
-   "title": "This Week Could Help Decide Whether the Fed Raises Interest Rates in December",
-   "publisher": "Barron's",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/indian-lenders-defer-dollar-debt-sale-plan-as-rates-turn-expensive/articleshow/135230457.cms",
+   "title": "Indian lenders defer dollar debt sale plan as rates turn expensive",
+   "publisher": "Economic Times",
    "tier": "press",
-   "pageAge": "2026-10-26"
+   "pageAge": "2026-10-27"
   },
   {
    "n": 6,
-   "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-might-trigger-tech-reset-if-ipo-underperforms.html",
-   "title": "From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNmh6WFAzNWdIOWhlWXJxTjdEVk44cmliSXBmSlVuVDVmMkNxVzY0Ykc5TzFBVEVrNXcxSXNnc0VqZlAxemFpTEJHczdCSHBGTWFBclBQVkcyUm5qQzF0am5OOHhYVnRBTnhZYlFGRmRKOTJfX0RFOXd0bHZ0VXhNRmhoUWZfeVREdFQ3MWpOcGtIaHZMeHZB0gGcAUFVX3lxTE92WXJpR0xaYlIzNERkNzFvZHJnek1vLTIzNjhLUWRGb2RBTnhfQWMzQ2ttREhuZHowck9iY2hDM3VrRnUtd25EWVh1cWM2bG9VSWw3N0VSUWVLV3IwbG9tUWhXWnRjenZ1bFRTaDhtX2FJN0E1VzJnWkUwbU9DQk4tZXp5MVhXaExXQnRZc2xFdEc5QUFZVXVWQ0VSVA?oc=5",
+   "title": "U.S. Treasury yields are flat ahead of the Federal Reserve's monetary policy meeting",
    "publisher": "CNBC",
    "tier": "press",
-   "pageAge": "2026-10-26"
+   "pageAge": "2026-10-27"
   },
   {
    "n": 7,
-   "url": "https://www.straitstimes.com/business/companies-markets/ai-stocks-rise-as-anthropic-nears-wall-street-debut-amid-investor-caution",
-   "title": "AI stocks rise as Anthropic nears Wall Street debut amid investor caution",
-   "publisher": "Straits Times",
-   "tier": "press",
+   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQWTNZd2NMS2xxdmhBVUt3SHQ2Z3hGTnlVMEItZVEzbENkam1CdDFDc1o0ckY5U3VvemkyX2NkeHJ5TnR2LXF3QUk4anBPRkk3ZWV4Z0ZsVUdVWk5XblNJLTBQOV82Y0Y3UGs5elJOYnl2Y2dWMkJ6U2t5THNEQ3RacWlDN1NWbjFqSTNSaXktVXhveWlPN3ZpQ3NCUVlNbjZXZGp0ZlFrcHlxZ3lYZWpVekdfRUdWaFdxMmhVRzdBcnBiemZBSDU3dnJqWUk5TFB4TGtGUWpkUncyelZZWE9CR2puTXhwb3RPNzRMUWluNVZ2Q2RIZnZwbTl1VzRkdXUyYTA0Qk1R?oc=5",
+   "title": "Dow Jones Top Markets Headlines at 1 PM ET: Brazilian Markets Crash After Lula's Surprise Election Win Stuns Investors | U.S. ...",
+   "publisher": "Morningstar",
+   "tier": "data",
    "pageAge": "2026-10-26"
   },
   {
    "n": 8,
-   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVVlfUU5UYnVIOHVRRHJCaWJNQ0NtM0V5aXdZUE5QSEhGVTAxWmdXcU1KeGVEaEtYTXlEal9YNjMwblR6bGZQcm5HODd6N2xnNUppZzdXMDVTSWwtZEc3a3p3Q0M4VzRtaHo3QTd1VDJpaGNPQmw0WjFNaEMyQ2JyOVpGcmZEbktIdk45OHp4blZxdzc5UllRT2V1cnllVTVVTjVYZm1IZ0VjWDlwTnc?oc=5",
-   "title": "Equities end higher as Anthropic's IPO filing buoys AI stocks",
-   "publisher": "Reuters",
+   "url": "https://www.ft.com/content/0231b234-14dc-4ff0-8263-e1063b0a25d5?syn-25a6b1a6=1",
+   "title": "Lula faces a fiscal reckoning after Brazil’s market rout",
+   "publisher": "Financial Times",
    "tier": "press",
-   "pageAge": "2026-10-26"
+   "pageAge": "2026-10-27"
   },
   {
    "n": 9,
-   "url": "https://www.ft.com/content/bffe028e-838d-4e74-b05e-62f6db4978db?syn-25a6b1a6=1",
-   "title": "Brazil’s currency plunges most since 1999 after Lula’s surprise victory",
-   "publisher": "Financial Times",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQTQ2N29zeVVLU0YwR3ZIcVhXaGxVNjQwY3hja2ZseUctWGxkV2k4anc2TkcwaS1RbnhwUkRMYXNDZy16TFVNbFhpNVppYzNzYVB4aFlQRjJ4VDdzdWlOczJzbWtVZFNwdmg0dkdDTG1UZ2F2VmVlTWljanNhSWtmQ1JMLUtoTGs1bjNMNXJ5cDRDeEZFU1M0ejNMNVZfb2RrQ1Y0VkNTMFJvZUNLbXQ3SVo5LXA?oc=5",
+   "title": "Japanese Yen’s Role in Latin American Carry Trade Withstands Brazil Rout",
+   "publisher": "Bloomberg",
    "tier": "press",
-   "pageAge": "2026-10-26"
+   "pageAge": "2026-10-27"
   },
   {
    "n": 10,
-   "url": "https://www.ft.com/content/79785581-88c2-49a9-a109-9d5ccafc3c7d?syn-25a6b1a6=1",
-   "title": "Lula’s stunning comeback meets fiscal reality",
-   "publisher": "Financial Times",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-10-27/anthropic-gives-traders-a-pure-play-bet-on-frontier-ai",
+   "title": "Anthropic Gives Traders a Pure-Play Bet on Frontier AI",
+   "publisher": "Bloomberg",
    "tier": "press",
-   "pageAge": "2026-10-26"
+   "pageAge": "2026-10-27"
   },
   {
    "n": 11,
-   "url": "https://www.aljazeera.com/economy/2026/10/26/brazils-real-sinks-after-lulas-re-election-victory?traffic_source=rss",
-   "title": "Brazil’s real sinks after Lula’s re-election victory",
-   "publisher": "Al Jazeera",
-   "tier": "press",
-   "pageAge": "2026-10-26"
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTzlGRnFiVHVpbGtQU1R4SWtHc05SRjlhQUtOM211cTVEQjF6VGVnOG41b2x3NHoyS3pQVVgwcmNZMUYwNHlONVMxZGdwUzlxbVEwWXFGRDFaTjhQSXF6aFhhSnJBWlpVSTBUZ2xvWXVCSzVtbmJEcjR3UnBKZGI1enZEd1FNdnc?oc=5",
+   "title": "European shares fall as HSBC slump and energy fears offset AI glow",
+   "publisher": "Yahoo Finance",
+   "tier": "data",
+   "pageAge": "2026-10-27"
   },
   {
    "n": 12,
-   "url": "https://www.bloomberg.com/news/articles/2026-10-26/bolsonaro-changes-strategy-drops-bid-to-annul-brazil-election",
-   "title": "Bolsonaro Changes Strategy, Drops Bid to Annul Brazil Election",
-   "publisher": "Bloomberg",
+   "url": "https://www.ft.com/content/fd23db26-a45b-4a98-b771-4234a30b7937?syn-25a6b1a6=1",
+   "title": "HSBC shares fall as results disappoint",
+   "publisher": "Financial Times",
    "tier": "press",
-   "pageAge": "2026-10-26"
+   "pageAge": "2026-10-27"
   },
   {
    "n": 13,
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNTNqT1RkY0RsU1oyTkpOUHNVR3V3eDNUckxOSV9QeW1JelM3TjhzTjJ5NmJkcl8tMXFOOVJjVlJhMEtaSmI2RjNqV2VwbW93RWlRanFHZjJJTVg4Qi1jQmQ2ekRpZU1tZzk1Y1BEZDVYNlVzblNtV2loeFkzSHZQWFdTdUFXMjkxSHozRENYZWp3cXBzQ3ZPRTZDaGRrRGNOZzVF?oc=5",
-   "title": "European stocks rebound as corporate optimism lifts mood ahead of rate decisions",
-   "publisher": "Reuters",
+   "url": "https://www.cnbc.com/2026/10/27/hsbc-third-quarter-profit-.html",
+   "title": "HSBC shares slump on revenue miss, lender announces share buyback of up to $1 billion",
+   "publisher": "CNBC",
    "tier": "press",
-   "pageAge": "2026-10-26"
+   "pageAge": "2026-10-27"
   },
   {
    "n": 14,
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMGJOQU05YWVYdTZKUTdEVWJKSTY2RzNyZGVoNDMzU2E3cXQzdExtN2JBOWNUQTZQVnhOckdYQXppbEhVZ0QtM2dXWlFobGJWaUdza0hmaVVqSVhMYTkxSzliVUVRR3F0WXdNZHRfSjJYMjhQUWtnWUF3b251R3dlN0NvZU9yajNF?oc=5",
-   "title": "European Stocks Close Higher in Monday Trading as Oil Prices Ease, Bond Yields Stabilize",
-   "publisher": "Yahoo Finance",
-   "tier": "data",
-   "pageAge": "2026-10-26"
+   "url": "https://www.wsj.com/economy/global/eurozone-banks-report-declining-loan-demand-tougher-conditions-b6e277cf?mod=rss_socialeconomyfeed",
+   "title": "Eurozone Banks Report Declining Loan Demand, Tougher Conditions",
+   "publisher": "WSJ",
+   "tier": "press",
+   "pageAge": "2026-10-27"
   },
   {
    "n": 15,
@@ -8282,160 +8473,247 @@
   },
   {
    "n": 16,
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOa3RuN1E2czJLWGVWa0NLOTlTZzlNdVI2MzFnclRUZ3l0c0pRWS15MWdQUHJBMlBEdjI3U3ZtUzJVTU5OR0Q0MFlDS0JCdlI4c3I5dE90MjI1Tzk5MWtnYjZXNDJ4bkdnU20yMXVBeEpZc2JQai1ZQ0lydmd2U3lDVlZRblhSaWdGSGFaQ3dxWms0X3VBVWU4QjRGa2xzU3M?oc=5",
-   "title": "UK's FTSE 100 climbs in broad rally",
-   "publisher": "Reuters",
+   "url": "https://www.livemint.com/market/japans-nikkei-rises-as-anthropic-ipo-filing-lifts-ai-related-shares-11793084848508.html",
+   "title": "Japans Nikkei rises as Anthropic IPO filing lifts AI-related shares",
+   "publisher": "Mint",
    "tier": "press",
-   "pageAge": "2026-10-26"
+   "pageAge": "2026-10-27"
   },
   {
    "n": 17,
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTHdXNElYY3JFVVlBX2RCVVRUU3NoSmNPMEY3TTE5ZGlrSUwtY01MLWxqZG9qTldPdmx1bF9KRFJIdjFWbFNSSnZTM3F3WDBxcHJLbERpSjBXYWpuOGQ2ZWdWWV9QYTZWZ1I2REotVXdsWkVoT0JSdVUwRkwwTnpCbUpJd0l3QWNzT3VKTW52T3dyZlBmcjBWMER6WHNDN1BpVzJHQVhDNEM?oc=5",
-   "title": "European Gas at Four-Year High on Winter Supply -2-",
-   "publisher": "Morningstar",
-   "tier": "data",
-   "pageAge": "2026-10-26"
+   "url": "https://www.aljazeera.com/economy/2026/10/27/south-koreas-gdp-growth-beats-forecasts-amid-ai-boom?traffic_source=rss",
+   "title": "South Korea’s GDP growth beats forecasts amid AI boom",
+   "publisher": "Al Jazeera",
+   "tier": "press",
+   "pageAge": "2026-10-27"
   },
   {
    "n": 18,
-   "url": "https://www.business-standard.com/markets/news/stock-markets-rebound-after-4-day-slump-sensex-jumps-483-points-126102601657_1.html",
-   "title": "Stock markets rebound after 4-day slump; Sensex jumps 483 points",
-   "publisher": "Business Standard",
+   "url": "https://www.euronews.com/2026/10/27/ai-chip-boom-tripled-south-koreas-economic-growth-in-the-third-quarter",
+   "title": "AI chip boom tripled South Korea's economic growth in the third quarter",
+   "publisher": "Euronews",
    "tier": "press",
-   "pageAge": "2026-10-26"
+   "pageAge": "2026-10-27"
   },
   {
    "n": 19,
-   "url": "https://www.bloomberg.com/news/articles/2026-10-26/south-korea-s-economy-beats-forecasts-on-ai-driven-chip-boom",
-   "title": "South Korea’s Economy Beats Forecasts on AI-Driven Chip Boom",
-   "publisher": "Bloomberg",
+   "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-hong-kong-stocks-slip-as-technology-shares-extend-losses/articleshow/135225935.cms",
+   "title": "Global Market: China, Hong Kong stocks slip as technology shares extend losses",
+   "publisher": "Economic Times",
    "tier": "press",
-   "pageAge": "2026-10-26"
+   "pageAge": "2026-10-27"
   },
   {
    "n": 20,
-   "url": "https://www.livemint.com/market/stock-market-news/goldman-sachs-kospi-target-cut-why-south-korea-market-experts-lowered-target-to-9-000-from-12-000-explained-11793031984804.html",
-   "title": "Goldman Sachs Kospi target cut: Why South Korea market experts lowered target to 9,000 from 12,000 - Explained",
-   "publisher": "Mint",
+   "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-jgb-yields-climb-as-investors-await-boj-fed-policy-decisions/articleshow/135228326.cms",
+   "title": "Global Market: JGB yields climb as investors await BOJ, Fed policy decisions",
+   "publisher": "Economic Times",
    "tier": "press",
-   "pageAge": "2026-10-26"
+   "pageAge": "2026-10-27"
   },
   {
    "n": 21,
-   "url": "https://www.livemint.com/market/stock-market-news/nifty-smallcap-100-sinks-9-in-a-month-buy-the-dip-or-more-pain-ahead-experts-flag-key-levels-stocks-to-watch-11793010867432.html",
-   "title": "Nifty Smallcap 100 sinks 9% in a month | Buy the dip or more pain ahead? Experts flag key levels, stocks to watch",
-   "publisher": "Mint",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-27/boj-s-price-trend-indicator-jumps-to-above-3-backing-hike-case",
+   "title": "BOJ’s Price Trend Indicator Jumps to Above 3%, Backing Hike Case",
+   "publisher": "Bloomberg",
    "tier": "press",
-   "pageAge": "2026-10-26"
+   "pageAge": "2026-10-27"
   },
   {
    "n": 22,
-   "url": "https://www.bloomberg.com/news/videos/2026-10-26/businessweek-daily-anthropic-files-for-ipo-podcast-video",
-   "title": "Bloomberg Businessweek Daily: Anthropic Files for IPO (Podcast)",
-   "publisher": "Bloomberg",
+   "url": "https://www.business-standard.com/markets/news/us-aims-to-cool-oil-prices-ahead-of-midterm-dips-likely-to-be-short-lived-126102700505_1.html",
+   "title": "US looks to cool oil prices ahead of midterm; dips likely to be short-lived",
+   "publisher": "Business Standard",
    "tier": "press",
-   "pageAge": "2026-10-26"
+   "pageAge": "2026-10-27"
   },
   {
    "n": 23,
-   "url": "https://www.cnbc.com/2026/10/26/prediction-markets-think-anthropic-ipo-near-certain-in-2026.html",
-   "title": "Prediction market traders say an Anthropic IPO is near-certain this year after company filed with SEC",
-   "publisher": "CNBC",
+   "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-boxed-in-range-traders-focus-on-oil-outflows-and-rbis-defence/articleshow/135231121.cms",
+   "title": "Rupee boxed in range; traders focus on oil, outflows and RBI's defence",
+   "publisher": "Economic Times",
    "tier": "press",
-   "pageAge": "2026-10-26"
+   "pageAge": "2026-10-27"
   },
   {
    "n": 24,
-   "url": "https://www.euronews.com/2026/10/26/anthropics-ipo-filing-shows-off-soaring-revenues-as-the-company-warns-of-ais-risks-to-huma",
-   "title": "Anthropic's IPO filing shows off soaring revenues as the company warns of AI's 'risks to humanity'",
-   "publisher": "Euronews",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-nifty-extend-gains-despite-oil-hovering-near-115/barrel-what-lies-ahead/articleshow/135224717.cms",
+   "title": "Sensex, Nifty close flat while small, midcaps rally. What analysts are saying?",
+   "publisher": "Economic Times",
    "tier": "press",
-   "pageAge": "2026-10-26"
+   "pageAge": "2026-10-27"
   },
   {
    "n": 25,
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN09NSjQyM1Z6WnN5SktFY040TG9BVEVQUHk0UWs0a2c2Rkc4TUduOVA0ZUJFSmNDS3RlU2NxdEJaelYweTJfd0ROZFhRSjRXbk9OenFTRVp3emhGNlRRUDZ1LXlLc3hKSTVqSktEM3N3RDZPemI5R1NwYVE1WXI3MmJ0WFFwSUtybHVnMlJkdHBlYkQ1VEJRTS1hQVJzeGVUSS1ZT2pwcXlPU2pWRGhkazFMOUs?oc=5",
-   "title": "Anthropic Remains Mum on Investment Grade as It Flags More Debt",
-   "publisher": "Bloomberg",
-   "tier": "press",
-   "pageAge": "2026-10-26"
+   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQb29iWVFQOXd3V2RoSzlGRkd6c3h6VElMTmZqckp3bkdUQXM1RWlUSTRHYlJRQjZUbXl2SmQzemZvMFhYWnJMMVZJUHZES0dPYU81b3RFSnFDSDVzOU9MUG9PWDg2MmNrbV90WmJjQ3pEc0RpcjZyT2xYRi03VFZCcXQ5bHRwbEhtVXh4Z1FZTUFCSmhnakFVMzZybWNxMFpKbFd4TmpVRGlFcVl1NktOSzFIUzIwOFItdmtOdDNvb04tMHI3SnZSY1ltMnoydmR1Uk5wNzhaVQ?oc=5",
+   "title": "North American Morning Briefing: U.S. Stock Futures Steady as Anthropic Rally Softens -2-",
+   "publisher": "Morningstar",
+   "tier": "data",
+   "pageAge": "2026-10-27"
   },
   {
    "n": 26,
-   "url": "https://www.cnbc.com/2026/10/26/oil-prices-today-wti-brent.html",
-   "title": "Oil ticks lower as Saudi defense minister meets with Iran's president in Tehran to de-escalate",
+   "url": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html",
+   "title": "Nvidia to invest $3 billion in Meta as tech giants deepen AI partnership",
    "publisher": "CNBC",
    "tier": "press",
-   "pageAge": "2026-10-26"
+   "pageAge": "2026-10-27"
   },
   {
    "n": 27,
-   "url": "https://www.aljazeera.com/news/2026/10/26/africa-food-security-under-threat-due-to-iran-war-warn-trade-officials?traffic_source=rss",
-   "title": "Africa food security under threat due to Iran war, trade officials warn",
-   "publisher": "Al Jazeera",
+   "url": "https://www.livemint.com/market/stock-market-news/amazon-stock-target-raised-by-morgan-stanley-ubs-ahead-of-q3-results-what-are-the-key-catalysts-know-here-11793095491619.html",
+   "title": "Amazon stock target raised by Morgan Stanley, UBS ahead of Q3 results; what are the key catalysts? Know here",
+   "publisher": "Mint",
    "tier": "press",
-   "pageAge": "2026-10-26"
+   "pageAge": "2026-10-27"
   },
   {
    "n": 28,
-   "url": "https://www.cnbc.com/2026/10/26/jetblue-jblu-3q-2026-earnings.html",
-   "title": "JetBlue posts bigger loss on fuel costs, but CEO says margins improving",
-   "publisher": "CNBC",
+   "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/anthropic-ipo-firm-uses-catastrophic-word-10-times-in-document-to-highlight-humanitarian-ai-risks/articleshow/135228864.cms",
+   "title": "Anthropic IPO: Firm uses ‘catastrophic’ word 10 times in document to highlight ‘humanitarian’ AI risks",
+   "publisher": "Economic Times",
    "tier": "press",
-   "pageAge": "2026-10-26"
+   "pageAge": "2026-10-27"
   },
   {
    "n": 29,
-   "url": "https://www.cnbc.com/2026/10/26/fed-decision-expectations-october-meeting.html",
-   "title": "Federal Reserve is likely to hold interest rates steady in October. Here's what that means for consumers",
-   "publisher": "CNBC",
+   "url": "https://www.livemint.com/market/stock-market-news/it-stocks-crash-infosys-tcs-wipro-hcl-tech-nifty-it-tanks-over-2-today-biggest-sectoral-loser-what-lies-ahead-11793077366586.html",
+   "title": "IT stocks crash! Infosys, TCS, Wipro, HCL Tech - Nifty IT tanks over 2% today, biggest sectoral loser - What lies ahead?",
+   "publisher": "Mint",
    "tier": "press",
-   "pageAge": "2026-10-26"
+   "pageAge": "2026-10-27"
   },
   {
    "n": 30,
-   "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/global-market-boj-nears-historic-inflation-milestone-shifts-focus-to-rate-hikes/articleshow/135206926.cms",
-   "title": "Global Market: BOJ nears historic inflation milestone, shifts focus to rate hikes",
-   "publisher": "Economic Times",
+   "url": "https://www.wsj.com/economy/central-banking/kevin-warsh-wanted-the-fed-to-be-quiet-instead-its-as-noisy-as-ever-b2346ca2?mod=rss_socialeconomyfeed",
+   "title": "Fed Chairman Kevin Warsh wants to stop previewing coming moves. Several colleagues say the central bank still owes the public an explanation of how it will respond to the economy.",
+   "publisher": "WSJ",
    "tier": "press",
-   "pageAge": "2026-10-26"
+   "pageAge": "2026-10-27"
   },
   {
    "n": 31,
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxObjFsdk1SUkRFWlZSN1RPeS1McmhWa3Y1MVFSblhfNnZpM1FuNUF2N1pDelpnLWF5N3ZveHRGMF9MUkVPTFFobWxmNTc4TEpDYnl1Qndqc1plLWhIR21qa1p0R3R3UkxPNmRJUHpBbHJfR1FpMUhLZkdtZFBSa1NYYVhCeUxYWWVETm1RdmtCVVNVbUxZTWRPaFFzZEU4NnpZcko5LUFhSWhaeWlQUlN2R1FIdHdveWhDaDREeGEzdEZnQXdodmc?oc=5",
-   "title": "RBA hike bets top 60%: the ASX AI picks holding up, for less than AUD 14.5/m",
-   "publisher": "Investing.com",
-   "tier": "data",
-   "pageAge": "2026-10-26"
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVjRPSkwtV2dTUnBKdkZsYkI5YmdnZzZwR1hWb2xleWcwVmREUS1SNHdhNFAzQmZESU9jb3dseUk2WndCM1B4RXJHcUtVMUZjdVRwRVFXYTZFakhrNndld0o0dDBwNDl3Wm43dVltaFh5bU1YWmlWUHY2bm1WNGpZV1pHV1RVVmZnSEhPaWhBLXVKTzhfRk9UVHBHRmttVlRfNVkwNnpmYUFNTDNoS1lPa0RoX3prdGxxRWQyRg?oc=5",
+   "title": "Kevin Warsh Wanted the Fed to Be Quiet. Instead, It’s as Noisy as Ever",
+   "publisher": "WSJ",
+   "tier": "press",
+   "pageAge": "2026-10-27"
   },
   {
    "n": 32,
-   "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOUkJSaW8wWm1lTlZTUmg5b25xTEladWFMOXV0MHoyaFZNSnJJTGw5Y0F0bHUtUVNoVmpxRlVMN3hfSDhmbjBxUnpnNElhWGJIVnNlSmhXaEtYMTFMZVVwNTJtc3ZhMWRwYjZmMVBubE02YW9jS1VpUUZrS1pkODVBdWFvTV9tWHVXQ3AwZVJYZnpDaEdtODhMUGp2R3BLSFlXenFOWHFzZWFzUmlqb0JISm1QeEZpbU43YTVXeTRVUTVJVVBucXZFR1hTdjFVbWJIejBjdWdmUGFFVmU0RzBwUE1VUHdXRHBUaHBSYTZrQXdrTURjUTF1bFVoWVQ3Y0NXNjFxSzdR?oc=5",
-   "title": "Dow Jones Top Markets Headlines at 5 PM ET: Brazilian Markets Crash After Lula's Surprise Election Win Stuns Investors | U.S. ...",
-   "publisher": "Morningstar",
-   "tier": "data",
-   "pageAge": "2026-10-26"
+   "url": "https://www.livemint.com/market/amundi-says-worst-is-behind-us-as-gold-flirts-with-4000-11793092640404.html",
+   "title": "Amundi Says ‘Worst Is Behind Us’ as Gold Flirts With $4,000",
+   "publisher": "Mint",
+   "tier": "press",
+   "pageAge": "2026-10-27"
   },
   {
    "n": 33,
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTHMyNjN3cXFQaDZZZXBRNVlXTkVEWGRudmNTWEpmWXo0dVlyUWFsNHVxOUlYZERYa2E3eEtraG4zZHJfa0g3UlUwNk1NdmZtMHNIbWdsNmN0MVRZQzdVWEV6clZBUFV1R05rRVRhbFlPUGNkODBPczFzMkE0ZzJFNWZxcw?oc=5",
-   "title": "Wall Street Futures Gain as Oil Retreats Ahead of Earnings and Central Bank Meetings: Dow Jones, S&P, Nasdaq",
+   "url": "https://www.livemint.com/market/chinese-households-are-buying-gold-s-dip-as-prices-test-4000-11793089165184.html",
+   "title": "Chinese Households Are Buying Gold’s Dip as Prices Test $4,000",
+   "publisher": "Mint",
+   "tier": "press",
+   "pageAge": "2026-10-27"
+  },
+  {
+   "n": 34,
+   "url": "https://www.business-standard.com/markets/news/gold-etfs-silver-etfs-under-pressure-sink-up-to-53-from-52-week-highs-silver-hits-11-month-low-126102700687_1.html",
+   "title": "Gold, Silver ETFs sink up to 53% from 52-week highs; Silver at 11-month low",
+   "publisher": "Business Standard",
+   "tier": "press",
+   "pageAge": "2026-10-27"
+  },
+  {
+   "n": 35,
+   "url": "https://www.livemint.com/market/commodities/can-silver-price-hit-rs-2-84-lakh-kg-as-rates-in-free-fall-ahead-of-2026-dhanteras-diwali-levels-target-stop-loss-11793088097843.html",
+   "title": "Can silver price hit ₹2.84 lakh/kg as rates in free fall ahead of 2026 Dhanteras, Diwali? Levels, target, stop loss",
+   "publisher": "Mint",
+   "tier": "press",
+   "pageAge": "2026-10-27"
+  },
+  {
+   "n": 36,
+   "url": "https://www.cnbc.com/2026/10/27/ups-ups-q3-2026-earnings.html",
+   "title": "UPS beats quarterly expectations, raises full-year guidance again",
+   "publisher": "CNBC",
+   "tier": "press",
+   "pageAge": "2026-10-27"
+  },
+  {
+   "n": 37,
+   "url": "https://www.cnbc.com/2026/10/27/coca-cola-ko-q3-2026-earnings.html",
+   "title": "Coca-Cola hikes earnings outlook, even as it sees lackluster demand in North America",
+   "publisher": "CNBC",
+   "tier": "press",
+   "pageAge": "2026-10-27"
+  },
+  {
+   "n": 38,
+   "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/cipla-q2-net-profit-falls-35-to-rs-878-crore-revenue-dips-2/articleshow/135230643.cms",
+   "title": "Cipla Q2 net profit falls 35% to Rs 878 crore, revenue dips 2%",
+   "publisher": "Economic Times",
+   "tier": "press",
+   "pageAge": "2026-10-27"
+  },
+  {
+   "n": 39,
+   "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/bajaj-auto-q2-results-profit-jumps-35-yoy-to-rs-3354-crore-revenue-up-34/articleshow/135230311.cms",
+   "title": "Bajaj Auto Q2 Results: Profit jumps 35% YoY to Rs 3,354 crore; revenue up 34%",
+   "publisher": "Economic Times",
+   "tier": "press",
+   "pageAge": "2026-10-27"
+  },
+  {
+   "n": 40,
+   "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/maruti-suzuki-q2-results-profit-falls-26-yoy-to-rs-2466-crore-but-revenue-rises-26/articleshow/135230515.cms",
+   "title": "Maruti Suzuki Q2 Results: Profit falls 26% YoY to Rs 2,466 crore, but revenue rises 26%",
+   "publisher": "Economic Times",
+   "tier": "press",
+   "pageAge": "2026-10-27"
+  },
+  {
+   "n": 41,
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObmp5N0dmMEhHZGVZdzY3RlFCV01ZQXg4X05lbU1MZk1KMnNZNlVyNlZnRnZpWlFuczJhU2NlNmk5Q2xZLUQyMXduMWd3blBnSThtUmZadF9hX1JEakZBSGplLVN6MDdwUUNmNWdxOTNZVTBTMkRUTkZhQ2JfUExHYUg2MkhuY1YzaGJnWW9iRURMb05aZUpqZA?oc=5",
+   "title": "KOSPI Jumps 4.5% as Seoul Halts Program Buying Before SK Hynix Earnings",
+   "publisher": "Yahoo Finance",
+   "tier": "data",
+   "pageAge": "2026-10-27"
+  },
+  {
+   "n": 42,
+   "url": "https://www.business-standard.com/markets/news/grse-bel-defence-stocks-zoom-up-to-9-on-dac-nod-to-2-12-trn-proposals-126102700288_1.html",
+   "title": "GRSE, BEL: Defence stocks zoom up to 9% on DAC nod to ₹2.12 trn proposals",
+   "publisher": "Business Standard",
+   "tier": "press",
+   "pageAge": "2026-10-27"
+  },
+  {
+   "n": 43,
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWkRoRUQ5SGljT1V1UU1VUk9BVHVNdmxGbDJNMUtzaENqXzgxUjAzZ2liZkxEMXdpVDlHT2dfQVY4dXpZV3poVFNaUG4wam16MWVlbk5Pdi1UUlN6VzZaX0hzTjRyU3NoaFM0VFQzS3R4ZmdtYUR4S25PQ2tqZGtfTGJXaWRaSDQ?oc=5",
+   "title": "European Stocks Edge Higher as Oil Prices Ease Ahead of Fed and ECB Decisions: DAX, CAC, FTSE100",
    "publisher": "Yahoo Finance",
    "tier": "data",
    "pageAge": "2026-10-26"
   },
   {
-   "n": 34,
-   "url": "https://www.ft.com/content/94e5a0ae-874d-447a-bbfc-cd465a1a7555?syn-25a6b1a6=1",
-   "title": "Meta plans $95bn stock offering to bankroll AI expansion",
-   "publisher": "Financial Times",
+   "n": 44,
+   "url": "https://economictimes.indiatimes.com/markets/stocks/earnings/cipla-q2-results-profit-falls-35-yoy-to-rs-878-crore-revenue-slips-2/articleshow/135228386.cms",
+   "title": "Cipla Q2 Results: Profit falls 35% YoY to Rs 878 crore; revenue slips 2%",
+   "publisher": "Economic Times",
    "tier": "press",
-   "pageAge": "2026-10-26"
+   "pageAge": "2026-10-27"
+  },
+  {
+   "n": 45,
+   "url": "https://www.business-standard.com/markets/news/bharti-airtel-share-price-up-3-rallies-12-in-october-outperforms-market-126102700623_1.html",
+   "title": "Bharti Airtel share price up 3%; rallies 12% in October, outperforms market",
+   "publisher": "Business Standard",
+   "tier": "press",
+   "pageAge": "2026-10-27"
   }
  ],
  "warnings": [
-  "1 news feed(s) could not be read this time: Google News: site:economist.com stock markets indices (no items).",
-  "The written analysis is from 2026-10-26 and is being refreshed; the numbers are current."
+  "1 news feed(s) could not be read this time: Google News: site:economist.com stock markets indices (no items)."
  ],
  "usage": {
   "headlines": 60,

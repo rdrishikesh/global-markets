@@ -118,10 +118,17 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** S&P 500 gained 0.70% and Nasdaq 0.82% as Anthropic's IPO filing revived AI optimism (Reuters, Bloomberg), while Bovespa fell 13.88% after Lula's win.
-- Company effect, Anthropic (up on sp500, nasdaq): Anthropic's IPO filing rekindled AI interest; the S&P 500 gained 0.70% and the Nasdaq rose by 0.83% (one report).
-- Company effect, Meta (mixed on sp500, nasdaq): FT reported Meta plans $95bn stock offering to bankroll AI expansion, with Nvidia, AMD and Broadcom as cornerstone investors.
-- Company effect, Goldman Sachs (down on kospi): Mint: Goldman Sachs cut its 12-month KOSPI target to 9,000 from 12,000, citing doubts about the AI trade and falling chip stocks.
+**Headline:** Financial Times reported tech stocks rallied as Anthropic's IPO filing revived the AI trade; Brent closed at 110.24 (-4.81%) on renewed Mideast diplomacy, and Bovespa fell -13.88% after Brazil's election surprise.
+- Company effect, Anthropic (up on sp500, nasdaq, nikkei): Its IPO filing revived the AI trade and lifted AI-related shares in Asia (FT, Reuters via Mint); Morningstar said the rally softened in US futures.
+- Company effect, UPS (up on sp500, dow): CNBC reported UPS beat third-quarter expectations and raised full-year guidance for the second quarter in a row.
+- Company effect, Coca-Cola (mixed on sp500, dow): CNBC reported Coca-Cola hiked its earnings outlook but sees lackluster demand in North America; the stock is up about 32% this year.
+- Company effect, Nvidia and Meta (mixed on nasdaq, sp500): CNBC reported Nvidia will invest $3 billion in Meta, which plans to raise a total of $95 billion for AI infrastructure.
+- Company effect, Amazon (mixed on nasdaq, sp500): Morgan Stanley and UBS raised price targets ahead of Q3 results, but AI infrastructure spending could weigh on free cash flow (Mint).
+- Company effect, HSBC (down on ftse100, hangseng): HSBC slumped on a third-quarter revenue miss (CNBC, FT) while announcing a share buyback of up to $1 billion.
+- Company effect, Cipla (down on nifty50, sensex): Economic Times reported Q2 net profit fell 35% to Rs 878 crore with weaker North American sales.
+- Company effect, Bajaj Auto (up on nifty50, sensex): Economic Times reported Q2 profit jumped 35% to Rs 3,354 crore and revenue rose 34%.
+- Company effect, Maruti Suzuki (mixed on nifty50, sensex): Economic Times reported Q2 profit fell 26% year on year while revenue rose 26% to Rs 53,356 crore as costs grew about 30%.
+- Company effect, Bharti Airtel (up on nifty50, sensex): Business Standard reported shares up 3% and 12% in October; Motilal Oswal expects strong earnings.
 
 ## Headlines collected today
 
@@ -189,7 +196,6 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 1 news feed(s) could not be read this time: Google News: site:economist.com stock markets indices (no items).
-- The written analysis is from 2026-10-26 and is being refreshed; the numbers are current.
 
 ## How to use this file
 
