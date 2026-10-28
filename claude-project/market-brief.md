@@ -118,12 +118,11 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** Reuters reported Wall Street ended higher on revived AI momentum; S&P 500 closed 7722.60 (1d 0.60%), Nasdaq Composite 26477.81 (1d 1.18%), with the Fed decision still ahead.
-- Company effect, HSBC (down on ftse100, eurostoxx50): Morningstar said HSBC weighed on the UK index; Bloomberg said banks pulled European stocks lower as its results disappointed.
-- Company effect, SK Hynix (up on kospi): CNBC reported SK Hynix third-quarter profit sharply beat estimates on AI memory boost; Yahoo Finance headline said KOSPI jumped 4.5% before its earnings.
-- Company effect, Anthropic (up on nasdaq, sp500): WSJ said the Anthropic-inspired rally extended into day two, pushing the Nasdaq more than 1% higher; Economic Times said its IPO news gave the sector a relief rally.
-- Company effect, Bharti Airtel (up on nifty50, sensex): Economic Times said Bharti Airtel and Tata Consumer led gainers on the Nifty and Sensex.
-- Company effect, Asian Paints (down on nifty50, sensex): Economic Times said Asian Paints and Coal India topped the losers on the Nifty and Sensex.
+**Headline:** KOSPI rose 6.63% on SK Hynix earnings optimism while Europe edged lower and Indian stocks fell with Brent above $110, all ahead of the Fed decision.
+- Company effect, SK Hynix (up on kospi): Stronger-than-expected earnings lifted AI optimism and tech stocks (Bloomberg, Economic Times); Reuters reports plans for a $75 bln shareholder payout.
+- Company effect, Anthropic (up on nasdaq): WSJ: an Anthropic-inspired rally extended into a second day, pushing the Nasdaq more than 1% higher.
+- Company effect, HSBC (down on ftse100): Morningstar reported HSBC weighed on the FTSE 100 ahead of the budget and Fed call.
+- Company effect, Celestica (up on tsx): Reuters: the TSX hit a six-day high, led by Celestica and metal miners.
 
 ## Headlines collected today
 
@@ -191,7 +190,6 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 1 news feed(s) could not be read this time: Google News: site:economist.com stock markets indices (no items).
-- The written analysis is from 2026-10-28 and is being refreshed; the numbers are current.
 
 ## How to use this file
 
