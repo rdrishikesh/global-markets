@@ -118,17 +118,12 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** Financial Times reported tech stocks rallied as Anthropic's IPO filing revived the AI trade; Brent closed at 110.24 (-4.81%) on renewed Mideast diplomacy, and Bovespa fell -13.88% after Brazil's election surprise.
-- Company effect, Anthropic (up on sp500, nasdaq, nikkei): Its IPO filing revived the AI trade and lifted AI-related shares in Asia (FT, Reuters via Mint); Morningstar said the rally softened in US futures.
-- Company effect, UPS (up on sp500, dow): CNBC reported UPS beat third-quarter expectations and raised full-year guidance for the second quarter in a row.
-- Company effect, Coca-Cola (mixed on sp500, dow): CNBC reported Coca-Cola hiked its earnings outlook but sees lackluster demand in North America; the stock is up about 32% this year.
-- Company effect, Nvidia and Meta (mixed on nasdaq, sp500): CNBC reported Nvidia will invest $3 billion in Meta, which plans to raise a total of $95 billion for AI infrastructure.
-- Company effect, Amazon (mixed on nasdaq, sp500): Morgan Stanley and UBS raised price targets ahead of Q3 results, but AI infrastructure spending could weigh on free cash flow (Mint).
-- Company effect, HSBC (down on ftse100, hangseng): HSBC slumped on a third-quarter revenue miss (CNBC, FT) while announcing a share buyback of up to $1 billion.
-- Company effect, Cipla (down on nifty50, sensex): Economic Times reported Q2 net profit fell 35% to Rs 878 crore with weaker North American sales.
-- Company effect, Bajaj Auto (up on nifty50, sensex): Economic Times reported Q2 profit jumped 35% to Rs 3,354 crore and revenue rose 34%.
-- Company effect, Maruti Suzuki (mixed on nifty50, sensex): Economic Times reported Q2 profit fell 26% year on year while revenue rose 26% to Rs 53,356 crore as costs grew about 30%.
-- Company effect, Bharti Airtel (up on nifty50, sensex): Business Standard reported shares up 3% and 12% in October; Motilal Oswal expects strong earnings.
+**Headline:** Reuters reported Wall Street ended higher on revived AI momentum; S&P 500 closed 7722.60 (1d 0.60%), Nasdaq Composite 26477.81 (1d 1.18%), with the Fed decision still ahead.
+- Company effect, HSBC (down on ftse100, eurostoxx50): Morningstar said HSBC weighed on the UK index; Bloomberg said banks pulled European stocks lower as its results disappointed.
+- Company effect, SK Hynix (up on kospi): CNBC reported SK Hynix third-quarter profit sharply beat estimates on AI memory boost; Yahoo Finance headline said KOSPI jumped 4.5% before its earnings.
+- Company effect, Anthropic (up on nasdaq, sp500): WSJ said the Anthropic-inspired rally extended into day two, pushing the Nasdaq more than 1% higher; Economic Times said its IPO news gave the sector a relief rally.
+- Company effect, Bharti Airtel (up on nifty50, sensex): Economic Times said Bharti Airtel and Tata Consumer led gainers on the Nifty and Sensex.
+- Company effect, Asian Paints (down on nifty50, sensex): Economic Times said Asian Paints and Coal India topped the losers on the Nifty and Sensex.
 
 ## Headlines collected today
 
@@ -196,7 +191,9 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 1 news feed(s) could not be read this time: Google News: site:economist.com stock markets indices (no items).
-- The written analysis is from 2026-10-27 and is being refreshed; the numbers are current.
+- Dropped "Europe: HSBC drags UK, oil relief helps others": number(s) 100 not found in its cited evidence.
+- Dropped "Israel election result unclear": it must cite at least one source note and one market data series.
+- Dropped "Europe: HSBC drags UK, oil relief helps others": number(s) 100 not found in its cited evidence.
 
 ## How to use this file
 
