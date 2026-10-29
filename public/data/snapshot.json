@@ -2,9 +2,9 @@
  "schemaVersion": 2,
  "generatedAt": "2026-10-29T11:10:32.814Z",
  "models": {
-  "synthesis": "claude-sonnet-5-5"
+  "synthesis": "Claude (scheduled task)"
  },
- "inputHash": "9b89bacfbdf2b108",
+ "inputHash": "a5f97aa1dad446d2",
  "mood": {
   "label": "Mixed",
   "basis": [
@@ -186,11 +186,11 @@
     7743.98
    ],
    "why": {
-    "technical": "Wall Street ended higher as the Fed held its key rate steady and focus turned to earnings (Straits Times); Economic Times said a chipmaker resurgence on SK Hynix's results helped.",
-    "layman": "US stocks rose as the Fed held rates and chip stocks bounced after a strong report from SK Hynix.",
+    "technical": "CNBC reported Wall Street hammered Alphabet over an earnings miss with weaker core revenue; Economic Times said Microsoft and Oracle gained.",
+    "layman": "Google's parent fell sharply on weak results, while Microsoft and Oracle gained, per reports.",
     "sources": [
-     30,
-     32
+     2,
+     7
     ]
    }
   },
@@ -365,13 +365,7 @@
     52377.57,
     52475.1
    ],
-   "why": {
-    "technical": "The Dow rose 97.53 points, or 0.19%, to 52,475.10 as the Fed held rates and focus turned to earnings (Straits Times).",
-    "layman": "The Dow rose slightly after the Fed left rates unchanged and investors turned to company earnings.",
-    "sources": [
-     32
-    ]
-   }
+   "why": null
   },
   {
    "id": "nasdaq",
@@ -545,10 +539,11 @@
     26549.85
    ],
    "why": {
-    "technical": "WSJ reported the Nasdaq edged lower intraday as tech euphoria sparked by Anthropic's IPO filing fizzled out.",
-    "layman": "WSJ said excitement over Anthropic's IPO filing faded, and the Nasdaq dipped during the day.",
+    "technical": "WSJ reported Nasdaq futures slumped after Google earnings disappointed; FT said the Nasdaq 100 was set to open 1% down after lower than expected capex at Alphabet and Microsoft.",
+    "layman": "Tech-heavy US futures fell after Google's earnings disappointed, WSJ reported.",
     "sources": [
-     7
+     1,
+     8
     ]
    }
   },
@@ -896,7 +891,13 @@
     36171.5,
     36265.1
    ],
-   "why": null
+   "why": {
+    "technical": "Reuters reported TSX futures climbed as an oil retreat eased inflation fears, with US data in focus.",
+    "layman": "Canadian futures rose as lower oil eased worries about prices.",
+    "sources": [
+     22
+    ]
+   }
   },
   {
    "id": "bovespa",
@@ -1415,7 +1416,13 @@
     10694.5,
     10730.73
    ],
-   "why": null
+   "why": {
+    "technical": "Morningstar reported the FTSE 100 up as Shell surged, with the ECB and US data to come.",
+    "layman": "The UK market rose as oil giant Shell jumped.",
+    "sources": [
+     31
+    ]
+   }
   },
   {
    "id": "dax",
@@ -1935,11 +1942,10 @@
     6185.45
    ],
    "why": {
-    "technical": "Reuters reported European shares were subdued as earnings and oil prices weighed; Economic Times said technology and energy stocks offered some support.",
-    "layman": "European shares were muted as earnings and higher oil weighed, with tech and energy helping a little.",
+    "technical": "Economic Times reported energy and aerospace gains offset tech weakness ahead of the ECB decision; Shell and Airbus advanced after earnings.",
+    "layman": "Energy and aerospace shares helped Europe edge higher while tech lagged.",
     "sources": [
-     11,
-     12
+     10
     ]
    }
   },
@@ -2806,7 +2812,14 @@
     63954.19,
     64659.47
    ],
-   "why": null
+   "why": {
+    "technical": "Investing.com reported the Nikkei 225 up 1.00% at close of trade; Economic Times said JGB yields were steady ahead of the BOJ decision.",
+    "layman": "Japanese stocks closed higher.",
+    "sources": [
+     19,
+     32
+    ]
+   }
   },
   {
    "id": "hangseng",
@@ -3153,10 +3166,9 @@
     3651.43
    ],
    "why": {
-    "technical": "FT reported the CSI 300 entered a technical bear market as the AI trade soured, prompting state-linked buying; SCMP analysts doubt it can reverse the slide.",
-    "layman": "China's market is slumping; the FT says state-linked funds stepped in to buy, but analysts doubt it will last.",
+    "technical": "Economic Times reported China stocks fell as a tech and AI selloff deepened despite the Fed rate pause; the STAR50 tumbled 4.2%.",
+    "layman": "Chinese stocks fell because tech and AI shares were sold heavily.",
     "sources": [
-     16,
      17
     ]
    }
@@ -3506,10 +3518,11 @@
     22936.75
    ],
    "why": {
-    "technical": "Economic Times said Indian markets closed lower as rising crude oil prices and Middle East tensions hurt sentiment; Nifty slipped 51 points to 22,699 despite a late recovery.",
-    "layman": "India's Nifty slipped as higher oil prices and Middle East tensions hurt sentiment.",
+    "technical": "Economic Times attributed the rally to the Fed's decision to maintain rates and renewed foreign investor interest in Indian equities.",
+    "layman": "Indian shares rose after the Fed kept rates unchanged and foreign investors bought.",
     "sources": [
-     33
+     33,
+     34
     ]
    }
   },
@@ -3685,8 +3698,8 @@
     74151.04
    ],
    "why": {
-    "technical": "Economic Times said Indian markets closed lower as rising crude oil prices and Middle East tensions hurt sentiment; Sensex fell 353 points to 73,246.",
-    "layman": "India's Sensex fell as higher oil prices and Middle East tensions hurt sentiment.",
+    "technical": "Economic Times attributed the Sensex gain to the Fed's decision to maintain interest rates and renewed foreign buying.",
+    "layman": "India's Sensex rose after the Fed kept rates unchanged.",
     "sources": [
      33
     ]
@@ -3864,8 +3877,8 @@
     5937.66
    ],
    "why": {
-    "technical": "Mint reported SK Hynix's record third-quarter profit, driven by demand for advanced semiconductors, lifted Asian chip shares.",
-    "layman": "Korea's market rose after SK Hynix reported a record quarterly profit.",
+    "technical": "Economic Times reported KOSPI fell 2.18% as Samsung Electronics dropped 4.13% after disappointing third-quarter profits.",
+    "layman": "South Korea's market fell after Samsung reported disappointing profits.",
     "sources": [
      18
     ]
@@ -6064,35 +6077,33 @@
   }
  ],
  "report": {
-  "generatedAt": "2026-10-29T10:39:13.253Z",
+  "generatedAt": "2026-10-29T23:31:26.545Z",
   "headline": {
-   "technical": "The Fed held rates at 3.75%–4% (Mint) while Moneycontrol reported a 90% chance of a December hike; the S&P 500 rose 0.28% as Alphabet sank 10% after earnings (CNBC).",
-   "layman": "The Fed left rates alone, but traders think a hike in December is likely. US stocks edged up even though Google's parent Alphabet dropped 10% after a weak report."
+   "technical": "CNBC reported Wall Street hammered Alphabet over an earnings miss, while Brent closed at 110.00 (1d -4.61%) and the ECB said Lagarde will step down on 7 February 2027.",
+   "layman": "Google's parent company disappointed investors, oil prices fell but stay high, and the head of Europe's central bank said she will step down next year."
   },
   "global": {
-   "title": "Fed holds, hike odds build, Big Tech splits",
+   "title": "AI-spending doubts hit tech; oil eases but stays high",
    "status": {
-    "technical": "The Fed held rates at 3.75%–4% in a 10–2 vote, citing persistent inflation (Mint). S&P 500 closed up 0.28%, Dow 0.19%, Nasdaq 0.27%. Brent fell 2.86% to 110.62; the US 10-year yield closed at 5.05.",
-    "layman": "The Fed kept its main rate unchanged after a vote. US stocks ended slightly higher. Oil prices eased on the day but remain very high."
+    "technical": "The Financial Times reported the Nasdaq 100 set to open 1% down after Alphabet and Microsoft reported lower than expected capex. Brent closed at 110.00 (1d -4.61%). S&P 500 closed 7743.98 on 2026-10-28, 1d 0.28%. VIX closed 16.97.",
+    "layman": "The Financial Times reported that US tech shares were set to open lower after Google's parent and Microsoft reported spending that was lower than expected. Oil fell but is still very high."
    },
    "consequence": {
-    "technical": "Bloomberg reported Chairman Warsh left the Fed on track to raise rates again this year without explicit guidance; Moneycontrol reported a 90% chance of a December hike. If a hike comes, borrowing costs would rise further.",
-    "layman": "Traders think the Fed may raise rates again in December. If it does, loans and credit could get more expensive. Nothing is certain."
+    "technical": "Economic Times reported investors increasingly favour tech firms showing financial discipline in AI. If that persists, heavy AI spenders may lag firms with strong cash flow. Bloomberg said credit default swaps show growing risk in data-center bonds.",
+    "layman": "Economic Times reported investors now want to see returns on AI spending. If that continues, companies that spend carefully may be rewarded more than big spenders."
    },
    "impact": {
-    "technical": "Yahoo Finance said the decision matters for bank accounts, loans, credit cards and investments. Mint cited crude oil near $115 a barrel and rising US bond yields as risks for Indian equities. Evidence on other sectors is thin.",
-    "layman": "Savers, borrowers and investors all feel Fed decisions. Higher oil prices and bond yields add pressure for some markets, such as India. Evidence beyond that is thin."
+    "technical": "Tech and AI-linked shares, and holders of data-center bonds (Bloomberg). Energy firms benefit: the FT reported Shell, TotalEnergies and Repsol posted a surge in third-quarter earnings. WSJ reported euro-area businesses and consumers face pressure from elevated energy prices.",
+    "layman": "Tech investors and people holding AI-related bonds are affected. Oil companies are earning a lot more, while households and firms in Europe feel the cost of expensive energy."
    },
    "outlook": {
-    "technical": "Base rates, not predictions: after ordinary days the S&P 500 rose the next day 54% of 845 times and over the next 5 days 59% of 843 times. Look-alike days rose over the next 21 days 4 of 5 times.",
-    "layman": "Looking at history, after quiet days like this the S&P 500 rose the next day a bit more than half the time. That is a pattern from the past, not a forecast."
+    "technical": "Base rates, not predictions: after ordinary days the S&P 500 rose the next day 54% of 845 times (median 0.09%) and over the next 5 days 59% of 843 times (median 0.38%).",
+    "layman": "This is only history, not a forecast: after calm days like this, the S&P 500 rose the next day 54% of the time and over the next five days 59% of the time."
    },
    "quant": [
     "sp500",
-    "dow",
-    "nasdaq",
     "brent",
-    "us10y"
+    "vix"
    ],
    "sources": [
     1,
@@ -6100,98 +6111,100 @@
     3,
     4,
     5,
-    6
+    6,
+    7
    ]
   },
   "regions": [
    {
-    "title": "Americas: US edges up, Brazil sells off",
+    "title": "Americas: tech slides after Alphabet earnings",
     "status": {
-     "technical": "US indices closed higher (S&P 500 0.28%, Nasdaq 0.27%). WSJ reported the Nasdaq edged lower intraday as tech euphoria from Anthropic's IPO filing fizzled. Bovespa fell 2.68% in one day and 17.19% over five days.",
-     "layman": "US stocks ended a little higher. Brazil's main stock index fell sharply over the week. Bloomberg separately reported that the incumbent Lula won Sunday's presidential election."
+     "technical": "WSJ reported Nasdaq futures slumped after Google earnings disappointed; the FT said the Nasdaq 100 was set to open 1% down. Nasdaq Composite closed 26549.85 on 2026-10-28, 1d 0.27%; S&P 500 1d 0.28%.",
+     "layman": "WSJ reported that tech-heavy US futures fell after Google's earnings disappointed. Before that, US stocks had closed slightly higher."
     },
     "consequence": {
-     "technical": "Bloomberg said Trump sheltering Flavio Bolsonaro risks tensions with Brazil. If US–Brazil relations sour, Brazilian assets could stay under pressure; the notes do not tie the Bovespa fall to this.",
-     "layman": "If US–Brazil relations sour, Brazil's market could stay jittery. The news does not say that caused the drop."
+     "technical": "CNBC reported weaker-than-expected revenue in Alphabet's core business. If investors read that as AI taking a bite out of search, as CNBC put it, pressure on AI-exposed names could continue.",
+     "layman": "If investors decide AI is eating into Google's search business, as CNBC suggested, other AI-linked shares could stay under pressure."
     },
     "impact": {
-     "technical": "Bloomberg reported Petrobras lifted production to a record in the third quarter, helping Brazil weather energy disruptions from the Iran war. Evidence on what drove the Bovespa fall is thin.",
-     "layman": "Brazil's oil producer Petrobras hit record output, per Bloomberg. The news does not explain why the wider market fell."
+     "technical": "Economic Times reported Alphabet shares plunged while Microsoft and Oracle gained on strong cash flow prospects, so effects within tech are uneven.",
+     "layman": "Google's parent fell sharply, but Economic Times said Microsoft and Oracle gained, so not all tech was hit."
     },
     "outlook": {
-     "technical": "Base rates, not predictions: after one-day falls larger than 1 standard deviation, the Bovespa rose the next day 47% of 158 times and over the next 5 days 50% of 157 times.",
-     "layman": "History shows big drops are followed by gains about half the time. That is a pattern, not a forecast."
+     "technical": "Base rates, not predictions: after ordinary days the Nasdaq Composite rose the next day 55% of 825 times (median 0.13%) and over 5 days 59% of 823 times (median 0.61%).",
+     "layman": "Only history, not a forecast: after calm days, the Nasdaq rose the next day 55% of the time and over five days 59% of the time."
     },
     "quant": [
-     "sp500",
      "nasdaq",
-     "bovespa",
-     "hw:bovespa"
+     "sp500"
     ],
     "sources": [
+     1,
+     2,
      7,
      8,
-     9,
-     10
+     9
     ]
    },
    {
-    "title": "Europe: subdued as earnings and oil weigh",
+    "title": "Europe: energy and aerospace lift shares before ECB",
     "status": {
-     "technical": "Reuters reported Europe's STOXX 600 was subdued as earnings and oil prices weighed; Economic Times said investors awaited the ECB decision. FTSE 100 closed up 0.07%. Euro Stoxx 50 closed up 0.79% on 2026-10-27.",
-     "layman": "European shares were roughly flat as earnings and higher oil prices weighed, and investors waited for the European Central Bank."
+     "technical": "Economic Times reported European shares edged higher as energy and aerospace gains offset tech weakness, with Shell and Airbus advancing after earnings. DAX closed 25951.62 (1d 0.96%), FTSE 100 10730.73 (1d 0.34%), Euro Stoxx 50 6185.45 (1d 0.29%).",
+     "layman": "Economic Times reported European shares edged up, helped by energy and aerospace companies, while tech was weak. Investors were waiting for the European Central Bank's decision."
     },
     "consequence": {
-     "technical": "Investing.com said the ECB was expected to hold rates as investors focus on French bonds and Lagarde's future. If the ECB holds, attention may turn to those two issues.",
-     "layman": "If the European Central Bank holds rates, investors may look next at French bonds and the future of ECB head Lagarde."
+     "technical": "Bloomberg and the ECB said Lagarde will step down on 7 February 2027. WSJ said this comes as debt problems and resurgent inflation are looming. Bloomberg flagged a rate decision ahead; the outcome is not in the notes.",
+     "layman": "The head of the ECB said she will leave in February 2027. WSJ said this comes as debt worries and rising prices loom. A rate decision was due, and the notes do not say what it was."
     },
     "impact": {
-     "technical": "Al Jazeera published takeaways from the UK Autumn Budget; the notes do not link them to FTSE 100 moves. Reuters said European shares shrugged off an HSBC miss on 2026-10-27. Evidence is thin.",
-     "layman": "A UK budget and a bank earnings miss at HSBC were in the news, but the notes do not show them moving the market much."
+     "technical": "WSJ reported eurozone economic sentiment fell again in October on elevated energy prices, and German consumers grew slightly gloomier. Reuters reported Haleon cut its outlook.",
+     "layman": "WSJ reported that confidence among European consumers and businesses fell again because energy is expensive."
     },
     "outlook": {
-     "technical": "Base rates, not predictions: after ordinary days the FTSE 100 rose the next day 55% of 865 times and over the next 5 days 57% of 863 times.",
-     "layman": "History shows the FTSE 100 rises after quiet days a bit more than half the time. That is a pattern, not a forecast."
+     "technical": "Base rates, not predictions: after ordinary days the Euro Stoxx 50 rose the next day 53% of 851 times (median 0.06%) and over 5 days 56% of 849 times (median 0.36%).",
+     "layman": "Only history, not a forecast: after calm days, the Euro Stoxx 50 rose the next day 53% of the time and over five days 56% of the time."
     },
     "quant": [
-     "ftse100",
-     "eurostoxx50"
+     "eurostoxx50",
+     "dax",
+     "ftse100"
     ],
     "sources": [
+     5,
+     10,
      11,
      12,
      13,
      14,
-     15
+     15,
+     16
     ]
    },
    {
-    "title": "Asia-Pacific: China weak, Korea chips surge",
+    "title": "Asia-Pacific: tech selloff in China and Korea, Japan gains",
     "status": {
-     "technical": "Shanghai Composite fell 1.33% and Shenzhen Component 2.50% on 2026-10-27. FT reported the CSI 300 entered a technical bear market and state funds bought stocks. KOSPI rose 3.09% after SK Hynix's record third-quarter profit lifted chip shares (Mint).",
-     "layman": "Chinese stocks fell, and the Financial Times said state-linked funds stepped in to buy. Korea's market rose as chipmakers cheered a record profit from SK Hynix."
+     "technical": "Economic Times reported the Shanghai Composite fell 0.9%, the CSI300 dropped 1.2% and the STAR50 tumbled 4.2% on a tech and AI selloff. KOSPI fell 2.18% as Samsung Electronics dropped 4.13% after disappointing third-quarter profits. Investing.com reported the Nikkei 225 up 1.00% at close.",
+     "layman": "Economic Times reported Chinese tech and AI shares fell sharply. South Korea's market dropped after Samsung Electronics reported disappointing profits. Japan's market closed higher."
     },
     "consequence": {
-     "technical": "SCMP quoted analysts saying state buying will be insufficient to engineer a durable rally in China's market. If so, weakness there could persist; this is the analysts' view, not a forecast.",
-     "layman": "Analysts quoted by SCMP say government buying alone is unlikely to produce a lasting rebound in China."
+     "technical": "Economic Times reported Korean authorities pledged to monitor volatility. SCMP quoted analysts saying massive state buying will be insufficient to engineer a durable rally in China. Past this, the notes give no firm reason for further moves.",
+     "layman": "Analysts quoted by SCMP said government buying alone is unlikely to produce a lasting rally in China. Korean authorities said they would watch volatility."
     },
     "impact": {
-     "technical": "The HKMA held its base rate at 4.25% after the Fed decision (SCMP). Bloomberg reported Japan's credit risk jumped the most since 2022, pressuring its bond market. Nikkei closed up 1.73% on 2026-10-27.",
-     "layman": "Hong Kong kept its key rate unchanged. Bloomberg reported Japan's credit risk jumped the most since 2022, pressuring its bonds."
+     "technical": "Chinese tech and AI-related shares and Samsung Electronics were the main drags in the notes; Economic Times said Korean losses extended across battery, automotive and steel stocks.",
+     "layman": "Chinese tech and Samsung were the weak spots; Korean battery, car and steel shares also fell."
     },
     "outlook": {
-     "technical": "Base rates, not predictions: after one-day falls larger than 1 standard deviation, the Shanghai Composite rose the next day 50% of 152 times and over the next 5 days 51% of 151 times.",
-     "layman": "History shows big drops in Shanghai are followed by gains about half the time. That is a pattern, not a forecast."
+     "technical": "Base rates, not predictions: after ordinary days the Nikkei 225 rose the next day 54% of 822 times (median 0.08%) and over 5 days 57% of 819 times (median 0.45%).",
+     "layman": "Only history, not a forecast: after calm days, Japan's Nikkei rose the next day 54% of the time and over five days 57% of the time."
     },
     "quant": [
      "shanghai",
-     "shenzhen",
      "kospi",
-     "hangseng",
-     "nikkei"
+     "nikkei",
+     "hw:kospi"
     ],
     "sources": [
-     16,
      17,
      18,
      19,
@@ -6201,153 +6214,122 @@
   ],
   "drivers": [
    {
-    "title": "Fed holds; hike path debated",
+    "title": "Oil and the Iran conflict",
     "status": {
-     "technical": "The Fed held at 3.75%–4% in a 10–2 vote (Mint); the Guardian said inflation remains above 3%. Bloomberg said Warsh left the Fed on track to hike again this year. Moneycontrol reported a 90% chance of a December hike.",
-     "layman": "The Fed kept rates steady but inflation is still high. Reports say another increase could come in December."
+     "technical": "Bloomberg reported oil declined as traders parsed signs of fresh diplomacy on Iran. Brent closed at 110.00 (1d -4.61%, 1m 6.25%); WTI closed at 101.18. WSJ asked why prices remain above $100 a barrel.",
+     "layman": "Bloomberg reported oil fell on signs of new talks over Iran, but WSJ noted prices are still above $100 a barrel."
     },
     "consequence": {
-     "technical": "CNBC reported Treasury Secretary Bessent said it is 'not necessarily' a mistake if the Fed hikes again. If the Fed does hike in December, borrowing costs would rise further.",
-     "layman": "A US Treasury official said another hike would not necessarily be a mistake. If it happens, borrowing gets pricier."
+     "technical": "Reuters reported TSX futures climbed as the oil retreat eased inflation fears. If oil stays high, Business Standard said it fuels bets on another RBI rate hike in December.",
+     "layman": "Reuters said lower oil eased worries about rising prices. If oil stays high, Business Standard said India's central bank may raise rates again."
     },
     "impact": {
-     "technical": "Fed decisions touch bank accounts, loans, credit cards and investments (Yahoo Finance). Mint said the Fed outcome was already priced in for Indian equities.",
-     "layman": "Fed decisions affect savings, loans and cards. Mint said Indian investors had already expected this outcome."
+     "technical": "FT reported oil majors lifted buybacks on bumper profits; Shell's refining margin hit a record US$42 a barrel (Straits Times). Fuel buyers and energy-importing economies face higher costs.",
+     "layman": "Oil companies are making record profits. People and countries that buy fuel pay more."
     },
     "outlook": {
-     "technical": "Base rates, not predictions: after one-day rises larger than 1 standard deviation, the US 10-year yield rose the next day 51% of 184 times. It closed at 5.05.",
-     "layman": "History shows yields rise after big jumps about half the time. That is a pattern, not a forecast."
-    },
-    "quant": [
-     "us10y"
-    ],
-    "sources": [
-     1,
-     2,
-     3,
-     4,
-     5,
-     21,
-     22
-    ]
-   },
-   {
-    "title": "Oil near $110 and the Iran war",
-    "status": {
-     "technical": "Brent closed at 110.62, down 2.86% on the day but up 24.25% over three months; WTI closed at 101.94. Bloomberg tied energy disruption to the Iran war; WSJ reported Vance engaged Iran to revive peace talks.",
-     "layman": "Oil is very expensive. Bloomberg linked that to the Iran war, and WSJ reported efforts to restart peace talks."
-    },
-    "consequence": {
-     "technical": "Mint cited crude oil near $115 a barrel as a bigger risk to Indian equities than the Fed. Reuters said oil prices weighed on European shares. If oil stays high, these pressures may persist.",
-     "layman": "If oil stays high, markets that import energy, like India, may stay under pressure."
-    },
-    "impact": {
-     "technical": "Mint said the Canadian heavy-oil discount exceeded $30, the widest relative to US futures in more than four years. Mint also named rupee weakness as a risk for India. Evidence on other sectors is thin.",
-     "layman": "High oil hurts importers and can weaken their currencies. Canada's heavy oil is selling at a big discount to US prices."
-    },
-    "outlook": {
-     "technical": "Base rates, not predictions: after one-day falls larger than 1 standard deviation, Brent rose the next day 49% of 168 times and over the next 5 days 54% of 168 times.",
-     "layman": "History shows oil rises after big drops about half the time. That is a pattern, not a forecast."
+     "technical": "Base rates, not predictions: after one-day falls this large, Brent rose over the next 5 days 54% of 168 times (median 0.39%), with a wide 10th-90th range of -6.13% to 7.21%.",
+     "layman": "Only history, not a forecast: after big one-day oil falls, oil rose over the next five days 54% of the time, with wide swings either way."
     },
     "quant": [
      "brent",
      "wti"
     ],
     "sources": [
-     5,
-     10,
-     11,
+     4,
+     6,
+     21,
+     22,
      23,
      24
     ]
    },
    {
-    "title": "Big Tech earnings split on AI spending",
+    "title": "AI financing and investor demands for returns",
     "status": {
-     "technical": "CNBC reported Alphabet sank 10% after its first top-and-bottom-line miss in nearly four years; it held 2026 capex unchanged and expects a significant increase in 2027. CNBC reported Microsoft rose 4% on Azure revenue growth of 48%.",
-     "layman": "Google's parent Alphabet fell 10% after a weak report, while Microsoft rose 4% on strong cloud growth."
+     "technical": "Economic Times reported Wall Street favours AI spenders with financial discipline. Bloomberg reported credit default swaps show growing risk in data-center bonds and asked whether investors have bought all the AI bonds they can handle. WSJ reported bankers sound cautious about the AI boom.",
+     "layman": "Reporters at Economic Times, Bloomberg and WSJ all pointed to growing caution about paying for the AI boom."
     },
     "consequence": {
-     "technical": "The Financial Times said Alphabet's $51bn AI outlay deepened cash burn. If AI spending keeps rising while sales undershoot, cash-burn concerns may persist; if cloud growth holds, as at Microsoft, investors may keep rewarding it.",
-     "layman": "If a company spends heavily on AI but sales disappoint, investors may punish it. Strong cloud growth, like Microsoft's, was rewarded."
+     "technical": "Bloomberg raised the question of whether AI wobbles were part of the Fed's calculation to keep rates on hold. If AI financing strains grow, rate decisions could be affected; the notes do not confirm this.",
+     "layman": "Bloomberg asked whether AI worries helped the Fed keep rates unchanged. That is a question, not a confirmed fact."
     },
     "impact": {
-     "technical": "CNBC reported Nvidia faces a DOJ inquiry over its $12.9 billion Hugging Face purchase, and said the Magnificent Seven's correlation is breaking down. Evidence on wider market effects is thin.",
-     "layman": "Big Tech stocks no longer move together, per CNBC. Nvidia faces a US Justice Department inquiry into a big deal."
+     "technical": "Holders of data-center bonds and AI-heavy tech stocks are the most exposed in the notes; evidence on wider effects is thin.",
+     "layman": "AI-linked bonds and tech shares are most exposed; the notes say little about wider effects."
     },
     "outlook": {
-     "technical": "Base rates, not predictions: after ordinary days the Nasdaq rose the next day 55% of 825 times and over the next 5 days 59% of 823 times. Look-alike days rose over 5 days only 1 of 5 times.",
-     "layman": "History shows the Nasdaq rises after quiet days a bit more than half the time. That is a pattern, not a forecast."
+     "technical": "Base rates are in the index lines, not for AI financing itself, so no historical outlook is offered here; these are not predictions.",
+     "layman": "There is no historical pattern in the data for this topic, so no outlook is given."
     },
     "quant": [
-     "nasdaq",
-     "hw:nasdaq"
+     "nasdaq"
     ],
     "sources": [
+     2,
+     3,
      25,
-     26,
-     27,
-     28,
-     29
+     26
     ]
    },
    {
-    "title": "Chip earnings lift AI trade",
+    "title": "Central banks: Fed hold, ECB leadership, BOJ and RBI",
     "status": {
-     "technical": "Mint reported SK Hynix's record third-quarter profit lifted Asian and US chip shares, with AMD and Micron gaining up to 5%. Economic Times said a chipmaker resurgence helped US stocks end higher.",
-     "layman": "A record profit at SK Hynix lifted chip stocks in Asia and the US, per Mint."
+     "technical": "CNBC reported Treasury yields eased after the Fed rate hold. US 10-year yield closed 5.05 (1d 1.04%). WSJ reported a BOJ rate hold seen as a done deal, with focus on guidance. Lagarde to step down 7 February 2027 (ECB).",
+     "layman": "The Fed kept rates unchanged and bond yields eased, CNBC reported. The Bank of Japan was expected to hold rates too."
     },
     "consequence": {
-     "technical": "If chip earnings keep beating expectations, AI optimism could keep supporting chip shares; the Financial Times noted chip earnings power averaged higher. This is conditional, not a forecast.",
-     "layman": "If chipmakers keep reporting strong profits, chip stocks may keep getting support. Nothing is guaranteed."
+     "technical": "CNBC analysis said Warsh made clear he leans toward higher interest rates but left himself options depending on data. Emkay expects the RBI to raise rates by 75 basis points by February 2027, per Mint.",
+     "layman": "CNBC said the new Fed chief leans toward higher rates but is keeping options open. Emkay, quoted by Mint, expects India to raise rates."
     },
     "impact": {
-     "technical": "KOSPI heavyweights Samsung Electronics and SK Hynix both rose on the day (hw data). Evidence on wider effects is thin.",
-     "layman": "Korea's two biggest listed names both rose on the day. The notes say little about wider effects."
+     "technical": "Mint reported the Fed hold gave temporary support to Indian equities, though elevated oil and tighter domestic policy could limit gains.",
+     "layman": "Mint said the Fed hold helped Indian shares for now, but high oil and higher local rates could limit gains."
     },
     "outlook": {
-     "technical": "Base rates, not predictions: after ordinary days the KOSPI rose the next day 55% of 823 times and over the next 5 days 57% of 819 times.",
-     "layman": "History shows the KOSPI rises after quiet days a bit more than half the time. That is a pattern, not a forecast."
+     "technical": "Base rates not provided for central-bank decisions; these are not predictions.",
+     "layman": "No historical pattern is provided for this topic, so no outlook is given."
     },
     "quant": [
-     "kospi",
-     "hw:kospi"
+     "us10y"
     ],
     "sources": [
-     18,
-     30,
-     31
+     12,
+     27,
+     28,
+     29,
+     30
     ]
    }
   ],
   "events": [
    {
-    "when": "Thursday morning",
-    "title": "DoorDash deal to buy Instacart",
-    "technical": "CNBC reported the deal could come as early as Thursday morning, with outlets saying it could value Instacart at roughly $17 billion.",
-    "layman": "CNBC says DoorDash may announce a deal to buy Instacart as early as Thursday.",
+    "when": "October 30, 2026",
+    "title": "India government securities auction",
+    "technical": "RBI announced an auction of Government Securities for ₹33,000 crore, with underwriting commitments under the 2007 scheme.",
+    "layman": "India's government will sell bonds worth ₹33,000 crore to raise money.",
     "sources": [
-     34
+     35
     ]
    },
    {
-    "when": "Nov 3",
-    "title": "US midterm elections",
-    "technical": "Straits Times noted the midterms are on Nov 3; Mint tied the Fed's pause to affordability concerns ahead of the vote.",
-    "layman": "US midterm elections are on Nov 3, and living costs are a big voter concern, per Mint.",
+    "when": "Friday",
+    "title": "Bank of Japan policy decision",
+    "technical": "Economic Times said markets expect the BOJ to hold rates steady; WSJ said the focus is on guidance.",
+    "layman": "Japan's central bank is expected to keep rates unchanged, with attention on what it says next.",
     "sources": [
-     35,
+     29,
+     32
+    ]
+   },
+   {
+    "when": "February 7, 2027",
+    "title": "Lagarde's departure from the ECB",
+    "technical": "Bloomberg reported Lagarde will resign effective this date; FT said her term was set to end in October 2027.",
+    "layman": "The head of Europe's central bank will leave on this date, earlier than planned.",
+    "sources": [
+     11,
      36
-    ]
-   },
-   {
-    "when": "Upcoming",
-    "title": "European Central Bank policy decision",
-    "technical": "Economic Times said investors were assessing earnings and oil ahead of the ECB's policy decision; Investing.com expects a hold.",
-    "layman": "The European Central Bank is due to decide on rates; Investing.com expects it to hold.",
-    "sources": [
-     12,
-     13
     ]
    }
   ],
@@ -6359,75 +6341,77 @@
      "nasdaq"
     ],
     "direction": "down",
-    "technical": "CNBC reported Alphabet sank 10% after its first top-and-bottom-line miss in nearly four years; the stock continued to slide in extended trading.",
-    "layman": "Google's parent company dropped 10% after missing profit and sales forecasts, which could weigh on tech-heavy indices.",
+    "technical": "CNBC reported Alphabet's earnings missed on weaker core revenue; the FT said it reported lower than expected capex. Nasdaq futures slumped (WSJ).",
+    "layman": "Google's parent missed expectations and its shares fell, weighing on tech.",
     "sources": [
-     25,
-     26,
-     37
+     1,
+     7,
+     8
     ]
    },
    {
     "company": "Microsoft",
     "indices": [
      "sp500",
-     "nasdaq",
-     "dow"
+     "nasdaq"
     ],
-    "direction": "up",
-    "technical": "CNBC reported Microsoft stock jumped 4% on a better-than-expected report, with Azure revenue up 48%.",
-    "layman": "Microsoft rose 4% after strong cloud sales beat forecasts.",
+    "direction": "mixed",
+    "technical": "The FT said Microsoft reported lower than expected capex; Economic Times said Microsoft gained on strong cash flow prospects.",
+    "layman": "Reports differ: lower spending than expected, but Economic Times said its shares gained.",
     "sources": [
-     27,
-     38
+     1,
+     2
     ]
    },
    {
-    "company": "SK Hynix",
+    "company": "Shell",
+    "indices": [
+     "ftse100",
+     "eurostoxx50"
+    ],
+    "direction": "up",
+    "technical": "CNBC reported Shell nearly doubled quarterly profit year-on-year as refining margins hit a record high; Morningstar said the FTSE 100 rose as Shell surged.",
+    "layman": "Shell's profit nearly doubled and its shares jumped, helping the UK market.",
+    "sources": [
+     10,
+     31,
+     37
+    ]
+   },
+   {
+    "company": "Airbus",
+    "indices": [
+     "eurostoxx50"
+    ],
+    "direction": "up",
+    "technical": "Economic Times reported Airbus advanced after its earnings update, helping offset tech weakness in Europe.",
+    "layman": "Airbus shares rose after its results.",
+    "sources": [
+     10
+    ]
+   },
+   {
+    "company": "Samsung Electronics",
     "indices": [
      "kospi"
     ],
-    "direction": "up",
-    "technical": "Mint reported SK Hynix posted a record third-quarter profit on demand for advanced semiconductors, lifting Asian and US chip shares.",
-    "layman": "SK Hynix reported a record quarterly profit, which lifted chip stocks.",
+    "direction": "down",
+    "technical": "Economic Times reported Samsung dropped 4.13% after disappointing third-quarter profits, pulling KOSPI down 2.18%.",
+    "layman": "Samsung fell after weak profits and dragged South Korea's market down.",
     "sources": [
      18
     ]
    },
    {
-    "company": "FedEx",
+    "company": "TotalEnergies",
     "indices": [
-     "sp500"
+     "eurostoxx50"
     ],
     "direction": "up",
-    "technical": "CNBC reported FedEx beat Wall Street expectations on the top and bottom lines and raised its outlook.",
-    "layman": "FedEx beat forecasts and raised its outlook.",
+    "technical": "Straits Times reported TotalEnergies' profit hit a record on high oil prices, with a higher dividend planned.",
+    "layman": "TotalEnergies posted record profit and plans to pay shareholders more.",
     "sources": [
-     39
-    ]
-   },
-   {
-    "company": "Ford",
-    "indices": [
-     "sp500"
-    ],
-    "direction": "mixed",
-    "technical": "CNBC reported Ford beat earnings estimates but slightly missed on revenue, and said 2027 earnings will be in line with this year.",
-    "layman": "Ford beat profit forecasts but slightly missed on sales.",
-    "sources": [
-     40
-    ]
-   },
-   {
-    "company": "Petrobras",
-    "indices": [
-     "bovespa"
-    ],
-    "direction": "up",
-    "technical": "Bloomberg reported Petrobras lifted production to a record and ran its refineries near full capacity in the third quarter.",
-    "layman": "Petrobras produced record oil in the third quarter, per Bloomberg.",
-    "sources": [
-     10
+     38
     ]
    }
   ]
@@ -8248,134 +8232,158 @@
  "sources": [
   {
    "n": 1,
-   "url": "https://www.livemint.com/market/stock-market-news/explained-why-us-fed-reserve-decided-to-not-hike-rate-after-fomc-meeting-what-chair-kevin-warsh-said-in-press-speech-11793215854245.html",
-   "title": "Explained: Why US Fed Reserve decided to not hike rate after FOMC meeting? What Chair Kevin Warsh said in press speech",
-   "publisher": "Mint",
+   "url": "https://www.ft.com/content/1639620b-99e7-47ed-8484-49646816489e?syn-25a6b1a6=1",
+   "title": "US tech stocks set to fall after earnings fuel AI spending concerns",
+   "publisher": "Financial Times",
    "tier": "press",
-   "pageAge": "2026-10-28"
+   "pageAge": "2026-10-29"
   },
   {
    "n": 2,
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdlZEam94aWZORmVyUGtWdlY4X3RwQUJ0QUY2RlNMTFZKS3FQcDhRSjFSQnVwbnBtSnpoOUVXXzUtVXpYVC1nMUk1QXNMMEd2cjdsd1dYeEFSU1JnSlhTMk9ZeEJZaGtVWWpZVnRMaWkxcFktYkhuXzFfU3R4NWNRS1RwRWh4QUtucnMxRWhHX21sTlBfT0lpSFRTYjFUM1VMcF9UV3Vkc1JMMG9vNEswUzJ1OGtJTEpJcmxQYUlIbGJ2Q0dCbzhn0gHHAUFVX3lxTFB2VkRqb3hpZk5GZXJQa1Z2VjhfdHBBQnRBRjZGU0xMVkpLcVBwOFFKMVJCdXBucG1Kemg5RVdfNS1VelhULWcxSTVBc0wwR3ZyN2x3V1h4QVJTUmdKWFMyT1l4Qlloa1VZallWdExpaTFwWS1iSG5fMV9TdHg1Y1FLVHBFaHhBS25yczFFaEdfbWxOUF9PSWlIVFNiMVQzVUxwX1RXdWRzUkwwb280SzBTMnU4a0lMSklybFBhSUhsYnZDR0JvOGc?oc=5",
-   "title": "Bond traders see 90% chance of December hike after Fed holds",
-   "publisher": "Moneycontrol",
+   "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-market-microsoft-oracle-outshine-alphabet-as-investors-demand-ai-returns/articleshow/135300442.cms",
+   "title": "US Market: Microsoft, Oracle outshine Alphabet as investors demand AI returns",
+   "publisher": "Economic Times",
    "tier": "press",
-   "pageAge": "2026-10-28"
+   "pageAge": "2026-10-29"
   },
   {
    "n": 3,
-   "url": "https://www.bloomberg.com/news/articles/2026-10-28/fed-holds-fire-as-warsh-telegraphs-more-hikes-without-saying-it",
-   "title": "Fed Holds Fire as Warsh Telegraphs More Hikes Without Saying It",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-10-29/investors-may-have-bought-all-the-ai-bonds-they-can-handle",
+   "title": "Investors May Have Bought All the AI Bonds They Can Handle",
    "publisher": "Bloomberg",
    "tier": "press",
-   "pageAge": "2026-10-28"
+   "pageAge": "2026-10-29"
   },
   {
    "n": 4,
-   "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOaDlWS0VRSklaemMzd3V4dllmTlZRbTQtOVV6WlA2SjlkcTI2LTl4RU1PTk93OHpIelZWUWczX1RfS0xCRHVnN0FlWUZBOFUtc2dWdjE1OXFaekxLWjR0b243b1VWRENCeko4OVFnSXBEVFhCeUhGVFQxMFZVby1CY3dNMG1ZR3JEd0dRWGgyblV2UjIxQkwxZXNjakpHV0dBWUtoeXJlUUpJR2pkaVFlRGEtMEZqd1M2UXlwT1RfRWlxbzhYQU1WdUxXWkh0MHZNa1J6QVl2SFliSVIzVmgwSjBoZ1V1RlZjUGloa2xIWmVBeURVSHNLcFNtM21LMXY2RHNTOQ?oc=5",
-   "title": "What the Fed's interest rate decision means for your bank accounts, loans, credit cards, and investments",
-   "publisher": "Yahoo Finance",
-   "tier": "data",
-   "pageAge": "2026-10-28"
+   "url": "https://www.ft.com/content/5ded8d57-46f5-406c-a4ce-e58415b8d4ad?syn-25a6b1a6=1",
+   "title": "European oil majors lift buybacks as Iran war drives bumper profits",
+   "publisher": "Financial Times",
+   "tier": "press",
+   "pageAge": "2026-10-29"
   },
   {
    "n": 5,
-   "url": "https://www.livemint.com/market/stock-market-news/how-can-us-fed-fomc-meeting-outcome-impact-indian-stock-market-sensex-nifty-to-rise-experts-decode-11793210662906.html",
-   "title": "How can US Fed FOMC meeting outcome impact Indian stock market? Sensex, Nifty to rise? Experts decode",
-   "publisher": "Mint",
+   "url": "https://www.wsj.com/economy/central-banking/eurozone-economic-sentiment-fell-again-in-october-15d9c0c6?mod=rss_socialeconomyfeed",
+   "title": "Eurozone Economic Sentiment Fell Again in October",
+   "publisher": "WSJ",
    "tier": "press",
-   "pageAge": "2026-10-28"
+   "pageAge": "2026-10-29"
   },
   {
    "n": 6,
-   "url": "https://www.livemint.com/market/wall-street-mostly-rises-as-fed-holds-key-rate-steady-deferring-next-likely-hike-to-december-11793213973901.html",
-   "title": "Wall Street mostly rises as Fed holds key rate steady, deferring next likely hike to December",
-   "publisher": "Mint",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcWhmOUJoc0lkWEs5QlBSaDVpMjd4QlRILTVyTmk4dlRNU1FNRE0tS0N2NHdQZFZGQjZxZjlSOFVwSGhaQVhrUmJrb1JySXlhZDctVHdqMUIyU0gtUnFENDdoRkh4QnlxR1pfeGxMMU1UUWJydnhxSFJ1d3djdjZYQ1ZUcUxZMVBEVFFwaWN6VkhKYnNtMTdBWk4ycjJSaEczeXhONWtaN3ZXUjFZNW1aS3NMVQ?oc=5",
+   "title": "Oil Declines as Traders Parse Signs of Fresh Diplomacy on Iran",
+   "publisher": "Bloomberg",
    "tier": "press",
-   "pageAge": "2026-10-28"
+   "pageAge": "2026-10-29"
   },
   {
    "n": 7,
-   "url": "https://www.wsj.com/finance/investing/tech-rally-continues-treasurys-weaken-ahead-of-fed-decision-bbc5771d?mod=rss_markets_main",
-   "title": "Nasdaq Edges Lower as Tech Rally Stalls Out",
-   "publisher": "WSJ",
+   "url": "https://www.cnbc.com/2026/10/29/alphabet-google-search-ai-earnings.html",
+   "title": "Alphabet earnings miss reflects first real sign that AI is taking a bite out of search",
+   "publisher": "CNBC",
    "tier": "press",
-   "pageAge": "2026-10-28"
+   "pageAge": "2026-10-29"
   },
   {
    "n": 8,
-   "url": "https://www.bloomberg.com/news/articles/2026-10-28/-que-investigaciones-enfrenta-flavio-bolsonaro-en-brasil-mvsqblae",
-   "title": "¿Qué investigaciones enfrenta Flávio Bolsonaro en Brasil?",
-   "publisher": "Bloomberg",
+   "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-10-29-2026?mod=rss_markets_main",
+   "title": "Stock Market Today: Nasdaq Futures Slump After Google Earnings Disappoint",
+   "publisher": "WSJ",
    "tier": "press",
-   "pageAge": "2026-10-28"
+   "pageAge": "2026-10-29"
   },
   {
    "n": 9,
-   "url": "https://www.bloomberg.com/news/articles/2026-10-28/trump-shelters-flavio-bolsonaro-risking-tensions-with-brazil",
-   "title": "Trump Shelters Flavio Bolsonaro, Risking Tensions With Brazil",
-   "publisher": "Bloomberg",
-   "tier": "press",
-   "pageAge": "2026-10-28"
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNWEJ3cUt0TTlIMHRhLUduWmhVMkduMENiNGxjOG52dWd6azFURHZja2pqVmNjVGZTOGRiTVJnbkhZUUpjbXZLbVhQMVphdU5xTklSbEtlWFBzdkpXSDNXdVRZMDRkVzNkN1lLdGR2Y1ZTUlpwUGRPNlN4X1ZYalNXenVmVnVkWWhrLWEzNVZLMFV4Q3Y4ZjAxUXdFS3BlWmxRM2VINjE1YjhqZHEzYzdCZDFWOGUzaXdBcEtLTGVwbGRmM1E0MnpxODAyQzRIM2NCMkF3?oc=5",
+   "title": "North American Morning Briefing: AI Stocks Fall After Alphabet Earnings Disappoint",
+   "publisher": "Morningstar",
+   "tier": "data",
+   "pageAge": "2026-10-29"
   },
   {
    "n": 10,
-   "url": "https://www.bloomberg.com/news/articles/2026-10-28/petrobras-pumps-at-record-as-iran-war-upends-oil-markets",
-   "title": "Petrobras Pumps at Record as Iran War Upends Oil Markets",
-   "publisher": "Bloomberg",
+   "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-european-shares-edge-higher-ahead-of-ecb-policy-decision/articleshow/135301472.cms",
+   "title": "Global Market: European shares edge higher ahead of ECB policy decision",
+   "publisher": "Economic Times",
    "tier": "press",
-   "pageAge": "2026-10-28"
+   "pageAge": "2026-10-29"
   },
   {
    "n": 11,
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcXE1bGx1U0l2OThtWFF4WlFvUVJVWkoydE5FWkpXeHRpVVkyRUJfNHBIbDdzQm9BLWV6UjhiX0NPNFkxSGpNMTNhcHprSWZPX1duOW44emJjVTVYMGNDMkE0dVJReHBieVZtenBSMjZISHFZb2hZMmt3ekJiMXlmTTV2cjVtbVpoZXhfVVVXeWpDcnVlUU95d21SYjNKSGE4eUZqZU03MUc3dEYyYXU3MEJwaGJZOTdR?oc=5",
-   "title": "Europe's STOXX 600 subdued as earnings and oil prices weigh",
-   "publisher": "Reuters",
+   "url": "https://www.bloomberg.com/news/videos/2026-10-29/lagarde-to-step-down-as-ecb-president-on-feb-7-video",
+   "title": "Lagarde to Step Down as ECB President on Feb. 7",
+   "publisher": "Bloomberg",
    "tier": "press",
-   "pageAge": "2026-10-28"
+   "pageAge": "2026-10-29"
   },
   {
    "n": 12,
-   "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-european-shares-waver-as-earnings-rising-oil-weigh-on-sentiment/articleshow/135261639.cms",
-   "title": "Global Market: European shares waver as earnings, rising oil weigh on sentiment",
-   "publisher": "Economic Times",
-   "tier": "press",
-   "pageAge": "2026-10-28"
+   "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html",
+   "title": "ECB President Lagarde to step down on 7 February 2027",
+   "publisher": "ECB",
+   "tier": "official",
+   "pageAge": "2026-10-29"
   },
   {
    "n": 13,
-   "url": "https://www.investing.com/news/economy-news/ecb-to-hold-rates-as-investors-focus-on-french-bondslagardes-future-4981183",
-   "title": "ECB to hold rates as investors focus on French bonds, Lagarde’s future",
-   "publisher": "Investing.com",
-   "tier": "data",
-   "pageAge": "2026-10-28"
+   "url": "https://www.wsj.com/world/europe/christine-lagarde-to-resign-early-as-ecb-president-2ad844e6?mod=rss_worldnews",
+   "title": "Christine Lagarde to Resign Early as ECB President",
+   "publisher": "WSJ",
+   "tier": "press",
+   "pageAge": "2026-10-29"
   },
   {
    "n": 14,
-   "url": "https://www.aljazeera.com/economy/2026/10/28/five-key-takeaways-from-the-uk-autumn-budget?traffic_source=rss",
-   "title": "Five key takeaways from the UK Autumn Budget",
-   "publisher": "Al Jazeera",
+   "url": "https://www.bloomberg.com/news/live-blog/2026-10-29/lagarde-steps-down-ecb-rate-decision-euro-live-updates",
+   "title": "ECB Live Updates: Christine Lagarde to Step Down Early, Rate Decision Ahead",
+   "publisher": "Bloomberg",
    "tier": "press",
-   "pageAge": "2026-10-28"
+   "pageAge": "2026-10-29"
   },
   {
    "n": 15,
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVnBYek5KdDdhMXN1SGw1TldlR19aLTR0NG91alpsSFZ1dW5mVXpraUVDQ0VVLXQ0OEZ2VDNtbUhmZG1rTGUzZVBYcHBGMW1LVlNpLTBsamdyM3dvYmkzMjQweVZKeGxBRURYYnRrN2xndUpVVnlpajFCbXhpdWJkUHlDY1QyT3BMa3VHUGJCZVFmZWRxUVRpaUZ6ZGZTaWFGREJXdm1CZjd4LTB1VjIzUQ?oc=5",
-   "title": "European shares shrug off HSBC miss as other earnings, oil relief lift sentiment",
-   "publisher": "Reuters",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYXNaYVFWY3J5a3l0YUlkZ0RzcllpWDVoMUhxOVAwV3dkd0tpMG9TSHRTTVJ4eG95Y0JmRVhoQkI0d05HWlRPc1JwbUh0eWU4SXdSc245Ml8tNGstUFFOLW44UDlzTWJHd2dlRE90UG9Md3hmb1pDZ042eG1kM3BhcThucjVBQXlsd2ZScjY2amtOQ3NIVlRLM0hiTE5STGJLZVJoeUM1Uml0SHZYcmNKejljVEhONmQ1R3c?oc=5",
+   "title": "German Consumers Grow Slightly Gloomier on Lingering Inflation Concerns",
+   "publisher": "WSJ",
    "tier": "press",
-   "pageAge": "2026-10-27"
+   "pageAge": "2026-10-29"
   },
   {
    "n": 16,
-   "url": "https://www.ft.com/content/2bb82c45-04b2-4ccc-9002-f54483fb044e?syn-25a6b1a6=1",
-   "title": "China rushes to shore up markets as AI trade sours",
-   "publisher": "Financial Times",
+   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbXdMQVRfVWIwUUJWdFkzMElyODBSQktLY05EVHBiRVpKeUF3bVFVZC05cDItUXBtaVVkVXNpcVVpUkhNMW9lRWVvdTE1U3lNOThkRmt3OWZKX2lBSGZpOTJSWVJSR3dhX1JBNFk0YVpYQl9ZQS1MbWczVXlTVGVfNXBiOHpnUFRRcW96Vk9PcUExazVMb3otcHM1UXRndldyUzdWelgwTXB5d3VsRVhVUkxnTF9mZWJNVk5DcDNCYVd2R2l4NlN0RTdCN0wySmdIem1SSzhHdzBCZzhhbkE?oc=5",
+   "title": "UK's Haleon slides as weak flu season, China hit prompt outlook cut",
+   "publisher": "Reuters",
    "tier": "press",
-   "pageAge": "2026-10-28"
+   "pageAge": "2026-10-29"
   },
   {
    "n": 17,
+   "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-china-stocks-fall-as-tech-selloff-deepens-despite-fed-rate-pause/articleshow/135295671.cms",
+   "title": "Global Market: China stocks fall as tech selloff deepens despite Fed rate pause",
+   "publisher": "Economic Times",
+   "tier": "press",
+   "pageAge": "2026-10-29"
+  },
+  {
+   "n": 18,
+   "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-south-korean-shares-fall-2-as-samsung-electronics-slides-after-earnings/articleshow/135289785.cms",
+   "title": "Global Market: South Korean shares fall 2% as Samsung Electronics slides after earnings",
+   "publisher": "Economic Times",
+   "tier": "press",
+   "pageAge": "2026-10-29"
+  },
+  {
+   "n": 19,
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNamRyNW5OdlFEXzZLTlJtX2pENXpkR05fZlptaUU0RlBWM0FHd2REWEMxN1FCbHBpbkpwYWNkUC1vMzU4NmY2bFRrMXoydXl2YjdKYlExVkI3RTYwTVRiU2RsaVlIa3JsR0dDbGlsdTFBQ3NqbWRTY3NOR3ByS3JrR2FTZThPVmlpM0ZXOGUyYkpVRkZ2akQ2VnJqdjRmdF9HOENPZ3BSRGxIaWs3LUtoVzNB?oc=5",
+   "title": "Japan stocks higher at close of trade; Nikkei 225 up 1.00%",
+   "publisher": "Investing.com",
+   "tier": "data",
+   "pageAge": "2026-10-29"
+  },
+  {
+   "n": 20,
    "url": "https://www.scmp.com/business/china-business/article/3372395/chinas-stock-slide-cant-be-reversed-massive-state-buying-analysts-warn",
    "title": "China’s stock slide can’t be reversed by massive state buying, analysts warn",
    "publisher": "SCMP",
@@ -8383,193 +8391,152 @@
    "pageAge": "2026-10-28"
   },
   {
-   "n": 18,
-   "url": "https://www.livemint.com/market/stock-market-news/amd-micron-among-chip-stocks-rising-up-to-5-as-sk-hynix-s-earnings-boost-ai-trade-microsoft-google-results-in-focus-11793205882825.html",
-   "title": "Chip stocks on the fly! AMD, Micron among shares gain up to 5% as SK Hynix’s earnings boost AI trade",
-   "publisher": "Mint",
-   "tier": "press",
-   "pageAge": "2026-10-28"
-  },
-  {
-   "n": 19,
-   "url": "https://www.scmp.com/business/banking-finance/article/3372495/hong-kong-holds-base-rate-425-after-us-federal-reserve-decision",
-   "title": "Hong Kong holds base rate at 4.25% after US Federal Reserve decision",
-   "publisher": "SCMP",
-   "tier": "press",
-   "pageAge": "2026-10-28"
-  },
-  {
-   "n": 20,
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONHVUbnZmWGk0c0d4Rlh6aXpPUjJnNFgwR2hpNHZEUDNqZ0pQaWZrSlpBdjJRaHVGdjhoOGI4X1dMMjk1MXRKV21FcVFNb2VJZTR2YnkyZmE2VTQ3M25MbTRzWW1wX1o0N25iWkY1eUpmdk9NUmdsNlBMSXRvRk9ySXFkOUthLXgwVExXQlVkbDBna3NoeGJ0Qzk3cjBia0hLZS1NMHVOaEVxLW5sM2dLbGhnMA?oc=5",
-   "title": "Japan Credit Risk Jumps Most Since 2022, Pressuring Bond Market",
-   "publisher": "Bloomberg",
-   "tier": "press",
-   "pageAge": "2026-10-28"
-  },
-  {
    "n": 21,
-   "url": "https://www.theguardian.com/business/2026/oct/28/fed-interest-rates-midterms",
-   "title": "Fed holds interest rates steady in last decision before midterms",
-   "publisher": "The Guardian",
+   "url": "https://www.wsj.com/finance/commodities-futures/oil-is-gushing-out-of-the-gulf-why-are-prices-still-above-100-a-barrel-3ccff61d?mod=rss_markets_main",
+   "title": "Oil Is Gushing Out of the Gulf. Why Are Prices Still Above $100 a Barrel?",
+   "publisher": "WSJ",
    "tier": "press",
-   "pageAge": "2026-10-28"
+   "pageAge": "2026-10-29"
   },
   {
    "n": 22,
-   "url": "https://www.cnbc.com/2026/10/28/scott-bessent-interview.html",
-   "title": "Bessent says 'not necessarily' a mistake if the Fed hikes again",
-   "publisher": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTmx0bHpYVWdrRDdFMTd2a3o2SXVTM252RlZBSWVsRVVPTnYxdGZvMkc4b21zTXdUbS1YcGlfejNGQnI1MnV5TEliY1QzWjhHeXB2eEprbG5vcnpxMEtHdERMU2N4b2FBbWxHdmUtLUNiUzZmYm56ZnVtTWY4YXJDcy03QWtzam1JcmV2ZEQ0dUpUanlhOU4wZUE0YnJiRWxBNmJCVmxuMk1sOWhiY09r?oc=5",
+   "title": "TSX futures climb as oil retreat eases inflation fears; US data in focus",
+   "publisher": "Reuters",
    "tier": "press",
-   "pageAge": "2026-10-28"
+   "pageAge": "2026-10-29"
   },
   {
    "n": 23,
-   "url": "https://www.wsj.com/world/middle-east/vance-engaged-iran-to-revive-peace-talks-f19eaaf8?mod=rss_markets_main",
-   "title": "Vance Engaged Iran to Revive Peace Talks",
-   "publisher": "WSJ",
+   "url": "https://www.business-standard.com/markets/news/india-bonds-seen-attracting-buyers-as-10-year-yield-nears-2022-levels-126102900690_1.html",
+   "title": "India bonds seen attracting buyers as 10-year yield nears 2022 levels",
+   "publisher": "Business Standard",
    "tier": "press",
-   "pageAge": "2026-10-28"
+   "pageAge": "2026-10-29"
   },
   {
    "n": 24,
-   "url": "https://www.livemint.com/market/canadian-oil-discount-exceeds-30-amid-gulf-coast-pressures-11793217749090.html",
-   "title": "Canadian Oil Discount Exceeds $30 Amid Gulf Coast Pressures",
-   "publisher": "Mint",
+   "url": "https://www.straitstimes.com/business/shell-reports-second-highest-profit-ever-as-oil-refining-hits-record",
+   "title": "Shell reports second-highest profit ever as oil refining hits record",
+   "publisher": "Straits Times",
    "tier": "press",
-   "pageAge": "2026-10-28"
+   "pageAge": "2026-10-29"
   },
   {
    "n": 25,
-   "url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
-   "title": "Alphabet sinks 10% as it holds 2026 capex unchanged, expects significant increase in 2027",
-   "publisher": "CNBC",
+   "url": "https://www.wsj.com/finance/investing/bankers-still-sound-cautious-about-ai-boom-94522118?mod=rss_markets_main",
+   "title": "Bankers Still Sound Cautious About AI Boom",
+   "publisher": "WSJ",
    "tier": "press",
-   "pageAge": "2026-10-28"
+   "pageAge": "2026-10-29"
   },
   {
    "n": 26,
-   "url": "https://www.ft.com/content/eb386156-5bf9-4edd-80f2-803fdee1e33d?syn-25a6b1a6=1",
-   "title": "Google shares tumble 10% after $51bn AI outlay deepens cash burn",
-   "publisher": "Financial Times",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-10-29/warsh-puts-a-spotlight-on-ai-financing-s-vulnerability-to-fed-policy",
+   "title": "Warsh Puts a Spotlight on AI Financing’s Vulnerability to Fed Policy",
+   "publisher": "Bloomberg",
    "tier": "press",
-   "pageAge": "2026-10-28"
+   "pageAge": "2026-10-29"
   },
   {
    "n": 27,
-   "url": "https://www.cnbc.com/2026/10/28/microsoft-msft-q1-earnings-report-2027.html",
-   "title": "Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9tUkpYWmlUR3kwRzB5cTZuejFRaTloS09XeThKc3hXUnVVem12eHNkN0ZnV2VpemJ2N09sZWNkenlUNGhHVUo4RmdxaDFIUFhSU0JmMHlKckhSbXhxWXpMUGNsZ0dWOVVmd25nNnRpTE1lbEpTbWhkNk9VTnRpeGPSAYQBQVVfeXFMUE1seWVoTlViUzNtNmZyRk1NekFwcWN2ZkZSMUhWOUY2UHJQWnVZcTB2d1NPRXNzcmhzWlFGWlNNYUd2RTlEbUR1WEZlLWVCQzhjclZPdjlVX29STXVDVW1GOFVaeVUxeUoxSk9GRkhEeGg4RmlXclBlb1ZGZFgydFl0SjJN?oc=5",
+   "title": "Treasury yields ease after Federal Reserve rate hold",
    "publisher": "CNBC",
    "tier": "press",
-   "pageAge": "2026-10-28"
+   "pageAge": "2026-10-29"
   },
   {
    "n": 28,
-   "url": "https://www.cnbc.com/2026/10/28/magnificent-seven-stocks-correlation-breakdown.html",
-   "title": "The 'Magnificent Seven' is no more. Time to pick winners and losers as group's correlation breaks down",
+   "url": "https://www.cnbc.com/2026/10/29/kevin-warsh-fed-october-rate-decision-december-hike.html",
+   "title": "Analysis: Warsh is learning to wield the Fed's power without showing his hand",
    "publisher": "CNBC",
    "tier": "press",
-   "pageAge": "2026-10-28"
+   "pageAge": "2026-10-29"
   },
   {
    "n": 29,
-   "url": "https://www.cnbc.com/2026/10/28/doj-questions-nvidias-12point9-billion-hugging-face-deal.html",
-   "title": "Nvidia's $12.9 billion Hugging Face deal draws DOJ scrutiny",
-   "publisher": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYWRwVV9FWTdqX3owblhFcVRKVUdwU1ZLTUhYSnNMWEJXTnJvRVFHalRmdGwyZVp1dDQ4d0MycFBDQ3BVeFlKT0Y0bEJ6cGRVLS1tSWduZy1kQm5FckxVUkxSUWVpeE9EVUJfLTI3bGtLZWRlMU12S0lybkcybnphbno5ME5kNUNYRDJteldxOHB4Wno4d3czcUdHX0hmV3ludTlzWUliZDlnYTc1SlY0?oc=5",
+   "title": "BOJ Rate Hold Seen as Done Deal, Putting Focus on Guidance",
+   "publisher": "WSJ",
    "tier": "press",
-   "pageAge": "2026-10-28"
+   "pageAge": "2026-10-29"
   },
   {
    "n": 30,
-   "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/us-stocks-today-us-stocks-end-higher-as-fed-holds-rates-earnings-in-focus/articleshow/135279631.cms",
-   "title": "US stocks today: US stocks end higher as Fed holds rates; focus turns to earnings",
-   "publisher": "Economic Times",
+   "url": "https://www.livemint.com/market/stock-market-news/us-fed-fomc-pauses-interest-rates-can-nifty-bulls-take-charge-or-will-rbi-hike-spoil-the-rally-investors-guide-11793260941657.html",
+   "title": "US Fed FOMC pauses interest rates: Can Nifty bulls take charge or will RBI hike spoil the rally? Investors guide",
+   "publisher": "Mint",
    "tier": "press",
-   "pageAge": "2026-10-28"
+   "pageAge": "2026-10-29"
   },
   {
    "n": 31,
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZ1pKMXZadlBycTMxeldqcTVpdzJRZU1pQUNKVGdKZTVIcldkUWFkbzd1S1VrczA3Nl9ReVc0X2hnd0gxeGxaR0o4d19ZR05jdUdaWjV0bHhLUFJCYkpwS2Jlb1ZDbXBsaElIZklYOG5acUVHUjI3V0pUZ1dKZVk0RHM0dmljT3dQeWc5bGpGQXFyOTJDNHI5Tg?oc=5",
-   "title": "Chip Earnings Power Averages Higher as Nasdaq Volatility Cools Midweek – Company Announcement",
-   "publisher": "Financial Times",
-   "tier": "press",
-   "pageAge": "2026-10-28"
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUk9TWUwyZEFpY2VxM3I3S1VpaVhOUnZrZUNBX2FFYXVyd3lYRlkzUkhIZkV3Z2o4TUdUb01oMTNCeVIyRC0xWEJ2NnpYOU1FSGhsWElKaFJwLUQwRW82c3lEMlN3bFFER20yMGZkN0pURzBDSTFwOS1QTVQ5YkJsd3NvOTRDcy12LWw4em1RLTdfbHM5Q202ZTNJTXFTeWtoeFA3OE1IamlRNUpuTkJWMjdwRXhFX1NaV3VPQ3I2WVFIclZ2bkRSa2tUS3ZzemtiZHE0eUdzUzJUZw?oc=5",
+   "title": "LONDON MARKET OPEN: FTSE 100 up as Shell surges; ECB, US data to come",
+   "publisher": "Morningstar",
+   "tier": "data",
+   "pageAge": "2026-10-29"
   },
   {
    "n": 32,
-   "url": "https://www.straitstimes.com/business/companies-markets/wall-street-ends-higher-as-fed-holds-key-rate-steady-focus-turns-to-earnings",
-   "title": "Wall Street ends higher as Fed holds key rate steady, focus turns to earnings",
-   "publisher": "Straits Times",
+   "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-japan-bond-yields-steady-ahead-of-boj-policy-decision/articleshow/135298606.cms",
+   "title": "Global Market: Japan bond yields steady ahead of BOJ policy decision",
+   "publisher": "Economic Times",
    "tier": "press",
-   "pageAge": "2026-10-28"
+   "pageAge": "2026-10-29"
   },
   {
    "n": 33,
-   "url": "https://economictimes.indiatimes.com/markets/stocks/news/ahead-of-market-10-things-that-will-decide-stock-market-action-on-wednesday/articleshow/135271636.cms",
-   "title": "Ahead of Market: 10 things that will decide stock market action on Thursday",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/why-is-market-rising-today-sensex-jumps-600-points-nifty-nears-22900-6-key-factors-behind-rs-3-lakh-crore-gains/articleshow/135291603.cms",
+   "title": "Why is market rallying today? Sensex jumps 900 points, Nifty above 22,900. 6 key factors behind Rs 5 lakh crore gains",
    "publisher": "Economic Times",
    "tier": "press",
-   "pageAge": "2026-10-28"
+   "pageAge": "2026-10-29"
   },
   {
    "n": 34,
-   "url": "https://www.cnbc.com/2026/10/28/doordash-instacart-maplebear.html",
-   "title": "DoorDash's deal to buy Instacart coming as early as Thursday morning, sources tell CNBC",
-   "publisher": "CNBC",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/sensex-jumps-over-500-points-nifty-above-22850-after-fed-keeps-rates-unchanged-what-lies-ahead/articleshow/135290753.cms",
+   "title": "Sensex jumps over 500 points, Nifty above 22,850 after Fed keeps rates unchanged. What lies ahead?",
+   "publisher": "Economic Times",
    "tier": "press",
-   "pageAge": "2026-10-28"
+   "pageAge": "2026-10-29"
   },
   {
    "n": 35,
-   "url": "https://www.straitstimes.com/business/economy/fed-leaves-rates-unchanged-as-it-awaits-accumulation-of-more-information",
-   "title": "US Fed leaves rates unchanged as it awaits ‘accumulation of more information’",
-   "publisher": "Straits Times",
-   "tier": "press",
-   "pageAge": "2026-10-28"
+   "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63880",
+   "title": "Underwriting Auction for sale of Government Securities for ₹33,000 crore on October 30, 2026",
+   "publisher": "RBI",
+   "tier": "official",
+   "pageAge": "2026-10-29"
   },
   {
    "n": 36,
-   "url": "https://www.livemint.com/market/stock-market-news/us-fed-fomc-meeting-outcome-news-today-top-highlights-and-what-led-to-no-rate-hike-decision-11793209386525.html",
-   "title": "US Fed FOMC meeting outcome news today: Top highlights and what led to no rate hike decision",
-   "publisher": "Mint",
+   "url": "https://www.ft.com/content/b9294b91-0eee-413b-bdde-0569f48539b9?syn-25a6b1a6=1",
+   "title": "Christine Lagarde to step down as ECB president in February",
+   "publisher": "Financial Times",
    "tier": "press",
-   "pageAge": "2026-10-28"
+   "pageAge": "2026-10-29"
   },
   {
    "n": 37,
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNURmRi01T1pRa2lMMWNSUFVGUUFfaU9jRGJGSkVVc0FDTjZWSWU4aUVDNjBhSkhVYjFqSHRjZkdiT05UQk1VcVpoREdRT3pXWFV4enk2d3ZQUGRLdWpvZUNWNzJZQWhTXzNlaWJWRUlEQWVub3hOc1FyWjBGclpoZ2dRNndLazBRSThsOERYSkJzOFJXVEw1RTRSUkQxRzBfWC1jMXdwNmFzT0ZmMlFuN1VCNG11eGZlcjhVWThXZEtyWDlxLUVCNnZiWVVjNXBhdjYyNXFn?oc=5",
-   "title": "Alphabet misses Wall Street expectation on earnings, stock continues to slide in extended trading",
+   "url": "https://www.cnbc.com/2026/10/29/shell-earnings-oil-q3.html",
+   "title": "Shell nearly doubles quarterly profit year-on-year as refining margins soar to record high",
    "publisher": "CNBC",
    "tier": "press",
-   "pageAge": "2026-10-28"
+   "pageAge": "2026-10-29"
   },
   {
    "n": 38,
-   "url": "https://www.straitstimes.com/business/microsoft-beats-expectations-fuelled-by-azure-cloud-business",
-   "title": "Microsoft beats expectations fuelled by Azure cloud business",
+   "url": "https://www.straitstimes.com/business/totalenergies-profit-hits-record-on-high-oil-prices",
+   "title": "TotalEnergies profit hits record on high oil prices",
    "publisher": "Straits Times",
    "tier": "press",
-   "pageAge": "2026-10-28"
-  },
-  {
-   "n": 39,
-   "url": "https://www.cnbc.com/2026/10/28/fedex-fdx-sept-2026-earnings.html",
-   "title": "FedEx beats expectations, raises outlook in first report since calendar adjustment",
-   "publisher": "CNBC",
-   "tier": "press",
-   "pageAge": "2026-10-28"
-  },
-  {
-   "n": 40,
-   "url": "https://www.cnbc.com/2026/10/28/ford-motor-f-earnings-q3-2026.html",
-   "title": "Ford reports mixed third-quarter results, says 2027 earnings will be in line with this year",
-   "publisher": "CNBC",
-   "tier": "press",
-   "pageAge": "2026-10-28"
+   "pageAge": "2026-10-29"
   }
  ],
  "warnings": [
-  "1 news feed(s) could not be read this time: Google News: site:economist.com central bank inflation oil dollar (no items).",
-  "The written analysis is from 2026-10-29 and is being refreshed; the numbers are current."
+  "1 news feed(s) could not be read this time: Google News: site:economist.com central bank inflation oil dollar (no items)."
  ],
  "usage": {
   "headlines": 60,

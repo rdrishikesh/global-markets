@@ -118,13 +118,13 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** The Fed held rates at 3.75%–4% (Mint) while Moneycontrol reported a 90% chance of a December hike; the S&P 500 rose 0.28% as Alphabet sank 10% after earnings (CNBC).
-- Company effect, Alphabet (down on sp500, nasdaq): CNBC reported Alphabet sank 10% after its first top-and-bottom-line miss in nearly four years; the stock continued to slide in extended trading.
-- Company effect, Microsoft (up on sp500, nasdaq, dow): CNBC reported Microsoft stock jumped 4% on a better-than-expected report, with Azure revenue up 48%.
-- Company effect, SK Hynix (up on kospi): Mint reported SK Hynix posted a record third-quarter profit on demand for advanced semiconductors, lifting Asian and US chip shares.
-- Company effect, FedEx (up on sp500): CNBC reported FedEx beat Wall Street expectations on the top and bottom lines and raised its outlook.
-- Company effect, Ford (mixed on sp500): CNBC reported Ford beat earnings estimates but slightly missed on revenue, and said 2027 earnings will be in line with this year.
-- Company effect, Petrobras (up on bovespa): Bloomberg reported Petrobras lifted production to a record and ran its refineries near full capacity in the third quarter.
+**Headline:** CNBC reported Wall Street hammered Alphabet over an earnings miss, while Brent closed at 110.00 (1d -4.61%) and the ECB said Lagarde will step down on 7 February 2027.
+- Company effect, Alphabet (down on sp500, nasdaq): CNBC reported Alphabet's earnings missed on weaker core revenue; the FT said it reported lower than expected capex. Nasdaq futures slumped (WSJ).
+- Company effect, Microsoft (mixed on sp500, nasdaq): The FT said Microsoft reported lower than expected capex; Economic Times said Microsoft gained on strong cash flow prospects.
+- Company effect, Shell (up on ftse100, eurostoxx50): CNBC reported Shell nearly doubled quarterly profit year-on-year as refining margins hit a record high; Morningstar said the FTSE 100 rose as Shell surged.
+- Company effect, Airbus (up on eurostoxx50): Economic Times reported Airbus advanced after its earnings update, helping offset tech weakness in Europe.
+- Company effect, Samsung Electronics (down on kospi): Economic Times reported Samsung dropped 4.13% after disappointing third-quarter profits, pulling KOSPI down 2.18%.
+- Company effect, TotalEnergies (up on eurostoxx50): Straits Times reported TotalEnergies' profit hit a record on high oil prices, with a higher dividend planned.
 
 ## Headlines collected today
 
@@ -192,7 +192,6 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 1 news feed(s) could not be read this time: Google News: site:economist.com central bank inflation oil dollar (no items).
-- The written analysis is from 2026-10-29 and is being refreshed; the numbers are current.
 
 ## How to use this file
 
