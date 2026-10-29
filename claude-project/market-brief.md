@@ -118,11 +118,13 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** KOSPI rose 6.63% on SK Hynix earnings optimism while Europe edged lower and Indian stocks fell with Brent above $110, all ahead of the Fed decision.
-- Company effect, SK Hynix (up on kospi): Stronger-than-expected earnings lifted AI optimism and tech stocks (Bloomberg, Economic Times); Reuters reports plans for a $75 bln shareholder payout.
-- Company effect, Anthropic (up on nasdaq): WSJ: an Anthropic-inspired rally extended into a second day, pushing the Nasdaq more than 1% higher.
-- Company effect, HSBC (down on ftse100): Morningstar reported HSBC weighed on the FTSE 100 ahead of the budget and Fed call.
-- Company effect, Celestica (up on tsx): Reuters: the TSX hit a six-day high, led by Celestica and metal miners.
+**Headline:** The Fed held rates at 3.75%–4% (Mint) while Moneycontrol reported a 90% chance of a December hike; the S&P 500 rose 0.28% as Alphabet sank 10% after earnings (CNBC).
+- Company effect, Alphabet (down on sp500, nasdaq): CNBC reported Alphabet sank 10% after its first top-and-bottom-line miss in nearly four years; the stock continued to slide in extended trading.
+- Company effect, Microsoft (up on sp500, nasdaq, dow): CNBC reported Microsoft stock jumped 4% on a better-than-expected report, with Azure revenue up 48%.
+- Company effect, SK Hynix (up on kospi): Mint reported SK Hynix posted a record third-quarter profit on demand for advanced semiconductors, lifting Asian and US chip shares.
+- Company effect, FedEx (up on sp500): CNBC reported FedEx beat Wall Street expectations on the top and bottom lines and raised its outlook.
+- Company effect, Ford (mixed on sp500): CNBC reported Ford beat earnings estimates but slightly missed on revenue, and said 2027 earnings will be in line with this year.
+- Company effect, Petrobras (up on bovespa): Bloomberg reported Petrobras lifted production to a record and ran its refineries near full capacity in the third quarter.
 
 ## Headlines collected today
 
@@ -190,7 +192,6 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 1 news feed(s) could not be read this time: Google News: site:economist.com central bank inflation oil dollar (no items).
-- The written analysis is from 2026-10-28 and is being refreshed; the numbers are current.
 
 ## How to use this file
 
