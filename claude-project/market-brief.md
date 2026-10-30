@@ -118,12 +118,11 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** Straits Times reported Wall Street ended lower as Alphabet's revenue miss revived AI capex jitters: Nasdaq Composite -1.38%, S&P 500 -0.30%, while the Russell 2000 rose 1.01%.
-- Company effect, Alphabet (down on sp500, nasdaq): CNBC: Alphabet tanked nearly 13% for its worst day ever, losing $500 billion in value; Straits Times tied the market slide to its revenue miss.
-- Company effect, Amazon (down on sp500, nasdaq): Financial Times: Amazon shares slid on a lower Christmas sales forecast; CNBC: negative free cash flow of $42.4 billion.
-- Company effect, Intel (down on sp500): CNBC: Intel stock plunged 21% as the chipmaker blamed a PC slowdown for weak guidance.
-- Company effect, Starbucks (mixed on sp500): CNBC: Starbucks' US stores topped comparable sales expectations but international fell short; Financial Times: US same-store sales rise 7.7%.
-- Company effect, Vale (down on bovespa): Bloomberg: Vale's iron ore production fell short of estimates in Q3 on challenges at a mine in northern Brazil.
+**Headline:** Financial Times reported Big Tech shed nearly $900bn over AI spending; Nasdaq Composite closed 1d -1.38% while KOSPI fell 1d -3.48% and Nikkei 225 1d -2.12%.
+- Company effect, Amazon (down on sp500, nasdaq): CNBC reported Amazon fell 7% in premarket trading after earnings as investors worried about AI spending paying off.
+- Company effect, Intel (down on sp500, nasdaq): CNBC reported Intel plunged 25% in premarket trading; Economic Times cited its cash burn warning.
+- Company effect, Alphabet (down on sp500, nasdaq): SCMP reported soaring AI revenues failed to shield Alphabet from a brutal sell-off as results deepened jitters over capital spending.
+- Company effect, AstraZeneca (up on ftse100): Morningstar reported the FTSE 100 rose as AstraZeneca offset bank losses.
 
 ## Headlines collected today
 
@@ -191,7 +190,6 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 1 news feed(s) could not be read this time: Google News: site:economist.com central bank inflation oil dollar (no items).
-- The written analysis is from 2026-10-30 and is being refreshed; the numbers are current.
 
 ## How to use this file
 
