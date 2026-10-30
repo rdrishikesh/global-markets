@@ -118,13 +118,12 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** CNBC reported Wall Street hammered Alphabet over an earnings miss, while Brent closed at 110.00 (1d -4.61%) and the ECB said Lagarde will step down on 7 February 2027.
-- Company effect, Alphabet (down on sp500, nasdaq): CNBC reported Alphabet's earnings missed on weaker core revenue; the FT said it reported lower than expected capex. Nasdaq futures slumped (WSJ).
-- Company effect, Microsoft (mixed on sp500, nasdaq): The FT said Microsoft reported lower than expected capex; Economic Times said Microsoft gained on strong cash flow prospects.
-- Company effect, Shell (up on ftse100, eurostoxx50): CNBC reported Shell nearly doubled quarterly profit year-on-year as refining margins hit a record high; Morningstar said the FTSE 100 rose as Shell surged.
-- Company effect, Airbus (up on eurostoxx50): Economic Times reported Airbus advanced after its earnings update, helping offset tech weakness in Europe.
-- Company effect, Samsung Electronics (down on kospi): Economic Times reported Samsung dropped 4.13% after disappointing third-quarter profits, pulling KOSPI down 2.18%.
-- Company effect, TotalEnergies (up on eurostoxx50): Straits Times reported TotalEnergies' profit hit a record on high oil prices, with a higher dividend planned.
+**Headline:** Straits Times reported Wall Street ended lower as Alphabet's revenue miss revived AI capex jitters: Nasdaq Composite -1.38%, S&P 500 -0.30%, while the Russell 2000 rose 1.01%.
+- Company effect, Alphabet (down on sp500, nasdaq): CNBC: Alphabet tanked nearly 13% for its worst day ever, losing $500 billion in value; Straits Times tied the market slide to its revenue miss.
+- Company effect, Amazon (down on sp500, nasdaq): Financial Times: Amazon shares slid on a lower Christmas sales forecast; CNBC: negative free cash flow of $42.4 billion.
+- Company effect, Intel (down on sp500): CNBC: Intel stock plunged 21% as the chipmaker blamed a PC slowdown for weak guidance.
+- Company effect, Starbucks (mixed on sp500): CNBC: Starbucks' US stores topped comparable sales expectations but international fell short; Financial Times: US same-store sales rise 7.7%.
+- Company effect, Vale (down on bovespa): Bloomberg: Vale's iron ore production fell short of estimates in Q3 on challenges at a mine in northern Brazil.
 
 ## Headlines collected today
 
@@ -192,7 +191,6 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 1 news feed(s) could not be read this time: Google News: site:economist.com central bank inflation oil dollar (no items).
-- The written analysis is from 2026-10-29 and is being refreshed; the numbers are current.
 
 ## How to use this file
 
