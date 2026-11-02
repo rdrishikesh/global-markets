@@ -118,11 +118,12 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** Financial Times reported Big Tech shed nearly $900bn over AI spending; Nasdaq Composite closed 1d -1.38% while KOSPI fell 1d -3.48% and Nikkei 225 1d -2.12%.
-- Company effect, Amazon (down on sp500, nasdaq): CNBC reported Amazon fell 7% in premarket trading after earnings as investors worried about AI spending paying off.
-- Company effect, Intel (down on sp500, nasdaq): CNBC reported Intel plunged 25% in premarket trading; Economic Times cited its cash burn warning.
-- Company effect, Alphabet (down on sp500, nasdaq): SCMP reported soaring AI revenues failed to shield Alphabet from a brutal sell-off as results deepened jitters over capital spending.
-- Company effect, AstraZeneca (up on ftse100): Morningstar reported the FTSE 100 rose as AstraZeneca offset bank losses.
+**Headline:** Bloomberg reported the worst drop for stocks since June as tech earnings misses fed AI-spending doubts; S&P 500 closed 7580.07, 1d -1.82%, Nasdaq Composite 1d -2.86%.
+- Company effect, Intel (down on sp500, nasdaq): Yahoo Finance: Intel plunged nearly 29% on a weak outlook; CNBC called it its worst day since the 1970s.
+- Company effect, Amazon (down on sp500, nasdaq): WSJ: Amazon and Intel earnings sparked more AI selling.
+- Company effect, AMD (down on nasdaq): Mint: AMD dropped 12% in the chip selloff.
+- Company effect, Meta (down on sp500, nasdaq): CNBC: S&P Global revised Meta's outlook to negative on capex and free cash flow concerns.
+- Company effect, AstraZeneca (up on ftse100): Morningstar: AstraZeneca offset bank losses in London.
 
 ## Headlines collected today
 
@@ -190,7 +191,6 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 4 news feed(s) could not be read this time: Euronews business (HTTP 406); Google News: site:economist.com stock markets indices (no items); Google News: site:economist.com central bank inflation oil dollar (no items); Google News: Bovespa Brazil Mexico stocks (no items).
-- The written analysis is from 2026-10-30 and is being refreshed; the numbers are current.
 
 ## How to use this file
 
