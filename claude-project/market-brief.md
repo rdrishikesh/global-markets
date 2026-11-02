@@ -118,12 +118,8 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** Bloomberg reported the worst drop for stocks since June as tech earnings misses fed AI-spending doubts; S&P 500 closed 7580.07, 1d -1.82%, Nasdaq Composite 1d -2.86%.
-- Company effect, Intel (down on sp500, nasdaq): Yahoo Finance: Intel plunged nearly 29% on a weak outlook; CNBC called it its worst day since the 1970s.
-- Company effect, Amazon (down on sp500, nasdaq): WSJ: Amazon and Intel earnings sparked more AI selling.
-- Company effect, AMD (down on nasdaq): Mint: AMD dropped 12% in the chip selloff.
-- Company effect, Meta (down on sp500, nasdaq): CNBC: S&P Global revised Meta's outlook to negative on capex and free cash flow concerns.
-- Company effect, AstraZeneca (up on ftse100): Morningstar: AstraZeneca offset bank losses in London.
+**Headline:** WSJ reported stock futures rose and oil fell as investors returned to risk after last week's tech selloff; Brent is -7.68% (1d) at 108.60, the VIX is 18.86, and the S&P 500 closed -1.82% on Friday.
+- Company effect, Hyperscalers: Microsoft, Amazon, Alphabet, Meta, Oracle (down on sp500, nasdaq): Economic Times tied Nasdaq's biggest one-day fall since June to concerns over hyperscaler spending and AI returns; Yahoo Finance reported Wall Street is bearish on these names.
 
 ## Headlines collected today
 
@@ -191,7 +187,7 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 2 news feed(s) could not be read this time: Google News: site:economist.com stock markets indices (no items); Google News: site:economist.com central bank inflation oil dollar (no items).
-- The written analysis is from 2026-11-02 and is being refreshed; the numbers are current.
+- Dropped "Asia-Pacific: China bounce on support, Korea and India up, ASX lower": number(s) 200 not found in its cited evidence.
 
 ## How to use this file
 
