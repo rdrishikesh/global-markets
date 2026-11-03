@@ -118,8 +118,10 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** WSJ reported stock futures rose and oil fell as investors returned to risk after last week's tech selloff; Brent is -7.68% (1d) at 108.60, the VIX is 18.86, and the S&P 500 closed -1.82% on Friday.
-- Company effect, Hyperscalers: Microsoft, Amazon, Alphabet, Meta, Oracle (down on sp500, nasdaq): Economic Times tied Nasdaq's biggest one-day fall since June to concerns over hyperscaler spending and AI returns; Yahoo Finance reported Wall Street is bearish on these names.
+**Headline:** S&P 500 closed at 7541.40 (1d -0.51%) and Nasdaq Composite fell 1d -1.07% as AI-spending worries weighed, while Brent crude dropped 1d -11.28% on US-Iran peace-talk hopes.
+- Company effect, Apple (down on sp500, nasdaq): WSJ reported shares fell as new CEO John Ternus warned margins may weaken in future quarters; FT reported a warning on rising memory-chip costs.
+- Company effect, Oracle (down on sp500, nasdaq): Oracle fell after filing to issue $20 billion in new stock and debt to finance its AI buildout (CNBC, Economic Times).
+- Company effect, Reliance Industries (up on nifty50, sensex): Business Standard: shares surged 11.6% after record quarterly profit; Economic Times listed it among top gainers lifting Nifty and Sensex.
 
 ## Headlines collected today
 
@@ -187,7 +189,6 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 2 news feed(s) could not be read this time: Google News: site:economist.com stock markets indices (no items); Google News: site:economist.com central bank inflation oil dollar (no items).
-- The written analysis is from 2026-11-02 and is being refreshed; the numbers are current.
 
 ## How to use this file
 
