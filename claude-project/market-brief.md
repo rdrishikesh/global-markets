@@ -118,10 +118,9 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** S&P 500 closed at 7541.40 (1d -0.51%) and Nasdaq Composite fell 1d -1.07% as AI-spending worries weighed, while Brent crude dropped 1d -11.28% on US-Iran peace-talk hopes.
-- Company effect, Apple (down on sp500, nasdaq): WSJ reported shares fell as new CEO John Ternus warned margins may weaken in future quarters; FT reported a warning on rising memory-chip costs.
-- Company effect, Oracle (down on sp500, nasdaq): Oracle fell after filing to issue $20 billion in new stock and debt to finance its AI buildout (CNBC, Economic Times).
-- Company effect, Reliance Industries (up on nifty50, sensex): Business Standard: shares surged 11.6% after record quarterly profit; Economic Times listed it among top gainers lifting Nifty and Sensex.
+**Headline:** Investing.com and CNBC reported an Apple margin warning set off a global tech rout: Nasdaq -1.07%, Kospi -3.59%, TAIEX -3.59%, while Nifty 50 rose 1.58%.
+- Company effect, Apple (down on nasdaq, sp500): CNBC reported Apple shares slid after a weak margin outlook; Investing.com called it a margin warning that triggered a global tech rout.
+- Company effect, HDFC Bank (up on nifty50): Mint reported HDFC Bank shares advanced 3.2% on higher net interest income and better asset quality; Business Standard said the Nifty Private Bank index gained 2%.
 
 ## Headlines collected today
 
@@ -189,7 +188,6 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 3 news feed(s) could not be read this time: Google News: site:economist.com stock markets indices (no items); Google News: site:economist.com central bank inflation oil dollar (no items); Google News: Bovespa Brazil Mexico stocks (no items).
-- The written analysis is from 2026-11-03 and is being refreshed; the numbers are current.
 
 ## How to use this file
 
