@@ -118,9 +118,10 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** Investing.com and CNBC reported an Apple margin warning set off a global tech rout: Nasdaq -1.07%, Kospi -3.59%, TAIEX -3.59%, while Nifty 50 rose 1.58%.
-- Company effect, Apple (down on nasdaq, sp500): CNBC reported Apple shares slid after a weak margin outlook; Investing.com called it a margin warning that triggered a global tech rout.
-- Company effect, HDFC Bank (up on nifty50): Mint reported HDFC Bank shares advanced 3.2% on higher net interest income and better asset quality; Business Standard said the Nifty Private Bank index gained 2%.
+**Headline:** Investing.com reported European shares slid as an Apple margin warning triggered a global tech rout; KOSPI and TAIEX each fell -3.59% while Nifty 50 rose 1.58%.
+- Company effect, Apple (down on sp500, nasdaq): CNBC reported Apple shares slid after a weak margin outlook; Investing.com said the warning triggered a global tech rout.
+- Company effect, HDFC Bank (up on nifty50, sensex): Mint reported HDFC Bank shares advanced 3.2% on higher net interest income and better asset quality; Business Standard said the private bank index gained 2%.
+- Company effect, ITC (up on nifty50, sensex): Mint reported ITC shares rose over 1% after Q2 profit fell 18.45% YoY despite revenue up 43.85%.
 
 ## Headlines collected today
 
