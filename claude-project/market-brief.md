@@ -118,10 +118,9 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** Per Economic Times, the Nasdaq rebounded as chipmakers rallied while Apple slipped; Nasdaq Composite 1d 0.83%, Dow -0.38%, with US midterm results awaited.
-- Company effect, Apple (down on sp500, nasdaq): CNBC reported Apple issued a gross margin forecast that disappointed Wall Street in John Ternus' first earnings as CEO; Economic Times cited memory chip costs.
-- Company effect, Nvidia (up on sp500, nasdaq): Economic Times said Nvidia and Micron advanced as chipmakers rallied and the Nasdaq rebounded.
-- Company effect, Shopify (down on tsx): MarketWatch reported Shopify's stock slid after earnings.
+**Headline:** Democrats' midterm sweep (N4, WSJ) jolted Asian tech and AI-linked stocks lower while European shares rose; Euro Stoxx 50 1d 1.74%, Nikkei 225 1d -1.42%.
+- Company effect, Novo Nordisk (up on eurostoxx50): CNBC: Novo beat expectations as Wegovy pill sales blew past estimates and it raised its outlook; Economic Times says it jumped.
+- Company effect, Apple (down on sp500, nasdaq): Morningstar noted tech stocks rose on Nov 3 despite an Apple slump, a drag on Nasdaq and S&P 500.
 
 ## Headlines collected today
 
@@ -189,7 +188,7 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 4 news feed(s) could not be read this time: Euronews business (HTTP 406); Google News: site:economist.com stock markets indices (no items); Google News: site:economist.com central bank inflation oil dollar (no items); Google News: Bovespa Brazil Mexico stocks (no items).
-- The written analysis is from 2026-11-04 and is being refreshed; the numbers are current.
+- Dropped "Apple": number(s) 1.90 not found in its cited evidence.
 
 ## How to use this file
 
