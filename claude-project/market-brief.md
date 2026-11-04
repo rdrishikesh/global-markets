@@ -118,10 +118,10 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** Investing.com reported European shares slid as an Apple margin warning triggered a global tech rout; KOSPI and TAIEX each fell -3.59% while Nifty 50 rose 1.58%.
-- Company effect, Apple (down on sp500, nasdaq): CNBC reported Apple shares slid after a weak margin outlook; Investing.com said the warning triggered a global tech rout.
-- Company effect, HDFC Bank (up on nifty50, sensex): Mint reported HDFC Bank shares advanced 3.2% on higher net interest income and better asset quality; Business Standard said the private bank index gained 2%.
-- Company effect, ITC (up on nifty50, sensex): Mint reported ITC shares rose over 1% after Q2 profit fell 18.45% YoY despite revenue up 43.85%.
+**Headline:** Per Economic Times, the Nasdaq rebounded as chipmakers rallied while Apple slipped; Nasdaq Composite 1d 0.83%, Dow -0.38%, with US midterm results awaited.
+- Company effect, Apple (down on sp500, nasdaq): CNBC reported Apple issued a gross margin forecast that disappointed Wall Street in John Ternus' first earnings as CEO; Economic Times cited memory chip costs.
+- Company effect, Nvidia (up on sp500, nasdaq): Economic Times said Nvidia and Micron advanced as chipmakers rallied and the Nasdaq rebounded.
+- Company effect, Shopify (down on tsx): MarketWatch reported Shopify's stock slid after earnings.
 
 ## Headlines collected today
 
@@ -189,7 +189,6 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 3 news feed(s) could not be read this time: Google News: site:economist.com stock markets indices (no items); Google News: site:economist.com central bank inflation oil dollar (no items); Google News: Bovespa Brazil Mexico stocks (no items).
-- The written analysis is from 2026-11-03 and is being refreshed; the numbers are current.
 
 ## How to use this file
 
