@@ -118,9 +118,13 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** Democrats' midterm sweep (N4, WSJ) jolted Asian tech and AI-linked stocks lower while European shares rose; Euro Stoxx 50 1d 1.74%, Nikkei 225 1d -1.42%.
-- Company effect, Novo Nordisk (up on eurostoxx50): CNBC: Novo beat expectations as Wegovy pill sales blew past estimates and it raised its outlook; Economic Times says it jumped.
-- Company effect, Apple (down on sp500, nasdaq): Morningstar noted tech stocks rose on Nov 3 despite an Apple slump, a drag on Nasdaq and S&P 500.
+**Headline:** US equities rallied after Democrats won Congress (S&P 500 1d 1.58%, Dow 3.03%) as Brent fell 8.58%; Financial Times reported hyperscalers surged while chipmakers fell.
+- Company effect, Microsoft (up on sp500, dow, nasdaq): Mint listed Microsoft among top gainers on the day Wall Street rallied after Democrats won Congress.
+- Company effect, Amazon (up on sp500, nasdaq): Mint listed Amazon among top gainers as technology stocks led the market higher.
+- Company effect, Apple (up on sp500, nasdaq): Mint listed Apple among top gainers as technology stocks led the market higher.
+- Company effect, Alphabet (mixed on nasdaq, sp500): WSJ reported Alphabet sank and dragged the Nasdaq lower during the session, while Mint listed it among stocks that rallied.
+- Company effect, Tesla (down on sp500, nasdaq): Economic Times reported Tesla and SpaceX lost more than $120 billion in combined market value on concern a Democrat-controlled Congress could increase scrutiny of Elon Musk's businesses.
+- Company effect, Novo Nordisk (up on eurostoxx50): Economic Times reported Novo Nordisk gained after raising its full-year sales and profit forecasts, lifting European shares.
 
 ## Headlines collected today
 
@@ -188,7 +192,8 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 2 news feed(s) could not be read this time: Google News: site:economist.com stock markets indices (no items); Google News: site:economist.com central bank inflation oil dollar (no items).
-- The written analysis is from 2026-11-04 and is being refreshed; the numbers are current.
+- Dropped "Asia-Pacific: chip-heavy markets slump, India and Australia gain": number(s) 200 not found in its cited evidence.
+- Dropped "Earnings reactions in individual stocks": it must cite at least one source note and one market data series.
 
 ## How to use this file
 

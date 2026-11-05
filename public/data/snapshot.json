@@ -2,9 +2,9 @@
  "schemaVersion": 2,
  "generatedAt": "2026-11-04T23:47:44.242Z",
  "models": {
-  "synthesis": "claude-sonnet-5-5"
+  "synthesis": "Claude (scheduled task)"
  },
- "inputHash": "4f8640a7b76edd0d",
+ "inputHash": "c5c588888fc25f2f",
  "mood": {
   "label": "Mixed",
   "basis": [
@@ -186,10 +186,11 @@
     7688.62
    ],
    "why": {
-    "technical": "Yahoo Finance: Wall Street futures plunged after Democrats swept Congress, then investors started buying again.",
-    "layman": "US stock futures fell after the election news, then buyers came back.",
+    "technical": "Financial Times: best day since August as investors bet on winners and losers from an expected AI backlash; Straits Times: midterm results drove oil down.",
+    "layman": "Stocks rose as oil fell and investors picked winners and losers from the election result.",
     "sources": [
-     29
+     1,
+     2
     ]
    }
   },
@@ -364,7 +365,13 @@
     51786.72,
     53356.12
    ],
-   "why": null
+   "why": {
+    "technical": "Mint: surged on hopes of political gridlock, with falling oil prices and Treasury yields supporting sentiment.",
+    "layman": "The Dow jumped because investors expect less political change and oil and rates fell.",
+    "sources": [
+     10
+    ]
+   }
   },
   {
    "id": "nasdaq",
@@ -537,7 +544,13 @@
     25372.01,
     25736.51
    ],
-   "why": null
+   "why": {
+    "technical": "Mint: Amazon, Meta, Alphabet, Microsoft and Apple rallied while several AI-chip, memory and data-centre stocks fell.",
+    "layman": "Big tech gained, while AI chip and memory firms fell.",
+    "sources": [
+     3
+    ]
+   }
   },
   {
    "id": "russell2000",
@@ -1050,11 +1063,11 @@
     167563.47
    ],
    "why": {
-    "technical": "Bloomberg and Reuters tied Brazil's post-election market shock to Lula's reelection and worse inflation expectations.",
-    "layman": "Brazil's market was shaken by the election result and worries about prices.",
+    "technical": "Bloomberg: Brazil's central bank held its rate steady after Lula's reelection roiled markets and worsened the inflation outlook.",
+    "layman": "Brazil's central bank paused rate cuts because of inflation worries after the election.",
     "sources": [
-     9,
-     11
+     7,
+     9
     ]
    }
   },
@@ -1921,13 +1934,7 @@
     6176.06,
     6144.56
    ],
-   "why": {
-    "technical": "Economic Times: European shares advanced after Democrats secured both chambers, with banks and clean energy leading and Novo Nordisk up on raised guidance.",
-    "layman": "European shares rose after the US election result, led by banks and clean-energy firms.",
-    "sources": [
-     13
-    ]
-   }
+   "why": null
   },
   {
    "id": "ibex35",
@@ -2792,13 +2799,7 @@
     63290.11,
     63081.86
    ],
-   "why": {
-    "technical": "Nikkei Asia reported Japan and South Korea stocks fell over 4% as Democrats led in the midterms.",
-    "layman": "Japanese and Korean shares fell sharply as the Democrats took the lead.",
-    "sources": [
-     19
-    ]
-   }
+   "why": null
   },
   {
    "id": "hangseng",
@@ -3484,10 +3485,11 @@
     23810.85
    ],
    "why": {
-    "technical": "Mint: the Nifty 50 gained 5.55% over a five-session rally on broad buying, foreign inflows, easing crude and positive earnings; IT stocks lagged.",
-    "layman": "India's Nifty rose for five days on foreign money, cheaper oil and good company results.",
+    "technical": "Business Standard: media, metals and realty led gains while IT shares declined amid AI-related concerns.",
+    "layman": "Indian media, metals and property shares led. Tech services shares fell.",
     "sources": [
-     16
+     17,
+     18
     ]
    }
   },
@@ -3663,10 +3665,10 @@
     76917.85
    ],
    "why": {
-    "technical": "Mint: the Sensex gained 5.53% over five sessions on broad buying, foreign inflows and easing crude.",
-    "layman": "India's Sensex also rose for five days in a row.",
+    "technical": "Mint: Indian equities advanced for a fifth session after the US result weakened the dollar and Treasury yields.",
+    "layman": "Indian shares rose for a fifth day after the US election.",
     "sources": [
-     16
+     18
     ]
    }
   },
@@ -3842,11 +3844,12 @@
     5648.79
    ],
    "why": {
-    "technical": "Bloomberg said South Korea's AI darlings were a big casualty of the US midterm vote; chipmakers led the sell-off per Economic Times.",
-    "layman": "Korean AI and chip shares fell hard after the US election.",
+    "technical": "Economic Times and Straits Times: AI-linked stocks fell on fears of greater scrutiny of the AI industry under Democrats.",
+    "layman": "Korea's AI-linked stocks fell on worries about tougher rules.",
     "sources": [
-     7,
-     21
+     15,
+     16,
+     36
     ]
    }
   },
@@ -4188,10 +4191,10 @@
     43307.54
    ],
    "why": {
-    "technical": "Economic Times: Taiwanese equities tumbled on concerns over tighter AI regulation and slower data-centre investment, with chipmakers leading.",
-    "layman": "Taiwan's shares fell because investors fear tighter AI rules.",
+    "technical": "Economic Times: Taiwanese equities fell as a potential Democratic sweep fuelled concerns over tighter AI regulation and slower data centre investment, with chipmakers leading.",
+    "layman": "Taiwan's chip makers led a drop on AI-rule worries.",
     "sources": [
-     7
+     15
     ]
    }
   },
@@ -4366,7 +4369,13 @@
     5303.83,
     5269.29
    ],
-   "why": null
+   "why": {
+    "technical": "Bloomberg: Singapore stocks set for a correction as bank profit outlook sours.",
+    "layman": "Singapore stocks were expected to dip as bank profit outlooks weakened.",
+    "sources": [
+     37
+    ]
+   }
   },
   {
    "id": "vix",
@@ -6042,32 +6051,36 @@
   }
  ],
  "report": {
-  "generatedAt": "2026-11-04T23:27:58.770Z",
+  "generatedAt": "2026-11-05T10:46:03.106Z",
   "headline": {
-   "technical": "Democrats' midterm sweep (N4, WSJ) jolted Asian tech and AI-linked stocks lower while European shares rose; Euro Stoxx 50 1d 1.74%, Nikkei 225 1d -1.42%.",
-   "layman": "The US election result shook markets: Asian tech shares fell on AI worries, while European shares rose and gold bounced."
+   "technical": "US equities rallied after Democrats won Congress (S&P 500 1d 1.58%, Dow 3.03%) as Brent fell 8.58%; Financial Times reported hyperscalers surged while chipmakers fell.",
+   "layman": "US stocks jumped after Democrats won Congress, and oil prices fell sharply. Big tech shares rose, but chip makers fell."
   },
   "global": {
-   "title": "US midterm result drives risk sentiment",
+   "title": "Midterm sweep lifts US stocks and drops oil",
    "status": {
-    "technical": "WSJ reported US stock futures rallied and Treasurys strengthened after Democrats' midterm win. Bloomberg said Asian stocks fell on AI worries. VIX closed 18.28 with a 1d move of -12.24%.",
-    "layman": "The Democrats won the US midterms. WSJ said US stock futures rose, but Bloomberg said Asian shares fell because of worries about AI. The VIX fear gauge dropped."
+    "technical": "S&P 500 closed 7688.62 (1d 1.58%), Dow 1d 3.03%, Nasdaq 1d 1.44%. Brent 1d -8.58% to 94.71; VIX 1d -20.26% to 16.61; US 10-year yield 4.89 (1d -1.17%). Financial Times reported the best US day since August.",
+    "layman": "US stocks had a strong day after Democrats won control of Congress. Oil prices dropped sharply. The VIX, a gauge of investor fear, also fell, which means investors felt calmer."
    },
    "consequence": {
-    "technical": "If the new Congress tightens scrutiny of AI and government spending, as SCMP says investors expect, AI-linked stocks could stay under pressure; Bloomberg's Seema Shah expects a 'really, really volatile environment' through 2027.",
-    "layman": "If Congress looks harder at AI companies and spending, as investors expect, AI-linked shares could stay shaky. One strategist expects a bumpy ride through 2027."
+    "technical": "Straits Times reported hope that the Democrats' win will mean an end to the Iran war; if that happens, oil could stay lower. CNBC analysis warns the next debt-ceiling confrontation could bring market volatility and a damaging default.",
+    "layman": "Some investors hope the election result helps end the Iran war. If it does, oil could stay cheaper. But CNBC warns that a fight over the debt limit could shake markets later."
    },
    "impact": {
-    "technical": "Per SCMP and Economic Times, chipmakers and AI names in South Korea and Taiwan were hit hardest; gold and silver rose as the dollar weakened.",
-    "layman": "Chip and AI shares in South Korea and Taiwan took the hit. Gold and silver rose as the dollar weakened."
+    "technical": "Mint reported Amazon, Meta, Alphabet, Microsoft and Apple rallied while several AI-chip, memory and data-centre stocks fell. WSJ said the Dollar Index fell 0.30% to 96.94.",
+    "layman": "Big tech companies gained, but makers of AI chips and data centres fell. The US dollar also got a bit weaker."
    },
    "outlook": {
-    "technical": "S&P 500 look-alike days: next 5 days rose 5 of 5 times (median 1.84%), next 21 days rose 5 of 5 times (median 1.86%). These are base rates from a tiny sample, not predictions.",
-    "layman": "In the past, on days that looked like the S&P 500's last close, it rose afterwards in 5 of 5 cases. That is a small sample and not a prediction."
+    "technical": "After S&P 500 days with a rise bigger than 1 standard deviation, the next day rose 52% of 191 times and the next 5 days rose 54% of 191 times (10th-90th pct -3.28% to 2.84%). These are base rates, not predictions.",
+    "layman": "In the past, after big up days like this, the S&P 500 rose the next day 52% of 191 times. That is close to a coin flip. It is a record of the past, not a forecast."
    },
    "quant": [
     "sp500",
-    "vix"
+    "dow",
+    "nasdaq",
+    "brent",
+    "vix",
+    "us10y"
    ],
    "sources": [
     1,
@@ -6075,93 +6088,100 @@
     3,
     4,
     5,
-    6,
-    7
+    6
    ]
   },
   "regions": [
    {
-    "title": "Americas",
+    "title": "Americas: broad rally, Brazil holds rates",
     "status": {
-     "technical": "US Treasury yields fell as investors sought safety; the 10-year slipped nearly 5 bps to 4.902%. Brazil's central bank is likely to pause rate cuts after Lula's reelection. S&P 500 closed 7568.92 on 2026-11-03.",
-     "layman": "US bond yields fell as investors looked for safety after the election. In Brazil, the central bank is likely to pause its rate cuts after Lula won again."
+     "technical": "Dow 1d 3.03%, S&P/TSX 1d 2.28%, S&P 500 1d 1.58%, Russell 2000 1d 1.58%, Bovespa 1d 1.23%. Bloomberg reported Brazil's central bank held its rate steady, snapping a streak of five straight cuts after Lula's reelection.",
+     "layman": "Stock markets across the Americas rose. In Brazil, the central bank paused its run of interest-rate cuts after the president was reelected."
     },
     "consequence": {
-     "technical": "If Brazil's inflation expectations keep worsening, Bloomberg says the central bank's path stays rocky; Reuters says the post-election shock clouds the path to cheaper credit.",
-     "layman": "If inflation worries in Brazil keep growing, cheaper loans may take longer to arrive."
+     "technical": "Morningstar reported the Democratic win raised Canada's hopes of US tariff relief. Bloomberg said Lula's win worsened Brazil's inflation outlook, which is why rates were held.",
+     "layman": "Canada hopes for lower US tariffs. Brazil's worry is inflation, so its central bank stopped cutting rates."
     },
     "impact": {
-     "technical": "Brazilian borrowers face a delay to cheaper credit per Reuters; Bovespa is at RSI14 24.1 with a drawdown from 52w high of -20.82%.",
-     "layman": "People and firms in Brazil borrowing money may wait longer for lower interest rates. The Bovespa index is far below its recent high."
+     "technical": "Named exposures in the notes are Canada (tariff relief hopes) and Brazil (interest-rate path). The notes give little detail beyond that.",
+     "layman": "Canadian businesses could gain if tariffs ease. Brazilian borrowers face rates that stay higher for longer."
     },
     "outlook": {
-     "technical": "Nasdaq look-alike days: next 5 days rose 3 of 5 times (median 2.88%). Base rates, not predictions.",
-     "layman": "For the Nasdaq, similar past days were followed by gains in 3 of 5 cases. That is history, not a forecast."
+     "technical": "After Dow days with a rise bigger than 1 standard deviation, the next day rose 57% of 177 times and the next 5 days rose 55% of 177 times. Base rates, not predictions.",
+     "layman": "After big up days, the Dow rose the next day 57% of 177 times. That is a past pattern, not a promise."
     },
     "quant": [
+     "dow",
+     "tsx",
      "sp500",
-     "nasdaq",
+     "russell2000",
      "bovespa"
     ],
     "sources": [
+     7,
      8,
      9,
-     10,
-     11
+     10
     ]
    },
    {
-    "title": "Europe",
+    "title": "Europe: inflation at 4% keeps ECB on tightening path",
     "status": {
-     "technical": "Euro Stoxx 50 closed 6251.17 with a 1d move of 1.74%. Economic Times said European shares rose as banks and clean-energy stocks rallied and Novo Nordisk jumped. Eurozone inflation hit 4%, driven by energy.",
-     "layman": "European shares rose, led by banks and clean-energy firms. Inflation in the eurozone hit 4%, pushed up by energy costs."
+     "technical": "FTSE 100 closed 10829.21 (1d 1.79%). Euro Stoxx 50 and DAX figures end before the US rally (1d -0.51%, -0.45%). WSJ reported eurozone inflation at 4%; Financial Times said this keeps the ECB on course for another tightening.",
+     "layman": "UK stocks rose. Euro-area inflation hit 4%, twice the European Central Bank's target, mostly because of energy costs."
     },
     "consequence": {
-     "technical": "If energy-driven inflation persists, CNBC says an interest rate hike looms; Economic Times says markets are weighing further ECB hikes in December.",
-     "layman": "If prices keep rising because of energy, interest rates in Europe may go up again, which makes borrowing dearer."
+     "technical": "Per Financial Times, October inflation keeps the ECB on course for another tightening. Economic Times reported European shares rose after the US result, led by banks and clean-energy stocks.",
+     "layman": "Because inflation is high, the ECB may raise interest rates again. European shares still rose, led by banks and clean energy."
     },
     "impact": {
-     "technical": "Per the notes, banks and clean-energy shares benefited; savers and borrowers in the euro area face higher-rate expectations.",
-     "layman": "Banks and clean-energy firms gained. Households with loans could face higher rates if the central bank hikes."
+     "technical": "Economic Times named banks and clean-energy stocks as leaders and Novo Nordisk as a gainer after raising its full-year sales and profit forecasts.",
+     "layman": "Banks, clean-energy firms and Novo Nordisk did well."
     },
     "outlook": {
-     "technical": "After a rise bigger than 1 standard deviation, Euro Stoxx 50 next day rose 49% of 185 times (median -0.04%); next 5 days rose 54% of 185 times (median 0.27%). Base rates, not predictions.",
-     "layman": "After big up days like this one, the next day was roughly a coin flip historically. These are base rates, not predictions."
+     "technical": "The notes give no base rates for European indices, so there is no evidence-based outlook here. The Euro Stoxx 50 and DAX data end before the US rally.",
+     "layman": "There is not enough evidence here to say what comes next for European stocks."
     },
     "quant": [
-     "eurostoxx50"
+     "ftse100",
+     "eurostoxx50",
+     "dax"
     ],
     "sources": [
+     11,
      12,
      13,
      14
     ]
    },
    {
-    "title": "Asia-Pacific",
+    "title": "Asia-Pacific: chip-heavy markets slump, India and Australia gain",
     "status": {
-     "technical": "Nikkei 225 closed 62188.63 (1d -1.42%). Nikkei Asia reported Japan and South Korea stocks fell over 4% intraday on the Democratic lead. India's Nifty 50 and Sensex gained for a fifth session.",
-     "layman": "Japan and South Korea shares dropped sharply on AI worries, while Indian shares kept rising for a fifth day in a row."
+     "technical": "KOSPI and TAIEX each 1d -3.59% as chipmakers led a sell-off tied to tighter AI-regulation worries (Economic Times). Nifty 50 1d 1.58%, Sensex 1d 1.62%, Australia's ASX benchmark 1d 1.19%, Hang Seng 1d 0.57%, Shanghai Composite 1d -0.82%.",
+     "layman": "Stocks in South Korea and Taiwan fell sharply because they are heavy in chip makers. India and Australia rose. China's main index slipped."
     },
     "consequence": {
-     "technical": "If foreign inflows, earnings and oil prices hold, Mint says analysts see these as key for whether India's rally continues; high crude and foreign outflows could limit recovery.",
-     "layman": "India's rally may continue if foreign money keeps coming in, earnings are good and oil stays calm."
+     "technical": "Economic Times said the Democratic win fuelled concerns over tighter AI regulation and slower data-centre investment; if that materialises, chipmakers in the region could stay under pressure.",
+     "layman": "If US rules on AI get tighter, chip makers in Korea and Taiwan could keep feeling it."
     },
     "impact": {
-     "technical": "South Korean and Taiwanese chipmakers led the sell-off per Economic Times; the rupee gained 17 paise to settle at 94.58 against the US dollar.",
-     "layman": "Chip companies in South Korea and Taiwan were hit most. The Indian rupee got a little stronger."
+     "technical": "Bloomberg called South Korea's AI darlings a big casualty of the vote. Business Standard said Nifty media, metals and realty stocks led gains while IT shares declined on AI-related concerns.",
+     "layman": "AI-linked companies in Korea lost ground. In India, media, metals and property shares gained while tech services firms fell."
     },
     "outlook": {
-     "technical": "Nifty 50 look-alike days: next 5 days rose 4 of 5 times (median 5.98%); Nikkei 225 look-alikes: next 5 days rose 4 of 5 times (median 2.86%). Small samples, base rates, not predictions.",
-     "layman": "In similar past cases both indices often rose over the next week, but samples are tiny and this is not a forecast."
+     "technical": "The notes give no base rates for these indices, so evidence for an outlook is thin.",
+     "layman": "There is not enough evidence here to say what comes next."
     },
     "quant": [
-     "nikkei",
+     "kospi",
+     "taiex",
      "nifty50",
-     "kospi"
+     "sensex",
+     "asx200",
+     "hangseng",
+     "shanghai"
     ],
     "sources": [
-     7,
      15,
      16,
      17,
@@ -6172,153 +6192,199 @@
   ],
   "drivers": [
    {
-    "title": "US election and AI regulation worries",
+    "title": "Iran war hopes pull oil lower",
     "status": {
-     "technical": "SCMP reported investors expect Congress to tighten scrutiny over the AI industry and government spending. Bloomberg said South Korea's AI darlings were a big casualty.",
-     "layman": "Investors think the new Congress will watch AI firms and government spending more closely, and AI-linked shares in Korea fell."
+     "technical": "Brent 1d -8.58% to 94.71 (5d -17.87%). Bloomberg reported Trump said he has no immediate plans for further strikes on Iran; Financial Times reported oil tumbled below $100.",
+     "layman": "Oil prices fell a lot after Trump said he has no immediate plans for more strikes on Iran."
     },
     "consequence": {
-     "technical": "If a Texas data-center moratorium, called for by the new governor per Bloomberg, spreads, AI infrastructure projects could face delays.",
-     "layman": "If more places pause new data centres, AI building plans could slow."
+     "technical": "Bloomberg said investors bet a Democratic sweep could accelerate efforts to end the war; if so, oil may stay lower. CNBC reported energy executives still see geopolitical risks and oil price uncertainty.",
+     "layman": "If the war winds down, oil could stay cheaper. But energy executives say the outlook is still uncertain."
     },
     "impact": {
-     "technical": "Data-center developers in Texas face their worst-case scenario per Bloomberg; Asian chipmakers were sold.",
-     "layman": "Companies building AI data centres in Texas are most exposed, as are chipmakers in Asia."
+     "technical": "Bloomberg reported Trump acknowledged higher gasoline prices tied to the Iran war contributed to the defeat, so fuel costs are a political and consumer issue.",
+     "layman": "Drivers have been paying more for gasoline, and the president admitted it hurt his party."
     },
     "outlook": {
-     "technical": "Evidence is thin on duration; no base rate is cited for this driver.",
-     "layman": "It is too early to say how long this lasts."
+     "technical": "Over the past year S&P 500 daily moves correlated -0.35 with prior-day Brent. A correlation is a past pattern, not a prediction.",
+     "layman": "Historically, when oil falls, US stocks have tended to do a little better. That is not a promise."
     },
     "quant": [
-     "kospi",
-     "taiex"
+     "brent",
+     "sp500"
     ],
     "sources": [
-     6,
-     7,
      20,
-     21
-    ]
-   },
-   {
-    "title": "Eurozone inflation and central banks",
-    "status": {
-     "technical": "Eurozone inflation rose to 4% in October, double the ECB target, on energy costs. Reuters said global central banks hit pause in October after a September hiking spree.",
-     "layman": "Eurozone inflation reached 4%, double the central bank's target, mostly from energy. Central banks worldwide paused rate rises in October."
-    },
-    "consequence": {
-     "technical": "If energy inflation stays high, then another ECB hike is more likely per FT; WSJ said BOE is expected to join peers in raising its key rate.",
-     "layman": "If prices keep rising, more rate hikes in Europe and the UK are likely."
-    },
-    "impact": {
-     "technical": "Per the notes, the euro stayed higher versus the dollar; borrowers face higher rates.",
-     "layman": "The euro held up against the dollar. People with loans could pay more."
-    },
-    "outlook": {
-     "technical": "US 10-year yield closed 4.95. Base rates are not provided for rates in this evidence.",
-     "layman": "No historical odds are available for rates here."
-    },
-    "quant": [
-     "us10y",
-     "eurusd"
-    ],
-    "sources": [
+     21,
      22,
      23,
-     24,
-     25,
-     26
+     24
     ]
    },
    {
-    "title": "Dollar, gold and Treasury yields",
+    "title": "AI and data-center backlash splits tech",
     "status": {
-     "technical": "WSJ reported gold climbed on a softer dollar and falling Treasury yields. Gold closed 4053.60 with a 1d move of 2.87%; US Dollar Index closed 101.47.",
-     "layman": "Gold went up because the dollar got weaker and bond yields dropped."
+     "technical": "Financial Times reported hyperscalers surged and chipmakers fell. CNBC reported voters rebuffed data centers in every ballot measure except one. Nvidia 1d -3.17%, Broadcom 1d -2.00%; Microsoft 1d +6.68%, Amazon 1d +6.12%.",
+     "layman": "Big tech software and cloud firms rose, while AI chip makers fell. Voters also pushed back on new data centers."
     },
     "consequence": {
-     "technical": "If the dollar stays soft, Mint says gold may keep rebounding, though a hawkish Fed and US payrolls data may limit gains.",
-     "layman": "If the dollar stays weak, gold could keep rising, but a tough Fed and jobs data may hold it back."
+     "technical": "Mint said investors weighed hopes of moderated spending against the possibility of tighter AI and data-centre oversight. Bloomberg said the Democratic wins threaten the AI trade and data center boom.",
+     "layman": "If rules on AI and data centers get tougher, spending on them could slow. That would hurt chip makers most."
     },
     "impact": {
-     "technical": "MCX gold rose 2.35% and silver gained 3.85% in India.",
-     "layman": "Gold and silver prices in India rose."
+     "technical": "AI-chip, memory and data-centre stocks fell in the US and Asia per Mint and Economic Times; Qualcomm fell 7% on a weak forecast tied to a memory shortage, CNBC reported.",
+     "layman": "Companies that sell chips and memory for AI were hit hardest."
     },
     "outlook": {
-     "technical": "Gold look-alike days: next 5 days rose 3 of 5 times (median 2.38%), next 21 days rose 3 of 5 times (median 6.31%). Base rates, not predictions.",
-     "layman": "After similar days gold went up in 3 of 5 cases. It is not a prediction."
+     "technical": "Look-alike days for the Nasdaq saw the next 5 days rise 2 of 5 times (median -3.35%) and the next 21 days rise 4 of 5 times (median 2.12%). Only five cases; base rates, not predictions.",
+     "layman": "In five similar past days, the Nasdaq was mixed over the next week. That is too few cases to rely on."
     },
     "quant": [
-     "gold",
-     "dxy"
+     "nasdaq",
+     "hw:sp500"
+    ],
+    "sources": [
+     2,
+     3,
+     25,
+     26,
+     27,
+     28
+    ]
+   },
+   {
+    "title": "Weaker dollar, falling yields and a gold rebound",
+    "status": {
+     "technical": "Dollar Index close 101.49 (1d -0.37%); US 10-year yield 4.89 (1d -1.17%); Gold 1d 3.35%. Business Standard said dollar and Treasury-yield weakness supports gold. Bloomberg reported the franc and yen emerged as FX winners.",
+     "layman": "The dollar and US borrowing costs eased, and gold jumped. The Swiss franc and Japanese yen gained against the dollar."
+    },
+    "consequence": {
+     "technical": "Business Standard said analysts are split on whether the gold rally can be sustained amid inflation and interest rate uncertainties.",
+     "layman": "Experts disagree on whether gold's rise will last."
+    },
+    "impact": {
+     "technical": "Gold buyers benefit from a weaker dollar and lower yields per Business Standard; Bloomberg listed the franc and yen as winners.",
+     "layman": "Gold owners and holders of francs and yen gained."
+    },
+    "outlook": {
+     "technical": "The notes give no base rates for the dollar or gold, so evidence for an outlook is thin.",
+     "layman": "There is not enough evidence here to say what comes next."
+    },
+    "quant": [
+     "dxy",
+     "us10y",
+     "gold"
+    ],
+    "sources": [
+     5,
+     29,
+     30
+    ]
+   },
+   {
+    "title": "Divided government: gridlock hopes versus a debt-ceiling risk",
+    "status": {
+     "technical": "WSJ reported stocks surged as traders bet a divided government would be good for business. CNBC analysis said the next debt-ceiling confrontation could bring spending concessions, market volatility and a damaging default. VIX 1d -20.26%.",
+     "layman": "Investors like a government where the two parties have to compromise. But CNBC warns that a fight over the debt limit could scare markets."
+    },
+    "consequence": {
+     "technical": "CNBC reported Trump's handling of tariffs and the Iran war will face pushback from newly empowered Democrats. If a debt-ceiling standoff happens, CNBC says markets will hate it.",
+     "layman": "Democrats can now challenge Trump on tariffs and the war. A standoff over the debt limit would likely upset markets."
+    },
+    "impact": {
+     "technical": "The Economist said investors yawned at the result, which suggests the market impact beyond the first reaction is debated.",
+     "layman": "Not everyone sees a big lasting effect on markets."
+    },
+    "outlook": {
+     "technical": "The notes give no base rates for the VIX, so evidence for an outlook is thin.",
+     "layman": "There is not enough evidence here to say what comes next."
+    },
+    "quant": [
+     "vix"
     ],
     "sources": [
      4,
-     5,
-     27
+     31,
+     32,
+     33
     ]
    },
    {
-    "title": "Oil and the Iran war",
+    "title": "Earnings reactions in individual stocks",
     "status": {
-     "technical": "WSJ reported Trump said the Iran war is partly to blame for GOP losses, and Iran is turning to guerrilla tactics around the Strait of Hormuz. Brent closed 102.23 (1d -1.32%).",
-     "layman": "Trump said the Iran war partly caused his party's losses. Brent oil closed at 102.23."
+     "technical": "CNBC reported Qualcomm fell 7% on a weak earnings forecast, Snap fell over 10% on a third-quarter revenue miss, and Figma sank after an earnings beat as it prioritizes long-term growth.",
+     "layman": "Several companies moved sharply on their quarterly reports. Qualcomm, Snap and Figma all fell."
     },
     "consequence": {
-     "technical": "If oil stays high, Mint says it limits the India rally; easing crude supported India's rupee and stocks.",
-     "layman": "High oil prices could hold back India's rally, while cheaper oil helped it."
+     "technical": "If weak forecasts persist, such as Qualcomm's memory-shortage warning, more pressure on smartphone-linked sales is possible, per CNBC.",
+     "layman": "Qualcomm warned that a memory shortage is hurting smartphone sales."
     },
     "impact": {
-     "technical": "Per the notes, India's rupee and equities benefit from easing crude.",
-     "layman": "India gains most when oil gets cheaper."
+     "technical": "Impact is limited to the named companies; the notes do not link these moves to index changes.",
+     "layman": "These moves affect the shareholders of those companies, not necessarily the whole market."
     },
     "outlook": {
-     "technical": "Evidence is thin for a base-rate view beyond data given; no prediction made.",
-     "layman": "We cannot say where oil goes next."
+     "technical": "The notes give no base rates for earnings reactions, so evidence for an outlook is thin.",
+     "layman": "There is not enough evidence here to say what comes next."
     },
     "quant": [
-     "brent"
+     "sp500"
     ],
     "sources": [
-     17,
-     18,
-     28
+     28,
+     34,
+     35
     ]
    }
   ],
   "events": [
    {
-    "when": "November 04, 2026",
-    "title": "RBI Second Overnight VRRR auction",
-    "technical": "RBI notified a second 1-day Variable Rate Reverse Repo auction on a review of liquidity conditions; the earlier auction cut off at 5.49%.",
-    "layman": "India's central bank is soaking up extra cash from banks for one day.",
+    "when": "November 11, 2026",
+    "title": "MSCI November Index Review announcement",
+    "technical": "Financial Times reported the announcement is scheduled; the note gives no detail on expected changes.",
+    "layman": "A scheduled update to a widely used set of stock indexes. The note gives no details yet.",
     "sources": [
-     30,
-     31
+     38
     ]
    },
    {
-    "when": "upcoming",
-    "title": "US payrolls data",
-    "technical": "Mint says expectations of a hawkish Federal Reserve and upcoming US payrolls data may limit gold's gains.",
-    "layman": "A US jobs report is coming and could affect gold.",
+    "when": "November 05, 2026",
+    "title": "RBI overnight VRRR auction",
+    "technical": "RBI said it will run an overnight Variable Rate Reverse Repo auction under LAF on a review of liquidity conditions.",
+    "layman": "India's central bank will soak up extra cash from banks for one day.",
     "sources": [
-     27
+     39
     ]
    }
   ],
   "companyEffects": [
    {
-    "company": "Novo Nordisk",
+    "company": "Microsoft",
     "indices": [
-     "eurostoxx50"
+     "sp500",
+     "dow",
+     "nasdaq"
     ],
     "direction": "up",
-    "technical": "CNBC: Novo beat expectations as Wegovy pill sales blew past estimates and it raised its outlook; Economic Times says it jumped.",
-    "layman": "Novo Nordisk shares jumped after strong sales of its Wegovy pill and a better outlook.",
+    "technical": "Mint listed Microsoft among top gainers on the day Wall Street rallied after Democrats won Congress.",
+    "layman": "Microsoft was one of the biggest gainers on the day.",
     "sources": [
-     13,
-     32
+     3,
+     10
+    ]
+   },
+   {
+    "company": "Amazon",
+    "indices": [
+     "sp500",
+     "nasdaq"
+    ],
+    "direction": "up",
+    "technical": "Mint listed Amazon among top gainers as technology stocks led the market higher.",
+    "layman": "Amazon was one of the biggest gainers.",
+    "sources": [
+     3,
+     10
     ]
    },
    {
@@ -6327,11 +6393,52 @@
      "sp500",
      "nasdaq"
     ],
-    "direction": "down",
-    "technical": "Morningstar noted tech stocks rose on Nov 3 despite an Apple slump, a drag on Nasdaq and S&P 500.",
-    "layman": "Apple shares slumped, even as other tech stocks rose.",
+    "direction": "up",
+    "technical": "Mint listed Apple among top gainers as technology stocks led the market higher.",
+    "layman": "Apple was one of the biggest gainers.",
     "sources": [
-     33
+     3,
+     10
+    ]
+   },
+   {
+    "company": "Alphabet",
+    "indices": [
+     "nasdaq",
+     "sp500"
+    ],
+    "direction": "mixed",
+    "technical": "WSJ reported Alphabet sank and dragged the Nasdaq lower during the session, while Mint listed it among stocks that rallied.",
+    "layman": "Alphabet's moves were mixed during the day, according to different reports.",
+    "sources": [
+     3,
+     40
+    ]
+   },
+   {
+    "company": "Tesla",
+    "indices": [
+     "sp500",
+     "nasdaq"
+    ],
+    "direction": "down",
+    "technical": "Economic Times reported Tesla and SpaceX lost more than $120 billion in combined market value on concern a Democrat-controlled Congress could increase scrutiny of Elon Musk's businesses.",
+    "layman": "Tesla and SpaceX lost a lot of value on worries about more scrutiny of Elon Musk's businesses.",
+    "sources": [
+     41
+    ]
+   },
+   {
+    "company": "Novo Nordisk",
+    "indices": [
+     "eurostoxx50"
+    ],
+    "direction": "up",
+    "technical": "Economic Times reported Novo Nordisk gained after raising its full-year sales and profit forecasts, lifting European shares.",
+    "layman": "Novo Nordisk rose after raising its yearly forecasts.",
+    "sources": [
+     13,
+     14
     ]
    }
   ]
@@ -8151,71 +8258,71 @@
  "sources": [
   {
    "n": 1,
-   "url": "https://www.wsj.com/finance/investing/stock-futures-edge-lower-treasurys-strengthen-after-democratic-sweep-f2198d07?mod=rss_markets_main",
-   "title": "Stock Futures Rally, Treasurys Strengthen After Democratic Sweep",
-   "publisher": "WSJ",
+   "url": "https://www.straitstimes.com/business/companies-markets/us-stocks-surge-as-us-midterm-results-drive-oil-down-fuel-tech-optimism",
+   "title": "US stocks surge as US midterm results drive oil down, fuel tech optimism",
+   "publisher": "Straits Times",
    "tier": "press",
    "pageAge": "2026-11-04"
   },
   {
    "n": 2,
-   "url": "https://www.bloomberg.com/news/videos/2026-11-04/still-risk-on-but-stocks-may-face-challenging-2027-shah-video",
-   "title": "Still Risk-On But Stocks May Face Challenging 2027, Says Principal’s Shah",
-   "publisher": "Bloomberg",
+   "url": "https://www.ft.com/content/a0b18705-3bd8-4886-992c-b6062fdec6ea?syn-25a6b1a6=1",
+   "title": "US stocks post best day since August after Democrats sweep midterms",
+   "publisher": "Financial Times",
    "tier": "press",
    "pageAge": "2026-11-04"
   },
   {
    "n": 3,
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWGZHeHlfcjJVUEc3S2NRNFBGTjhjUGp2MnMxNUxyS1NKdXZvN2ZqMHRkUEI1aExJZldJdHhJYVh4MUlzLVVjNWxmeHZNNVJHSHR4Y0JMVWVBYXR4WjRhdlNtWDNMczR1bHRJelYyaG4xeUQ0SGpKcWtvcUphX19BMjJmNjJ5Ulhlb3Y3SmpFcm8xcWFVZ0ZIZzdCMjJTRE03RzhaUU9rNnNKMTBjMlFCdUVB?oc=5",
-   "title": "Asian Stocks Fall as Democratic Gains in US Add to AI Worries",
-   "publisher": "Bloomberg",
+   "url": "https://www.livemint.com/market/stock-market-news/will-tighter-ai-regulation-slow-big-tech-spending-what-the-us-midterm-results-mean-for-tech-stocks-explained-11793813477058.html",
+   "title": "Will tighter AI regulation slow Big Tech spending? What the US midterm results mean for tech stocks - Explained",
+   "publisher": "Mint",
    "tier": "press",
    "pageAge": "2026-11-04"
   },
   {
    "n": 4,
-   "url": "https://www.wsj.com/finance/commodities-futures/gold-climbs-on-softer-dollar-falling-treasury-yields-after-u-s-midterms-b16998e4?mod=rss_markets_main",
-   "title": "Gold Climbs on Softer Dollar, Falling Treasury Yields After U.S. Midterms",
-   "publisher": "WSJ",
+   "url": "https://www.cnbc.com/2026/11/04/democrats-trump-debt-ceiling-fight.html",
+   "title": "Analysis: The Democrats have one chance to extract concessions from Trump. Markets will hate it",
+   "publisher": "CNBC",
    "tier": "press",
    "pageAge": "2026-11-04"
   },
   {
    "n": 5,
-   "url": "https://www.cnbc.com/2026/11/04/gold-silver-platinum-dollar-midterms.html",
-   "title": "Gold, silver and precious metals prices jump, dollar dips as Democrats take control of Congress",
-   "publisher": "CNBC",
+   "url": "https://www.wsj.com/finance/currencies/asian-currencies-mixed-amid-focus-on-u-s-midterms-143da6ea?mod=rss_markets_main",
+   "title": "WSJ Dollar Index Falls 0.30% to 96.94",
+   "publisher": "WSJ",
    "tier": "press",
    "pageAge": "2026-11-04"
   },
   {
    "n": 6,
-   "url": "https://www.scmp.com/business/markets/article/3373266/us-midterms-blue-wave-jolts-asian-markets-tighter-ai-fiscal-scrutiny-looms",
-   "title": "US midterm blue tsunami jolts Asian markets as tighter AI, fiscal scrutiny looms",
-   "publisher": "SCMP",
-   "tier": "press",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNaURRMkxnZGRoZnRQSThqVHI3MFZVbXpwTFg2N1ZSVUFmREt5U3pPNHBYWUpkOEFGUE9GWURlSzZLeVpwakQyWUZmWHVQWDVYSWItaWkzaG1BQzVQdFY3dlhOeWlNTndwRWFrbnNhTjY1bGJ3YzFPblNiQ1JSeUdyNGhOY21hcGtxV2ZxX3NQYWQ?oc=5",
+   "title": "Dow Soars 1,200 Points, S&P 500 and Nasdaq Jump 2% as Wall Street Celebrates Midterm Results",
+   "publisher": "Yahoo Finance",
+   "tier": "data",
    "pageAge": "2026-11-04"
   },
   {
    "n": 7,
-   "url": "https://economictimes.indiatimes.com/markets/stocks/news/kopsi-taiwan-other-asian-stocks-tumble-after-us-midterm-elections-signal-democratic-victory-whats-the-connection/articleshow/135529227.cms",
-   "title": "Kopsi, Taiwan, other Asian stocks tumble after US midterm elections signal Democratic victory. What’s the connection?",
-   "publisher": "Economic Times",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-04/brazil-holds-key-rate-steady-at-13-75-after-lula-s-election-win",
+   "title": "Brazil Holds Key Rate Steady After Lula’s Election Win",
+   "publisher": "Bloomberg",
    "tier": "press",
    "pageAge": "2026-11-04"
   },
   {
    "n": 8,
-   "url": "https://www.cnbc.com/2026/11/03/treasury-yields-fall-as-democrats-win-big-in-us-midterm-elections.html",
-   "title": "Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off",
-   "publisher": "CNBC",
-   "tier": "press",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcEtvdUt2VWw0emFoWGFxSE5tQXZpMnJYUTNQNFZ1Mks2Rm9VLVB6SnJ0cDJ4VDNzVEE1Ym1OS1gyWEVCd2g3NG1LWnlqa3VHZlFCZ3FybllSX3ljSWNpUmh5NHE1ZElSRkQ1RV83enhrY1VmRTZ2S3NyYUkwMmdVQmdoYWc5RlY2M2EtQk9WV1c2b0ZjaE5JdlB6NUFrbGhsNHd3NWgyelZkZzg4bWc?oc=5",
+   "title": "Democrats’ Election Victory Raises Canada’s Hopes of US Tariff Relief",
+   "publisher": "Morningstar",
+   "tier": "data",
    "pageAge": "2026-11-04"
   },
   {
    "n": 9,
-   "url": "https://www.bloomberg.com/news/articles/2026-11-04/shock-lula-win-puts-brazil-s-central-bank-on-rocky-interest-rate-path",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcnFnLXVhYmlZTVM4YXBpaGU1TnVvU3JweGhYakg3d0xuMGZfbHE5R0ZXZ1JNMHRQdVJmbDFsWldmVzlSN2QxcUZYTWcwTXp5ZnVYa21mSDNoQmhPVVBNNGsxbDFXT012aURyaEU1QTE3S1RWTS1HQm43YU9zSlpRTkVrQ3RfNDY4U3JOVE1SbWpfc3QwcEkxMEtGQS1QOVdlUWdpSnpBUFNrcnd0a3A4M1J3SkoxY1JSMDM2UQ?oc=5",
    "title": "Shock Lula Win Puts Brazil’s Central Bank on Rocky Interest Rate Path",
    "publisher": "Bloomberg",
    "tier": "press",
@@ -8223,25 +8330,25 @@
   },
   {
    "n": 10,
-   "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-bond-yields-fall-nasdaq-dow-jones-futures-slip-2-as-democrats-set-for-big-win-in-us-midterm-elections/articleshow/135527339.cms",
-   "title": "US bond yields fall; Nasdaq, Dow Jones futures slip 2% as Democrats set for big win in US midterm elections",
-   "publisher": "Economic Times",
+   "url": "https://www.livemint.com/market/stock-market-news/wall-street-cheers-us-midterm-results-as-dow-jones-jumps-1300-points-amazon-apple-microsoft-among-top-gainers-11793807617877.html",
+   "title": "Wall Street cheers US midterm results as Dow Jones jumps 1300 points; Amazon, Apple, Microsoft among top gainers",
+   "publisher": "Mint",
    "tier": "press",
    "pageAge": "2026-11-04"
   },
   {
    "n": 11,
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSjFMUTg0NHVWTzhUVmtsM0RXS0FZcFoxZlRPci1kSXo5RkNaaVF2UXZOTUVzSHJKdE5nZlEtSlNBVHlnc09tR0stX0hmV2VUQ05QRUc1WmhYakNnblRMaFNGM2VxZVd5dlQ0SktwXzktdzlKNXprdnJJWjVXY0R0cEVtSkY4dXpza0lPWnhOVGI5MVRUWHFxNUREU1BYSnZKcXc5d09hVkZGVnJRUHdqS3ln?oc=5",
-   "title": "Brazil’s post-election market shock clouds path to cheaper credit​",
-   "publisher": "Reuters",
+   "url": "https://www.wsj.com/economy/global/eurozone-inflation-climbs-again-driven-by-energy-costs-0adbaef3?mod=rss_socialeconomyfeed",
+   "title": "Eurozone Inflation Rises to 4%, Driven by Energy Costs",
+   "publisher": "WSJ",
    "tier": "press",
-   "pageAge": "2026-11-03"
+   "pageAge": "2026-11-04"
   },
   {
    "n": 12,
-   "url": "https://www.cnbc.com/2026/11/04/euro-zone-cpi-inflation-october-ecb-rate-hike.html",
-   "title": "Euro zone inflation hits 4% for first time in three years as interest rate hike looms",
-   "publisher": "CNBC",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9nalQ0Uzh2Y0dVQi01d2c1Rl8zOW9Ua3YyNEl6SERlazZXcWhJdm1WWkIydGU2OEh1Z1JJcG5wVGR2RjVObzFQWjR5S1dfRHNCYUtlY1FiNGhDRnZtUEhqcU9jeF9NQTIwQ0U1QUlGOEI?oc=5",
+   "title": "October inflation in the Eurozone keeps ECB on course for another tightening",
+   "publisher": "Financial Times",
    "tier": "press",
    "pageAge": "2026-11-04"
   },
@@ -8255,62 +8362,22 @@
   },
   {
    "n": 14,
-   "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/eurozone-bond-yields-steady-as-investors-await-inflation-data-us-treasury-yields-ease-after-midterm-elections/articleshow/135535574.cms",
-   "title": "Eurozone bond yields steady as investors await inflation data; US Treasury yields ease after midterm elections",
-   "publisher": "Economic Times",
-   "tier": "press",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSGpZXy1sM2dNS3V1M2NkenV2NmlJWjljd0JUTTJiMXBwTDRMUlc5QXo2SVhxYjYzUE94aWdEaDhLSVpQVmRoZE54ejUxaHI1N1RzWFpRVFZqdVpiY0xOV3VDRkxVVUZhdzl2RWktTGxjUWNkUC1keEx5Q01SdlJWekZ5bHhHaFlVWFE?oc=5",
+   "title": "European Shares Rise as Novo Nordisk Earnings Lift Markets Ahead of Eurozone Inflation Data: DAX, CAC, FTSE100",
+   "publisher": "Yahoo Finance",
+   "tier": "data",
    "pageAge": "2026-11-04"
   },
   {
    "n": 15,
-   "url": "https://www.livemint.com/market/stock-market-news/us-midterm-election-results-impact-decoded-can-sensex-nifty-hit-new-peak-gold-silver-rates-rebound-with-trump-loss-11793788769424.html",
-   "title": "US Midterm Election Results Impact Decoded: Can Sensex, Nifty hit new peak? Gold, silver rates rebound with Trump loss",
-   "publisher": "Mint",
+   "url": "https://economictimes.indiatimes.com/markets/stocks/news/kopsi-taiwan-other-asian-stocks-tumble-after-us-midterm-elections-signal-democratic-victory-whats-the-connection/articleshow/135529227.cms",
+   "title": "Kopsi, Taiwan, other Asian stocks tumble after US midterm elections signal Democratic victory. What’s the connection?",
+   "publisher": "Economic Times",
    "tier": "press",
    "pageAge": "2026-11-04"
   },
   {
    "n": 16,
-   "url": "https://www.livemint.com/market/stock-market-rally-bulls-to-stay-nifty-sensex-gain-5-5-in-5-sessions-can-the-momentum-sustain-key-levels-to-watch-11793787625537.html",
-   "title": "Stock Market Rally: Bulls to stay? Nifty, Sensex gain 5.5% in 5 sessions; Can the momentum sustain? Key levels to watch",
-   "publisher": "Mint",
-   "tier": "press",
-   "pageAge": "2026-11-04"
-  },
-  {
-   "n": 17,
-   "url": "https://economictimes.indiatimes.com/markets/forex/rupee-gains-17-paise-to-settle-at-94-58-against-us-dollar/articleshow/135536340.cms",
-   "title": "Rupee gains 17 paise to settle at 94.58 against Us dollar",
-   "publisher": "Economic Times",
-   "tier": "press",
-   "pageAge": "2026-11-04"
-  },
-  {
-   "n": 18,
-   "url": "https://www.livemint.com/market/stock-market-news/stock-market-outlook-history-favours-bulls-in-november-but-can-nifty-rally-despite-global-headwinds-11793782345049.html",
-   "title": "Stock Market Outlook: History favours bulls in November, but can Nifty rally despite global headwinds?",
-   "publisher": "Mint",
-   "tier": "press",
-   "pageAge": "2026-11-04"
-  },
-  {
-   "n": 19,
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSURReXFqM2ZZSXFoSEg1Nk9nQWE5Y1pGbF9DNk1DM3kyMTh2cGRNY3hKaWUwMlJacXR1WTd6cWttMTVES2xvaExNNDlrSElnNTJZV2l4WWNVcFN5azUzVndCYXlnZHVvX0w3c0NUQ2ktS3Z5cnJzNkk5UUdnWWd1SlduczVNeWNqNUVtQThhNzZoX09WWFlxMjZYa2w1T1VSaUxHWUVOWFpHSXZqLVlJ?oc=5",
-   "title": "Japan, South Korea stocks fall over 4% as Democrats lead in US midterms",
-   "publisher": "Nikkei Asia",
-   "tier": "press",
-   "pageAge": "2026-11-04"
-  },
-  {
-   "n": 20,
-   "url": "https://www.bloomberg.com/news/videos/2026-11-04/us-midterm-blue-wave-puts-ai-data-centers-in-spotlight-video",
-   "title": "US Midterm Blue Wave Puts AI, Data Centers in Spotlight",
-   "publisher": "Bloomberg",
-   "tier": "press",
-   "pageAge": "2026-11-04"
-  },
-  {
-   "n": 21,
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcUducUhrN3lFajkyZjZqUElGd2t3ZjRoeHBTMURCaUxFY0NlWEthOGw2VnFFc1RxTk5YUV9Qa0p3WHp4VjBKbjZabEFMdkJ0cl9vTG91am8yNHZrR3BabDA4aFNpNUdJckZfR3k2S1R0dF9BMHllQnBpZDR3dzlCdl9TejBTTWlINUVFX2xOdnZjNWdSOWpHUnhBYmpwWVJid1BCZkUzWlpiTGR5RkVOVjhR?oc=5",
    "title": "South Korea’s AI Darlings Become Big Casualty of US Midterm Vote",
    "publisher": "Bloomberg",
@@ -8318,105 +8385,210 @@
    "pageAge": "2026-11-04"
   },
   {
-   "n": 22,
-   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9nalQ0Uzh2Y0dVQi01d2c1Rl8zOW9Ua3YyNEl6SERlazZXcWhJdm1WWkIydGU2OEh1Z1JJcG5wVGR2RjVObzFQWjR5S1dfRHNCYUtlY1FiNGhDRnZtUEhqcU9jeF9NQTIwQ0U1QUlGOEI?oc=5",
-   "title": "October inflation in the Eurozone keeps ECB on course for another tightening",
-   "publisher": "Financial Times",
+   "n": 17,
+   "url": "https://www.business-standard.com/markets/news/markets-extend-gains-on-us-midterm-results-as-democrats-sweep-elections-126110401953_1.html",
+   "title": "Markets extend gains on US midterm results as Democrats sweep elections",
+   "publisher": "Business Standard",
    "tier": "press",
    "pageAge": "2026-11-04"
   },
   {
-   "n": 23,
-   "url": "https://www.wsj.com/finance/currencies/asian-currencies-mixed-amid-focus-on-u-s-midterms-143da6ea?mod=rss_markets_main",
-   "title": "Euro Stays Higher Vs Dollar After Eurozone Inflation Data",
-   "publisher": "WSJ",
-   "tier": "press",
-   "pageAge": "2026-11-04"
-  },
-  {
-   "n": 24,
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT3BLeW8wZGxlTWJOa21EYlJKaHpKRXk4R1o0M3I3UjNUVGJMS2JaQTFCN2o1NzdyM1E1Mm5HckpfREhGQV9ORWZpT2dudjB1cThFdmFLd0VIbVhjZkNUZHpqN3pHUFJVZmFvQTA1YW9Mc3BEdDYyZ3FybnYtdVY4bnJoWjlPMUlkM2Jac1BRNE5BSmJ1S2xJRC1HVTdhaElqeGVOTDYtLWdKOW5hZUF0QmNR?oc=5",
-   "title": "Global central banks hit pause in October after September hiking spree",
-   "publisher": "Reuters",
-   "tier": "press",
-   "pageAge": "2026-11-04"
-  },
-  {
-   "n": 25,
-   "url": "https://www.wsj.com/economy/global/eurozone-inflation-climbs-again-driven-by-energy-costs-0adbaef3?mod=rss_socialeconomyfeed",
-   "title": "Eurozone Inflation Rises to 4%, Driven by Energy Costs",
-   "publisher": "WSJ",
-   "tier": "press",
-   "pageAge": "2026-11-04"
-  },
-  {
-   "n": 26,
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSUhEZEpVdlkxUG5nVXB4SGZYRlFWMV9SZkVUNFdzM25uRk43UUY5NEVLWlJyUlZKOVdHYmNIVk5zcmZHY2tYNDJtaGtUREFSeEVxRmxoTDdhMVlDOGh0eGtiekpLY1phLWl3M0JRZHFYbGpNRFR1R2hMYnk2bEF4bHJsY1lVMlYxNFV5ZnNDSG1hUm43cU5xZzBoT0lia0o4?oc=5",
-   "title": "BOE Expected to Join Peers in Raising Key Rate",
-   "publisher": "WSJ",
-   "tier": "press",
-   "pageAge": "2026-11-04"
-  },
-  {
-   "n": 27,
-   "url": "https://www.livemint.com/market/stock-market-news/us-midterm-elections-impact-on-gold-silver-prices-in-india-how-donald-trumps-loss-is-affecting-precious-metals-rates-11793785627674.html",
-   "title": "US midterm elections impact on gold, silver prices in India: How Donald Trump's loss is affecting precious metals rates",
+   "n": 18,
+   "url": "https://www.livemint.com/market/stock-market-news/us-midterm-election-results-impact-decoded-can-sensex-nifty-hit-new-peak-gold-silver-rates-rebound-with-trump-loss-11793788769424.html",
+   "title": "US Midterm Election Results Impact Decoded: Can Sensex, Nifty hit new peak? Gold, silver rates rebound with Trump loss",
    "publisher": "Mint",
    "tier": "press",
    "pageAge": "2026-11-04"
   },
   {
+   "n": 19,
+   "url": "https://www.scmp.com/plus/business/banking-finance/article/3372986/chinas-battered-stocks-get-little-relief-latest-support-efforts",
+   "title": "China’s battered stocks get little relief from latest support efforts",
+   "publisher": "SCMP",
+   "tier": "press",
+   "pageAge": "2026-11-02"
+  },
+  {
+   "n": 20,
+   "url": "https://www.bloomberg.com/news/videos/2026-11-04/asian-markets-react-as-trump-cools-iran-fears-video",
+   "title": "Asian Markets React as Trump Cools Iran Fears",
+   "publisher": "Bloomberg",
+   "tier": "press",
+   "pageAge": "2026-11-04"
+  },
+  {
+   "n": 21,
+   "url": "https://www.ft.com/content/b526f876-810a-4e74-8b8d-4ffca04b29c7?syn-25a6b1a6=1",
+   "title": "Oil tumbles below $100 on post-election peace hopes",
+   "publisher": "Financial Times",
+   "tier": "press",
+   "pageAge": "2026-11-04"
+  },
+  {
+   "n": 22,
+   "url": "https://www.bloomberg.com/news/articles/2026-11-04/latest-oil-market-news-and-analysis-for-nov-5",
+   "title": "Latest Oil Market News and Analysis for Nov. 5",
+   "publisher": "Bloomberg",
+   "tier": "press",
+   "pageAge": "2026-11-04"
+  },
+  {
+   "n": 23,
+   "url": "https://www.bloomberg.com/news/videos/2026-11-04/trump-talks-ballroom-arch-after-election-loss-video",
+   "title": "Trump Talks Ballroom & Arch After Election Loss",
+   "publisher": "Bloomberg",
+   "tier": "press",
+   "pageAge": "2026-11-04"
+  },
+  {
+   "n": 24,
+   "url": "https://www.cnbc.com/2026/11/05/energy-leaders-investment-outlook.html",
+   "title": "A 'demand decade' ahead for energy? BP, Baker Hughes CEOs weigh the investment outlook",
+   "publisher": "CNBC",
+   "tier": "press",
+   "pageAge": "2026-11-04"
+  },
+  {
+   "n": 25,
+   "url": "https://www.cnbc.com/2026/11/04/data-center-ballot-measures-2026-midterm.html",
+   "title": "Voters rebuff data centers in every ballot measure except one during the 2026 midterms",
+   "publisher": "CNBC",
+   "tier": "press",
+   "pageAge": "2026-11-04"
+  },
+  {
+   "n": 26,
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZ0RKVlY1MlliV3dhVWp3b2FVOGNsTGEyYnZLb1ZENVpINVdLdDVFTnNsazZ5b3FsbmVocktWZUhacFZmRU83cEFLOTNnOVBKZXJ6RUFoTjFncjJsNHB4Z25QMHlVLTNPRnE5TE5KNU9NN2JQQ09rQmo2N1N4dHFGNUEySXhLUVFhZVlJU0ZUd0V6aXhKVy1OT3JIa3lwdUpDT184VXpQYkthTXg1VWc?oc=5",
+   "title": "Trump's midterm drubbing demonstrates the power of data center opponents",
+   "publisher": "Reuters",
+   "tier": "press",
+   "pageAge": "2026-11-04"
+  },
+  {
+   "n": 27,
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdHpYSWhBcnlmcG9PNFNCai1tVnAtWTdfd2JhRjlxMG1RSklKc1VWbFlacDJOMzJ4TjFidGp4VEZEUFBNWTVHTWpWMVFCY1hreUxvWG9IOE5HdEJYQ1p3eWVKcGd4WW1FNS1zS25TMHJ1bFBCc1Z2WWRRQjZWdW5WSlN1dVdpeDZ1MHdIcUFUb0tuZ2lQMThSdWxKN1AwRG9lOHBCZS0zbkhqMG5GOGgwWHY1UEpvenRO?oc=5",
+   "title": "Democrats’ Wins Threaten AI Trade and Data Center Boom",
+   "publisher": "Bloomberg",
+   "tier": "press",
+   "pageAge": "2026-11-04"
+  },
+  {
    "n": 28,
-   "url": "https://www.wsj.com/world/democrats-take-congress-as-trump-says-iran-war-is-partly-to-blame-for-gop-losses-b03d4784?mod=rss_worldnews",
-   "title": "Democrats Take Congress as Trump Says Iran War Is Partly to Blame for GOP Losses",
-   "publisher": "WSJ",
+   "url": "https://www.cnbc.com/2026/11/04/qualcomm-qcom-earnings-report-q4-2026.html",
+   "title": "Qualcomm stock drops 7% on weak earnings forecast as memory shortage weighs on smartphone sales",
+   "publisher": "CNBC",
    "tier": "press",
    "pageAge": "2026-11-04"
   },
   {
    "n": 29,
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVUNlU1Q1UWJuaDBkTmppbGd3Umlhb29sRVEyR0swY19TSVVwc2dSRWFib1NkOGZiSHhkNl80M0tXakVSVU8wcEFUbDBKd0FTbkhiaHhXVm94azlmNkxqaVlFdmFmQXRVWkFjUS1raGJNaEFjNlNWX0pYWUtXMVhRNFZjc1ZZNlBJc3Bsd2tRTUVhVUlfYkh5dHNtaUYydk9kdzg0SA?oc=5",
-   "title": "Wall Street Futures Plunged After Democrats Swept Congress. Then Investors Started Buying Again.",
-   "publisher": "Yahoo Finance",
-   "tier": "data",
+   "url": "https://www.business-standard.com/markets/news/gold-up-3-experts-split-on-whether-rally-can-sustain-in-coming-months-126110402099_1.html",
+   "title": "Gold up 3%; experts split on whether rally can sustain in coming months",
+   "publisher": "Business Standard",
+   "tier": "press",
    "pageAge": "2026-11-04"
   },
   {
    "n": 30,
-   "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63915",
-   "title": "RBI to conduct Second Overnight Variable Rate Reverse Repo (VRRR) auction under LAF on November 04, 2026",
-   "publisher": "RBI",
-   "tier": "official",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVFp4emV5NHZlaTJWTTUwUHhCYTBvTHBiRHpWTzJlb1JUZ05SWThnaWVpVmdyVmtadENjZnQ3N28tdXF4blp6VHZMX2VWMk5oM21ibXVXaDgwVEJSaGkzSlltWmFoeHJMdUx6RnJ2MDdVTHVSc0E0bEdsSk9jM0prMjdpUWloenBmM3hONGtSRW9MSjAzc0VxSnpOYm5wUFJBQW1sSTVTcWc1R2ptNXlR?oc=5",
+   "title": "Franc, Yen Emerge as FX Winners as US Midterms Weaken Dollar",
+   "publisher": "Bloomberg",
+   "tier": "press",
    "pageAge": "2026-11-04"
   },
   {
    "n": 31,
-   "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63913",
-   "title": "Result of the Overnight Variable Rate Reverse Repo (VRRR) auction held on November 04, 2026",
-   "publisher": "RBI",
-   "tier": "official",
+   "url": "https://www.wsj.com/finance/investing/u-s-stocks-rally-on-divided-government-as-ai-wobbles-continue-1a679abe?mod=rss_markets_main",
+   "title": "U.S. Stocks Rally on Divided Government as AI Wobbles Continue",
+   "publisher": "WSJ",
+   "tier": "press",
    "pageAge": "2026-11-04"
   },
   {
    "n": 32,
-   "url": "https://www.cnbc.com/2026/11/04/novo-q3-earnings-wegovy-sales.html",
-   "title": "Novo shares jump as Wegovy pill sales impress, drugmaker hikes outlook",
+   "url": "https://www.cnbc.com/2026/11/04/trump-midterm-election-results-congress.html",
+   "title": "What Republicans' huge loss means for Trump",
    "publisher": "CNBC",
    "tier": "press",
    "pageAge": "2026-11-04"
   },
   {
    "n": 33,
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPRnlxQUc1QWJFQ3ZyZHZOOE5CMk1YTGVLWGVaWDIzbWdIRzlVSHhldHN4QUtDQVdpUTJqZFlibFVOeTRwSFpXeUk1UlpoX1hUVF9KUDFnVjBPOFFrQ0lMc2NPTnBHeWVBMUcwRU9pdXlWZDNzU3duSU1McHRGeGd4RW84NHVmWkhnNXU3eS1kbTJ4MkRFbHhiUUZ3MDZyYTZxNFU4dlJCNEduSmNzalpwQVQyZ05jX3JMWjg4eDZ6Uk5FaWRkSUZCZzJOdHRhU1ozSFlGaA?oc=5",
-   "title": "Dow Jones Top Markets Headlines at 1 PM ET: Tech Stocks Rise Despite Apple Slump | U.S. ...",
-   "publisher": "Morningstar",
-   "tier": "data",
-   "pageAge": "2026-11-03"
+   "url": "https://www.economist.com/finance-and-economics/2026/11/04/what-markets-make-of-the-midterms",
+   "title": "What markets make of the midterms",
+   "publisher": "The Economist",
+   "tier": "press",
+   "pageAge": "2026-11-04"
+  },
+  {
+   "n": 34,
+   "url": "https://www.cnbc.com/2026/11/04/snap-q3-earnings-report-2026.html",
+   "title": "Snap shares fall over 10% on third-quarter revenue miss",
+   "publisher": "CNBC",
+   "tier": "press",
+   "pageAge": "2026-11-04"
+  },
+  {
+   "n": 35,
+   "url": "https://www.cnbc.com/2026/11/04/figma-fig-q3-earnings-report-2026.html",
+   "title": "Figma sinks after earnings beat as company prioritizes long-term growth with AI changes",
+   "publisher": "CNBC",
+   "tier": "press",
+   "pageAge": "2026-11-04"
+  },
+  {
+   "n": 36,
+   "url": "https://www.straitstimes.com/business/south-koreas-ai-darlings-become-big-casualty-of-us-midterm-vote",
+   "title": "US midterms: South Korea’s AI darlings become casualty of Democratic wave",
+   "publisher": "Straits Times",
+   "tier": "press",
+   "pageAge": "2026-11-04"
+  },
+  {
+   "n": 37,
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc3FzLUNpSjIweWRWdkRuWEx5VC1Bd2JpNjJlbk8xc2lDaHo2SGpBa1pFU05NYS1yeW9yQnpNUXpiMTk4TXJsN0VSTWN3MVUyY2EtczFnVFR1LWR6VDJDOEItSkt1Zk1lQkg1NlM3d3pjbjg0UlJ0aHBISVptQ0ExYVN3OWlVX29Zc3VMcGxUQ1d0WHZNVkVaZzhHVlhXZUtvZl9mOWg4R3VRVTVWcXRtVU50U2kzUQ?oc=5",
+   "title": "Singapore Stocks Set for Correction as Bank Profit Outlook Sours",
+   "publisher": "Bloomberg",
+   "tier": "press",
+   "pageAge": "2026-11-04"
+  },
+  {
+   "n": 38,
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOOEx4WmxrMjkxNTI3TDUxSVNFeWs5aVRlR1kwV1JxZU45M3lXd3Y5TkFqeGkzb2VyR3dYbHpfcnFkbGVzVXhpeUVYaS0tdWdNdFdqVC1vbjZnRVZqV0QzUXVRM2hDbjlnbDJCZjZLLTdKRDhUTXNEeFVtNV92QkJkTERnbjlhVGRZdmdUaGlwMlFRM3RPcXY3cU1VWnBHdmNHV0VPZ0pR?oc=5",
+   "title": "MSCI November Index Review Announcement Scheduled for November 11, 2026",
+   "publisher": "Financial Times",
+   "tier": "press",
+   "pageAge": "2026-11-04"
+  },
+  {
+   "n": 39,
+   "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63919",
+   "title": "RBI to conduct Overnight Variable Rate Reverse Repo (VRRR) auction under LAF on November 05, 2026",
+   "publisher": "RBI",
+   "tier": "official",
+   "pageAge": "2026-11-04"
+  },
+  {
+   "n": 40,
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdEt3QnZYMW5WSVBNMUNqQ3pOUEV6RVVoM2xLa2RfV0VEQ1YyTzE2MFIwTnNGdTRFelljM3gtM3lORnhLYW5nT1VaSk5IVV85NlBIeGFlWlhaOHFIcHZhTm1ER1FsZzdZRElZUHl0Mm4ya04tMjZ2WV9ZbzVJLUhocktXVVFYVy1lbEJOWVF4eFVHdVNsbEQ4Tg?oc=5",
+   "title": "Alphabet Stock Sinks, Dragging Nasdaq Lower",
+   "publisher": "WSJ",
+   "tier": "press",
+   "pageAge": "2026-11-04"
+  },
+  {
+   "n": 41,
+   "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/musk-stocks-lose-120-billion-as-democrats-texas-win-rattles-investors/articleshow/135550872.cms",
+   "title": "Musk stocks lose $120 billion as Democrats’ Texas win rattles investors",
+   "publisher": "Economic Times",
+   "tier": "press",
+   "pageAge": "2026-11-04"
   }
  ],
  "warnings": [
   "2 news feed(s) could not be read this time: Google News: site:economist.com stock markets indices (no items); Google News: site:economist.com central bank inflation oil dollar (no items).",
-  "The written analysis is from 2026-11-04 and is being refreshed; the numbers are current."
+  "Dropped \"Asia-Pacific: chip-heavy markets slump, India and Australia gain\": number(s) 200 not found in its cited evidence.",
+  "Dropped \"Earnings reactions in individual stocks\": it must cite at least one source note and one market data series."
  ],
  "usage": {
   "headlines": 60,
