@@ -118,13 +118,12 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** US equities rallied after Democrats won Congress (S&P 500 1d 1.58%, Dow 3.03%) as Brent fell 8.58%; Financial Times reported hyperscalers surged while chipmakers fell.
-- Company effect, Microsoft (up on sp500, dow, nasdaq): Mint listed Microsoft among top gainers on the day Wall Street rallied after Democrats won Congress.
-- Company effect, Amazon (up on sp500, nasdaq): Mint listed Amazon among top gainers as technology stocks led the market higher.
-- Company effect, Apple (up on sp500, nasdaq): Mint listed Apple among top gainers as technology stocks led the market higher.
-- Company effect, Alphabet (mixed on nasdaq, sp500): WSJ reported Alphabet sank and dragged the Nasdaq lower during the session, while Mint listed it among stocks that rallied.
-- Company effect, Tesla (down on sp500, nasdaq): Economic Times reported Tesla and SpaceX lost more than $120 billion in combined market value on concern a Democrat-controlled Congress could increase scrutiny of Elon Musk's businesses.
-- Company effect, Novo Nordisk (up on eurostoxx50): Economic Times reported Novo Nordisk gained after raising its full-year sales and profit forecasts, lifting European shares.
+**Headline:** Bloomberg and Reuters tied the rally to the Democratic midterm sweep; Dow closed +3.03%, Brent fell, yields dropped, while chip stocks led a rotation lower (KOSPI -5.28%, TAIEX -3.20%).
+- Company effect, Rheinmetall (down on dax): CNBC reported Rheinmetall plunged 17% after cutting its 2026 outlook for the second time in three months.
+- Company effect, Toyota (up on nikkei): Bloomberg reported Toyota raised its profit forecast on hybrid demand and a weak yen.
+- Company effect, SoftBank Group (down on nikkei): WSJ reported China blocked SoftBank's $5.4 billion robotics deal.
+- Company effect, Micron (down on taiex): Bloomberg reported Micron paused work on a $4.5 billion Taiwan plant after a labor spat.
+- Company effect, Samsung Electronics (down on kospi): Investing.com reported a chip rout triggering a KOSPI halt; Samsung Electronics was hit.
 
 ## Headlines collected today
 
@@ -192,7 +191,8 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 2 news feed(s) could not be read this time: Euronews business (HTTP 406); Google News: site:economist.com central bank inflation oil dollar (no items).
-- The written analysis is from 2026-11-05 and is being refreshed; the numbers are current.
+- Dropped "Asia-Pacific: chip rout vs India, Hong Kong rebound": number(s) 200 not found in its cited evidence.
+- Dropped "Samsung Electronics": number(s) 7.57 not found in its cited evidence.
 
 ## How to use this file
 
