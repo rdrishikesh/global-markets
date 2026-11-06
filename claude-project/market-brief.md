@@ -118,11 +118,11 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** AP reported the S&P 500 tumbled 4.4% as AI stocks sold off after the Democratic midterm sweep; the Nasdaq Composite closed -5.52% and the VIX at 28.18.
-- Company effect, Nvidia (down on sp500, nasdaq): Straits Times reported Nvidia chips sold off after the Democratic midterm wins; CEO Jensen Huang's net worth fell by US$15.1b.
-- Company effect, Intel (down on nasdaq): Yahoo Finance reported Intel fell on a weak fourth-quarter sales outlook amid the chip selloff.
-- Company effect, Tesla (down on sp500, nasdaq): CNBC reported Tesla and SpaceX lost over $420 billion in combined market cap after the midterms.
-- Company effect, Kimberly-Clark (up on sp500): CNBC reported the stock rose more than 1% Thursday during the sell-off after a better-than-feared quarter.
+**Headline:** Nasdaq Composite fell 5.52% (1d) into correction territory as an AI-stock selloff spread to Asia and Europe; Nikkei 225 fell 5.96%, KOSPI 6.02%, and the VIX closed at 26.90.
+- Company effect, SK Hynix and Samsung Electronics (down on kospi): CNBC reported SK Hynix and Samsung tumbled as the Nasdaq sell-off battered Asian chip stocks.
+- Company effect, TSMC (down on taiex): CNBC reported TSMC tumbled with Asian chip stocks after the Nasdaq sell-off.
+- Company effect, SoftBank (down on nikkei): CNBC reported Softbank tumbled with Asian chip and tech stocks.
+- Company effect, ICICI Bank (up on nifty50, sensex): Business Standard reported ICICI Bank extended its rally, up 10% in 4 days, with market cap near ₹11 trn.
 
 ## Headlines collected today
 
@@ -186,10 +186,6 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 - State Street® SPDR® Dow Jones Industrial Average® ETF Trust, 0L1P:LSE:USD charts (Financial Times, 2026-11-04T22:34:47.000Z) https://news.google.com/rss/articles/CBMickFVX3lxTFBldTF1YVZ5bzgzMkpuSkFxaXRSbEFjbDV5OUNoQ3ZDOWtsQlVCakNZMlRNOE5vYWNsV3FzV1ZHR25HYU5GRDREZUZ2Q1VfMHVLNERSeF9HOXRDck9yWmZlLTdkVjc1bDh1OG5XblU3NHgwZw?oc=5
 - Dow Jones Top Markets Headlines at 11 AM ET: The Winners and Losers on Wall Street From the Election Earthquake | Oil ... (Morningstar, 2026-11-04T16:15:00.000Z) https://news.google.com/rss/articles/CBMigAJBVV95cUxQd2toZFJKb1NPSVFQTW5EUTNLdzZLdW94TnJZSUlQaHowTzg1LW1NVGwzczNKN25taEVabzRETEM0cVBYUzE0RWR6ZklkbWprd0hVOS1JaGZ4dU82dHFmcXR6bGhpQWQxdkZPMUxUb2VrQWJFVEw4OTZKNDMtSkVyUUd6N0JiV1J3ZUVmaTVVSWRyRlFCb29qc2FyZV9ZMkFKVGdBOHRWMmloVUVHMnFlVDlrVjVfNDFESkNHUTNYbnNlaDNTemlrelY0OGZkMFNaakM3MTNLb2ZhLTJuN1BVVzJPb1RSRlVsaE9lWDBjOFNZc2I3MGZKcXVGSVdnZ2xY?oc=5
 - Dow Jones Top Markets Headlines at 9 AM ET: Stock Futures Rally, Treasurys Strengthen After Democratic Sweep | Oil ... (Morningstar, 2026-11-04T14:15:00.000Z) https://news.google.com/rss/articles/CBMi-gFBVV95cUxNRm5ZR0dwUk40am11OHZDaDFIRWVLS0RDanloZnFDOFY5U2toOHZrdlFRVUdMNFNVMlpCVlNERGJFNUdndWJyaUNSUE5HQlBZMXdhY1psMnhJQ1hNeF9jZGZ4UC1laXpXT2tvUm1LNWUxUDhCVnFleVlqNGFYMDdfck1NVmM4UEpROFNUVllhYmlxUXp2ZktxMy13ZV9BdDZMSzU5WEtxbTRycmhPWU8wMHo1d1NtdDEyZGxESXduU09mQWlZSzQwM1hONm5DcVRualE2WFVHM04xZUNGeEdWOVMzd1ludWNDbFlJUzNRUkJOalpFTnB5LVR3?oc=5
-
-## Data warnings
-
-- The written analysis is from 2026-11-06 and is being refreshed; the numbers are current.
 
 ## How to use this file
 
