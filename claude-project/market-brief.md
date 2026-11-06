@@ -118,12 +118,11 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** Bloomberg and Reuters tied the rally to the Democratic midterm sweep; Dow closed +3.03%, Brent fell, yields dropped, while chip stocks led a rotation lower (KOSPI -5.28%, TAIEX -3.20%).
-- Company effect, Rheinmetall (down on dax): CNBC reported Rheinmetall plunged 17% after cutting its 2026 outlook for the second time in three months.
-- Company effect, Toyota (up on nikkei): Bloomberg reported Toyota raised its profit forecast on hybrid demand and a weak yen.
-- Company effect, SoftBank Group (down on nikkei): WSJ reported China blocked SoftBank's $5.4 billion robotics deal.
-- Company effect, Micron (down on taiex): Bloomberg reported Micron paused work on a $4.5 billion Taiwan plant after a labor spat.
-- Company effect, Samsung Electronics (down on kospi): Investing.com reported a chip rout triggering a KOSPI halt; Samsung Electronics was hit.
+**Headline:** AP reported the S&P 500 tumbled 4.4% as AI stocks sold off after the Democratic midterm sweep; the Nasdaq Composite closed -5.52% and the VIX at 28.18.
+- Company effect, Nvidia (down on sp500, nasdaq): Straits Times reported Nvidia chips sold off after the Democratic midterm wins; CEO Jensen Huang's net worth fell by US$15.1b.
+- Company effect, Intel (down on nasdaq): Yahoo Finance reported Intel fell on a weak fourth-quarter sales outlook amid the chip selloff.
+- Company effect, Tesla (down on sp500, nasdaq): CNBC reported Tesla and SpaceX lost over $420 billion in combined market cap after the midterms.
+- Company effect, Kimberly-Clark (up on sp500): CNBC reported the stock rose more than 1% Thursday during the sell-off after a better-than-feared quarter.
 
 ## Headlines collected today
 
@@ -187,10 +186,6 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 - Dow Jones Top Markets Headlines at 9 AM ET: Stock Futures Rally, Treasurys Strengthen After Democratic Sweep | Oil ... (Morningstar, 2026-11-04T14:15:00.000Z) https://news.google.com/rss/articles/CBMi-gFBVV95cUxNRm5ZR0dwUk40am11OHZDaDFIRWVLS0RDanloZnFDOFY5U2toOHZrdlFRVUdMNFNVMlpCVlNERGJFNUdndWJyaUNSUE5HQlBZMXdhY1psMnhJQ1hNeF9jZGZ4UC1laXpXT2tvUm1LNWUxUDhCVnFleVlqNGFYMDdfck1NVmM4UEpROFNUVllhYmlxUXp2ZktxMy13ZV9BdDZMSzU5WEtxbTRycmhPWU8wMHo1d1NtdDEyZGxESXduU09mQWlZSzQwM1hONm5DcVRualE2WFVHM04xZUNGeEdWOVMzd1ludWNDbFlJUzNRUkJOalpFTnB5LVR3?oc=5
 - European Shares Rise as Novo Nordisk Earnings Lift Markets Ahead of Eurozone Inflation Data: DAX, CAC, FTSE100 (Yahoo Finance, 2026-11-04T10:32:08.000Z) https://news.google.com/rss/articles/CBMiigFBVV95cUxQSGpZXy1sM2dNS3V1M2NkenV2NmlJWjljd0JUTTJiMXBwTDRMUlc5QXo2SVhxYjYzUE94aWdEaDhLSVpQVmRoZE54ejUxaHI1N1RzWFpRVFZqdVpiY0xOV3VDRkxVVUZhdzl2RWktTGxjUWNkUC1keEx5Q01SdlJWekZ5bHhHaFlVWFE?oc=5
 - Singapore Stocks Set for Correction as Bank Profit Outlook Sours (Bloomberg, 2026-11-04T10:01:40.000Z) https://news.google.com/rss/articles/CBMitgFBVV95cUxQc3FzLUNpSjIweWRWdkRuWEx5VC1Bd2JpNjJlbk8xc2lDaHo2SGpBa1pFU05NYS1yeW9yQnpNUXpiMTk4TXJsN0VSTWN3MVUyY2EtczFnVFR1LWR6VDJDOEItSkt1Zk1lQkg1NlM3d3pjbjg0UlJ0aHBISVptQ0ExYVN3OWlVX29Zc3VMcGxUQ1d0WHZNVkVaZzhHVlhXZUtvZl9mOWg4R3VRVTVWcXRtVU50U2kzUQ?oc=5
-
-## Data warnings
-
-- The written analysis is from 2026-11-05 and is being refreshed; the numbers are current.
 
 ## How to use this file
 
