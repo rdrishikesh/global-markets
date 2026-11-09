@@ -118,11 +118,7 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** Nasdaq Composite fell 5.52% (1d) into correction territory as an AI-stock selloff spread to Asia and Europe; Nikkei 225 fell 5.96%, KOSPI 6.02%, and the VIX closed at 26.90.
-- Company effect, SK Hynix and Samsung Electronics (down on kospi): CNBC reported SK Hynix and Samsung tumbled as the Nasdaq sell-off battered Asian chip stocks.
-- Company effect, TSMC (down on taiex): CNBC reported TSMC tumbled with Asian chip stocks after the Nasdaq sell-off.
-- Company effect, SoftBank (down on nikkei): CNBC reported Softbank tumbled with Asian chip and tech stocks.
-- Company effect, ICICI Bank (up on nifty50, sensex): Business Standard reported ICICI Bank extended its rally, up 10% in 4 days, with market cap near ₹11 trn.
+**Headline:** WSJ reported a $2.5 trillion AI-led rout in US tech; the S&P 500 recovered only 0.31% on the day and is down 2.68% over five days, with the VIX at 25.64 and rate-hike expectations firming after the jobs report.
 
 ## Headlines collected today
 
@@ -189,7 +185,8 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Data warnings
 
-- The written analysis is from 2026-11-06 and is being refreshed; the numbers are current.
+- Dropped "Americas: Nasdaq in correction, small bounce": number(s) 401 not found in its cited evidence.
+- Dropped "Central banks: BoE hikes, RBA and BoJ in focus": number(s) 200 not found in its cited evidence.
 
 ## How to use this file
 
