@@ -118,7 +118,8 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** WSJ reported a $2.5 trillion AI-led rout in US tech; the S&P 500 recovered only 0.31% on the day and is down 2.68% over five days, with the VIX at 25.64 and rate-hike expectations firming after the jobs report.
+**Headline:** Nvidia's leadership change and a Treasury sell-off ahead of US inflation data weigh on sentiment; the S&P 500 closed -0.35% on 2026-11-12 while the Euro Stoxx 50 is 0.15% on 2026-11-13.
+- Company effect, Nvidia (down on sp500, nasdaq): CEO Jensen Huang resigned (CNBC); Nvidia fell in the S&P 500's largest-names list, and the Straits Times reported the Nvidia drop outweighed energy gains in US equities.
 
 ## Headlines collected today
 
@@ -186,7 +187,9 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 1 news feed(s) could not be read this time: Google News: site:economist.com central bank inflation oil dollar (no items).
-- The written analysis is from 2026-11-09 and is being refreshed; the numbers are current.
+- Dropped "S&P 500": number(s) 4.34 not found in its cited evidence.
+- Dropped "Hang Seng": number(s) 3.06, 3.46 not found in its cited evidence.
+- Dropped "Nvidia": number(s) 4.34, 8.49 not found in its cited evidence.
 
 ## How to use this file
 
