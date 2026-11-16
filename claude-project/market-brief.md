@@ -118,8 +118,11 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** Nvidia's leadership change and a Treasury sell-off ahead of US inflation data weigh on sentiment; the S&P 500 closed -0.35% on 2026-11-12 while the Euro Stoxx 50 is 0.15% on 2026-11-13.
-- Company effect, Nvidia (down on sp500, nasdaq): CEO Jensen Huang resigned (CNBC); Nvidia fell in the S&P 500's largest-names list, and the Straits Times reported the Nvidia drop outweighed energy gains in US equities.
+**Headline:** US stocks ended mixed on 2026-11-13 as Nvidia's CEO exit hit chips (S&P 500 -0.40%, Nasdaq -0.91%) while the 10-year yield closed at 5.15.
+- Company effect, Nvidia (down on sp500, nasdaq): CNBC said Nvidia had its longest weekly losing streak since 2012 as value sank by $1.7 trillion after Jensen Huang's resignation; Straits Times said Nvidia uncertainty weighed on tech shares.
+- Company effect, AMD (down on sp500, nasdaq): MarketWatch said AMD and other chip stocks slid as Wall Street rethinks the AI trade without Jensen Huang.
+- Company effect, Nebius (down on sp500): Yahoo Finance reported Nebius stock plunged again as Wall Street slashed targets.
+- Company effect, Microsoft (mixed on dow, nasdaq): The Guardian said a Microsoft outage shook companies and local governments across the US; Straits Times said Outlook and Teams eased after over a day.
 
 ## Headlines collected today
 
@@ -187,7 +190,8 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 1 news feed(s) could not be read this time: Google News: site:economist.com central bank inflation oil dollar (no items).
-- The written analysis is from 2026-11-13 and is being refreshed; the numbers are current.
+- Dropped "Microsoft": number(s) 0.17 not found in its cited evidence.
+- Dropped "SoftBank Group": number(s) 5.11 not found in its cited evidence.
 
 ## How to use this file
 
