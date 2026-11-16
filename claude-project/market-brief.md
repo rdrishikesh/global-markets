@@ -82,11 +82,8 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** US stocks ended mixed on 2026-11-13 as Nvidia's CEO exit hit chips (S&P 500 -0.40%, Nasdaq -0.91%) while the 10-year yield closed at 5.15.
-- Company effect, Nvidia (down on sp500, nasdaq): CNBC said Nvidia had its longest weekly losing streak since 2012 as value sank by $1.7 trillion after Jensen Huang's resignation; Straits Times said Nvidia uncertainty weighed on tech shares.
-- Company effect, AMD (down on sp500, nasdaq): MarketWatch said AMD and other chip stocks slid as Wall Street rethinks the AI trade without Jensen Huang.
-- Company effect, Nebius (down on sp500): Yahoo Finance reported Nebius stock plunged again as Wall Street slashed targets.
-- Company effect, Microsoft (mixed on dow, nasdaq): The Guardian said a Microsoft outage shook companies and local governments across the US; Straits Times said Outlook and Teams eased after over a day.
+**Headline:** Tech-led selloff hit Asia: TAIEX -6.03%, KOSPI -3.59%, Nikkei 225 -2.42% on 2026-11-16; FT reported Nvidia down 2.1% pre-market and WSJ the dollar index at a 19-month high of 103.533.
+- Company effect, Nvidia (down on sp500, nasdaq): FT reported Nvidia down 2.1% pre-market on AI jitters; CNBC reported growing calls for Jensen Huang's return following his resignation.
 
 ## Headlines collected today
 
@@ -154,7 +151,7 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 5 news feed(s) could not be read this time: Google News: site:reuters.com stock markets indices (no items); Google News: site:barrons.com central bank inflation oil dollar (no items); Google News: site:economist.com stock markets indices (no items); Google News: site:economist.com central bank inflation oil dollar (no items); Google News: European shares STOXX DAX FTSE ECB (no items).
-- The written analysis is from 2026-11-16 and is being refreshed; the numbers are current.
+- Dropped "S&P/ASX 200": number(s) 2.80 not found in its cited evidence.
 
 ## How to use this file
 

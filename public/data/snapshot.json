@@ -2,9 +2,9 @@
  "schemaVersion": 2,
  "generatedAt": "2026-11-16T11:46:06.284Z",
  "models": {
-  "synthesis": "claude-sonnet-5-5"
+  "synthesis": "Claude (scheduled task)"
  },
- "inputHash": "a381162441d5f72b",
+ "inputHash": "ab4a647fce87f166",
  "mood": {
   "label": "Risk-off",
   "basis": [
@@ -185,15 +185,7 @@
     7592.4,
     7561.67
    ],
-   "why": {
-    "technical": "Reuters-style coverage: Mint/Yahoo said Wall St slid as Nvidia uncertainty dragged tech shares lower; S&P 500 lost 0.40% to 7,561.67 (Straits Times).",
-    "layman": "The S&P 500 fell 0.40% because worries about Nvidia pulled tech shares down.",
-    "sources": [
-     8,
-     36,
-     37
-    ]
-   }
+   "why": null
   },
   {
    "id": "dow",
@@ -366,13 +358,7 @@
     52297.09,
     52347.55
    ],
-   "why": {
-    "technical": "The Dow rose 50.46 points, or 0.10%, to 52,347.55 even as tech fell (Straits Times).",
-    "layman": "The Dow edged up 0.10% even though tech shares fell.",
-    "sources": [
-     8
-    ]
-   }
+   "why": null
   },
   {
    "id": "nasdaq",
@@ -545,14 +531,7 @@
     25366.09,
     25136.27
    ],
-   "why": {
-    "technical": "Yahoo Finance reported the Nasdaq plunged at midday as Nvidia turmoil deepened and Treasury yields hit 5%; closed -0.91%.",
-    "layman": "The Nasdaq fell 0.91% as Nvidia's troubles deepened and bond yields hit 5%.",
-    "sources": [
-     1,
-     38
-    ]
-   }
+   "why": null
   },
   {
    "id": "russell2000",
@@ -1922,14 +1901,7 @@
     6386.86,
     6374.47
    ],
-   "why": {
-    "technical": "Bloomberg reported European shares pulled back from a record high after a four-day rally; WSJ said yields rose on Fed-hike expectations.",
-    "layman": "European shares slipped from a record high after four days of gains.",
-    "sources": [
-     11,
-     14
-    ]
-   }
+   "why": null
   },
   {
    "id": "ibex35",
@@ -2960,14 +2932,7 @@
     23637.6,
     23753.84
    ],
-   "why": {
-    "technical": "Notes name the Anthropic IPO exclusion of mainland China and Hong Kong investors (Economic Times) and Beijing's offshore trust tax clarification exempting Hong Kong MPF accounts (SCMP); no note attributes the day's fall to a cause.",
-    "layman": "Notes mention Hong Kong investors being shut out of Anthropic's IPO and new Chinese tax rules, but none says why the index fell.",
-    "sources": [
-     39,
-     40
-    ]
-   }
+   "why": null
   },
   {
    "id": "shanghai",
@@ -3487,10 +3452,11 @@
     25291.1
    ],
    "why": {
-    "technical": "Business Standard said Nifty Bank, Auto, Realty skid 1% as inflation stoked RBI rate-hike fears.",
-    "layman": "India's banks, carmakers and property shares fell about 1% on worries the central bank may raise rates.",
+    "technical": "Business Standard reported FMCG and bank shares outshone; Nifty Pharma was the top sectoral loser, down 1.8% vs a 0.3% rise in the Nifty 50.",
+    "layman": "Indian everyday-goods and bank shares led gains, while drug makers fell.",
     "sources": [
-     16
+     33,
+     39
     ]
    }
   },
@@ -3665,7 +3631,13 @@
     81592.45,
     82104.79
    ],
-   "why": null
+   "why": {
+    "technical": "Business Standard reported Sensex ended 512 pts higher with FMCG and bank shares outperforming.",
+    "layman": "India's Sensex rose as everyday-goods and bank shares did well.",
+    "sources": [
+     33
+    ]
+   }
   },
   {
    "id": "kospi",
@@ -4011,7 +3983,14 @@
     9082.2,
     9044.7
    ],
-   "why": null
+   "why": {
+    "technical": "Mint reported Australian shares slipped to a near one-week low as weaker copper and iron ore weighed on miners. Yahoo Finance noted Coles Group probing a cyber security incident.",
+    "layman": "Australian shares fell as lower copper and iron ore prices hit mining companies. Coles is also looking into a cyber incident.",
+    "sources": [
+     37,
+     38
+    ]
+   }
   },
   {
    "id": "taiex",
@@ -6019,36 +5998,35 @@
   }
  ],
  "report": {
-  "generatedAt": "2026-11-16T10:53:58.248Z",
+  "generatedAt": "2026-11-16T23:31:27.900Z",
   "headline": {
-   "technical": "US stocks ended mixed on 2026-11-13 as Nvidia's CEO exit hit chips (S&P 500 -0.40%, Nasdaq -0.91%) while the 10-year yield closed at 5.15.",
-   "layman": "US stocks ended mixed on Friday. Tech fell after Nvidia's boss quit, and borrowing costs kept rising."
+   "technical": "Tech-led selloff hit Asia: TAIEX -6.03%, KOSPI -3.59%, Nikkei 225 -2.42% on 2026-11-16; FT reported Nvidia down 2.1% pre-market and WSJ the dollar index at a 19-month high of 103.533.",
+   "layman": "Tech and AI shares fell sharply in Asia on Monday, hitting Taiwan, South Korea and Japan hardest, while the US dollar got stronger."
   },
   "global": {
-   "title": "Nvidia turmoil and rate-hike fears split markets",
+   "title": "AI-chip selloff and a firmer dollar weigh on markets",
    "status": {
-    "technical": "WSJ reported US stocks finished mixed as rate fears resurfaced and Nvidia tumult spilled into semiconductors. S&P 500 closed 7561.67 (1d -0.40%); Dow 52347.55 (1d 0.10%); Nasdaq 25136.27 (1d -0.91%). VIX closed 19.30. Nvidia was -2.01% on the day.",
-    "layman": "Reported by WSJ: US stocks ended mixed. Worries about higher interest rates came back, and the mess at Nvidia hurt chip companies. The Nasdaq fell 0.91% while the Dow edged up 0.10%."
+    "technical": "Reuters, WSJ and FT describe an AI selloff with tech stocks under pressure before the US open; FT reported Nvidia down 2.1% pre-market. VIX closed at 19.97 (1d 3.47%). WSJ reported the DXY at a 19-month high of 103.533; US 10-year yield 5.15 on 2026-11-13.",
+    "layman": "Tech and AI shares are under pressure at the start of a big week for AI. The dollar has strengthened. The VIX, a gauge of market nervousness, is at 19.97."
    },
    "consequence": {
-    "technical": "If Fed officials keep signalling hikes, as Daly did per Reuters, yields could stay elevated and pressure growth-heavy tech. CNBC said investors expect a December hike; the 10-year closed at 5.15 (5d 6.07%).",
-    "layman": "If the Fed keeps hinting at higher rates, borrowing stays costly and that can weigh on tech shares. CNBC said investors expect a rate rise in December."
+    "technical": "If the exposure worries Reuters describes persist, further tech weakness is possible. The IMF's Georgieva warned circular financing among AI companies has grown to just over $1 trillion, two-thirds of it debt; Deutsche Bank warned markets may be underestimating rate hike risks (Investing.com).",
+    "layman": "If worries about AI spending keep growing, tech shares could stay shaky. The IMF chief said money circling between AI firms is just over $1 trillion, two-thirds of it borrowed."
    },
    "impact": {
-    "technical": "Tech and semiconductor holders face pressure from the Nvidia news; the FT said Treasuries had their worst week since 'liberation day'. Gold fell as rate-hike bets grew (Mint). Home sales hit a 16-year low per The Guardian.",
-    "layman": "People with tech-heavy savings may see swings. Higher rates also make mortgages pricier; The Guardian said home sales hit a 16-year low."
+    "technical": "WSJ reported equal-weight funds held up better when Nvidia stumbled. NDTV Profit reported AMD, Micron, Intel and SanDisk down up to 5% pre-market. Yahoo Finance reported gold below $3,900 as Fed tightening expectations grew.",
+    "layman": "Chip makers fell before the US open, and gold slipped as investors expect the Fed to raise rates. Funds that spread money evenly across stocks coped better when Nvidia dropped, WSJ said."
    },
    "outlook": {
-    "technical": "Base rates, not predictions: after ordinary days the S&P 500 rose the next day 54% of 846 times and over the next 5 days 59% of 844 times. Look-alike days saw it rise 4 of 5 times over 5 days. WSJ noted next week brings big tests for the AI trade.",
-    "layman": "Past patterns are not predictions. After days like this, the S&P 500 went up the next day 54% of the time. WSJ said next week brings big tests for AI stocks."
+    "technical": "Base rates, not predictions: after ordinary S&P 500 days the next day rose 54% of 846 times and the next 5 days rose 59% of 844 times; for the Nasdaq Composite, 55% of 825 and 59% of 823.",
+    "layman": "History is not a forecast. After calm days, the S&P 500 rose the next day 54% of 846 times, and the Nasdaq Composite 55% of 825 times."
    },
    "quant": [
     "sp500",
     "nasdaq",
-    "dow",
     "vix",
-    "us10y",
-    "hw:sp500"
+    "dxy",
+    "us10y"
    ],
    "sources": [
     1,
@@ -6058,70 +6036,72 @@
     5,
     6,
     7,
-    8
+    8,
+    9
    ]
   },
   "regions": [
    {
-    "title": "Americas: Nvidia drag, Dow holds up",
+    "title": "Asia-Pacific: chip names drag Taiwan, Korea and Japan",
     "status": {
-     "technical": "Dow rose 50.46 points, or 0.10%, to 52,347.55 and S&P 500 lost 0.40% to 7,561.67 per Straits Times. Russell 2000 closed 2790.49 (1d -0.31%); TSX 36105.90 (1d -0.09%); Bovespa 172457.77 (1d 0.66%). Per hand-kept list, 3 of 8 Nasdaq names rose.",
-     "layman": "The Dow edged up 0.10% but the S&P 500 fell 0.40% as Nvidia weighed on tech. Small US companies and Canada slipped slightly; Brazil rose 0.66%."
+     "technical": "TAIEX closed -6.03%, KOSPI -3.59% and Nikkei 225 -2.42% (1d). Hand-kept list: TSMC -5.74%, Hon Hai (Foxconn) -9.34%, Samsung Electronics -4.47%, SK Hynix -7.89%, Advantest -11.12%, Tokyo Electron -7.05% (1d).",
+     "layman": "Stock markets in Taiwan, South Korea and Japan fell sharply on Monday. Big chip and electronics makers such as TSMC, Samsung and SK Hynix were among the biggest fallers."
     },
     "consequence": {
-     "technical": "If Nvidia uncertainty persists, WSJ said it could keep dragging technology indexes. Canada's ambassador warned tariffs are raising business costs (Yahoo Finance).",
-     "layman": "If the Nvidia worries last, tech indexes could stay under pressure. Canada's ambassador said tariffs are making business costs higher."
+     "technical": "NDTV Profit and FT reported chip stocks under pressure on AI jitters in pre-market US trading; if those worries persist, chip-heavy indices may stay exposed.",
+     "layman": "Reports say AI worries are hitting chip shares. If those worries last, markets with many chip firms could stay bumpy."
     },
     "impact": {
-     "technical": "Tech-heavy Nasdaq (-0.91%) bore the brunt; Nvidia fell 2.01% on the day and Broadcom 4.76%. Canadian businesses face higher costs under tariffs per the ambassador.",
-     "layman": "Tech investors felt the most pain. Nvidia fell 2.01% and Broadcom fell 4.76% in a day. Canadian firms say tariffs add costs."
+     "technical": "WSJ reported Japan issued a verbal warning on the yen as weakness stokes intervention alert; USD/JPY closed at 159.64.",
+     "layman": "Japan warned in words about its weak yen, which investors read as a sign it could step in. The yen is trading near 159.64 per dollar."
     },
     "outlook": {
-     "technical": "Base rates, not predictions: after ordinary days the Nasdaq rose the next day 55% of 825 times; look-alike days for the Russell 2000 rose 4 of 5 times over 5 days (median 1.81%).",
-     "layman": "Past patterns are not predictions. After similar days the Nasdaq rose the next day 55% of the time."
+     "technical": "Base rates, not predictions: after one-day falls bigger than 1 standard deviation, the next day rose 60% of 151 times for TAIEX, 54% of 153 for KOSPI and 55% of 163 for Nikkei 225.",
+     "layman": "History is not a forecast. After big one-day drops like this, the next day was up 60% of 151 times in Taiwan, 54% of 153 in Korea and 55% of 163 in Japan."
     },
     "quant": [
-     "dow",
-     "sp500",
-     "nasdaq",
-     "russell2000",
-     "tsx",
-     "bovespa",
-     "hw:nasdaq"
+     "taiex",
+     "kospi",
+     "nikkei",
+     "hw:taiex",
+     "hw:kospi",
+     "hw:nikkei",
+     "usdjpy"
     ],
     "sources": [
      1,
+     2,
      8,
-     9,
-     10
+     10,
+     11
     ]
    },
    {
-    "title": "Europe: record highs fade after rally",
+    "title": "Europe: small moves, UniCredit-Commerzbank bid cleared",
     "status": {
-     "technical": "Bloomberg reported European shares pulled back from a record high after a four-day rally. Yahoo Finance UK (Nov 12) said stocks hit records on corporate earnings and UK growth. FTSE 100 closed 10902.56 (1d 0.36%); DAX 26771.88 on 2026-11-12 (1d 0.41%).",
-     "layman": "Bloomberg said European shares slipped back from a record high after four days of gains. Earlier in the week records were set on strong company profits."
+     "technical": "Euro Stoxx 50 -0.19%, DAX -0.13%, FTSE 100 0.24%, CAC 40 0.09% (1d on 2026-11-16). Euronews and WSJ reported EU approval of UniCredit's takeover of Commerzbank. WSJ reported eurozone industrial production rebounded in September.",
+     "layman": "European stock markets barely moved. The EU approved UniCredit's takeover of Germany's Commerzbank, and factory output in the eurozone picked up in September."
     },
     "consequence": {
-     "technical": "WSJ reported bond yields rose in Europe and the US as inflation kept expectations of further Fed hikes strong. If yields keep rising, equity valuations could face pressure.",
-     "layman": "WSJ said bond yields rose in Europe too. If they keep climbing, shares could find it harder to keep rising."
+     "technical": "WSJ said the industrial sector has struggled to regain momentum amid persistently high energy costs driven by the war in Iran; if energy costs stay high, the recovery in industry may stay patchy.",
+     "layman": "WSJ said high energy costs from the war in Iran have held factories back. If costs stay high, the recovery may stay uneven."
     },
     "impact": {
-     "technical": "The WSJ said the eurozone goods-trade deficit widened on higher energy prices. EUR/USD closed 1.10 (1d -0.61%).",
-     "layman": "The WSJ said the eurozone paid more for energy imports, widening its trade gap. The euro fell 0.61% against the dollar."
+     "technical": "Bloomberg reported ECB Vice President Vujcic said AI and elevated public debt pose the biggest risks to euro zone financial stability. ECB main refinancing rate: 2.65 % for 2026-09-16.",
+     "layman": "A top ECB official said AI and high government debt are the biggest risks to Europe's financial system. The ECB's main lending rate is 2.65 %."
     },
     "outlook": {
-     "technical": "Base rates, not predictions: after ordinary days the DAX rose over the next 5 days 58% of 855 times; the FTSE 100 did 57% of 863 times.",
-     "layman": "Past patterns are not predictions. After ordinary days the DAX rose over the next week 58% of the time."
+     "technical": "Base rates, not predictions: after ordinary days the next day rose 53% of 849 times for Euro Stoxx 50 and 55% of 865 for FTSE 100; the next 5 days rose 57% of 846 and 57% of 862 times.",
+     "layman": "History is not a forecast. After calm days, Euro Stoxx 50 rose the next day 53% of 849 times and the FTSE 100 55% of 865 times."
     },
     "quant": [
-     "ftse100",
-     "dax",
      "eurostoxx50",
-     "eurusd"
+     "dax",
+     "ftse100",
+     "cac40",
+     "macro:ecb_refi"
     ],
     "sources": [
-     11,
      12,
      13,
      14,
@@ -6129,182 +6109,241 @@
     ]
    },
    {
-    "title": "Asia-Pacific: Hang Seng weak, India rally",
+    "title": "Americas: US tech weak into Nvidia earnings and Anthropic IPO",
     "status": {
-     "technical": "Hang Seng closed 24008.55 on 2026-11-12 (1d -1.26%, trend down); all 5 hand-kept top names fell. Shenzhen Component -1.68%; TAIEX -2.63%. Business Standard reported Nifty Bank, Auto and Realty skidded 1% on RBI rate-hike fears; Nifty 50 closed 25299.35 (5d 5.59%).",
-     "layman": "Hong Kong's Hang Seng fell 1.26% and its biggest companies all fell. Taiwan fell 2.63%. India's market has risen strongly over the week, though banks and autos slipped on rate worries."
+     "technical": "Latest US close (2026-11-13): S&P 500 -0.40%, Nasdaq Composite -0.91%, Dow 0.10%. FT and WSJ reported US tech set to open lower on Nvidia fallout. Hand-kept list: Nvidia -2.01% (1d), -12.75% (5d).",
+     "layman": "On Friday the S&P 500 and Nasdaq fell, and the Dow edged up. Reports say US tech shares were set to open lower on Monday after Nvidia's slide."
     },
     "consequence": {
-     "technical": "Per Business Standard, if retail inflation stays above the RBI's upper limit of 6 per cent, monetary tightening becomes likelier. Mint noted Sensex rose in the week after Muhurat in almost two-thirds of the past 30 years.",
-     "layman": "Business Standard said if India's inflation stays high, the central bank may raise rates. Mint said India's market often keeps gains after Diwali."
+     "technical": "WSJ said Nvidia reports earnings amid a leadership crisis and that Anthropic's IPO will test markets; if the results or the IPO disappoint, AI-linked shares could stay under pressure.",
+     "layman": "Nvidia reports results this week during a leadership shake-up, and Anthropic may list its shares. Both are tests for AI stocks."
     },
     "impact": {
-     "technical": "Reuters-style notes aside, Bloomberg reported a Shanghai data center linked to smuggled Nvidia chips; Nikkei Asia said corporate Japan is on track for 20% profit gain. Singapore charged a fifth person in the Nvidia chip case (Bloomberg).",
-     "layman": "Bloomberg said smuggled Nvidia chips were found at a Shanghai data center. Nikkei Asia said Japanese firms are on track for a 20% profit gain."
+     "technical": "CNBC reported growing calls for Jensen Huang to return as Nvidia CEO following his resignation. Evidence on wider effects beyond tech is thin in the notes.",
+     "layman": "CNBC reported more people want Jensen Huang back as Nvidia's boss after he resigned. The notes say little about effects outside tech."
     },
     "outlook": {
-     "technical": "Base rates, not predictions: after one-day falls bigger than 1 standard deviation the Hang Seng rose next day only 46% of 174 times; look-alike days saw it rise 0 of 5 times over 5 days.",
-     "layman": "Past patterns are not predictions. After sharp falls like this, the Hang Seng rose the next day only 46% of the time."
+     "technical": "Base rates, not predictions: for the Dow after ordinary days, the next day rose 52% of 853 times and the next 5 days rose 57% of 850 times.",
+     "layman": "History is not a forecast. After calm days, the Dow rose the next day 52% of 853 times."
     },
     "quant": [
-     "hangseng",
-     "shenzhen",
-     "taiex",
-     "nifty50",
-     "sensex",
-     "nikkei",
-     "hw:hangseng"
+     "sp500",
+     "nasdaq",
+     "dow",
+     "hw:sp500"
     ],
     "sources": [
+     2,
+     3,
      16,
-     17,
-     18,
-     19,
-     20,
-     21
+     17
     ]
    }
   ],
   "drivers": [
    {
-    "title": "Nvidia CEO exit and chip-sector fallout",
+    "title": "Fed rate-hike expectations and a stronger dollar",
     "status": {
-     "technical": "CNBC reported Nvidia has its longest weekly losing streak since 2012 as market value sinks by $1.7 trillion, after Jensen Huang's resignation. MarketWatch said AMD and other chip stocks slid. Nvidia was -12.75% over 5d and -2.01% on the day.",
-     "layman": "CNBC said Nvidia's share price has fallen for its longest stretch since 2012 and the company lost $1.7 trillion in value. Other chip stocks fell too."
+     "technical": "WSJ reported US Treasury yields declined but Fed rate-hike prospects remain in focus; Investing.com reported Deutsche Bank warned markets may be underestimating rate hike risks. DXY closed 103.52 (5d 1.84%); US 10-year yield 5.15.",
+     "layman": "Investors are watching whether the Fed will raise interest rates. Deutsche Bank says markets may be underestimating that risk. The dollar has been getting stronger."
     },
     "consequence": {
-     "technical": "If investors read the exit as a risk to AI financing, CNBC said credit markets and neocloud exposure come into focus. WSJ said next week brings big tests for the AI trade.",
-     "layman": "CNBC said investors will now watch how Nvidia's AI funding plans fare. WSJ said next week has big tests for AI stocks."
+     "technical": "SCMP reported gold is heading for its first annual loss in four years as concerns the Fed will raise rates spurred capital outflows; if hike expectations hold, dollar strength may persist.",
+     "layman": "SCMP said gold may lose value for the year because investors fear the Fed will raise rates. If those fears hold, the dollar may stay strong."
     },
     "impact": {
-     "technical": "Chip peers (AMD, Broadcom -4.76% on the day) and the Nasdaq are most exposed; Nebius stock plunged again as Wall Street cut targets (Yahoo Finance). Singapore brokers reported Nvidia trading interest jumping up to 11 times (Straits Times).",
-     "layman": "Chip firms and tech funds are hit hardest. Some Singapore investors are buying the dip, with trading interest up to 11 times normal."
+     "technical": "Straits Times reported the Indonesian rupiah fell to a record low of 18,271 per dollar as Fed bets boosted the dollar; Reuters reported the South African rand slipped on the stronger dollar.",
+     "layman": "A stronger dollar is hurting other currencies. Indonesia's rupiah hit a record low, and South Africa's rand slipped."
     },
     "outlook": {
-     "technical": "Base rates, not predictions: Nasdaq look-alike days rose 3 of 5 times over 5 days (median 0.64%).",
-     "layman": "Past patterns are not predictions. After similar Nasdaq days, it rose about as often as it fell."
-    },
-    "quant": [
-     "nasdaq",
-     "hw:nasdaq",
-     "sp500"
-    ],
-    "sources": [
-     10,
-     22,
-     23,
-     24,
-     25,
-     26
-    ]
-   },
-   {
-    "title": "Rates and inflation: yields climb on hike bets",
-    "status": {
-     "technical": "CNBC reported the 10-year Treasury yield moved to 5.17% on December-hike expectations; the data close was 5.15. Wholesale prices rose 0.3% in October for an annual rate of 6.5% (CNBC). Reuters said Fed's Daly said the Fed is likely to need to raise rates. FT: Treasuries had their worst week since 'liberation day'.",
-     "layman": "CNBC said the 10-year yield hit 5.17% as traders expect a rate rise in December. Wholesale prices were up 6.5% over a year, the highest in nearly four years."
-    },
-    "consequence": {
-     "technical": "If inflation keeps broadening, as Reuters said of producer prices, further Fed hikes could be priced in. Reuters also reported Logan said the Treasury market is functioning 'very well'.",
-     "layman": "If prices keep rising, the Fed may raise rates again. Fed official Logan said the bond market is working very well."
-    },
-    "impact": {
-     "technical": "Mortgage borrowers and the housing market: The Guardian said existing home sales hit a 16-year low with mortgage rates at a nearly three-year high. Dollar Index data close was 103.41.",
-     "layman": "Home buyers feel it: The Guardian said home sales fell to a 16-year low as mortgage rates climbed."
-    },
-    "outlook": {
-     "technical": "Base rates, not predictions: after ordinary days the 10-year yield rose next day 53% of 852 times.",
-     "layman": "Past patterns are not predictions. After ordinary days, yields rose the next day 53% of the time."
+     "technical": "Base rates, not predictions: after ordinary days the DXY rose the next day 51% of 825 times; the US 10-year yield rose 53% of 852 times and 55% of 850 times over the next 5 days.",
+     "layman": "History is not a forecast. After calm days, the dollar index was up the next day 51% of 825 times."
     },
     "quant": [
      "us10y",
-     "dxy"
+     "dxy",
+     "gold"
     ],
     "sources": [
-     2,
-     3,
      4,
      6,
-     27,
-     28,
-     29
+     9,
+     18,
+     19,
+     20,
+     21
     ]
    },
    {
-    "title": "Gold slides on rate-hike bets",
+    "title": "Oil: surplus forecasts versus Middle East threats",
     "status": {
-     "technical": "Mint reported gold was on track for its worst week in four months on rate-hike bets; Kitco said support at $4,000 broke with analysts eyeing $3,800. Gold closed 3887.60 (5d -4.60%, 3m -13.10%).",
-     "layman": "Mint said gold is having its worst week in four months as rate-rise bets grow. Kitco said a key price level broke. Gold is down 4.60% over five days."
+     "technical": "WSJ reported oil fell Monday, reversing initial gains, as traders weighed signs of a global supply surplus against renewed threats to Middle Eastern oil shipments. Brent closed 95.22 (1d -0.65%).",
+     "layman": "Oil prices fell on Monday. Traders weighed signs of too much oil supply against new threats to Middle East shipping."
     },
     "consequence": {
-     "technical": "If rate-hike expectations persist, Kitco said analysts eye $3,800. Jeff Currie said gold's retreat reflects a shortage of dollar liquidity (Bloomberg).",
-     "layman": "If rate-rise bets stay strong, Kitco said analysts watch $3,800. Jeff Currie says a shortage of dollars explains gold's fall."
+     "technical": "Bloomberg reported Goldman Sachs sees a \"sizable\" 2027 surplus and expects Brent to average $88 a barrel next year, easing to $78 by year-end; Bloomberg also reported Iran launched drones at a US site at Riffa base in Bahrain while saying a path to ending the conflict remains open.",
+     "layman": "Goldman Sachs expects oil to get cheaper next year because there will be extra supply. Iran also attacked a base in Bahrain but says talks remain possible."
     },
     "impact": {
-     "technical": "Gold holders and miners are affected; Currie also said he is bearish on copper due to China. Copper closed 6.06 (1d -1.92%).",
-     "layman": "Gold owners lose when the metal falls. Currie is also gloomy on copper, which fell 1.92%."
+     "technical": "WSJ said high energy costs from the war in Iran weigh on eurozone industry; Reuters reported India's wholesale inflation accelerated to 12.29% in October on a fuel price surge.",
+     "layman": "High fuel costs are squeezing European factories and pushing up prices in India, where wholesale inflation hit 12.29% in October."
     },
     "outlook": {
-     "technical": "Base rates, not predictions: gold look-alike days rose 5 of 5 times over 5 days (median 1.09%), but that is only 5 cases.",
-     "layman": "Past patterns are not predictions. Similar past days were followed by rises, but that is only 5 cases."
-    },
-    "quant": [
-     "gold",
-     "copper"
-    ],
-    "sources": [
-     5,
-     30,
-     31,
-     32
-    ]
-   },
-   {
-    "title": "Oil heads for second weekly decline on surplus",
-    "status": {
-     "technical": "WSJ said Brent was practically unchanged and WTI off 0.2%, with both benchmarks seeing a second straight weekly decline. FT reported global oil markets swing to surplus as Gulf shipments rebound; IEA analysts warn it will take months to rebuild stockpiles. Brent closed 96.08.",
-     "layman": "WSJ said oil prices fell for a second week. The FT said supply is now more than demand as Gulf shipments rebound. Brent closed at 96.08."
-    },
-    "consequence": {
-     "technical": "If the surplus the IEA describes persists, FT said stockpile rebuilding still takes months; Mint said oil is set for a second straight weekly decline on growing signs of surplus.",
-     "layman": "If supply stays ahead of demand, oil could stay softer. The IEA says rebuilding stockpiles will take months."
-    },
-    "impact": {
-     "technical": "Fuel buyers and energy importers benefit from lower prices; the WSJ said eurozone goods-trade deficit widened on higher energy prices.",
-     "layman": "Lower oil helps fuel buyers. Europe's trade gap widened earlier on pricier energy."
-    },
-    "outlook": {
-     "technical": "Base rates, not predictions: after ordinary days Brent rose over the next 5 days 51% of 844 times.",
-     "layman": "Past patterns are not predictions. After ordinary days, Brent rose over the next week about half the time."
+     "technical": "Base rates, not predictions: after ordinary days Brent rose the next day 53% of 847 times and the next 5 days 51% of 844 times; look-alike days saw a 5-day rise 0 of 5 times.",
+     "layman": "History is not a forecast. After calm days, Brent was up the next day 53% of 847 times."
     },
     "quant": [
      "brent",
      "wti"
     ],
     "sources": [
+     14,
+     22,
+     23,
+     24,
+     25
+    ]
+   },
+   {
+    "title": "AI valuation and financing worries",
+    "status": {
+     "technical": "Reuters reported an AI selloff has investors scrambling to measure their true exposure. IMF's Georgieva said circular financing among AI companies is just over $1 trillion, two-thirds of it debt (CNBC). ECB's Vujcic named AI and elevated public debt as the biggest euro zone financial stability risks (Bloomberg).",
+     "layman": "Investors are worried about how much they depend on AI companies. The IMF chief said AI firms financing each other has reached just over $1 trillion, mostly debt."
+    },
+    "consequence": {
+     "technical": "WSJ said Anthropic's mega-IPO will test markets; if enthusiasm for AI keeps cooling, as the IMF chief described, heavily indebted AI projects could look more vulnerable.",
+     "layman": "If excitement about AI keeps cooling, companies that borrowed heavily for AI projects could look riskier."
+    },
+    "impact": {
+     "technical": "WSJ commentary said AI players that bet heavily on a handful of mega data-centre projects look vulnerable after the midterm elections. Morningstar noted UK trusts with Anthropic exposure.",
+     "layman": "A WSJ column said AI firms relying on a few giant data-centre projects look vulnerable. Evidence on who else is affected is thin."
+    },
+    "outlook": {
+     "technical": "Base rates, not predictions: for the Nasdaq Composite, look-alike days saw the next 5 days rise 3 of 5 times (median 0.64%) and the next 21 days rise 3 of 5 times (median 0.31%).",
+     "layman": "History is not a forecast. In 5 similar past cases, the Nasdaq Composite was higher 5 days later in 3 of them."
+    },
+    "quant": [
+     "nasdaq"
+    ],
+    "sources": [
+     1,
+     3,
+     5,
+     15,
+     26,
+     27
+    ]
+   },
+   {
+    "title": "China-US diplomacy: Xi-Trump-Putin summit and APEC",
+    "status": {
+     "technical": "CNBC reported China confirmed a Xi-Trump-Putin summit, expected to cover nuclear non-proliferation, the Middle East war, trade policies and possibly Ukraine. Bloomberg said Shenzhen hosts APEC this week. Shenzhen Component closed -2.53% (1d); Shanghai Composite -0.87%.",
+     "layman": "China confirmed a summit of the leaders of China, the US and Russia. China's stock markets fell on Monday, Shenzhen by 2.53%."
+    },
+    "consequence": {
+     "technical": "CNBC reported Senator Cantwell urged Commerce Secretary Lutnick to stop AI chip sales to China ahead of the Xi meeting; Euronews reported Canada's PM Carney said Canada is ready to turn to Chinese carmakers if US trade talks fail.",
+     "layman": "A US senator wants AI chip sales to China stopped before the meeting. Canada says it could turn to Chinese carmakers if US trade talks fail."
+    },
+    "impact": {
+     "technical": "SCMP reported Goldman Sachs upgraded Hong Kong-listed Chinese stocks to overweight for 2027 and downgraded A shares, while Morgan Stanley diverged.",
+     "layman": "Goldman Sachs now prefers Chinese shares listed in Hong Kong over those on the mainland for 2027. Morgan Stanley disagrees."
+    },
+    "outlook": {
+     "technical": "Base rates, not predictions: after one-day falls bigger than 1 standard deviation, the Shenzhen Component's next day rose 49% of 168 times; for the Hang Seng after ordinary days, 49% of 816 times.",
+     "layman": "History is not a forecast. After big drops, Shenzhen was up the next day 49% of 168 times."
+    },
+    "quant": [
+     "shenzhen",
+     "shanghai",
+     "hangseng"
+    ],
+    "sources": [
+     28,
+     29,
+     30,
+     31,
+     32
+    ]
+   },
+   {
+    "title": "India: rupee firm, benchmarks higher, rate-hike worry",
+    "status": {
+     "technical": "Business Standard reported Sensex ended 512 pts higher and Nifty at 25,291; market data show Sensex 0.63% and Nifty 50 0.58% (1d). Economic Times reported the rupee closed 0.3% higher at 93.9225 per dollar, with November foreign equity inflows of nearly $10 billion.",
+     "layman": "Indian share markets rose on Monday and the rupee strengthened. Foreign investors have put in nearly $10 billion in November."
+    },
+    "consequence": {
+     "technical": "Mint reported Indian benchmarks fell Friday as higher-than-expected retail inflation raised concerns about a possible RBI rate hike; if inflation stays high, those concerns may return.",
+     "layman": "Higher-than-expected inflation made investors worry the RBI could raise rates. If inflation stays high, that worry may come back."
+    },
+    "impact": {
+     "technical": "Business Standard reported Morgan Stanley expects the Sensex may rise 16% by December 2027 on an earnings recovery (a forecast attributed to the bank, not a certainty).",
+     "layman": "Morgan Stanley thinks the Sensex could rise 16% by December 2027. That is the bank's opinion, not a sure thing."
+    },
+    "outlook": {
+     "technical": "Base rates, not predictions: after ordinary days the Nifty 50 rose the next day 52% of 847 times; look-alike days saw the next 21 days rise 1 of 5 times (median -4.95%).",
+     "layman": "History is not a forecast. After calm days, the Nifty 50 rose the next day 52% of 847 times."
+    },
+    "quant": [
+     "nifty50",
+     "sensex",
+     "usdinr"
+    ],
+    "sources": [
+     25,
      33,
      34,
-     35
+     35,
+     36
     ]
    }
   ],
   "events": [
    {
-    "when": "November 18, 2026 (Wednesday)",
-    "title": "RBI auction of 91-, 182- and 364-day Treasury Bills",
-    "technical": "RBI announced the Treasury bill auction with 91-Day notified amount 8,000 (₹ crore) and 182-Day 8,000.",
-    "layman": "India's central bank will sell short-term government bills, with 8,000 crore rupees offered for two of the maturities.",
+    "when": "This week",
+    "title": "Nvidia earnings report",
+    "technical": "WSJ and Investing.com say Nvidia reports amid a leadership crisis, a key test for AI-linked stocks.",
+    "layman": "Nvidia reports its results this week. It is a big test for AI shares.",
+    "sources": [
+     3,
+     16
+    ]
+   },
+   {
+    "when": "This week",
+    "title": "Anthropic IPO in focus",
+    "technical": "WSJ and Investing.com say Anthropic's mega-IPO will test markets; the notes give no date.",
+    "layman": "Anthropic may list its shares, which will test how much investors want AI.",
+    "sources": [
+     3,
+     16,
+     40
+    ]
+   },
+   {
+    "when": "November 19",
+    "title": "Mahanadi Coalfields IPO opens",
+    "technical": "Mint reports the Rs 8,981-crore offer for sale by Coal India opens November 19; investors watch dividend prospects.",
+    "layman": "A Coal India subsidiary starts selling shares to the public on November 19.",
     "sources": [
      41
     ]
    },
    {
-    "when": "Next week",
-    "title": "Big tests for the AI trade",
-    "technical": "WSJ said next week brings big tests for the AI trade after tech stocks fell; Anthropic's planned $1.5tn listing is less than a week away per the FT.",
-    "layman": "WSJ said next week has big tests for AI stocks. The FT said Anthropic plans a $1.5tn listing in under a week.",
+    "when": "This week",
+    "title": "APEC hosted in Shenzhen",
+    "technical": "Bloomberg says Shenzhen hosts APEC this week; Canada's PM Carney plans to meet Xi there, with autos on the agenda (Euronews).",
+    "layman": "Leaders meet in Shenzhen this week; trade and cars are on the agenda.",
     "sources": [
-     24,
+     29,
+     31
+    ]
+   },
+   {
+    "when": "Three-day summit",
+    "title": "Asean leaders summit in Manila",
+    "technical": "Bloomberg reports Asean kicked off a three-day leaders summit in Manila, attended by India's Modi.",
+    "layman": "Southeast Asian leaders are meeting in Manila for three days.",
+    "sources": [
      42
     ]
    }
@@ -6317,51 +6356,11 @@
      "nasdaq"
     ],
     "direction": "down",
-    "technical": "CNBC said Nvidia had its longest weekly losing streak since 2012 as value sank by $1.7 trillion after Jensen Huang's resignation; Straits Times said Nvidia uncertainty weighed on tech shares.",
-    "layman": "Nvidia's boss quit and the shares keep falling. CNBC said the company lost $1.7 trillion in value, which pulled down tech indexes.",
+    "technical": "FT reported Nvidia down 2.1% pre-market on AI jitters; CNBC reported growing calls for Jensen Huang's return following his resignation.",
+    "layman": "Nvidia shares fell 2.1% before the US open, and people want its former boss back after he resigned.",
     "sources": [
-     1,
-     8,
-     10
-    ]
-   },
-   {
-    "company": "AMD",
-    "indices": [
-     "sp500",
-     "nasdaq"
-    ],
-    "direction": "down",
-    "technical": "MarketWatch said AMD and other chip stocks slid as Wall Street rethinks the AI trade without Jensen Huang.",
-    "layman": "AMD and other chip stocks fell as investors rethink AI stocks after Nvidia's boss left.",
-    "sources": [
-     22
-    ]
-   },
-   {
-    "company": "Nebius",
-    "indices": [
-     "sp500"
-    ],
-    "direction": "down",
-    "technical": "Yahoo Finance reported Nebius stock plunged again as Wall Street slashed targets.",
-    "layman": "Nebius shares dropped again after analysts cut their targets.",
-    "sources": [
-     25
-    ]
-   },
-   {
-    "company": "Microsoft",
-    "indices": [
-     "dow",
-     "nasdaq"
-    ],
-    "direction": "mixed",
-    "technical": "The Guardian said a Microsoft outage shook companies and local governments across the US; Straits Times said Outlook and Teams eased after over a day.",
-    "layman": "A Microsoft email and Teams outage disrupted many organisations, though it eased after more than a day.",
-    "sources": [
-     43,
-     44
+     2,
+     17
     ]
    }
   ]
@@ -7720,360 +7719,344 @@
  "sources": [
   {
    "n": 1,
-   "url": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-on-nvidia-fallout-fears-f9946e8d?mod=rss_markets_main",
-   "title": "U.S. Stocks Mixed on Nvidia Fallout Fears",
-   "publisher": "WSJ",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcHdOczVVbVFPLUNVbGtXQjhqRmNnMWN3eVlUOG5vRFpnM05ScWdkakZQTWhCTTh3T0JKcFlXN2k3d3ZEemxqbGRBUDZkTGtxMUg0SzlvRGxGUS1aWHNEVldEQ1dRVFU2RXVRdlhjZ3ZLRmN2Z3VkMjlTOUs2M0Z1MElIZklXT1dJejUtVTdxc3hXSFc5VXFhOWotQl9HV2ZKdEtfaDhZc2ZLWGRhQV9XVC1vb0REOW5IYmxF?oc=5",
+   "title": "AI selloff has investors scrambling to measure their true exposure",
+   "publisher": "Reuters",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 2,
-   "url": "https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html",
-   "title": "10-year Treasury yield moves to 5.17% as traders weigh producer price report",
-   "publisher": "CNBC",
+   "url": "https://www.ft.com/content/12d927a9-98b1-40b9-8f75-01fb56a693d1?syn-25a6b1a6=1",
+   "title": "US tech stocks set to open lower amid Nvidia fallout",
+   "publisher": "Financial Times",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 3,
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaHBuM0FNRHlsWlNrX090Q3F6R2VZUTFYRkF3bFZwbDNQMUwxZXpiYmROVUJWWTVKZHRoOExqUkxpcktRYUZodDVncmNVSEdIMDktTDYxMXlWM1hvdXVKRmVfMmtvbTBUd1MyWkxFR3RqTlNJNVk1WFNtc2pnQ0w4QjRTdjlmcFdPUkVUZFVndGdCRWRPMEw3cFZHcjBlc3lhdDY2Vw?oc=5",
-   "title": "Fed likely to need to raise rates amid worsening inflation: Daly",
-   "publisher": "Reuters",
+   "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-16-2026?mod=rss_markets_main",
+   "title": "Stock Market Today: Tech Stocks Under Pressure at Start of Crucial Week for AI",
+   "publisher": "WSJ",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 4,
-   "url": "https://www.ft.com/content/7bebace2-dc87-410a-ae29-ffd9f3176def?syn-25a6b1a6=1",
-   "title": "US Treasuries record worst week since Trump’s ‘liberation day’",
-   "publisher": "Financial Times",
+   "url": "https://www.wsj.com/finance/currencies/singapore-dollar-consolidates-but-may-be-weighed-by-risk-off-sentiment-1a00f31b?mod=rss_markets_main",
+   "title": "Dollar Extends Strong Upward Momentum Further",
+   "publisher": "WSJ",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 5,
-   "url": "https://www.livemint.com/market/ratehike-bets-keep-gold-on-track-for-worst-week-in-four-months-11794598496469.html",
-   "title": "Rate-hike bets keep gold on track for worst week in four months",
-   "publisher": "Mint",
+   "url": "https://www.cnbc.com/2026/11/16/imf-georgieva-warning-ai-circular-financing.html",
+   "title": "‘Standing on one leg’: IMF chief warns about global economy as AI circular financing hits $1 trillion",
+   "publisher": "CNBC",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 6,
-   "url": "https://www.theguardian.com/business/2026/nov/12/home-sales-october-low",
-   "title": "Home sales hit 16-year low in October amid soaring mortgage rates",
-   "publisher": "The Guardian",
-   "tier": "press",
-   "pageAge": "2026-11-13"
+   "url": "https://www.investing.com/news/stock-market-news/deutsche-bank-warns-markets-may-be-underestimating-rate-hike-risks-5029111",
+   "title": "Deutsche Bank warns markets may be underestimating rate hike risks",
+   "publisher": "Investing.com",
+   "tier": "data",
+   "pageAge": "2026-11-16"
   },
   {
    "n": 7,
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdk9KSVZ5ZlN6RFNmNnlQVEZmYzB4RkxuXzVlaGEzMDdoZ1REdGkxNnhJdW9CMmszTEtpWGlWMUZUTkNLV3FSdll5S0ZiT29JWS1FZHVuSDJpeGxfQjNoUmZPOHdFcFJWUFlSQzdhN085Mld6ZDRJLU1jODF1dmRkQ0hKSWcxTGp4dUF5eENRTkYyLWYtZktxM2VmSnNBN2l2MUVTNHFLU3BzR00?oc=5",
-   "title": "Tech Stocks Fall as Next Week Brings Big Tests for the AI Trade | Markets P.M. for Nov. 13",
+   "url": "https://www.wsj.com/finance/stocks/when-nvidia-stumbled-equal-weight-funds-delivered-96451c8f?mod=rss_markets_main",
+   "title": "When Nvidia Stumbled, Equal-Weight Funds Delivered",
    "publisher": "WSJ",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 8,
-   "url": "https://www.straitstimes.com/business/companies-markets/sp-500-nasdaq-end-lower-as-nvidia-uncertainty-weighs-on-tech-shares",
-   "title": "S&P 500, Nasdaq end lower as Nvidia uncertainty weighs on tech shares",
-   "publisher": "Straits Times",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVjN6Zk9tMmtLNXdjRzVud3duTWd6aGZ3dDZDMWp1SE9CWGdvMEdDRXhBWFltLUs0Ykc4LWlxNGh1QTlpT3dTSVR2Y1RELTkzb2psdkpINmQ1OTZYdUtWRnU0QS1JVkJYMTA0eFByeUh0WEJqRmtpRTczd3REWFlCVWh6NTg5WkVWS1FUb2pWSkdkbUFEOTBIajF2UnRUNEtPcWRtTUJEY0VHZ2NfNXJZSEhrVU1QTkNIa1BGN1pPemVLUWctWnZIStIB0AFBVV95cUxPNmExLXRzYm5TRkFSbm1XeEYzTmlhRFdSTkRLYUhLNGxocndTS2UyMXRqTzc4U1NrV3FzZWZDeXBtZV9LeGh1aGlzbEJTT29WcmFSQUJ3WjZQdWt3NFN2dF9BOWxJNGFySThjTUZhWFU2RGw0b0ZRRjVSWlB2WFlpNzlnTTJYZHd4TlA5ZmsyTEZudVNRYW91eHliVE50S0J2Y29nZ1RXMlhHbXhjY09TQnlIZFdlS2VXR1pjNkRxZGhfOXo3QkZrOFYyQ3NMMTc0?oc=5",
+   "title": "AMD, Micron, Intel, SanDisk Plunge Up To 5% Before The Bell. Why AI Chip Stocks Are Under Pressure",
+   "publisher": "NDTV Profit",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 9,
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRHVMQWJ5SkhjX0s0TEJ2MnNFMURIM2tJQkdCMDlvQ1RZMjVqcGlrYTZic1hXQ0JROFJ1T0FHX0NRT3dyQmVzZnRVREd3TzRrcV9DcUVsVGRQMXlhWnpMU3ZLNEdBVmltbTU5Nmk2MV9sY2l1QWRxM0dsOEVsajBlMmtPdXk2cmJrQTFvenFRZ2tPNi1MSHNFLTNLZC1jWS1JTVdFbg?oc=5",
-   "title": "Canada’s Ambassador Warns Trump’s Tariffs Are Raising Business Costs: ‘Uncertainty Increases Your Cost of Capital’",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPaHdFUk5BQnd0bW5UZjR1UnBBNFltdmh5NC1vWm1INUpRcl9qZGtnOVVVU1JFUVRiWmdQaFdBR2kwVUk5eUtmSFVnY04wdWUySTBhWmFmR1cyUUp4N0dQYmNHd3Q4YVF1WlhHX2lPNjg1c3JkZ2plZEhjZVRzZ3pyLWpR?oc=5",
+   "title": "Gold Prices Retreat Below $3,900 as Inflation Concerns Fuel Expectations of Further Fed Tightening",
    "publisher": "Yahoo Finance",
    "tier": "data",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 10,
-   "url": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
-   "title": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion",
-   "publisher": "CNBC",
-   "tier": "press",
-   "pageAge": "2026-11-13"
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNY0RXWnVBLUVwd21rcUYxSF84MnFqX1lEVHBjVzhha1lsZlAtV0d6UlBWMWJ5emk5bzJKUnJpR2k5bzgzZ2xjU1hOV05JSGctSEpnZTJveVZ3eGZRZlRmSnpMby03S1BkcklOdWdQRlM0TnkwSTdsdjZraUJZMDBDNGdqMjV2YllLRENLc2tfQzk1UWpxSS1kMkRDMTh5SzhmRTVKQmFBTGo3V0d0THNuWWdR?oc=5",
+   "title": "Japan shares lower at close of trade; Nikkei 225 down 2.25% By Investing.com",
+   "publisher": "Investing.com",
+   "tier": "data",
+   "pageAge": "2026-11-16"
   },
   {
    "n": 11,
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZEo4X190NzdVYkFLYWdVYWZHblZSVGlJcF9kTXkwdmVxNmJSbWV1QXRHQWx1akM5NzdXV0lzc2tpZEtxWTFpeDE3WEpPQTVRZ1JpVjVOSlVENGQ0X1c4cHl6MU5FS0sxWVRKMm9FTjZjVEFEdnJVdExibkxSYmZIa0hSVHRoZTl6ZkV5U0REV1RhbEY3R2hfM2ZMX21XOUd1cy1MX1ptSWd6S1BoYmNQZXRjeGs?oc=5",
-   "title": "European Shares Pull Back From Record High After Four-Day Rally",
-   "publisher": "Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSUZybzVTcmhaZXF2Q1dQT2RLY3lndnBKZVhiNEhoWHZNYUlMTjl4a1JMSHdZbkdUQ1dWdXBiVE1Nd3pYZmRINGY5OWRTdFpvQW0xRzluSHZaellTdmh1ZVdzNnJDRE92aHBWeTJsS2FENGo5TUtBaktMWlBEeVhzR01GclBNOVplSW1FUzJYZFF3MVhPcWZVckFGMVItWkdBVWJR?oc=5",
+   "title": "Japan Fires Off Verbal Warning on Yen as Weakness Stokes Intervention Alert",
+   "publisher": "WSJ",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 12,
-   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQLWh6d0dDM2d4ZlYtbFRkaHYwZ2hPalJlc1FHaHk1T0gzd0x0Ym9FYnZOZzdkWndSMlNRMW5HWFFXMnhvai1DM0VTOHRHcUNXNG5kWDlHZTBWaXFDWjF5Q3A2dmttZXpCc1NDTV80cUhhUjktOXN0ZENnWkRmbHpPTGZBWmdNUlFUWHVz?oc=5",
-   "title": "European Stocks Reach Record Highs as Corporate Earnings and UK Economic Growth Support Markets: DAX, CAC, FTSE100",
-   "publisher": "Yahoo Finance",
-   "tier": "data",
-   "pageAge": "2026-11-12"
+   "url": "https://www.wsj.com/business/deals/unicredits-commerzbank-bid-gets-eu-approval-44a821a6?mod=rss_worldnews",
+   "title": "UniCredit’s Commerzbank Bid Gets EU Approval",
+   "publisher": "WSJ",
+   "tier": "press",
+   "pageAge": "2026-11-16"
   },
   {
    "n": 13,
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQaHBLUFZvcFE5bjYzRkpSMjJ5STJqVjlDOFd6VWpzQzdTME5XTDdFbmlaNW05cFJOeG01RHRVak1sT3BQYk5ob1UyWmg1eEFKZjRBOUw0WFd0WUFwOG1MWTUxd2Z2NGhBQjE0NUV1MUdXQ2ZrQ0xpczJZbkxzbzhBOF9EZ201OW9MTGc?oc=5",
-   "title": "European Stocks Reach Record High as Corporate Earnings Offset Technology Sector Declines: DAX, CAC, FTSE100",
-   "publisher": "Yahoo Finance",
-   "tier": "data",
-   "pageAge": "2026-11-12"
+   "url": "https://www.euronews.com/2026/11/16/eu-clears-unicredit-takeover-of-germanys-commerzbank",
+   "title": "EU clears UniCredit takeover of Germany's Commerzbank",
+   "publisher": "Euronews",
+   "tier": "press",
+   "pageAge": "2026-11-16"
   },
   {
    "n": 14,
-   "url": "https://www.wsj.com/economy/central-banking/upward-pressure-remains-in-treasury-yields-even-as-two-year-yield-stabilizes-0c267082?mod=rss_socialeconomyfeed",
-   "title": "U.S., Eurozone Bond Yields Rise",
+   "url": "https://www.wsj.com/economy/eurozone-industrial-production-picked-up-in-september-40e4d56a?mod=rss_worldnews",
+   "title": "Eurozone Industrial Production Picked Up in September",
    "publisher": "WSJ",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 15,
-   "url": "https://www.wsj.com/economy/trade/eurozone-goods-trade-deficit-narrowed-in-september-d4f7635b?mod=rss_socialeconomyfeed",
-   "title": "Eurozone Goods-Trade Deficit Widens on Higher Energy Prices",
-   "publisher": "WSJ",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-16/ecb-s-vujcic-warns-ai-and-high-debt-threaten-financial-stability",
+   "title": "ECB’s Vujcic Warns AI and High Debt Threaten Financial Stability",
+   "publisher": "Bloomberg",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 16,
-   "url": "https://www.business-standard.com/markets/news/nifty-bank-auto-realty-skid-1-as-inflation-stokes-rbi-rate-hike-fears-126111300433_1.html",
-   "title": "Nifty Bank, Auto, Realty skid 1% as inflation stokes RBI rate hike fears",
-   "publisher": "Business Standard",
-   "tier": "press",
-   "pageAge": "2026-11-13"
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNemNfbG1Xdm43RXAxekhXOFNRS0NPR0F3ODlSajV2ZlptdTh4S09yT1B6SkQxMXlzSElZSVNDOUd5T0tvT21mQkh5SDZTMlJSUjdVSkFmX1dvd1hIeUJWZnU5SXhieDZtcllqMDFOTmJuaURMZUhibWlUS19hbkhPZkk0SVRfNm82Z0tiNlYxS2JKbjFncXNNdWl5T2hkMHBxTE0tQVh1QTBvQQ?oc=5",
+   "title": "A High-Stakes Week for AI: Nvidia Reports as Anthropic Eyes IPO",
+   "publisher": "Investing.com",
+   "tier": "data",
+   "pageAge": "2026-11-16"
   },
   {
    "n": 17,
-   "url": "https://www.livemint.com/market/stock-market-news/diwali-gains-this-year-sensex-rally-muhurat-11794459314013.html",
-   "title": "Diwali gains often last. Will this year’s Sensex rally hold?",
-   "publisher": "Mint",
+   "url": "https://www.cnbc.com/2026/11/16/nvidia-jensen-huang-return-tech.html",
+   "title": "The tech world's calls for Jensen Huang to return to Nvidia are growing",
+   "publisher": "CNBC",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 18,
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNQW5QM3lQMzlVTDlDYmx6Z1FFNlJyenFGVjJqV240SXVPWlVUZ0hMNEVjdk5HQzhEMDNtOS1ILXZhT1RnNFVEdFY1ZktaZGY4cEw2ei03LWp2VGRJa1FoT2xHMVVNWWVFQUpUNG52eDNXenBrdnNBdlJxZXhTbWtXMzYwMWJKbWQ0SXdXdzZwb05YYVhRS0pYR2NEZ2FkRi1JakZvNXpWSWRmSk5QdTl3ZVlzTjlkMUV6Rm9EMzV2aER2T0NpZWVJT1R6QjloQnMwcGfSAdgBQVVfeXFMTXM4emx6M0hPcnYxRWRtcVpnV1hKVWdkTy1LYVl1bFN0VDFaMWdUQ2hzM1Q3YlBlT0dhU0hqdVJfUnQyczFqMUFkajVjeF9mSlJnX3hOTXVQRkw3UHl2ZnN1U0F1My1WUGd3b0trM0tLenMtWUdYNXZyanNSX3I3ZUNMMDBJT3NlQUdIYWF1Wjk0WW5BMEw1RGtTa1FWR3JqeWcxa2dTMGJRNXdEczg0ejZsenlnX2NVX2RDLWJUbEY4NXNyRTNxbC1EMkNUWnY1SjI4YWtxSEo3?oc=5",
-   "title": "What’s driving Sensex, Nifty’s massive 12-session rally? 3 numbers that tell the real story",
-   "publisher": "Financial Express",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT0dsM2ttY3ctRTRCZzZPRzE4aG1RNzBCeUQzUEFRbGk1VzRqZGF4Z2J6NFFXVExyX0xROFU1bWFGc3U5ZXpWR21YQmh6S096RXVFS25wcjY4QmxDTUJhdkh5eG51UjVrRVlfZHBpX0pKZkJMOFI4eVVvV1BvSWxIOWQ3aFZId2xOcXJXeGI2SlZvd0RqUUhzT2NVck1jQ3VKLUNXSEFaYXhuNzVtbm1vaQ?oc=5",
+   "title": "U.S. Treasury Yields Decline but Fed Rate-Hike Prospects in Focus",
+   "publisher": "WSJ",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 19,
-   "url": "https://www.bloomberg.com/news/videos/2026-11-13/bloomberg-businessweek-daily-11-13-2026-video",
-   "title": "Jensen Huang Scandal Fallout Grows",
-   "publisher": "Bloomberg",
+   "url": "https://www.scmp.com/business/commodities/article/3374547/gold-set-snap-blistering-run-three-year-gains-fed-rate-increase-looms",
+   "title": "Gold set to snap blistering run of 3-year gains as Fed rate increase looms",
+   "publisher": "SCMP",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 20,
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPc0VKcEN3WElQZ1phcUY2a2tteXc4N3JLVTAyeUdkWlpOWW1MMFJxdml3TnNuN0FZZW1RaEtpQ2l1bW13LWh1QllCZmFmZlA5VHk1RGk5SWo3ekRseEJwRVRIYnRYTEJaWkRuYldmYndtbldKYjNQLXNuQ091XzlIYzluWFJuQVNUS2czaTRTSndPcjl3LTR4VkZERElpbkd3aU0xVEZreTRaX3E0TFB3MUNFZ0Y?oc=5",
-   "title": "Growth beyond AI puts corporate Japan on track for 20% profit gain",
-   "publisher": "Nikkei Asia",
+   "url": "https://www.straitstimes.com/business/indonesian-rupiah-falls-to-record-low-as-fed-bets-boost-dollar",
+   "title": "Indonesian rupiah falls to record low as Fed bets boost dollar",
+   "publisher": "Straits Times",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 21,
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZVV6VXYySmNyb1B3cXRtMU54M0ptUnZEQzNqSjNtWXMyRmFiNzgxeVNnN1FoUGo4ZUNGcEs3aXZjakY4UmFWZ1FfbGJjOGdXRFlmYlI1N21ETndoM043a3J5aW1BN3FibXJaUjdHajBsX3BKZXFFSGtOREVQQTBUOGJxb3F0Uk14dEFucFpoeDZSaXB5MmlXb2V3eVFJaUhYRTg5Ym9naThBc2VwZHBQZVdFeTM?oc=5",
-   "title": "Singapore Charges 5th Person Linked to Nvidia Chip Case, ST Says",
-   "publisher": "Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQc0hGX3hZdGJDMzhZYmpIbXp6LWtmaTlyWjFtV0I3aVVMSUkyeVkxRmdYTzE2QVZsRW5qQV80aS1qQ2pVMGZ2dzdaX0Fxa2k4b1pNV1NlS2VOSkhidThwUl9LZ1ZJQXA2RkxaeWlaWlh5OGlXTGZ2a3hyYXgxZHYxV0VEbFdQcmhmNlZqSkxTZ1VEbDd0UWk2V1BlOV8?oc=5",
+   "title": "South African rand slips as stronger dollar weighs",
+   "publisher": "Reuters",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 22,
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYVlEMXlPemQ5eVY1Y2F2Tmc1Ukx3bHBYSlZBQWVpamplYUNRcE5PdEd5a21IcGVRVlVIWW1jdDVfdTVVV0pTeENORTVvc3hpeGg1MTRrZDRTNnI3QktKbEJYZTdCOXQtRFBlb0wta2ZMc1otTElpV252bS1uQnFXX21zVEdsYlBhUUhzQnNpLWpTQTl2eWIyRGxsX0pURDJFaWZPY0dkeGs0ZTM4U2RpWU9uX2RmdGZtVUhnbnNidDBVWFJzRGt6QVhWREw?oc=5",
-   "title": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
-   "publisher": "MarketWatch",
+   "url": "https://www.wsj.com/finance/commodities-futures/oil-prices-rise-as-fresh-attacks-renew-middle-east-supply-concerns-bee22d97?mod=rss_markets_main",
+   "title": "Oil Prices Reverse Initial Gains as Supply Concerns Weigh",
+   "publisher": "WSJ",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 23,
-   "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-resignation-ai-financing.html",
-   "title": "What's ahead for AI financing after Nvidia CEO Jensen Huang departs",
-   "publisher": "CNBC",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-16/goldman-warns-oil-market-faces-sizable-2027-surplus-video",
+   "title": "Goldman Warns Oil Market Faces ‘Sizable’ 2027 Surplus",
+   "publisher": "Bloomberg",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 24,
-   "url": "https://www.wsj.com/finance/stocks/tech-stocks-fall-as-next-week-brings-big-tests-for-the-ai-trade-6a346b49?mod=rss_markets_main",
-   "title": "Tech Stocks Fall as Next Week Brings Big Tests for the AI Trade",
-   "publisher": "WSJ",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-16/iran-targets-bahrain-base-but-stays-open-to-us-deal-video",
+   "title": "Iran Targets Bahrain Base, But Stays Open to US Deal",
+   "publisher": "Bloomberg",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 25,
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOS0I4Qk93UVh4OUN4LTNUZ3FqUFNjYkc3NzZKWGtuY1Npd0NNanBNS3Z1TTZuX2dEaWhOYjUwdW9PSExrc3NSQ3g3OEQtVDM1NS1KdGE0cWdlX01LbS1WTkNRMUJSZTNRcTA2SXdSWUVSZWlPVmJVMV9GeGliQU1uTy1fenlVQjVFZ01sNG1pQ05lUmF5cGVtanNvSXY?oc=5",
-   "title": "Nebius stock plunges again as Wall Street slashes targets",
-   "publisher": "Yahoo Finance",
-   "tier": "data",
-   "pageAge": "2026-11-13"
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPOTZCYmwwajlmSXIyWWx2WXhZaE81VjdHTS1vc0wtdUpBNG01WnFDdVF1bXlmNXNwalQ2N2lKT1hXODMydGtUY25fcDgxQW5jVnFTVUNXQ09NN2twb1hiNE9kVHowRUZhenVIY2dDUzhPTkFaTzBqaUF5emNlaHdLc3JEcWhrTlBuemFxR01HNUNJV1FjVnlxYTJ0bWpIcks0YUFv?oc=5",
+   "title": "India's wholesale inflation accelerates to 12.29% in October on fuel price surge",
+   "publisher": "Reuters",
+   "tier": "press",
+   "pageAge": "2026-11-16"
   },
   {
    "n": 26,
-   "url": "https://www.straitstimes.com/business/ill-be-buying-more-singapore-investors-pour-into-nvidia-shares-on-jensen-huangs-exit",
-   "title": "‘I’ll be buying more’: Singapore investors pour into Nvidia shares on Jensen Huang’s exit",
-   "publisher": "Straits Times",
+   "url": "https://www.wsj.com/tech/ai/big-tech-needs-to-spread-its-bets-on-data-centers-7550357f?mod=rss_markets_main",
+   "title": "Big Tech Needs to Spread Its Bets on Data Centers",
+   "publisher": "WSJ",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 27,
-   "url": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html",
-   "title": "Wholesale prices rose 0.3% in October, putting annual rate at 6.5%, the highest in nearly four years",
-   "publisher": "CNBC",
-   "tier": "press",
-   "pageAge": "2026-11-13"
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPSmEwOFphMnZLSWh6aG4taks5OXVDU2VfVlBadldhSlFVaFFIU0xGVHhNYnByV0YwZUJmTW1xS2dYVFFUdlFYU1FBLV9wLVd2V0U1LTNJTXZHYW1OX0FSZDUxTzVWUGhwU2REMmVtSUpMVlBjVjNTNVVUeHJic2xGLVVLVk1Tby1INzliN09fNVVOWGd3VEFpQk0tMjFueExxVmJla2ZyS2pJc1pTNzRJeTZJU0R4UE1BdXVaaDNlZ1NYbG9Wc0dWSE9oSXhBbFFsTEVMVVZWUUZud0lkcENuSGdpZE5wNDZfS2I5SEh1WnJ1TFBZYUE?oc=5",
+   "title": "UK Markets Brief: Housebuilder Stocks Fall as House Prices Slide, UK Inflation Expected to Rise, and Trusts With Anthropic Exposure",
+   "publisher": "Morningstar",
+   "tier": "data",
+   "pageAge": "2026-11-16"
   },
   {
    "n": 28,
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZTNDTVIxbVNEWDkyN3QzVk9YR2stVjFURXFqcDNXeGZ2S3FUcmhJNzJqcEp5R3JMY0dDdnl3MDEyRXVKRnB1ZGhMVHpQeTRYNnZwZDQ3UlpnTG5mR1o0akdxWDRhWDU1dm1CY2M3bFZQNHhNRHZyaUZFU1VPODZIdFJrbXBaM2UzTnRXOA?oc=5",
-   "title": "US producer prices rise moderately in October, but inflation broadens out",
-   "publisher": "Reuters",
+   "url": "https://www.cnbc.com/2026/11/16/trump-xi-putin-ukraine-nuclear-tariffs-russia-iran-.html",
+   "title": "China confirms Xi-Trump-Putin historic summit. What will be on the agenda?",
+   "publisher": "CNBC",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 29,
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZmZBTTBhYXpVY29JS2dYc0s4MVZzQVN4NUJXX2dRUjUyMVM2OFA4cWNKT0h4bkliZ2tjTkhaRkhSeElYenlOVUVkeGNiWXlYaVQ3QXZ2TTY0WXBXTGppZ2Q0V0VlSVRPZGd4eFJNdVE0WjV4OHk3U0JBcV9BLUdIS1VPZ0xtVUhUd3A4WHB6Nlp0cjE4WjhzNGRlQjhqVElCSVlYcC1WR0N2Ri1keTFSM19PRnFSdlBVV1JteHB1UDJ4Z0FWSi1LeG5n?oc=5",
-   "title": "Logan says Treasury market functioning 'very well,' Fed needs to strengthen support tools",
-   "publisher": "Reuters",
+   "url": "https://www.bloomberg.com/news/features/2026-11-15/futuristic-shenzhen-shows-trump-the-difficulty-of-stopping-xi-jinping-s-china",
+   "title": "Futuristic Shenzhen Shows Trump the Difficulty of Stopping Xi Jinping's China",
+   "publisher": "Bloomberg",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-15"
   },
   {
    "n": 30,
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOamVpVk9OcXdFVWlWTFVUTG1xendnVlZLR2NId0llYnVBa3U0UGlnZ3NsV1JMUVhCeEdwT3AwdGgwdF9QYk4wZ3ZFWVpUQjFCblBhYzI0Q1BNc3NONjRiSkpCc1JhQTJfcDVrR2pSOHhya0I1QWhCOEMwdS1UX0hHQTJEY2piYWgzaGRDTWRLV1hJaGJiOHlQdzZiZ2xGQV9fUUtDM2ZESQ?oc=5",
-   "title": "Gold's $4,000 support breaks as Fed fears grow; analysts eye $3,800",
-   "publisher": "Kitco",
+   "url": "https://www.cnbc.com/2026/11/16/cantwell-lutnick-ai-chip-china.html",
+   "title": "Cantwell urges Lutnick to stop AI chip sales to China ahead of Xi meeting",
+   "publisher": "CNBC",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 31,
-   "url": "https://www.livemint.com/market/gold-edges-up-still-on-track-for-worst-weekly-slump-since-june-11794595223804.html",
-   "title": "Gold Edges Up, Still On Track for Worst Weekly Slump Since June",
-   "publisher": "Mint",
+   "url": "https://www.euronews.com/2026/11/16/canada-ready-to-turn-to-chinese-carmakers-if-us-trade-talks-fail-to-protect-auto-sector-pm",
+   "title": "Canada ready to turn to Chinese carmakers if US trade talks fail to protect auto sector, PM Carney says",
+   "publisher": "Euronews",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 32,
-   "url": "https://www.bloomberg.com/news/videos/2026-11-13/jeff-currie-says-he-s-bearish-on-copper-due-to-china-video",
-   "title": "Jeff Currie Says He’s Bearish on Copper Due to China",
-   "publisher": "Bloomberg",
+   "url": "https://www.scmp.com/business/markets/article/3374550/goldman-sachs-morgan-stanley-diverge-2027-calls-h-shares-vs-shares",
+   "title": "Goldman Sachs, Morgan Stanley diverge on 2027 calls for H shares vs A shares",
+   "publisher": "SCMP",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 33,
-   "url": "https://www.wsj.com/finance/commodities-futures/oil-slips-again-as-traders-weigh-diplomacy-hopes-808f1641?mod=rss_markets_main",
-   "title": "Oil Futures End Week Lower",
-   "publisher": "WSJ",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html",
+   "title": "Stock Market Close: Sensex ends 512 pts higher, Nifty at 25,291; FMGC, bank shares outshine",
+   "publisher": "Business Standard",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 34,
-   "url": "https://www.ft.com/content/20b68fe2-9d60-4c0c-b714-1f3e03015823?syn-25a6b1a6=1",
-   "title": "Global oil markets swing to surplus as Gulf shipments rebound",
-   "publisher": "Financial Times",
+   "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/rupee-rises-volatility-ebbs-as-equity-inflows-blunt-global-headwinds/articleshow/135883543.cms",
+   "title": "Rupee rises, volatility ebbs as equity inflows blunt global headwinds",
+   "publisher": "Economic Times",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 35,
-   "url": "https://www.livemint.com/market/oil-prices-set-for-second-straight-weekly-decline-on-growing-signs-of-supply-surplus-11794595284142.html",
-   "title": "Oil prices set for second straight weekly decline on growing signs of supply surplus",
+   "url": "https://www.livemint.com/market/stock-market-news/stock-market-outlook-today-16-nov-sensex-nifty-prediction-djia-s-p-nasdaq-gift-nifty-kospi-nikkei-taiwan-11794789061627.html",
+   "title": "Stock market outlook today,16 Nov: Sensex, Nifty prediction-DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues",
    "publisher": "Mint",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 36,
-   "url": "https://www.livemint.com/market/wall-st-slides-as-nvidia-uncertainty-drags-tech-shares-lower-11794599915160.html",
-   "title": "Wall St slides as Nvidia uncertainty drags tech shares lower",
-   "publisher": "Mint",
+   "url": "https://www.business-standard.com/markets/news/morgan-stanley-sensex-target-95000-december-2027-indian-equities-126111601258_1.html",
+   "title": "Sensex may rise 16% by December 2027 on earnings recovery: Morgan Stanley",
+   "publisher": "Business Standard",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 37,
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYTQ0Qi0tTlhXZ254X2s0WmREa0U4Uzdaa01KZGo3V0lCbHFtM29qc0YzNHNvUHQ0LVN5WFBDSlBnSGJXZlh5Wm5GM09PVG5JdVVlTU9wWEhPVEhCUzRScWV3RDBicnVUbTVRQVJ6ZTlYRmJUTHJKOE45SUVPQ0Z4cFdGSnN1NmlsbUtUOTEza1FDMGdwaXhDTV9kdm8?oc=5",
-   "title": "Wall Street stocks mostly lower as Nvidia extends slump",
-   "publisher": "Yahoo Finance",
-   "tier": "data",
-   "pageAge": "2026-11-13"
+   "url": "https://www.livemint.com/market/australian-shares-slip-to-near-one-week-low-as-weaker-copper-iron-ore-weigh-on-miners-11794789357824.html",
+   "title": "Australian shares slip to near one-week low as weaker copper, iron ore weigh on miners",
+   "publisher": "Mint",
+   "tier": "press",
+   "pageAge": "2026-11-16"
   },
   {
    "n": 38,
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeU1MbkhnZll4OHpIdGV2VlI1ZVFhWGhKX1F1bnZvWVRGWnVkYnBfcmRIaG1PRzcyN1pTUFJzY2VWVzRMN2VqNjQ1Tkwyb3E5bGpQN1NOcTFnTVFQVmdPRjdZX2h3LTh2d2F1Y1F6SW5JWTVPWmRwXzBsVlpIbGNEWTBZLUhaRnFIWTVIY1gxSVc0T2J0blE?oc=5",
-   "title": "Stock Market Midday, Nov. 13: Nasdaq Plunges as Nvidia Turmoil Deepens and Treasury Yields Hit 5%",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVVZGcXZUUnFONS15VmtRTXpxbGxoQXlMMU1Ya3pWempLTnpRMk41U2RZRzNOUUhNM1VESGk4SmxTUzdrXzVMMTlxbjh6RkpjZnhXZVZZZ1F1Tk4zMjJYVENXRV9ZT2VId0RFQUhxbzU3UXJBU0N0dXNxNy1fUFVVQ2ZNaTZJN3c1bWc?oc=5",
+   "title": "Australian Shares End Lower; Coles Group Probes Cyber Security Incident",
    "publisher": "Yahoo Finance",
    "tier": "data",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 39,
-   "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/anthropic-ipo-share-orders-from-china-are-said-to-be-rebuffed/articleshow/135809948.cms",
-   "title": "Anthropic IPO share orders from China are said to be rebuffed",
-   "publisher": "Economic Times",
+   "url": "https://www.business-standard.com/markets/news/pharma-stocks-under-pressure-laurus-sai-life-divi-s-slide-up-to-10-126111601200_1.html",
+   "title": "Pharma stocks under pressure; Laurus, Sai Life, Divi's slide up to 10%",
+   "publisher": "Business Standard",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 40,
-   "url": "https://www.scmp.com/business/china-business/article/3374374/beijing-clarifies-offshore-trust-tax-rules-exempting-hong-kong-mpf-accounts",
-   "title": "Beijing clarifies offshore trust tax rules, exempting Hong Kong MPF accounts",
-   "publisher": "SCMP",
+   "url": "https://www.wsj.com/finance/investing/the-investors-set-to-win-big-in-anthropics-ipo-a2fc795c?mod=rss_markets_main",
+   "title": "The Investors Set to Win Big in Anthropic’s IPO",
+   "publisher": "WSJ",
    "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   },
   {
    "n": 41,
-   "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=63975",
-   "title": "Auction of 91-Day, 182-Day and 364-Day Treasury Bills",
-   "publisher": "RBI",
-   "tier": "official",
-   "pageAge": "2026-11-13"
+   "url": "https://www.livemint.com/market/stock-market-news/mahanadi-coalfields-ipo-dividend-king-in-the-making-what-top-official-says-about-coal-india-arms-post-listing-payouts-11794818788482.html",
+   "title": "Mahanadi Coalfields IPO: Dividend king in the making? What top official says about Coal India arm's post-listing payouts",
+   "publisher": "Mint",
+   "tier": "press",
+   "pageAge": "2026-11-16"
   },
   {
    "n": 42,
-   "url": "https://www.ft.com/content/4b7b83d7-7fea-4ce2-bfe3-4f2cf75b1d82?syn-25a6b1a6=1",
-   "title": "Anthropic’s Amodei ‘not super fussed’ about market turmoil ahead of IPO",
-   "publisher": "Financial Times",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-16/modi-arrives-in-manila-for-asean-summit-video",
+   "title": "Modi Arrives in Manila for Asean Summit",
+   "publisher": "Bloomberg",
    "tier": "press",
-   "pageAge": "2026-11-13"
-  },
-  {
-   "n": 43,
-   "url": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-shakes-up-companies-local-governments",
-   "title": "Microsoft outage shakes up companies, schools and local governments across US",
-   "publisher": "The Guardian",
-   "tier": "press",
-   "pageAge": "2026-11-13"
-  },
-  {
-   "n": 44,
-   "url": "https://www.straitstimes.com/business/microsoft-deeply-sorry-as-outage-triggers-global-chaos",
-   "title": "Microsoft Outlook, Teams outage eases after over a day; recovery timeline uncertain",
-   "publisher": "Straits Times",
-   "tier": "press",
-   "pageAge": "2026-11-13"
+   "pageAge": "2026-11-16"
   }
  ],
  "warnings": [
   "5 news feed(s) could not be read this time: Google News: site:reuters.com stock markets indices (no items); Google News: site:barrons.com central bank inflation oil dollar (no items); Google News: site:economist.com stock markets indices (no items); Google News: site:economist.com central bank inflation oil dollar (no items); Google News: European shares STOXX DAX FTSE ECB (no items).",
-  "The written analysis is from 2026-11-16 and is being refreshed; the numbers are current."
+  "Dropped \"S&P/ASX 200\": number(s) 2.80 not found in its cited evidence."
  ],
  "usage": {
   "headlines": 60,
