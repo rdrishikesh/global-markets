@@ -118,8 +118,8 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** S&P 500 closed 7416.59 (1d -1.92%) and Nasdaq Composite 24509.76 (1d -2.49%) as the Straits Times reported US stocks fell sharply on AI jitters ahead of Nvidia results and the Anthropic IPO; VIX 22.91.
-- Company effect, Nvidia (down on sp500, nasdaq): WSJ tied the S&P 500 slide to Nvidia and China fears; the Financial Times said US chip stocks fell as Nvidia sustained fresh selling pressure after the CEO's resignation.
+**Headline:** US stocks fell on AI jitters ahead of Nvidia's results (S&P 500 -1.92%), with FT and WSJ reporting global selling led by chip stocks and Asian and European indices lower on Tuesday.
+- Company effect, Nvidia (down on nasdaq, sp500): Investing.com reported options imply a $335 billion swing after earnings; Business Standard reported US chipmakers falling 5.3 per cent and FT cited fresh selling pressure on Nvidia.
 
 ## Headlines collected today
 
@@ -187,7 +187,6 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 2 news feed(s) could not be read this time: Google News: site:barrons.com central bank inflation oil dollar (no items); Google News: site:economist.com central bank inflation oil dollar (no items).
-- The written analysis is from 2026-11-17 and is being refreshed; the numbers are current.
 
 ## How to use this file
 
