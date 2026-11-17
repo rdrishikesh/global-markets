@@ -118,8 +118,8 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** Tech-led selloff hit Asia: TAIEX -6.03%, KOSPI -3.59%, Nikkei 225 -2.42% on 2026-11-16; FT reported Nvidia down 2.1% pre-market and WSJ the dollar index at a 19-month high of 103.533.
-- Company effect, Nvidia (down on sp500, nasdaq): FT reported Nvidia down 2.1% pre-market on AI jitters; CNBC reported growing calls for Jensen Huang's return following his resignation.
+**Headline:** S&P 500 closed 7416.59 (1d -1.92%) and Nasdaq Composite 24509.76 (1d -2.49%) as the Straits Times reported US stocks fell sharply on AI jitters ahead of Nvidia results and the Anthropic IPO; VIX 22.91.
+- Company effect, Nvidia (down on sp500, nasdaq): WSJ tied the S&P 500 slide to Nvidia and China fears; the Financial Times said US chip stocks fell as Nvidia sustained fresh selling pressure after the CEO's resignation.
 
 ## Headlines collected today
 
@@ -187,7 +187,6 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 11 news feed(s) could not be read this time: Google News: site:reuters.com stock markets indices (no items); Google News: site:barrons.com central bank inflation oil dollar (no items); Google News: site:ft.com central bank inflation oil dollar (HTTP 429); Google News: site:wsj.com central bank inflation oil dollar (HTTP 429); Google News: site:economist.com central bank inflation oil dollar (no items); Google News: site:economist.com stock markets indices (HTTP 429).
-- The written analysis is from 2026-11-16 and is being refreshed; the numbers are current.
 
 ## How to use this file
 
