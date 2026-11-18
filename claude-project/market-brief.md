@@ -118,8 +118,9 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** US stocks fell on AI jitters ahead of Nvidia's results (S&P 500 -1.92%), with FT and WSJ reporting global selling led by chip stocks and Asian and European indices lower on Tuesday.
-- Company effect, Nvidia (down on nasdaq, sp500): Investing.com reported options imply a $335 billion swing after earnings; Business Standard reported US chipmakers falling 5.3 per cent and FT cited fresh selling pressure on Nvidia.
+**Headline:** Reuters reported Wall Street ended lower ahead of Nvidia results; the S&P 500 closed at 7340.53 (1d -1.03%) with the VIX at 25.46, while Bloomberg reported futures rose after Nvidia's sales forecast topped estimates.
+- Company effect, Nvidia (mixed on nasdaq, sp500): CNBC said Nvidia closed lower ahead of earnings; after the close WSJ said it beat estimates and raised guidance, and Bloomberg said futures rose.
+- Company effect, Home Depot (down on dow): Yahoo Finance said the Dow faced pressure from Home Depot; CNBC said it beat earnings expectations and named Richard McPhail CEO.
 
 ## Headlines collected today
 
@@ -187,7 +188,7 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 2 news feed(s) could not be read this time: Euronews business (HTTP 406); Google News: site:economist.com central bank inflation oil dollar (no items).
-- The written analysis is from 2026-11-17 and is being refreshed; the numbers are current.
+- Dropped "US chip curbs on China": number(s) 3.30, 1.96 not found in its cited evidence.
 
 ## How to use this file
 
