@@ -118,9 +118,11 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** Reuters reported Wall Street ended lower ahead of Nvidia results; the S&P 500 closed at 7340.53 (1d -1.03%) with the VIX at 25.46, while Bloomberg reported futures rose after Nvidia's sales forecast topped estimates.
-- Company effect, Nvidia (mixed on nasdaq, sp500): CNBC said Nvidia closed lower ahead of earnings; after the close WSJ said it beat estimates and raised guidance, and Bloomberg said futures rose.
-- Company effect, Home Depot (down on dow): Yahoo Finance said the Dow faced pressure from Home Depot; CNBC said it beat earnings expectations and named Richard McPhail CEO.
+**Headline:** Wall Street ended lower before Nvidia results (Dow -1.64%, S&P 500 -1.03%), while futures rose after Nvidia earnings, per Morningstar and Yahoo Finance; gold, copper and Brent fell.
+- Company effect, Nvidia (up on nasdaq, sp500): CNBC: Nvidia earnings sparked a rally in shares and neoclouds despite the Huang scandal; Morningstar says futures rose.
+- Company effect, Lowe's (up on sp500): Investing.com: Lowe's beat third-quarter estimates and raised its annual sales forecast.
+- Company effect, Home Depot (down on dow): Investing.com: Bernstein raised its price target on Home Depot on share gains.
+- Company effect, Tencent (down on hangseng): SCMP: Tencent profit dipped as capital spending rose more than sixfold to above US$12 billion.
 
 ## Headlines collected today
 
@@ -188,7 +190,6 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 2 news feed(s) could not be read this time: Euronews business (HTTP 406); Google News: site:barrons.com central bank inflation oil dollar (no items).
-- The written analysis is from 2026-11-18 and is being refreshed; the numbers are current.
 
 ## How to use this file
 
