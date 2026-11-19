@@ -118,11 +118,10 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** Wall Street ended lower before Nvidia results (Dow -1.64%, S&P 500 -1.03%), while futures rose after Nvidia earnings, per Morningstar and Yahoo Finance; gold, copper and Brent fell.
-- Company effect, Nvidia (up on nasdaq, sp500): CNBC: Nvidia earnings sparked a rally in shares and neoclouds despite the Huang scandal; Morningstar says futures rose.
-- Company effect, Lowe's (up on sp500): Investing.com: Lowe's beat third-quarter estimates and raised its annual sales forecast.
-- Company effect, Home Depot (down on dow): Investing.com: Bernstein raised its price target on Home Depot on share gains.
-- Company effect, Tencent (down on hangseng): SCMP: Tencent profit dipped as capital spending rose more than sixfold to above US$12 billion.
+**Headline:** Wall Street ended mixed (S&P 500 -0.23%, Nasdaq Composite 0.42%) as hawkish Fed minutes and Nvidia's fall offset Anthropic's above-range IPO pricing at $83 a share.
+- Company effect, Nvidia (down on sp500, nasdaq): WSJ: shares fell for a fifth-straight session after Huang's ouster.
+- Company effect, Anthropic (up on nasdaq): Bloomberg: Nasdaq futures advanced after Anthropic priced its IPO above the marketed range.
+- Company effect, Palo Alto Networks (up on sp500): CNBC: shares popped 7% on earnings and a $4.5 billion AI startup deal.
 
 ## Headlines collected today
 
@@ -190,7 +189,9 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 2 news feed(s) could not be read this time: Euronews business (HTTP 406); Google News: site:economist.com stock markets indices (no items).
-- The written analysis is from 2026-11-18 and is being refreshed; the numbers are current.
+- Dropped "Asia-Pacific": number(s) 200 not found in its cited evidence.
+- Dropped "Dow Jones Industrial Average": number(s) 100 not found in its cited evidence.
+- Dropped "Nvidia": number(s) 2.89, 13.11 not found in its cited evidence.
 
 ## How to use this file
 
