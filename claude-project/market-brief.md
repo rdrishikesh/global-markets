@@ -118,10 +118,11 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** Wall Street ended mixed (S&P 500 -0.23%, Nasdaq Composite 0.42%) as hawkish Fed minutes and Nvidia's fall offset Anthropic's above-range IPO pricing at $83 a share.
-- Company effect, Nvidia (down on sp500, nasdaq): WSJ: shares fell for a fifth-straight session after Huang's ouster.
-- Company effect, Anthropic (up on nasdaq): Bloomberg: Nasdaq futures advanced after Anthropic priced its IPO above the marketed range.
-- Company effect, Palo Alto Networks (up on sp500): CNBC: shares popped 7% on earnings and a $4.5 billion AI startup deal.
+**Headline:** Anthropic's IPO priced above expectations (WSJ: implies a $1.5 trillion valuation) lifted sentiment into Thursday, while Fed-minutes-driven yield rises persist; S&P 500 closed -0.23% on 2026-11-18 and is -3.88% over 5 days.
+- Company effect, Anthropic (up on nasdaq): WSJ: Nasdaq futures jumped premarket after Anthropic priced its IPO above expectations, implying a $1.5 trillion valuation.
+- Company effect, Nvidia (mixed on sp500, nasdaq): Morningstar (Nov 18): futures rallied as Nvidia earnings calmed AI trade fears; Straits Times: Wall Street ended mixed. WSJ: $500 Billion pledged for Nvidia is undeployed.
+- Company effect, Alibaba (mixed on hangseng): SCMP: AI cloud external recurring revenue rose 67 per cent, lifting total revenue to a better-than-expected 271.5 billion yuan. Hang Seng 1d -1.95%; notes do not link the two.
+- Company effect, AMD (up on nasdaq): Economic Times: AMD shares gained 5.3% after OpenAI revealed AI-driven improvements of up to 14% in its GPU design. Index contribution not stated.
 
 ## Headlines collected today
 
@@ -189,7 +190,7 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 4 news feed(s) could not be read this time: Federal Reserve press releases (HTTP 404); Euronews business (HTTP 406); Google News: site:economist.com stock markets indices (no items); Google News: Hang Seng China stocks PBOC (no items).
-- The written analysis is from 2026-11-19 and is being refreshed; the numbers are current.
+- Dropped "S&P/ASX 200": number(s) 200 not found in its cited evidence.
 
 ## How to use this file
 
