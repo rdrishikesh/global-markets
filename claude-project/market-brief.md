@@ -118,10 +118,10 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** Wall Street ended sharply lower as Anthropic's debut failed to revive AI fervor, Reuters reported: S&P 500 1d -2.02%, Nasdaq Composite 1d -2.25%, VIX closed 28.44.
-- Company effect, AMD (down on nasdaq): CNBC: AMD closed down over 7% after a short-seller report alleged China exposure; AMD said it complies with U.S. law.
-- Company effect, Anthropic (mixed on nasdaq): The Guardian: closed about 17% above its IPO price at $97; Bloomberg said the debut failed to reverse AI-trade pessimism.
-- Company effect, Walmart (down on sp500): Yahoo Finance: Walmart fell after an earnings beat as Wall Street was not impressed.
+**Headline:** WSJ reported the S&P 500 is heading for its longest losing streak since 2020 (close 7175.83, 1d -2.02%) as Anthropic's debut failed to revive the AI trade; Nikkei 225 fell 5.06% and TAIEX 6.23%.
+- Company effect, Anthropic (down on nasdaq, sp500): FT reported Anthropic shares slid as fears over AI boom dominated; Reuters said its debut failed to reassure AI investors.
+- Company effect, SoftBank (down on nikkei): CNBC reported SoftBank had its worst day in over two years as the AI selloff hit Asian tech stocks.
+- Company effect, Gap (down on sp500): Bloomberg reported Gap cut its outlook on weakness at Banana Republic and Old Navy.
 
 ## Headlines collected today
 
@@ -185,10 +185,6 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 - Dow Jones Industrial Average (DJIA) Index Price Today - The Wall Street Journal (WSJ, 2026-11-18T21:57:00.000Z) https://news.google.com/rss/articles/CBMiVEFVX3lxTE9rQ0w4ZVpNT2ZLRkJUZDU1bnBLTk5QSHlTNDNtbUlYSTRqN0V0UnlhVDBMU3lsWng1TDNGdXd0aVRPZlNUZ1dKbFhKTG9KRkplclJTdA?oc=5
 - FTSE 100 slips as commodity-linked stocks weigh; UK inflation at one-year high (Reuters, 2026-11-18T17:20:47.000Z) https://news.google.com/rss/articles/CBMikAFBVV95cUxOeEVjc0dlYzVLb2hOZkVUWGlMRnAybzlIM1ZjRXlwNG8zYW05bXZ4VXNNTlZjaVZWeThsdzVqR2x3aXpQaGpwX1k4SDJhcHNZYVZQUWdlRnpjQ3lYWm9YSXd0QXhJNUJ5SWpQVjd0NWZSV3lLbENOTFpWOXJoT1Vvc2dyclMtUUtnOFo4MFpoUTk?oc=5
 - Once the Regional Laggard in Sustainable Debt, Mexico Now Leads (Bloomberg, 2026-11-18T14:19:16.000Z) https://news.google.com/rss/articles/CBMiswFBVV95cUxNcUdaTVlFSkdiejg0NGdkWmVjWU8tSDJ1dVhzZklyQUFBYTVZTFdHQXd5MjhycnFpR1ozdzlTelNSZWk4RmNVRzhRV0hvV0MzbUFMS1N4RklzeHJjSl9VclVndFk1emUxNUhhSS1wSGR6THRlclUxdUVmSVdxaG4ySlhxbVNoU2ZJNFNzNlJ2RXc0MEFpcnVmREQ1YUY2d1I2ZkdSMlJhU2JnTUw2WjdfMExrQQ?oc=5
-
-## Data warnings
-
-- The written analysis is from 2026-11-20 and is being refreshed; the numbers are current.
 
 ## How to use this file
 
