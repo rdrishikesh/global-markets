@@ -118,11 +118,10 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** Anthropic's IPO priced above expectations (WSJ: implies a $1.5 trillion valuation) lifted sentiment into Thursday, while Fed-minutes-driven yield rises persist; S&P 500 closed -0.23% on 2026-11-18 and is -3.88% over 5 days.
-- Company effect, Anthropic (up on nasdaq): WSJ: Nasdaq futures jumped premarket after Anthropic priced its IPO above expectations, implying a $1.5 trillion valuation.
-- Company effect, Nvidia (mixed on sp500, nasdaq): Morningstar (Nov 18): futures rallied as Nvidia earnings calmed AI trade fears; Straits Times: Wall Street ended mixed. WSJ: $500 Billion pledged for Nvidia is undeployed.
-- Company effect, Alibaba (mixed on hangseng): SCMP: AI cloud external recurring revenue rose 67 per cent, lifting total revenue to a better-than-expected 271.5 billion yuan. Hang Seng 1d -1.95%; notes do not link the two.
-- Company effect, AMD (up on nasdaq): Economic Times: AMD shares gained 5.3% after OpenAI revealed AI-driven improvements of up to 14% in its GPU design. Index contribution not stated.
+**Headline:** Wall Street ended sharply lower as Anthropic's debut failed to revive AI fervor, Reuters reported: S&P 500 1d -2.02%, Nasdaq Composite 1d -2.25%, VIX closed 28.44.
+- Company effect, AMD (down on nasdaq): CNBC: AMD closed down over 7% after a short-seller report alleged China exposure; AMD said it complies with U.S. law.
+- Company effect, Anthropic (mixed on nasdaq): The Guardian: closed about 17% above its IPO price at $97; Bloomberg said the debut failed to reverse AI-trade pessimism.
+- Company effect, Walmart (down on sp500): Yahoo Finance: Walmart fell after an earnings beat as Wall Street was not impressed.
 
 ## Headlines collected today
 
@@ -190,7 +189,6 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 1 news feed(s) could not be read this time: Google News: Hang Seng China stocks PBOC (no items).
-- The written analysis is from 2026-11-19 and is being refreshed; the numbers are current.
 
 ## How to use this file
 
