@@ -118,10 +118,10 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** WSJ reported the S&P 500 is heading for its longest losing streak since 2020 (close 7175.83, 1d -2.02%) as Anthropic's debut failed to revive the AI trade; Nikkei 225 fell 5.06% and TAIEX 6.23%.
-- Company effect, Anthropic (down on nasdaq, sp500): FT reported Anthropic shares slid as fears over AI boom dominated; Reuters said its debut failed to reassure AI investors.
-- Company effect, SoftBank (down on nikkei): CNBC reported SoftBank had its worst day in over two years as the AI selloff hit Asian tech stocks.
-- Company effect, Gap (down on sp500): Bloomberg reported Gap cut its outlook on weakness at Banana Republic and Old Navy.
+**Headline:** Bloomberg reported AI skepticism is crushing stocks worldwide; S&P 500 closed -3.70% and Nasdaq Composite -5.28% on 2026-11-20, with VIX at 35.89.
+- Company effect, Nvidia (down on sp500, nasdaq): CNBC said Nvidia plunged 14%, its longest weekly losing streak since 2008; FT reported an SEC accounting probe.
+- Company effect, Anthropic (down on nasdaq): Business Standard reported shares fell nearly 9 per cent after a record $93.5 billion IPO; Guardian said it did not buoy the Nasdaq.
+- Company effect, Zscaler (up on nasdaq): CNBC said Zscaler jumped 18% on a report CrowdStrike is in talks to buy it.
 
 ## Headlines collected today
 
@@ -189,7 +189,6 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 2 news feed(s) could not be read this time: Google News: site:economist.com central bank inflation oil dollar (no items); Google News: Bovespa Brazil Mexico stocks (no items).
-- The written analysis is from 2026-11-20 and is being refreshed; the numbers are current.
 
 ## How to use this file
 
