@@ -118,10 +118,10 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** Bloomberg reported AI skepticism is crushing stocks worldwide; S&P 500 closed -3.70% and Nasdaq Composite -5.28% on 2026-11-20, with VIX at 35.89.
-- Company effect, Nvidia (down on sp500, nasdaq): CNBC said Nvidia plunged 14%, its longest weekly losing streak since 2008; FT reported an SEC accounting probe.
-- Company effect, Anthropic (down on nasdaq): Business Standard reported shares fell nearly 9 per cent after a record $93.5 billion IPO; Guardian said it did not buoy the Nasdaq.
-- Company effect, Zscaler (up on nasdaq): CNBC said Zscaler jumped 18% on a report CrowdStrike is in talks to buy it.
+**Headline:** Nasdaq Composite closed -5.28% (1d) and the S&P 500 -3.70% on 2026-11-20; FT and CNBC report US futures and AI shares rebounding premarket on Monday.
+- Company effect, Nvidia (mixed on sp500, nasdaq): Investing.com says Nvidia's China turnaround is threatened by Huang's exit; CNBC says Nvidia shares rose premarket after the selloff.
+- Company effect, Tata Steel (down on nifty50, sensex): Mint says Tata Steel and Hindalco weighed on the Nifty 50 and Sensex as metals led declines.
+- Company effect, TCS (up on nifty50): Mint says TCS led IT gains, rising 3.43%, as only 12 Nifty constituents advanced.
 
 ## Headlines collected today
 
@@ -189,7 +189,6 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 7 news feed(s) could not be read this time: Euronews business (HTTP 406); Google News: site:wsj.com stock markets indices (no items); Google News: site:barrons.com central bank inflation oil dollar (no items); Google News: site:economist.com central bank inflation oil dollar (no items); Google News: site:morningstar.com stock markets indices (HTTP 429); Google News: tariffs trade war markets (HTTP 429).
-- The written analysis is from 2026-11-23 and is being refreshed; the numbers are current.
 
 ## How to use this file
 
