@@ -1,4 +1,4 @@
-# Market brief (generated 2026-11-20T23:54:16.235Z)
+# Market brief (generated 2026-11-23T11:25:40.992Z)
 
 Prices are Yahoo Finance daily closes; macro figures are official releases. Statistics are computed by code. Base rates describe the past and are not predictions.
 
@@ -10,41 +10,41 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 | Dow Jones Industrial Average | Americas | 48147.33 | -1.93% | -8.02% | -8.93% | +0.17% | -5.18% | 26.64 | -11.41% |
 | Nasdaq Composite | Americas | 22617.73 | -5.28% | -10.02% | -13.04% | -2.69% | -10.10% | 25.55 | -18.05% |
 | Russell 2000 | Americas | 2581.79 | -2.76% | -7.48% | -7.26% | +4.02% | -8.23% | 30.2 | -15.86% |
-| S&P/TSX Composite | Americas | 33189.85 | -2.47% | -8.08% | -7.74% | +4.66% | -4.59% | 27.11 | -10.19% |
+| S&P/TSX Composite | Americas | 33189.90 | -2.46% | -8.08% | -7.74% | +4.66% | -4.59% | 27.11 | -10.19% |
 | Bovespa | Americas | 166376.00 | -0.69% | -2.89% | -20.13% | +3.26% | -8.16% | 32.28 | -20.42% |
 | S&P/BMV IPC | Americas | 68629.46 | -0.12% | -4.43% | -0.91% | +6.72% | +1.45% | 42.98 | -4.69% |
-| FTSE 100 | Europe | 10346.34 | -1.02% | -5.10% | -3.53% | +4.18% | -2.02% | 32.98 | -5.17% |
-| DAX | Europe | 25463.81 | -1.06% | -4.89% | -0.71% | +3.97% | +1.86% | 42.28 | -4.89% |
-| CAC 40 | Europe | 8080.74 | -0.81% | -3.36% | +2.01% | -0.84% | -1.53% | 47.36 | -7.40% |
-| Euro Stoxx 50 | Europe | 6113.86 | -0.66% | -4.46% | -1.51% | +5.48% | -0.26% | 41.19 | -6.68% |
-| IBEX 35 | Europe | 19186.20 | -0.97% | -3.90% | -0.71% | +10.85% | +2.05% | 44.46 | -5.08% |
-| FTSE MIB | Europe | 49941.00 | -0.46% | -3.61% | +0.60% | +11.12% | +0.34% | 44.08 | -7.03% |
-| Swiss Market Index | Europe | 14721.84 | -1.10% | -2.82% | +1.16% | +10.96% | +6.32% | 49.73 | -3.10% |
-| AEX | Europe | 1091.94 | -0.62% | -4.23% | -4.41% | +14.79% | +2.43% | 34.07 | -4.65% |
-| Nikkei 225 | Asia-Pacific | 59444.21 | +0.71% | -2.26% | -7.23% | +18.09% | -4.50% | 39.23 | -17.86% |
-| Hang Seng | Asia-Pacific | 22841.62 | -1.95% | -4.86% | -3.43% | -10.88% | -9.18% | 35.03 | -18.33% |
-| Shanghai Composite | Asia-Pacific | 3577.62 | -0.28% | -2.14% | -3.65% | -9.86% | -9.71% | 34.16 | -15.67% |
-| Shenzhen Component | Asia-Pacific | 10583.20 | -0.71% | -5.49% | -9.58% | -21.75% | -24.50% | 31.27 | -35.36% |
-| Nifty 50 | Asia-Pacific | 25514.30 | +1.14% | +0.85% | +11.47% | -2.35% | +6.33% | 76.15 | -3.09% |
-| BSE Sensex | Asia-Pacific | 83021.75 | +1.21% | +1.36% | +12.42% | -2.58% | +7.71% | 78.73 | -3.20% |
-| KOSPI | Asia-Pacific | 5137.89 | +1.39% | -3.83% | -10.42% | +21.92% | -21.26% | 38.72 | -43.63% |
-| S&P/ASX 200 | Asia-Pacific | 8592.60 | -1.58% | -5.39% | -2.28% | -1.40% | -2.76% | 31.98 | -7.32% |
-| TAIEX | Asia-Pacific | 38426.89 | -4.40% | -10.83% | -17.93% | +32.67% | -7.42% | 30.33 | -22.87% |
-| Straits Times Index | Asia-Pacific | 5079.49 | +0.49% | -3.85% | -6.01% | +9.33% | -3.47% | 26.87 | -12.45% |
+| FTSE 100 | Europe | 10403.34 | +0.55% | -4.40% | -2.69% | +4.75% | -1.48% | 36.56 | -4.65% |
+| DAX | Europe | 25026.27 | +0.90% | -5.91% | -0.62% | +2.19% | +0.11% | 38.81 | -6.52% |
+| CAC 40 | Europe | 7987.45 | +0.75% | -4.36% | +2.63% | -1.99% | -2.62% | 43.33 | -8.46% |
+| Euro Stoxx 50 | Europe | 5998.12 | +0.95% | -5.52% | -1.16% | +3.48% | -2.14% | 37.36 | -8.44% |
+| IBEX 35 | Europe | 19008.20 | +0.72% | -4.70% | +0.10% | +9.82% | +1.05% | 42.38 | -5.96% |
+| FTSE MIB | Europe | 48364.75 | -0.70% | -6.13% | -0.40% | +7.61% | -2.86% | 34.49 | -9.96% |
+| Swiss Market Index | Europe | 14653.15 | +0.56% | -3.55% | +1.32% | +10.44% | +5.74% | 47.76 | -3.55% |
+| AEX | Europe | 1077.97 | +1.11% | -4.95% | -4.74% | +13.32% | +1.06% | 33.79 | -5.87% |
+| Nikkei 225 | Asia-Pacific | 56436.65 | -5.06% | -7.70% | -12.67% | +12.11% | -9.36% | 31.32 | -22.01% |
+| Hang Seng | Asia-Pacific | 22383.74 | -0.12% | -5.77% | -3.07% | -12.67% | -10.81% | 30.75 | -19.97% |
+| Shanghai Composite | Asia-Pacific | 3538.95 | +0.15% | -1.77% | -4.11% | -10.83% | -10.55% | 30.98 | -16.58% |
+| Shenzhen Component | Asia-Pacific | 10454.37 | +1.93% | -2.21% | -10.45% | -22.70% | -25.21% | 32.92 | -36.15% |
+| Nifty 50 | Asia-Pacific | 25349.65 | -1.75% | +0.23% | +11.73% | -2.98% | +5.63% | 66.99 | -3.72% |
+| BSE Sensex | Asia-Pacific | 82435.99 | -1.77% | +0.40% | +12.54% | -3.27% | +6.94% | 68.84 | -3.88% |
+| KOSPI | Asia-Pacific | 4708.54 | -3.31% | -7.68% | -15.17% | +11.73% | -27.82% | 31.21 | -48.34% |
+| S&P/ASX 200 | Asia-Pacific | 8570.60 | -0.26% | -5.24% | -2.55% | -1.65% | -2.99% | 31.14 | -7.56% |
+| TAIEX | Asia-Pacific | 36811.89 | +2.16% | -10.30% | -21.49% | +27.10% | -11.41% | 29.46 | -26.11% |
+| Straits Times Index | Asia-Pacific | 4953.81 | -0.43% | -4.43% | -8.52% | +6.62% | -5.86% | 21.34 | -14.62% |
 
 ## Factors (rates, dollar, oil, gold, volatility, FX, Bitcoin)
 
-- VIX (volatility): 35.89 (1d +26.20%, 1m +88.60%) as of 2026-11-20
+- VIX (volatility): 29.76 (1d -17.08%, 1m +53.01%) as of 2026-11-23
 - US 10-year Treasury yield: 4.91 (1d -2.77%, 1m -0.83%) as of 2026-11-20
-- US Dollar Index: 103.84 (1d -0.06%, 1m +2.19%) as of 2026-11-20
-- EUR/USD: 1.10 (1d +0.02%, 1m -2.32%) as of 2026-11-20
-- USD/INR: 92.66 (1d -0.86%, 1m -1.75%) as of 2026-11-20
-- USD/JPY: 158.51 (1d -0.55%, 1m +0.24%) as of 2026-11-20
-- Brent crude oil: 89.87 (1d -2.29%, 1m -20.59%) as of 2026-11-20
-- WTI crude oil: 83.62 (1d +0.49%, 1m -15.93%) as of 2026-11-20
-- Gold: 3539.00 (1d -3.98%, 1m -12.84%) as of 2026-11-20
-- Copper: 5.47 (1d -2.84%, 1m -14.11%) as of 2026-11-20
-- Bitcoin: 58749.09 (1d -5.09%, 1m -23.90%) as of 2026-11-20
+- US Dollar Index: 103.89 (1d +0.08%, 1m +2.05%) as of 2026-11-23
+- EUR/USD: 1.10 (1d -0.03%, 1m -2.28%) as of 2026-11-23
+- USD/INR: 92.73 (1d -0.61%, 1m -2.09%) as of 2026-11-23
+- USD/JPY: 159.07 (1d -0.40%, 1m +1.64%) as of 2026-11-23
+- Brent crude oil: 88.30 (1d -4.61%, 1m -24.35%) as of 2026-11-23
+- WTI crude oil: 82.06 (1d -2.29%, 1m -20.54%) as of 2026-11-23
+- Gold: 3622.70 (1d +3.05%, 1m -9.61%) as of 2026-11-23
+- Copper: 5.52 (1d +0.83%, 1m -14.72%) as of 2026-11-23
+- Bitcoin: 61252.48 (1d +0.15%, 1m -20.12%) as of 2026-11-23
 
 ## Macro indicators (official sources)
 
@@ -96,25 +96,25 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 - Advantest (nikkei): 1d -10.32%, 5d -20.76%
 - Tesla (sp500, nasdaq): 1d -7.64%, 5d -11.38%
 - Tokyo Electron (nikkei): 1d -7.06%, 5d -12.18%
-- Samsung Electronics (kospi): 1d -7.01%, 5d -11.12%
 - Goldman Sachs (dow): 1d -6.71%, 5d -13.73%
 - Shopify (tsx): 1d -6.47%, 5d -15.57%
 - Meta (sp500, nasdaq): 1d -5.93%, 5d -12.60%
-- SK Hynix (kospi): 1d -5.92%, 5d -8.47%
+- ASML (aex, eurostoxx50): 1d +5.07%, 5d -6.08%
 - Caterpillar (dow): 1d -5.01%, 5d -14.95%
-- TSMC (taiex): 1d -4.76%, 5d -14.89%
-- Hon Hai (Foxconn) (taiex): 1d -4.76%, 5d -12.86%
 - Amazon (sp500, nasdaq): 1d -4.10%, 5d -7.44%
-- HSBC (ftse100): 1d -3.62%, 5d -8.89%
-- SAP (dax, eurostoxx50): 1d -3.56%, 5d -12.01%
-- Alibaba (hangseng): 1d +3.48%, 5d -7.95%
-- Novartis (smi): 1d -3.22%, 5d -5.20%
-- OCBC (straitstimes): 1d -3.21%, 5d -6.98%
-- HSBC Holdings (hangseng): 1d -3.08%, 5d -7.65%
+- TCS (nifty50, sensex): 1d +3.53%, 5d +2.29%
+- HDFC Bank (nifty50, sensex): 1d -3.33%, 5d +0.16%
+- ICICI Bank (nifty50, sensex): 1d -3.32%, 5d +0.03%
+- Ping An Insurance (shanghai): 1d -3.17%, 5d -1.74%
+- Kweichow Moutai (shanghai): 1d -3.15%, 5d -1.02%
+- Intesa Sanpaolo (ftsemib): 1d -3.07%, 5d -8.89%
+- Samsung Electronics (kospi): 1d -3.06%, 5d -9.81%
 - JPMorgan Chase (sp500, dow): 1d -3.03%, 5d -10.30%
-- CATL (shenzhen): 1d -2.90%, 5d -4.17%
-- Sanofi (cac40, eurostoxx50): 1d -2.85%, 5d -4.76%
 - UnitedHealth (dow): 1d +2.84%, 5d -16.59%
+- State Bank of India (nifty50, sensex): 1d -2.79%, 5d +3.87%
+- Microsoft (sp500, nasdaq, dow): 1d -2.77%, 5d -7.51%
+- Alphabet (sp500, nasdaq): 1d -2.70%, 5d -10.31%
+- Larsen & Toubro (nifty50, sensex): 1d -2.59%, 5d -0.97%
 
 ## Written analysis already produced (each item was checked against its sources)
 
@@ -125,70 +125,71 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Headlines collected today
 
-- Skepticism About AI Is Crushing Stock Prices Around the World (Bloomberg, 2026-11-20T23:42:26.000Z) https://news.google.com/rss/articles/CBMitgFBVV95cUxPa0xuaEJvTjF2V01vTGdTNXdIdzZ5NklfbmVXVE9WeVBfVU1xRW1Hc2VWWnViUzNOaTl6M0hCSUJKazE1Vkc0NEljbW04b1FBVHZQUk9iZVJMUXN6YnVHQWhfMnl4cFZVU0QybDJBVUc3dXJZM2U3YkZ3OFZFeE5aM1Z0bEFScGNRa0UwY1gyUkJoX0FfRlNJYmhwWUl5eV9MalZsZzNyZDR4bjBoV29Ub1ZNclNvQQ?oc=5
-- Opinion | Trump Got a Few Things Right (WSJ, 2026-11-20T23:36:43.000Z) https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTzJkNGMyd2JvWmkxdzBxaWsxN1FxSlhlcWdndV9tS0NXVlBSQVI4VFoxV2dpcnFRRzZObVpUUHZqYmN2RC1uRzUzZVVwTEhMZ2JQS25IYThRaU9hb1R6S29pdzQ0eXRQTkswVmlzRGllRS11VF96eGpJdHFaci1HcmU2Ty1PS3NG?oc=5
-- Anthropic’s IPO Turmoil Caps $4 Trillion AI Wipeout on Wall Street (WSJ, 2026-11-20T23:36:00.000Z) https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90?mod=rss_markets_main
-- Gov. Lujan Grisham: 2028 Hopefuls Already Eyeing New Mexico (Bloomberg, 2026-11-20T23:35:05.000Z) https://www.bloomberg.com/news/videos/2026-11-20/gov-grisham-2028-hopefuls-already-eyeing-new-mexico-video
-- Sol Trujillo Says Latino Economic Growth Is an Undervalued Investment Opportunity (Bloomberg, 2026-11-20T23:33:21.000Z) https://www.bloomberg.com/news/videos/2026-11-20/trujillo-says-latin-economic-growth-is-undervalued-video
-- Southwest Gas Holdings amends compensation plans and bylaws (Investing.com, 2026-11-20T23:33:03.000Z) https://www.investing.com/news/sec-filings/southwest-gas-holdings-amends-compensation-plans-and-bylaws-93CH-5042882
-- Upwork CEO Hayden Brown sells $4.26 million in company stock (Investing.com, 2026-11-20T23:31:25.000Z) https://www.investing.com/news/insider-trading-news/upwork-ceo-hayden-brown-sells-426-million-in-company-stock-93CH-5042881
-- Cloudflare president Michelle Zatlyn sells $1.64M in shares (Investing.com, 2026-11-20T23:31:01.000Z) https://www.investing.com/news/insider-trading-news/cloudflare-president-michelle-zatlyn-sells-164m-in-shares-93CH-5042880
-- Upwork chief marketplace officer sells $19,340 in shares (Investing.com, 2026-11-20T23:30:58.000Z) https://www.investing.com/news/insider-trading-news/upwork-chief-marketplace-officer-sells-19340-in-shares-93CH-5042879
-- Upwork CFO Erica Gessert sells $225,072 in shares for tax obligations (Investing.com, 2026-11-20T23:30:55.000Z) https://www.investing.com/news/insider-trading-news/upwork-cfo-erica-gessert-sells-225072-in-shares-for-tax-obligations-93CH-5042878
-- Rediker: AI Selloff Is a ‘Healthy’ Correction (Bloomberg, 2026-11-20T23:28:59.000Z) https://www.bloomberg.com/news/videos/2026-11-20/rediker-ai-selloff-is-a-healthy-correction-video
-- Senti Biosciences Holdings appoints KNAV CPA as new auditor, replaces KPMG (Investing.com, 2026-11-20T23:28:48.000Z) https://www.investing.com/news/sec-filings/senti-biosciences-holdings-appoints-knav-cpa-as-new-auditor-replaces-kpmg-93CH-5042875
-- Stocks Plunge After Anthropic IPO, Trump Returns from Asia (Bloomberg, 2026-11-20T23:28:16.000Z) https://www.bloomberg.com/news/videos/2026-11-20/bloomberg-money-11-20-2026-video
-- Curnutt: Selloff May Be ‘Cleansing,’ But Risks Remain (Bloomberg, 2026-11-20T23:24:57.000Z) https://www.bloomberg.com/news/videos/2026-11-20/curnutt-selloff-may-be-cleansing-but-risks-remain-video
-- GTCR explores potential takeover of payments firm Global Payments (Investing.com, 2026-11-20T23:24:43.000Z) https://www.investing.com/news/stock-market-news/gtcr-explores-potential-takeover-of-payments-firm-global-payments-5042874
-- Energy Transfer LP completes $2.7 billion senior notes offering (Investing.com, 2026-11-20T23:24:31.000Z) https://www.investing.com/news/sec-filings/energy-transfer-lp-completes-27-billion-senior-notes-offering-93CH-5042873
-- J&J Snack Foods CEO on 4Q Results and Consumer Sentiment (Bloomberg, 2026-11-20T23:22:36.000Z) https://www.bloomberg.com/news/videos/2026-11-20/j-j-snack-foods-ceo-on-4q-results-and-consumer-sentiment-video
-- Anthropic’s post-debut stumble delivers reality check for AI trade (Straits Times, 2026-11-20T23:21:00.000Z) https://www.straitstimes.com/business/anthropics-post-debut-stumble-delivers-reality-check-for-ai-trade1
-- Aemetis awards cash bonuses to executive officers following board approval (Investing.com, 2026-11-20T23:20:43.000Z) https://www.investing.com/news/sec-filings/aemetis-awards-cash-bonuses-to-executive-officers-following-board-approval-93CH-5042871
-- Bitcoin on track for longest weekly losing streak since May 2022 amid AI rout (Investing.com, 2026-11-20T23:17:58.000Z) https://www.investing.com/news/cryptocurrency-news/bitcoin-hits-near-5mth-low-below-62k-as-ai-rout-batters-risk-appetite-5040746
-- Indian Man Sentenced to Almost 20 Years in Murder-for-Hire Plot on U.S. Soil (WSJ, 2026-11-20T23:16:00.000Z) https://www.wsj.com/world/india/indian-man-sentenced-to-almost-20-years-in-murder-for-hire-plot-on-u-s-soil-cdeaf72a?mod=rss_worldnews
-- Wall St ends sharply lower on AI selloff, S&P 500, Dow in correction (Reuters, 2026-11-20T22:55:43.000Z) https://news.google.com/rss/articles/CBMivAFBVV95cUxOY0VmbDFSZy1pMm1jZlE3SG1PMDdjcHdmZnp3WWFQbTBSSHBndDktSEhpRFB4MkRYZUhTQXFhNm9YY0pwNlczMkxtOF9ZMVA2R1VHN2k1MmE3VkN6d292amFiX1JKUUxVcmN4NmxFTGYwbkhlakpkeTZ4eE5yRkxxTTlubE9PUU1jWmtrZVF6RjhiMWhhYmp2Q29Ucy1aMm13T0F0WTMwSGRBZWdQV3pyRjlZRm9pUEVnV0EzQQ?oc=5
-- S&P 500 sinks 3.7% and Nasdaq composite goes negative for the year as tech sell-off worsens (AP News, 2026-11-20T22:40:00.000Z) https://news.google.com/rss/articles/CBMingFBVV95cUxQY09GMmxTYlpRMnQ3YVJ4Q3BUdmg3NEFJWG5lVlh4TC0zZGxxZVcydTkwSkpiZUZfS3BXdlRab05HSW5TS0h5TDY5NFRKajBDSWdFbUdhNFIxMzUxc3pLRnEtMXVNblBwZmgteFlUWVhuS0lRU3diRGpWQnkyeWtDMGJiS3hzd2xCdUtDVHIxc0hOWGkwTHdPZ1FfenUwQQ?oc=5
-- S&P, Dow Slide Into Correction as Investors Dump Tech (Bloomberg, 2026-11-20T22:25:52.000Z) https://www.bloomberg.com/news/videos/2026-11-20/s-p-dow-slide-into-correction-as-investors-dump-tech-video
-- Nasdaq Turns Red For The Year (WSJ, 2026-11-20T21:50:00.000Z) https://www.wsj.com/finance/stocks/nasdaq-turns-red-for-the-year-46ad8118?mod=rss_markets_main
-- AI Selloff Spurs Haven Demand for Yen, Franc as Dollar Slips (Bloomberg, 2026-11-20T21:40:24.000Z) https://news.google.com/rss/articles/CBMisAFBVV95cUxOMGVIODlldlpGNjhfeGJZQk1jNjEtN0dINDFYNTREQ2hkNmJ2eDd5YmxoTmZsakdfUnhJRnhVUDRYbjF2YmdiZllpTUUwZUUyendZOG5HZFVtQXR1RlRZeFRPeTZfTHJHNjBvWXZHaUszbndhcmNydlBERVdneEdFS1NMa0wxbkVSbWJCTk5fQzBJVnVUaDVrandpek53V3VYWEFwSXpBdkRyRE1PSXNWcA?oc=5
-- Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day of trading (The Guardian, 2026-11-20T21:38:17.000Z) https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off
-- Dollar weaker as Fed-fueled rally stalls; lower US yields help yen (Mint, 2026-11-20T20:09:14.000Z) https://www.livemint.com/market/dollar-weaker-as-fed-fueled-rally-stalls-lower-us-yields-help-yen-11795205355081.html
-- Smallcap dividend stars: 5 stocks under ₹100 with high dividend yield - Jagran Prakashan, Radiant Cash, and more (Mint, 2026-11-20T17:02:19.000Z) https://www.livemint.com/market/stock-market-news/smallcap-dividend-stars-5-stocks-under-rs-100-with-high-dividend-yield-jagran-prakashan-radiant-cash-and-more-11795193828075.html
-- Eurozone Wage Growth Accelerates, But Remains Modest (WSJ, 2026-11-20T16:25:41.000Z) https://news.google.com/rss/articles/CBMimwFBVV95cUxOZHNueHVpdmp1RVJDbXVtdmNxSVM2cWQ4SnhKRklDemVfbkdscHNnTU5qZV9JUzQxWXlSSFh4TnlpcDY4WnZqRFJqYmxad3pFT3lSYjZqX3J1aklhVVJHczR1eGdLT0dmZDg2ZDFsRXJtS1VMT2EzTGEwMVNqaXFxNzduU0JEMWh0N0pDTE1SVWh0cG5Qb2lzSmdXaw?oc=5
-- SK Hynix to become Kioxia's top shareholder with bond conversion (Nikkei Asia, 2026-11-20T15:38:00.000Z) https://news.google.com/rss/articles/CBMisAFBVV95cUxPNXF5TEVzb2ljWEhhazJ6M1hvOFR0dEJWcmNsbTVyNzRNRlRoX1RmbE9DemdSN1hvd0d4dno4UElFRVZzTVVfT1N4WUVfNzFGZzVVY3Z0b1Z6S0VYOHZOTEQxcEFySHNNc1RxYTZEM0laOW9yM0hIcGw3b1h4VEktd2Q4OVB6MmxiMmYyUksyYVV4T0dXT2tsUVhvRWs2dnpJVGtmelZSQVFQTVlHM2ZuUg?oc=5
-- Nasdaq Eurozone Personal Care, Drug and Grocery Stores Large Mid Cap Total Return Index, NQEUROZ4520LMT:NAS Summary - FT.com (Financial Times, 2026-11-20T14:44:36.000Z) https://news.google.com/rss/articles/CBMif0FVX3lxTFBtc0Y1bS1ob0lwb0JGdTRTMThnMllKN1dzcFIwX3VTR0dlRm1FU2x5Zjdib0ViNW5rNlJ4SEFiV2FVcko0ODhjVG00cUFISWJ3Z1ZiU195R2JuREVsVEtadEgxaU54MW5FSzBtUzZ6LV8yWWktVkRGdDQzVUJwMlE?oc=5
-- Markets gain 2.6% on FPI inflows, rupee rally and cooling crude oil prices (Business Standard, 2026-11-20T13:54:39.000Z) https://www.business-standard.com/markets/news/markets-gain-2-6-on-fpi-inflows-rupee-rally-and-cooling-crude-oil-prices-126112000973_1.html
-- Baidu fined US$75,000 as China wraps up Joyy antitrust case (SCMP, 2026-11-20T13:50:14.000Z) https://www.scmp.com/tech/big-tech/article/3375283/baidu-fined-us75000-china-wraps-joyy-antitrust-case
+- Money Market Operations as on November 22, 2026 (RBI, 2026-11-23T11:45:00.000Z) https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64023
+- Money Market Operations as on November 21, 2026 (RBI, 2026-11-23T11:40:00.000Z) https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64022
+- Result of the 2-day Variable Rate Repo (VRR) auction held on November 23, 2026 (RBI, 2026-11-23T11:35:00.000Z) https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64021
+- ITC, SAMHI Hotels to Lemon Tree: Top 6 hospitality stocks to buy | Up to 75% listing gain predicted by Ambit Capital (Mint, 2026-11-23T11:23:07.000Z) https://www.livemint.com/market/stock-market-news/itc-samhi-hotels-to-lemon-tree-top-6-hospitality-stocks-to-buy-up-to-75-listing-gain-predicted-by-ambit-capital-11795431513673.html
+- Oil falls amid recovering supplies, Iran re-escalation fears (Investing.com, 2026-11-23T11:21:50.000Z) https://www.investing.com/news/commodities-news/oil-falls-as-robust-gulf-exports-offset-iran-escalation-supply-glut-risks-5044220
+- Net Power extends deadline for EPC agreement amendment and payment deferral (Investing.com, 2026-11-23T11:20:48.000Z) https://www.investing.com/news/sec-filings/net-power-extends-deadline-for-epc-agreement-amendment-and-payment-deferral-93CH-5044985
+- Ukraine Sinks Russian Warship, Hits Cargo Vessels Far From Warzone (WSJ, 2026-11-23T11:19:00.000Z) https://www.wsj.com/world/europe/russian-ships-struck-in-attacks-far-from-ukraine-as-wars-fallout-spreads-a51964cb?mod=rss_worldnews
+- Raymond James reiterates Take-Two stock Strong Buy on GTA VI sales (Investing.com, 2026-11-23T11:18:48.000Z) https://www.investing.com/news/analyst-ratings/raymond-james-reiterates-taketwo-stock-strong-buy-on-gta-vi-sales-93CH-5044982
+- Lynx Equity sees Broadcom stock sentiment improving despite concerns (Investing.com, 2026-11-23T11:18:46.000Z) https://www.investing.com/news/analyst-ratings/lynx-equity-sees-broadcom-stock-sentiment-improving-despite-concerns-93CH-5044981
+- How Nvidia’s billion-dollar turnaround in China is threatened by Huang’s exit (Investing.com, 2026-11-23T11:18:25.000Z) https://www.investing.com/news/stock-market-news/how-nvidias-billiondollar-turnaround-in-china-is-threatened-by-huangs-exit-5044929
+- Viant Technology stockholders approve move of incorporation to Texas (Investing.com, 2026-11-23T11:16:42.000Z) https://www.investing.com/news/sec-filings/viant-technology-stockholders-approve-move-of-incorporation-to-texas-93CH-5044979
+- European shares catch modest bid after brutal sell-off (Investing.com, 2026-11-23T11:16:34.000Z) https://www.investing.com/news/stock-market-news/european-shares-catch-modest-bid-after-brutal-selloff-5044371
+- Emerging-Market Stocks Set to Erase 2026 Gains on AI Selloff (Bloomberg, 2026-11-23T11:16:05.000Z) https://news.google.com/rss/articles/CBMisAFBVV95cUxOTnU4YXhhUmpUTkZ5UTVfZ2dsb2ZIcE5fRk9KSXVoMWVEb3l4SW9RMjc3RWJXMjljX1ZBczd0WGhYVEx0bnJDVVBvVTljeTdXREdqM3NCcXVJT3RYanNQelN2ODdXalhNSGw0bWRULTNWSjA3N24xQVc2OVBuLTkxc3NmV2VRZ0NOVU1xSEVVSGxNRjEyNGpmb1pCNEhPODhtQUpuZ3hPVTBNTXo5S2NwcA?oc=5
+- UBS raises Victoria’s Secret price target to $100 on sales strength (Investing.com, 2026-11-23T11:13:06.000Z) https://www.investing.com/news/analyst-ratings/ubs-raises-victorias-secret-price-target-to-100-on-sales-strength-93CH-5044972
+- UBS reiterates General Motors stock rating on defense growth outlook (Investing.com, 2026-11-23T11:13:05.000Z) https://www.investing.com/news/analyst-ratings/ubs-reiterates-general-motors-stock-rating-on-defense-growth-outlook-93CH-5044970
+- Oppenheimer raises Roblox stock price target on GTA VI impact data (Investing.com, 2026-11-23T11:13:05.000Z) https://www.investing.com/news/analyst-ratings/oppenheimer-raises-roblox-stock-price-target-on-gta-vi-impact-data-93CH-5044971
+- Goldman’s Trivedi Says ‘Dollar Still Has Some Fight in It’ (Bloomberg, 2026-11-23T11:06:25.000Z) https://www.bloomberg.com/news/videos/2026-11-23/goldman-s-trivedi-dollar-still-has-some-fight-in-it-video
+- Dollar Could Stay Firm if Upcoming Data Support Rate-Rise Bets (WSJ, 2026-11-23T11:04:00.000Z) https://www.wsj.com/finance/currencies/yen-may-strengthen-vs-dollar-on-diminished-risk-appetite-6434fe7e?mod=rss_markets_main
+- CrowdStrike to buy Zscaler in $44bn deal as cyber security disruptions mount (Financial Times, 2026-11-23T11:02:10.000Z) https://www.ft.com/content/762bd05d-8e20-4abf-9bc5-4e6f9bf628cb?syn-25a6b1a6=1
+- Harvard Landscape Architects Propose Monumental Alternatives to Trump’s Triumphal Arch (Bloomberg, 2026-11-23T11:01:16.000Z) https://news.google.com/rss/articles/CBMiygFBVV95cUxOTUVhamFQU1hwVzJIdlF1TVB6RjJaQXdfY3JWeVlrcEhCS0syeTkwUXlIOTBKandoeGpCZ0dlT0VNWThBTTFiZzh0MVBCNjY1TG1LWC0wV0RwbFZ2UENIVk1QeTF0WFlZa1lraXRTN3E2aEFoRXh0aF81Z3h6bEthenFHZzRObE8tM3FicmpZSFcxRUpuTXFjM29XSWc1TlBMWkFOYS1raHU4dDBKV05ZSkF4clowV0ZXck9RVEhVQl9GazdlZE53WDNR?oc=5
+- Copper Slump Tests Kast’s Push to Rein In Chile’s Fiscal Deficit (Bloomberg, 2026-11-23T11:00:00.000Z) https://www.bloomberg.com/news/articles/2026-11-23/copper-slump-tests-kast-s-push-to-rein-in-chile-s-fiscal-deficit
+- COP31 Climate Conference Collapses as Fossil Fuels Wreck the Day (Bloomberg, 2026-11-23T10:59:07.000Z) https://www.bloomberg.com/news/newsletters/2026-11-23/cop31-climate-conference-collapses-as-fossil-fuels-wreck-the-day
+- Is the solution to survey problems to make up the data? (Financial Times, 2026-11-23T10:58:56.000Z) https://news.google.com/rss/articles/CBMicEFVX3lxTE44c0FQb2FHazVSakdoNGl6azEyczd4ZWptS0xzZ3AydGFGd3dITXhfbWM4U2t1TjNQMkFaOGd0YlY5ODNadGNVUHVMd1RCX3JBZ29VQ2ZPRnJfWjlZYjlyR0ZNZ2RvOXU0ZVlQMXZsWVk?oc=5
+- FirstFT: Wall Street set to rebound after AI stock sell-off (Financial Times, 2026-11-23T10:58:12.000Z) https://www.ft.com/content/67014244-a737-4be5-ac81-97b77a6912ff?syn-25a6b1a6=1
+- Stock market crash today wipes out ₹6 lakh cr: Red! Sensex down 1,484 points, Nifty below 25,350 - What went wrong? (Mint, 2026-11-23T10:35:15.000Z) https://www.livemint.com/market/stock-market-news/stock-market-crash-today-wipes-out-rs-6-lakh-cr-red-sensex-down-1-484-points-nifty-below-25-350-what-went-wrong-11795424234403.html
+- Five Charts Unpack One of the Worst Weeks for Stocks in Decades (Bloomberg, 2026-11-23T10:29:20.000Z) https://www.bloomberg.com/news/articles/2026-11-23/five-charts-unpack-one-of-the-worst-weeks-for-stocks-in-decades
+- PSU bank stocks tumble up to 5% after five-day rally, Nifty PSU Bank index crashes 3.2%; what's behind the sell-off? (Mint, 2026-11-23T10:28:27.000Z) https://www.livemint.com/market/stock-market-news/psu-bank-stocks-tumble-up-to-5-after-five-day-rally-nifty-psu-bank-index-crashes-3-2-whats-behind-the-selloff-11795427367855.html
+- Anthropic, Nvidia shares rise in premarket trading after major tech selloff (CNBC, 2026-11-23T10:24:25.000Z) https://www.cnbc.com/2026/11/23/anthropic-nvidia-shares.html
+- Treasury yields jump as stock futures rebound, investors await New York Fed President Williams speech (CNBC, 2026-11-23T10:15:19.000Z) https://www.cnbc.com/2026/11/23/treasury-yields-bonds-fed.html
+- Dow Jones Top Markets Headlines at 5 AM ET: Stock Futures Rally as Dust Settles After AI-Driven Selloff | Oil ... (Morningstar, 2026-11-23T10:15:00.000Z) https://news.google.com/rss/articles/CBMi9AFBVV95cUxNNlliaXhtdXR6NlcyTGx5dGFQZ0g0bUNDWmlRWmVwVGtIYVRFQURETkRwSHlLUVJFbW5yNGs3ZHpxWWVuaG50YnFIT25qdXNjWm9fVFNGYkhLbldvOXk1aGlaamZUMXZjTmMybWd0S0QxUkJrMWc1b0VWY0JJRjIzLTROUWNfaHdZaHlmT1YxVllRdHNEVEpSNWlDUWppWkF1ODNZZF80YXJ4Z3dBRHNidDZTTmp2Um5rR1ZtZS1mU3A1UFJ1VHVyOE1ZU0FiXzVZWWt3QThxX1lXNFozX2pZREF3aWN4Ry1rR0NaS3ktZE1rMmtz?oc=5
+- Margin Calls Soared 200-Fold in Taiwan as Traders Fled AI Bets (Bloomberg, 2026-11-23T10:11:28.000Z) https://www.bloomberg.com/news/articles/2026-11-23/margin-calls-soared-200-fold-in-taiwan-as-traders-fled-ai-bets
+- Morgan Stanley’s Wilson Says Buying Opportunity Too Good to Miss (Bloomberg, 2026-11-23T10:02:24.000Z) https://www.bloomberg.com/news/articles/2026-11-23/morgan-stanley-s-wilson-says-buying-opportunity-too-good-to-miss
+- Germany and France on Diverging Economic Paths, Surveys Show (WSJ, 2026-11-23T10:02:00.000Z) https://www.wsj.com/economy/global/germany-and-france-on-diverging-economic-paths-surveys-show-fe961a0d?mod=rss_socialeconomyfeed
+- Euro, Eurozone Yields Show Limited Reaction to Eurozone PMI Data (WSJ, 2026-11-23T09:53:00.000Z) https://news.google.com/rss/articles/CBMipwFBVV95cUxPc0tfN3VFdVpxamdYYzU1NzlTSFQyN3JpREdGcnpzdC1hcXY4cEExdXIwYlBMb2ZaQkNkZE9LMHVDbjZXdEtIX2lRem1IVGFlYU9IMC1TbXVzQ2JRMDdnZFIyTzg5Z1otdjBiU0FvREY4SGs0WXNscEYwbWlqTW8wX3dsV0dJejN1TjZwVzRVZ1c4RXZBd3VqOUVoVW1UMVRkRzBzS2puMA?oc=5
+- China stock support steadies market after AI-fuelled selling (SCMP, 2026-11-23T09:24:38.000Z) https://www.scmp.com/plus/business/markets/article/3375485/china-stock-support-steadies-market-after-ai-fuelled-selling
+- Up 32% in one month! Small-cap stock under ₹50 hits 5% upper circuit despite weak trends on Dalal Street; do you have? (Mint, 2026-11-23T09:11:24.000Z) https://www.livemint.com/market/stock-market-news/up-32-in-one-month-small-cap-stock-under-rs-50-hits-5-upper-circuit-despite-weak-trends-on-dalal-street-do-you-have-11795422451498.html
+- Who is killing Nifty 50 rally? SBI, RIL, HDFC Bank, Axis Bank, Hindalco, JSW among stocks dragging index into red (Mint, 2026-11-23T09:01:03.000Z) https://www.livemint.com/market/stock-market-news/who-is-killing-the-nifty-50-rally-sbi-ril-hdfc-axis-bank-hindalco-tata-steel-jsw-steel-among-key-stocks-giving-r-11795422323375.html
+- From laggard to unlikely winner: The ASX could beat Wall Street (AFR, 2026-11-23T09:00:00.000Z) https://news.google.com/rss/articles/CBMivgFBVV95cUxPc3pHek9SbU5JeFhkd3Bab1czeU5BZi03dnNkMl82TWN3djdrdkdaaEcyVU1DYUJGa3pSQ3JHV2FhSG9UUTlic1ByUlZkOG5Va29VZC1NYlhIRXFralAyQzdzU1o5angwN3lkcWs0eGx0c0FxdEtxX1FkRXVXUDR1Y0cyLWtmTVRzLXBfNnowQWl0dFZSa2xkclFXSjNQY1N3LWxNd19JLXdBZmlJc3JDcHpQVTFYS2ptUWljVU13?oc=5
+- Up 115% in 6 months! Small-cap chemical stock under ₹200 jumps 11% despite stock market crash; reason for rise, target (Mint, 2026-11-23T08:51:22.000Z) https://www.livemint.com/market/stock-market-news/up-115-in-6-months-small-cap-chemical-stock-under-200-jumps-11-despite-stock-market-crash-reason-for-rise-target-11795421422249.html
+- The Jensen Huang saga: What protections are there in Singapore from the cult of the founder-CEO? (Straits Times, 2026-11-23T08:15:00.000Z) https://www.straitstimes.com/business/the-jensen-huang-saga-what-protections-are-there-in-singapore-from-the-cult-of-the-founder-ceo
+- Dow Jones Top Markets Headlines at 3 AM ET: Asian Regulators Step Up Efforts to Calm AI-Driven Market Turmoil | The ... (Morningstar, 2026-11-23T08:15:00.000Z) https://news.google.com/rss/articles/CBMi_AFBVV95cUxNSlJBcU1fV1BzanpnTnFGZmFlV2ZmRjZydW9UYmdvMFB0MGpDVW90MlpwcER2R0tiekplWnJ5QXZDXzJQMk1lbEJVenZyRVhFVC10YnhKc0VNdUszU0VmVnZVQ0duSFM2TVZlVlc5YmxVVmZZNDNBQWFMZlZ4NkljZGktcGdQbG02ZzNVQmZqb1Z5SUswXzlHNG1ZNXkxaV8tLW1SODhidGFMdFBVbzhrSk5vamRvVWdfSURQX191bVhuTlItWTl6RzItQnowWG1KVG9KbWJlVzRIMHpkMHk4aFRUSnc2WVpXWTZheEJ0VkkwT2dsbjBGLTdjbU4?oc=5
+- South Korea Shakes Up Key Posts After US Ties Sour (Bloomberg, 2026-11-23T08:11:46.000Z) https://www.bloomberg.com/news/articles/2026-11-23/korea-replaces-foreign-minister-spy-chief-after-us-ties-sour
+- Crash proof stocks: Sensex, Nifty bleed but these shares come out in flying green colour - HCL, TCS, Infy, Maruti - List (Mint, 2026-11-23T08:10:54.000Z) https://www.livemint.com/market/stock-market-news/crash-proof-stocks-sensex-nifty-bleed-but-these-shares-come-out-in-flying-green-colour-hcl-tcs-infy-maruti-list-11795417938149.html
+- South Korea Says Market Measures Will Ease Investor Jitters (Bloomberg, 2026-11-23T08:03:31.000Z) https://news.google.com/rss/articles/CBMirwFBVV95cUxPNFM3MmtldGFubzdUaHgyalNTc21uMC1PdXJvWm1Hc01jemo2bXN1Sl9YXzM4ZW03TWUxSTQ4WVVRQUkzejhFQ2NWM3FPZnFzMFdrUVRxbTJQeG9mczhUUUVlbm1kdXdtandFTGdYRndvOWk1b3V2dF9IMnR1RFlLLTRJNi1XaEpSY2xUTFEzRVl3MVUwdjJnNllsdFRCd0RFakFTX0k3UzRZenUxeWtv?oc=5
+- Embodied AI robot maker Changzhou Microintelligence lowers target in renewed Hong Kong IPO (SCMP, 2026-11-23T07:06:12.000Z) https://www.scmp.com/business/banking-finance/article/3375449/embodied-ai-robot-maker-changzhou-microintelligence-lowers-target-renewed-hong-kong-ipo
+- Tokyo won’t fall as hard as Seoul or Taipei when the AI trade cools, says Japan Exchange Group CEO Hiromi Yamaji (Yahoo Finance, 2026-11-23T06:51:00.000Z) https://news.google.com/rss/articles/CBMiekFVX3lxTE5leUQ2Qm9wcE1BQ01nQ21IaFp2UC03cGY2ZGF3OU1UY3lHbFE0WmVtTDhKSTl4QXd5YUNQUkV1YVZ2U0JNSklRSGYyOVI2YzdLUk5xSGxNRWJKcXdsRE40TW13ZlYzUUJYemRTd3R1d1gyLTVXcjZBWjdB?oc=5
+- How Asian countries are looking to prop up markets as AI downturn sinks stocks (CNBC, 2026-11-23T06:50:48.000Z) https://www.cnbc.com/2026/11/23/asia-markets-kospi-taiwan-china-csi300.html
+- Taiwan Local Elections 2026: What to Know, Key Issues and Why China Is Watching (Bloomberg, 2026-11-23T05:30:09.000Z) https://www.bloomberg.com/news/articles/2026-11-23/taiwan-local-elections-2026-what-to-know-key-issues-and-why-china-is-watching
+- Japan Power Prices Extend Rise to Four-Year High on Cold Outlook (Bloomberg, 2026-11-23T05:23:00.000Z) https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWnVTRHFHMi00WEN5UVFnZ3B0cDVTOFREQnBSMjlsTHBiMVVVUmw0QjZJX3QzSUZhcWZNRlBpazVGTDN3bGlBRmpDVVhTMUxlSFF5OXB0WDFkTnhIY3NZMTRKN0UwVDFmMjQ5V2NvdVdFd0p5VS1HWjFNM01Cc0h0elVRR3FsOTBWTVJuWWo2REc2RE44eE5fdzJFVGhsclhSXzY1Vm5keW9nTlR4dWJybGo1YlY0QUowMHBJSUVzbDNYdVU?oc=5
+- Why Hong Kong’s Fine Art Asia fair has moved to Shenzhen after 20 years (SCMP, 2026-11-23T05:17:51.000Z) https://www.scmp.com/lifestyle/arts/article/3375426/why-hong-kongs-fine-art-asia-fair-has-moved-shenzhen-after-20-years
+- Singapore’s core inflation eases to 1.5% in October (Straits Times, 2026-11-23T05:02:48.000Z) https://www.straitstimes.com/business/economy/singapores-core-inflation-eases-to-1-5-in-october
+- Major Japanese firms still rely heavily on China revenue amid Beijing-Tokyo rift: report (SCMP, 2026-11-23T05:00:05.000Z) https://www.scmp.com/business/china-business/article/3375430/major-japanese-firms-still-rely-heavily-china-revenue-amid-beijing-tokyo-rift-report
+- US futures bounce as Asia scrambles to slow AI stocks rout (Straits Times, 2026-11-23T03:20:00.000Z) https://www.straitstimes.com/business/us-futures-bounce-as-ai-rout-rattles-asian-stocks
+- Mainland China stock exchanges make moves to raise liquidity and activity to stem decline (SCMP, 2026-11-23T00:00:13.000Z) https://www.scmp.com/business/markets/article/3375388/mainland-china-stock-exchanges-make-moves-raise-liquidity-and-activity-stem-decline
+- Drug Kingpin’s Capture in Mexico Risks Bloody Succession Battle (WSJ, 2026-11-22T21:10:00.000Z) https://www.wsj.com/world/americas/drug-kingpins-capture-in-mexico-threatens-to-touch-off-bloody-succession-battle-8df2bff0?mod=rss_worldnews
+- Dip Buyers Hesitate to Step In as Nasdaq 100 Nears a Bear Market (Bloomberg, 2026-11-22T20:31:44.000Z) https://news.google.com/rss/articles/CBMitgFBVV95cUxPWHZubEhRQlFlOHctVERKbjNHYUJoS2ZpQk9FOEhoX1JMY2Z4LW1maVJ4OVBPRzJ1R213dW9nd0l6NmpxWXhxbDJfRHNXOVZwdHVtUk1YYjFDM2FDRUhQUElKaE5GeHlWUlBkV0RvNXhHLVloem9EUmZwdlZfeVZtN2VuQkptcGdHclBZQkhlV0tEbkxOODVqY1R4dm91azczNXBEMmpxUXNsY2J6UEVxRUpNYWUxZw?oc=5
+- Mexico Captures Top Drug Boss in Fierce Gunfight (WSJ, 2026-11-21T19:41:00.000Z) https://www.wsj.com/world/americas/mexico-captures-top-drug-boss-in-fierce-gunfight-b16709ce?mod=rss_worldnews
+- Brazil’s Jair Bolsonaro Admitted to ICU With Obstruction (Bloomberg, 2026-11-21T17:51:36.000Z) https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTFN2bGoxNzRocUpYY0tNdjh4eTd2Y1RsdGpoVk9nT2laLU9hOVVGVTlwT2tKLXpvQWJsRHhKU010Tm1BM3pmY3FsVF92X2k1ck1BRzg5ZUxSODNhSms2anZrXzEwMmN1eU5GemR0RGVwbXNtQ1pMVE0wN3VRYlpWOEoxSlI0Q3hJV0NFcktfZG9EcmF5dmNOZXVFLUVvTUJxdXpkeEJuWVZROEk?oc=5
+- UK stocks sink as global selloff weighs on banks and miners (Economic Times, 2026-11-21T05:12:07.000Z) https://economictimes.indiatimes.com/markets/us-stocks/news/uk-stocks-sink-as-global-selloff-weighs-on-banks-and-miners/articleshow/136045502.cms
 - U.S.-China trade, Taiwan and tech tensions remain unresolved as Trump returns from Asia (CNBC, 2026-11-20T13:29:50.000Z) https://www.cnbc.com/2026/11/20/apec-summit-trump-xi-china-trade-taiwan.html
-- BSE Sensex rejig: Shriram Finance to replace Trent; Which stocks are entering and exiting other BSE indices? Check list (Mint, 2026-11-20T13:14:55.000Z) https://www.livemint.com/market/stock-market-news/bse-sensex-rejig-shriram-finance-to-replace-trent-which-stocks-are-entering-and-exiting-other-bse-indices-check-full-11795179927182.html
-- LONDON MARKET MIDDAY: FTSE 100 falls as global tech sell-off deepens (Morningstar, 2026-11-20T12:10:30.000Z) https://news.google.com/rss/articles/CBMi2wFBVV95cUxQSVFBeGlRZUtGMDFPVFFhQzJfRXI3b0hZa3RpZVk5dGtMQ284dXBGNXN6TUxzMklDRS1aWUdTYm9XdzZpZlFucFRuQ0xFS09CNmh1cGV6V1VXYjVXZVFsXzdVbkdWbUZpU1N2RWpreEtibjRUNm9obTJDaDBoV0FBekVyM2x3bEJLN3V5VzF1WlZwZWVrY0xMbktlZmNiSlZCX2laT1h5VXdhbWVCYkJ4NEpaNl9BUjY0TmR5ZzJRczlaOGgxRkhrSW5sV2lLNDVyUEFMdGt3aml3cDg?oc=5
-- Nifty set to test record high in a month after toppling key hurdle (Mint, 2026-11-20T11:35:20.000Z) https://www.livemint.com/market/nifty-set-to-test-record-high-in-a-month-after-toppling-key-hurdle-11795164473722.html
-- Lufthansa plans 1,000 job cuts in Frankfurt and Munich as Iran war slows turnaround (Euronews, 2026-11-20T11:35:14.000Z) https://www.euronews.com/2026/11/20/lufthansa-plans-1000-job-cuts-in-frankfurt-and-munich-as-iran-war-slows-turnaround
-- Sensex jumps 898 points, Nifty closes above 25,800 as banks rally on return of foreign inflows (Economic Times, 2026-11-20T11:00:54.000Z) https://news.google.com/rss/articles/CBMi7gFBVV95cUxOaGVEcGlNUkJRTWJhY2hGd0tTV2xNVC16cUVtWE90RUgtODhVdGMwNzUxWkwtUGxmbDlWY1A2QnVZbGVaZlFBZndYWkdhUjVucGVZdV9oaHQ5UV83NHF2NFVSQThwTjk2QURFQWZlMXp6dG9zRV8zVFdFQ0VGTUpCcEp0RWYtb0N5NEFNcDNBMzNDNzYxZ2tWa3l4WEdEZ1BOeV8xWTNQbHdhTkt3MWxtTGE5TUFzV19BRExXdGh2ZmdmTVhSQWdjV3p4Vlh1X3FWT0lYMEZZN05ManFmYkd3RF9DcTdERlRMU2s4ZkFR0gHuAUFVX3lxTE5oZURwaU1SQlFNYmFjaEZ3S1NXbE1ULXpxRW1YT3RFSC04OFV0YzA3NTFaTC1QbGZsOVZjUDZCdVlsZVpmUUFmd1haR2FSNW5wZVl1X2hodDlRXzc0cXY0VVJBOHBOOTZBREVBZmUxenp0b3NFXzNUV0VDRUZNSkJwSnRFZi1vQ3k0QU1wM0EzM0M3NjFna1ZreXhYR0RnUE55XzFZM1Bsd2FOS3cxbG1MYTlNQXNXX0FETFd0aHZmZ2ZNWFJBZ2NXenhWWHVfcVZPSVgwRlk3TkxqcWZiR3dEX0NxN0RGVExTazhmQVE?oc=5
-- CATL, Luxshare to Join Hong Kong Tech Index in Major Revamp (Bloomberg, 2026-11-20T10:36:55.000Z) https://news.google.com/rss/articles/CBMirgFBVV95cUxPYWZoMlpnOFkwd2tQNURJLXNBVHFidTNiRzhLRktySTE3OTFSM1FFVnVtUVQ1TXlrQUlmeTBONWNaeGtwREdMSVNKU2pqZEZtTGNPUHFhNWZHOEFPeVFIU2tReHJWeGRTN1BEY2tfQTdSZ3R5dWRnSXN3TVFja0p0SHlHTDB5bkhHUDVUWnRxSTRTSGk0LUJOTU93ZUhpNzJMU3p1YU9FSlVJaDZxZHc?oc=5
-- US Stock Futures Fall as Anthropic Shares Retreat and AI Concerns Weigh on Global Markets: Dow Jones, S&P, Nasdaq, Wall Street (Yahoo Finance, 2026-11-20T09:44:20.000Z) https://news.google.com/rss/articles/CBMinAFBVV95cUxQY00yVG5QWERBdHUyMWNybW1Uekc0Z2Q5aTBmWGZmZnB6VDVTWGQyRHMyc0dncWk4WHdsUDEtU1gxM1RIdFFQdzdFUmFXSFB2dlRmdnJDNnljV1JHdUg1bm9UYTNhRE1EdktIZmx0WmM0Q1BuV2hrWjRkWnYxVnN5NUtYMmNKMHZCa0ljYU5xb1VBaTBTRGZDSjVHZ3Q?oc=5
-- Hong Kong Stocks Fall 20% From 2026 High as AI Selloff Spreads (Bloomberg, 2026-11-20T08:24:24.000Z) https://news.google.com/rss/articles/CBMitAFBVV95cUxPbThIazd1YWxmaDlBTURHZmxKVzJPcWpOLXY3eVZGWXlua3ZwMlJxWDItMTJPTGhwakh4aEJSZFNVNE15LXhZazJveTVJQzVKUDZjUmJhNlVqd2FxWHQyQ3c5Zjl0d2FiM2ZMZl9MSXEwMXh5a0xtQXJxSUJIUGJfVmNBbW15XzNiQ211c3NwbXFwS2h5eW85YlJzTlAyNzh4X3JRWEptQ2pYODV4aVhQck45aXI?oc=5
-- China’s battery-powered heavy trucks see electric growth (SCMP, 2026-11-20T08:18:38.000Z) https://www.scmp.com/plus/business/china-evs/article/3375206/chinas-battery-powered-heavy-trucks-see-electric-growth
-- US chip equipment maker KLA opens expanded site in Singapore, with plans for further growth (Straits Times, 2026-11-20T07:30:00.000Z) https://www.straitstimes.com/business/us-chip-firm-kla-opens-expanded-site-in-singapore-with-plans-for-further-growth
-- LONDON MARKET EARLY CALL: FTSE 100 seen down on global sell-off (Morningstar, 2026-11-20T07:15:41.000Z) https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMFFLcm9hOEs2QlFQOEFYd2wycDJqbGk3SjNwMjRiTmxqZk9oTDBobTByWGZoTUJQWndBZWhvSTlYNjVBSy1qV191eWl3MEJKNEtKYllnRG5Zd2t0NzY2RERIbGZTTk1KT1hBYnh4VWJrY0lJZm5jYzdBX2I2bDAzSXFhMGgtaDBQNXVWUmlKSlA3cS1XOFJ1bHZFdzY2ME8zcFU3VWhYbGNHNjZMVUFxN1hvWmwxY1BfNWp3bUpuZnJRUERkUkVoREdLZldqT1hmdm1YVQ?oc=5
-- Singapore-based DayOne to pause US IPO plans on data centre, market concerns: Sources (Straits Times, 2026-11-20T07:10:00.000Z) https://www.straitstimes.com/business/singapore-based-dayone-is-said-to-pause-us-ipo-plans-on-data-centre-market-concerns
-- Taiwan Stocks Plunge Again to Head for Worst Week Since 1991 (Bloomberg, 2026-11-20T05:58:00.000Z) https://news.google.com/rss/articles/CBMirwFBVV95cUxPZ2F4QnZrOGxRb2VwQnIweXozMHBnVGRaaWZWbkZFNVd4X1hWT2xCdkRxMTZOem9YWUxPcWJZbWlOOXVITHM4UnpmUjRPMWNnZXVGbFlsSG5QV2VoZTBfUktlTFBqU0FiSmotSzlxZDAtVUkxb0Jod2RKMzM4VjNjNG40NHZwSXN5RmVpS2xBX19uODNxY0ljd1FQcDFBbV9OVDRWSzIyVnZ4bDF5THZV?oc=5
-- Singapore-Based DayOne Is Said to Pause US IPO Plans on Data Center, Market Concerns (Bloomberg, 2026-11-20T05:57:09.000Z) https://news.google.com/rss/articles/CBMizwFBVV95cUxQWVZLWWg4US0wTHJaZjFVUE1XYkpjdEN5YXE4MW1laU5DYlZ0djBNNndsQUVnY042M25rOS16TXdBS0FzSHgxdzFaa2NKYjJZdDBTa19WM1M0aExkcmpNVnhXWE1URkVSdmFlcjdvbUVtZEhFV3VXMjdpWVo4aUVoVGJqaHRrM1E2a24tN3RSejhOaDNhQXZVRWhDZF8tajE5Mk5XX1B5NmlDcjZTVHBoYWU1VFJJU3ZROW8yTERFUXc3VHg5VEY1WGo5QmM1dms?oc=5
-- Asian stocks head for worst week since 2020 as AI rally loses steam (Business Standard, 2026-11-20T03:50:11.000Z) https://www.business-standard.com/markets/news/asian-stocks-head-for-worst-week-since-2020-as-ai-rally-loses-steam-126112000154_1.html
-- Stock market outlook today,20 Nov:Sensex, Nifty prediction-DJIA, S&P, NASDAQ, GIFT Nifty, Kospi, Nikkei, Taiwan cues (Mint, 2026-11-20T01:13:18.000Z) https://news.google.com/rss/articles/CBMi8wFBVV95cUxQZmpsS0owUjFNZmdGbmczTkZMRUx1Z2taa0V1ZFRNZmtDUkV3eDJiZmlJeF8xRnBNYXVUb1R5bV9HNUo5cTd3VkRzaG53ZEJ1cF9ROXZRaVBXMGpsck5tN2hsZG9uWnNCRmRHUUROaGNvLW9XTm44eHlDUHBfcGhyX3NpSWZ6N0ZrSGVDX19PZVB6NVpZdGk4bnBIY29iWHFfRWljV0Y5T1pRajhZMmJlUWRtcDdxRERmOUl2dGRDT2pjUEUwaEdnUkh2dThDN0R2R3h4ZUExWnZSalJXelZ6bU9KSTRCMXJKSUFRbktYaDJLU0nSAfgBQVVfeXFMTnlwd0Vhb294dkthV2syQXNDZXJfWHhQVERkanh6OXNDbnJCNTV5VDg3MHdRMXAwenR0WldVRERLY0J1SGdURE1vaDFDY0E2bGlUSFJuT3pEY1B5c1NnblU0SUdSNjNmMzhUeFBfNXhYUXpuVmFLZDZ3cmVtdXpaV1ctWXNCeFJOY0xQSVNQSy01cWk2TExtbFBNSjJheGFqb0ljb2dUZWhVSk9mNVFyZHpNSDIzZUkzTlUtSURULTA1TElkbVFGX3E2Q2JFa2RFSWV0WDRxZ2V1eFhHNFZxOGI1TEt6ZGZTQ0QzbGtldS1yOUlqdXEtWU0?oc=5
-- Wall Street ends sharply lower as Anthropic’s debut fails to revive AI fervour (Straits Times, 2026-11-19T21:38:07.000Z) https://www.straitstimes.com/business/companies-markets/wall-street-ends-sharply-lower-as-anthropics-debut-fails-to-revive-ai-fervour
-- TSX posts longest daily losing streak since 2024 as gold selloff deepens (Reuters, 2026-11-19T21:22:36.000Z) https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMTJMejVXRFdObzZUVURRUzEycExfQnNzYUsyM0VxTnFydEJLbnc2U2I0U2tCUVR0dHJKUGlCQVNJMlYxS2dwWEVnN3VibzlfOTNfeFNLd05fbzh5TmFGVzNVSkVIZGEwSFNUcmdaV1dCRnpraGFjd3ZOalJaMS1KUFR3YmJGZlA2eEhyYkFKZGJBT0RHRVdHUXduTjhyaUxSRXZkY3RYTUZYZw?oc=5
-- Brazil’s central bank steps in to stem real’s slide since Lula’s re-election (Financial Times, 2026-11-19T19:25:18.000Z) https://www.ft.com/content/94379926-211c-4ca6-a53a-f7e4df1a2675?syn-25a6b1a6=1
-- E Fund CSI 300 Free Cash Flow Index ETF, 562170:SHH.SH charts (Financial Times, 2026-11-19T19:21:20.000Z) https://news.google.com/rss/articles/CBMic0FVX3lxTE5fMDduZTdTRGpueXVlZzFsZ2w1YmU5S20wR19IcFFtRURBYUY4TFppa3NycHlsWUtmODRfbTFkYVRmVFBDNlg1MjlXQ2NyTDZDVHlNYm9veVdYbng3X1VsU1pqcFV3azRMN083T1ZKNF9pZUU?oc=5
-- Trump, Xi, Putin End Historic Summit With Denunciation of Nuclear War (WSJ, 2026-11-19T18:02:00.000Z) https://www.wsj.com/world/trump-xi-and-putin-convene-first-ever-summit-as-world-order-shifts-82e58aab?mod=rss_worldnews
-- Elon Musk vows to raise output at Tesla’s Shanghai Gigafactory despite sales plunge (SCMP, 2026-11-19T12:59:47.000Z) https://www.scmp.com/business/china-business/article/3375109/elon-musk-vows-raise-output-teslas-shanghai-gigafactory-despite-sales-plunge
-- Commerzbank welcomes UniCredit commitments after Berlin agreement (Euronews, 2026-11-19T11:03:03.000Z) https://www.euronews.com/2026/11/19/commerzbank-welcomes-unicredit-commitments-after-berlin-agreement
-- South Korea's KOSPI up 1.4%, Hang Seng edges higher as chip stocks recover. Can Anthropic's debut revive the AI trade? (Mint, 2026-11-19T10:49:07.000Z) https://news.google.com/rss/articles/CBMijwJBVV95cUxOZUpzRl95ZFhXT0h6NzgxUVFEZ1U4WU9keXI1enZzc0YzZW9EUFlmWm42ZDg1Q3dteVlXS3VMLVdSLWYzTmJJVEM0YjN2bVFEMUF4UFlRNjFES1hvYklzbjJGZk1ZYkl6a0xXUlNXeEV6cnFFaUZvTjhCQzhWcUEwcDdpWl9wZkxOcWU3MTNhSndxbFVPalZ1UUE3aEhaSnM0VUxtejFVVWdXSkRZYUhfUU9KckRHUllxZmpHWXRiZlFIdWt1U3RGd0hjVy0ycnBhdHBENjRjbUNSWXh2LXNGcWVEMzdZY2JONW4yWTdzTUpiVWRkSE12VmRoWWkxWlh4cl9xUHpLOVo5cGlGR1o40gGUAkFVX3lxTE05QlNaX0lub1VrVXg0LW9ZWWt5bU9nSTJsa2d3RkdWbGk2M0w2cHJhTElNU3F1bTBMejdxTGk1SE8yUkl2eDVPcExkdzBRZmJILWw1cFp2U3Z5eWxQbENKY1JfcTZVaUZTTHFSRWtqUzBRbUtYVjhhV1B6cHVCVTNkWmZPX2YwLXlobmF0UHpGNlUtVWw4VzJrOW9tY1VxdU1vRjQzcmdDRVJBVURkWU9KakhnX1BENk8xUUZKWHpKZUVlZzdRTXVweThWTkF1WnMxWG42aENEb1JtYTVRZnkwa25udDBnVTBFRjBzdFVtTUNSNUotYnQ3M3FQZHhET0Jjdk9RZ2dUa2N0T0dsMU1wUkNiNQ?oc=5
-- RA Capital opens Shanghai office to tap Chinese biotech even as US investment rules tighten (SCMP, 2026-11-19T10:00:14.000Z) https://www.scmp.com/business/china-business/article/3375046/ra-capital-opens-shanghai-office-tap-chinese-biotech-even-us-investment-rules-tighten
 
 ## Data warnings
 
-- 2 news feed(s) could not be read this time: Google News: site:economist.com central bank inflation oil dollar (no items); Google News: Bovespa Brazil Mexico stocks (no items).
+- 7 news feed(s) could not be read this time: Euronews business (HTTP 406); Google News: site:wsj.com stock markets indices (no items); Google News: site:barrons.com central bank inflation oil dollar (no items); Google News: site:economist.com central bank inflation oil dollar (no items); Google News: site:morningstar.com stock markets indices (HTTP 429); Google News: tariffs trade war markets (HTTP 429).
+- The written analysis is from 2026-11-23 and is being refreshed; the numbers are current.
 
 ## How to use this file
 
