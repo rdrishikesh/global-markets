@@ -118,8 +118,8 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** US stocks rebounded: S&P 500 closed at 7,237.17 (4.73%) and Nasdaq Composite at 24,089.56 (6.51%) after Nvidia reinstated Jensen Huang as CEO; VIX fell 25.83% to 26.62.
-- Company effect, Nvidia (up on sp500, nasdaq): FT reported Nvidia gained 31.5% after Huang was reinstated while the Nasdaq rose 7% and S&P 500 4.7%; the FT said it added nearly $1tn in market value.
+**Headline:** S&P 500 rose 4.73% on 2026-11-23 as Nvidia surged 31.5% after Huang's reinstatement (Mint); Asia followed (TAIEX 8.99%, KOSPI 6.32%) while Europe slipped and Nasdaq futures fell (WSJ).
+- Company effect, Nvidia (up on sp500, nasdaq): Mint reported Nvidia's board reinstated Huang as CEO, triggering a 31.5% share-price surge that lifted other AI-related stocks and the Nasdaq; shares remain below their record high.
 
 ## Headlines collected today
 
@@ -187,7 +187,7 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 3 news feed(s) could not be read this time: Guardian business (HTTP 403); Google News: site:barrons.com central bank inflation oil dollar (no items); Google News: site:economist.com central bank inflation oil dollar (no items).
-- The written analysis is from 2026-11-24 and is being refreshed; the numbers are current.
+- Dropped "Asia-Pacific: tech-led bounce, China and Hong Kong lag": number(s) 200 not found in its cited evidence.
 
 ## How to use this file
 
