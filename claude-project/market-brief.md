@@ -118,10 +118,8 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** Nasdaq Composite closed -5.28% (1d) and the S&P 500 -3.70% on 2026-11-20; FT and CNBC report US futures and AI shares rebounding premarket on Monday.
-- Company effect, Nvidia (mixed on sp500, nasdaq): Investing.com says Nvidia's China turnaround is threatened by Huang's exit; CNBC says Nvidia shares rose premarket after the selloff.
-- Company effect, Tata Steel (down on nifty50, sensex): Mint says Tata Steel and Hindalco weighed on the Nifty 50 and Sensex as metals led declines.
-- Company effect, TCS (up on nifty50): Mint says TCS led IT gains, rising 3.43%, as only 12 Nifty constituents advanced.
+**Headline:** US stocks rebounded: S&P 500 closed at 7,237.17 (4.73%) and Nasdaq Composite at 24,089.56 (6.51%) after Nvidia reinstated Jensen Huang as CEO; VIX fell 25.83% to 26.62.
+- Company effect, Nvidia (up on sp500, nasdaq): FT reported Nvidia gained 31.5% after Huang was reinstated while the Nasdaq rose 7% and S&P 500 4.7%; the FT said it added nearly $1tn in market value.
 
 ## Headlines collected today
 
@@ -189,7 +187,6 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 4 news feed(s) could not be read this time: Guardian business (HTTP 403); Google News: site:barrons.com central bank inflation oil dollar (no items); Google News: site:economist.com central bank inflation oil dollar (no items); Google News: Hang Seng China stocks PBOC (no items).
-- The written analysis is from 2026-11-23 and is being refreshed; the numbers are current.
 
 ## How to use this file
 
