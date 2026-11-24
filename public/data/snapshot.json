@@ -1,15 +1,15 @@
 {
  "schemaVersion": 2,
- "generatedAt": "2026-11-24T11:18:59.177Z",
+ "generatedAt": "2026-11-24T23:55:55.744Z",
  "models": {
-  "synthesis": "Claude (scheduled task)"
+  "synthesis": "claude-sonnet-5-5"
  },
  "inputHash": "02d7458db784ed46",
  "mood": {
   "label": "Mixed",
   "basis": [
    "13 of 25 tracked indices rose in their latest session.",
-   "VIX closed at 28.59 (+7.40% on the day).",
+   "VIX closed at 26.36 (-0.98% on the day).",
    "Rule: Risk-on = 65%+ of indices up and VIX not rising; Risk-off = 35% or fewer up, or VIX up 8%+; otherwise Mixed."
   ]
  },
@@ -23,81 +23,81 @@
    "symbol": "^GSPC",
    "about": "500 large US companies",
    "stats": {
-    "last": 7237.169921875,
-    "prevClose": 6910.39013671875,
-    "asOf": "2026-11-23",
-    "change1d": 4.73,
-    "change5d": -2.42,
-    "change1m": -5.07,
-    "change3m": -5.73,
-    "changeYtd": 5.72,
-    "change1y": 10.68,
-    "sma50": 7617.6,
-    "sma200": 7350.1,
-    "pctVsSma50": -4.99,
-    "pctVsSma200": -1.54,
-    "rsi14": 41.34,
-    "vol20": 31.9,
+    "last": 7201.08984375,
+    "prevClose": 7237.169921875,
+    "asOf": "2026-11-24",
+    "change1d": -0.5,
+    "change5d": -1.9,
+    "change1m": -6.2,
+    "change3m": -6.18,
+    "changeYtd": 5.19,
+    "change1y": 9.06,
+    "sma50": 7609.91,
+    "sma200": 7351.29,
+    "pctVsSma50": -5.37,
+    "pctVsSma200": -2.04,
+    "rsi14": 40.28,
+    "vol20": 31.8,
     "volPercentile": 97,
-    "drawdown": -7.44,
+    "drawdown": -7.9,
     "high52": 7818.93,
     "low52": 6343.72,
-    "zScore1d": 4.32,
+    "zScore1d": -0.39,
     "trend": "sideways",
     "observations": 1254
    },
    "analog": {
-    "condition": "days when the one-day rise was bigger than 1 standard deviation of the previous 60 days",
+    "condition": "ordinary days (one-day move within 1 standard deviation of the previous 60 days)",
     "next1d": {
-     "n": 192,
-     "pctUp": 51,
-     "median": 0.01,
-     "p10": -0.87,
-     "p90": 1.14
+     "n": 844,
+     "pctUp": 54,
+     "median": 0.09,
+     "p10": -1.21,
+     "p90": 1.21
     },
     "next5d": {
-     "n": 192,
-     "pctUp": 54,
-     "median": 0.24,
-     "p10": -3.27,
-     "p90": 2.82
+     "n": 843,
+     "pctUp": 59,
+     "median": 0.37,
+     "p10": -2.35,
+     "p90": 2.68
     }
    },
    "episodes": [
     {
-     "date": "2024-08-08",
-     "move1d": 2.3,
-     "prior5d": -2.34,
-     "next5d": 4.21,
-     "next21d": 2.85
+     "date": "2022-12-01",
+     "move1d": -0.09,
+     "prior5d": 1.22,
+     "next5d": -2.77,
+     "next21d": -6.19
     },
     {
-     "date": "2025-01-15",
-     "move1d": 1.83,
-     "prior5d": 0.69,
-     "next5d": 2.84,
-     "next21d": 2.77
+     "date": "2024-08-09",
+     "move1d": 0.47,
+     "prior5d": -0.04,
+     "next5d": 3.93,
+     "next21d": 2.83
     },
     {
-     "date": "2025-03-14",
-     "move1d": 2.13,
-     "prior5d": -2.27,
-     "next5d": 0.51,
-     "next21d": -4.13
+     "date": "2025-03-18",
+     "move1d": -1.07,
+     "prior5d": 0.76,
+     "next5d": 2.89,
+     "next21d": -6.04
     },
     {
-     "date": "2025-04-09",
-     "move1d": 9.52,
-     "prior5d": -3.77,
-     "next5d": -3.32,
-     "next21d": 3.72
+     "date": "2025-04-01",
+     "move1d": 0.38,
+     "prior5d": -2.49,
+     "next5d": -11.54,
+     "next21d": -0.51
     },
     {
-     "date": "2026-03-31",
-     "move1d": 2.91,
-     "prior5d": -0.42,
-     "next5d": 3.9,
-     "next21d": 10.42
+     "date": "2025-05-09",
+     "move1d": -0.07,
+     "prior5d": -0.47,
+     "next5d": 5.27,
+     "next21d": 6.69
     }
    ],
    "relations": [
@@ -110,7 +110,7 @@
     },
     {
      "factorId": "copper",
-     "corr": 0.29,
+     "corr": 0.28,
      "beta": 0.15,
      "lag": 1,
      "n": 250
@@ -124,7 +124,6 @@
     }
    ],
    "series": [
-    7686.14,
     7631.47,
     7666.6,
     7747.71,
@@ -183,7 +182,8 @@
     7323.63,
     7175.83,
     6910.39,
-    7237.17
+    7237.17,
+    7201.09
    ],
    "why": {
     "technical": "Mint reported Nvidia's 31.5% surge on Huang's reinstatement lifted AI stocks; Bloomberg said Nomura found mechanical buying helped the biggest rally since April 2025.",
@@ -203,74 +203,60 @@
    "symbol": "^DJI",
    "about": "30 large US blue-chip companies",
    "stats": {
-    "last": 49595.30859375,
-    "prevClose": 48147.328125,
-    "asOf": "2026-11-23",
-    "change1d": 3.01,
-    "change5d": -3.9,
-    "change1m": -5.02,
-    "change3m": -7.43,
-    "changeYtd": 3.19,
-    "change1y": 8.4,
-    "sma50": 51649.19,
-    "sma200": 50773.81,
-    "pctVsSma50": -3.98,
-    "pctVsSma200": -2.32,
-    "rsi14": 39.17,
-    "vol20": 25.8,
+    "last": 50018.69921875,
+    "prevClose": 49595.30859375,
+    "asOf": "2026-11-24",
+    "change1d": 0.85,
+    "change5d": -1.46,
+    "change1m": -4.47,
+    "change3m": -6.44,
+    "changeYtd": 4.07,
+    "change1y": 8.16,
+    "sma50": 51607.7,
+    "sma200": 50773.22,
+    "pctVsSma50": -3.08,
+    "pctVsSma200": -1.49,
+    "rsi14": 42.28,
+    "vol20": 26.1,
     "volPercentile": 97,
-    "drawdown": -8.75,
+    "drawdown": -7.97,
     "high52": 54349.12,
     "low52": 45166.64,
-    "zScore1d": 3.01,
+    "zScore1d": 0.79,
     "trend": "sideways",
     "observations": 1254
    },
    "analog": {
-    "condition": "days when the one-day rise was bigger than 1 standard deviation of the previous 60 days",
+    "condition": "ordinary days (one-day move within 1 standard deviation of the previous 60 days)",
     "next1d": {
-     "n": 177,
-     "pctUp": 56,
-     "median": 0.1,
-     "p10": -0.85,
-     "p90": 0.99
+     "n": 851,
+     "pctUp": 52,
+     "median": 0.03,
+     "p10": -1.02,
+     "p90": 1.07
     },
     "next5d": {
-     "n": 177,
-     "pctUp": 55,
-     "median": 0.26,
-     "p10": -2.38,
-     "p90": 2.43
+     "n": 851,
+     "pctUp": 57,
+     "median": 0.29,
+     "p10": -2.08,
+     "p90": 2.46
     }
    },
    "episodes": [
     {
-     "date": "2022-12-21",
-     "move1d": 1.6,
-     "prior5d": -1.74,
-     "next5d": -0.47,
-     "next21d": 1.07
+     "date": "2022-12-08",
+     "move1d": 0.55,
+     "prior5d": -1.78,
+     "next5d": -1.71,
+     "next21d": -0.23
     },
     {
-     "date": "2023-03-14",
-     "move1d": 1.06,
-     "prior5d": -2.13,
-     "next5d": 1.26,
-     "next21d": 5.83
-    },
-    {
-     "date": "2024-08-08",
-     "move1d": 1.76,
-     "prior5d": -2.23,
-     "next5d": 2.83,
-     "next21d": 3.51
-    },
-    {
-     "date": "2025-03-14",
-     "move1d": 1.65,
-     "prior5d": -3.07,
-     "next5d": 1.2,
-     "next21d": -2.32
+     "date": "2025-03-17",
+     "move1d": 0.85,
+     "prior5d": -0.17,
+     "next5d": 1.77,
+     "next21d": -3.52
     },
     {
      "date": "2025-03-31",
@@ -278,6 +264,20 @@
      "prior5d": -1.37,
      "next5d": -9.61,
      "next21d": -3.17
+    },
+    {
+     "date": "2025-05-09",
+     "move1d": -0.29,
+     "prior5d": -0.16,
+     "next5d": 3.41,
+     "next21d": 3.92
+    },
+    {
+     "date": "2026-04-01",
+     "move1d": 0.48,
+     "prior5d": 0.29,
+     "next5d": 3.48,
+     "next21d": 6.3
     }
    ],
    "relations": [
@@ -304,7 +304,6 @@
     }
    ],
    "series": [
-    53185.9,
     52766.88,
     53061.95,
     53686.11,
@@ -363,7 +362,8 @@
     50198.17,
     49097.06,
     48147.33,
-    49595.31
+    49595.31,
+    50018.7
    ],
    "why": null
   },
@@ -376,81 +376,81 @@
    "symbol": "^IXIC",
    "about": "US technology-heavy stock market",
    "stats": {
-    "last": 24089.560546875,
-    "prevClose": 22617.73046875,
-    "asOf": "2026-11-23",
-    "change1d": 6.51,
-    "change5d": -1.71,
-    "change1m": -7.19,
-    "change3m": -7.88,
-    "changeYtd": 3.65,
-    "change1y": 9.11,
-    "sma50": 26071.5,
-    "sma200": 25162.76,
-    "pctVsSma50": -7.6,
-    "pctVsSma200": -4.27,
-    "rsi14": 41.75,
-    "vol20": 42.8,
+    "last": 23733.53515625,
+    "prevClose": 24089.560546875,
+    "asOf": "2026-11-24",
+    "change1d": -1.48,
+    "change5d": -2.45,
+    "change1m": -9.31,
+    "change3m": -9.17,
+    "changeYtd": 2.11,
+    "change1y": 6.56,
+    "sma50": 26026.54,
+    "sma200": 25165.23,
+    "pctVsSma50": -8.81,
+    "pctVsSma200": -5.69,
+    "rsi14": 39.51,
+    "vol20": 42.6,
     "volPercentile": 97,
-    "drawdown": -12.72,
+    "drawdown": -14.01,
     "high52": 27599.79,
     "low52": 20794.64,
-    "zScore1d": 4.31,
+    "zScore1d": -0.85,
     "trend": "sideways",
     "observations": 1254
    },
    "analog": {
-    "condition": "days when the one-day rise was bigger than 1 standard deviation of the previous 60 days",
+    "condition": "ordinary days (one-day move within 1 standard deviation of the previous 60 days)",
     "next1d": {
-     "n": 196,
-     "pctUp": 53,
-     "median": 0.08,
-     "p10": -1.61,
-     "p90": 1.58
+     "n": 824,
+     "pctUp": 55,
+     "median": 0.13,
+     "p10": -1.66,
+     "p90": 1.73
     },
     "next5d": {
-     "n": 196,
-     "pctUp": 53,
-     "median": 0.21,
-     "p10": -4.12,
-     "p90": 3.18
+     "n": 823,
+     "pctUp": 59,
+     "median": 0.61,
+     "p10": -3.27,
+     "p90": 3.73
     }
    },
    "episodes": [
     {
-     "date": "2022-11-30",
-     "move1d": 4.41,
-     "prior5d": 2.63,
-     "next5d": -4.44,
-     "next21d": -8.73
+     "date": "2024-08-09",
+     "move1d": 0.51,
+     "prior5d": -0.18,
+     "next5d": 5.29,
+     "next21d": 1.68
     },
     {
-     "date": "2024-08-08",
-     "move1d": 2.87,
-     "prior5d": -3.11,
-     "next5d": 5.61,
-     "next21d": 1.35
+     "date": "2024-08-26",
+     "move1d": -0.85,
+     "prior5d": -0.84,
+     "next5d": -3.33,
+     "next21d": 2.01
     },
     {
-     "date": "2025-03-14",
-     "move1d": 2.61,
-     "prior5d": -2.43,
-     "next5d": 0.17,
-     "next21d": -5.2
+     "date": "2025-03-13",
+     "move1d": -1.96,
+     "prior5d": -4.24,
+     "next5d": 2.25,
+     "next21d": -3.34
     },
     {
-     "date": "2025-04-09",
-     "move1d": 12.16,
-     "prior5d": -2.7,
-     "next5d": -4.78,
-     "next21d": 4.69
+     "date": "2025-03-28",
+     "move1d": -2.7,
+     "prior5d": -2.59,
+     "next5d": -10.02,
+     "next21d": 0.8
     },
     {
-     "date": "2026-03-31",
-     "move1d": 3.83,
-     "prior5d": -0.79,
-     "next5d": 4.84,
-     "next21d": 15.29
+     "date": "2025-05-06",
+     "move1d": -0.87,
+     "prior5d": 1.31,
+     "next5d": 7.46,
+     "next21d": 9.09
     }
    ],
    "relations": [
@@ -463,7 +463,7 @@
     },
     {
      "factorId": "copper",
-     "corr": 0.3,
+     "corr": 0.29,
      "beta": 0.22,
      "lag": 1,
      "n": 250
@@ -477,7 +477,6 @@
     }
    ],
    "series": [
-    26370.89,
     26099.77,
     26217.83,
     26584.06,
@@ -536,7 +535,8 @@
     24429.88,
     23879.2,
     22617.73,
-    24089.56
+    24089.56,
+    23733.54
    ],
    "why": {
     "technical": "Mint reported Huang's reinstatement triggered a 31.5% Nvidia surge that lifted other AI-related stocks and the Nasdaq.",
@@ -555,81 +555,81 @@
    "symbol": "^RUT",
    "about": "2,000 smaller US companies",
    "stats": {
-    "last": 2669.659912109375,
-    "prevClose": 2581.7900390625,
-    "asOf": "2026-11-23",
-    "change1d": 3.4,
-    "change5d": -2.67,
-    "change1m": -3.83,
-    "change3m": -11.31,
-    "changeYtd": 7.56,
-    "change1y": 15.81,
-    "sma50": 2794.87,
-    "sma200": 2813.31,
-    "pctVsSma50": -4.48,
-    "pctVsSma200": -5.11,
-    "rsi14": 41.2,
-    "vol20": 30.7,
+    "last": 2684.94189453125,
+    "prevClose": 2669.659912109375,
+    "asOf": "2026-11-24",
+    "change1d": 0.57,
+    "change5d": -0.63,
+    "change1m": -3.64,
+    "change3m": -10.68,
+    "changeYtd": 8.18,
+    "change1y": 13.31,
+    "sma50": 2791.17,
+    "sma200": 2813.28,
+    "pctVsSma50": -3.81,
+    "pctVsSma200": -4.56,
+    "rsi14": 42.89,
+    "vol20": 30.4,
     "volPercentile": 91,
-    "drawdown": -13,
+    "drawdown": -12.5,
     "high52": 3068.42,
-    "low52": 2369.59,
-    "zScore1d": 2.81,
+    "low52": 2414.01,
+    "zScore1d": 0.44,
     "trend": "down",
     "observations": 1254
    },
    "analog": {
-    "condition": "days when the one-day rise was bigger than 1 standard deviation of the previous 60 days",
+    "condition": "ordinary days (one-day move within 1 standard deviation of the previous 60 days)",
     "next1d": {
-     "n": 175,
-     "pctUp": 53,
-     "median": 0.27,
-     "p10": -1.76,
-     "p90": 1.73
+     "n": 844,
+     "pctUp": 51,
+     "median": 0.02,
+     "p10": -1.61,
+     "p90": 1.65
     },
     "next5d": {
-     "n": 175,
-     "pctUp": 46,
-     "median": -0.33,
-     "p10": -3.76,
-     "p90": 3.04
+     "n": 843,
+     "pctUp": 52,
+     "median": 0.18,
+     "p10": -3.15,
+     "p90": 3.98
     }
    },
    "episodes": [
     {
-     "date": "2023-03-21",
-     "move1d": 1.88,
-     "prior5d": 0.05,
-     "next5d": -1.41,
-     "next21d": 0.67
+     "date": "2022-12-02",
+     "move1d": 0.59,
+     "prior5d": 1.27,
+     "next5d": -5.08,
+     "next21d": -6.36
     },
     {
-     "date": "2024-08-08",
-     "move1d": 2.42,
-     "prior5d": -4.65,
-     "next5d": 2.45,
-     "next21d": 0.64
+     "date": "2023-04-06",
+     "move1d": 0.13,
+     "prior5d": -0.79,
+     "next5d": 1.52,
+     "next21d": 0
     },
     {
-     "date": "2025-03-14",
-     "move1d": 2.53,
-     "prior5d": -1.51,
-     "next5d": 0.63,
-     "next21d": -7.98
+     "date": "2023-11-22",
+     "move1d": 0.69,
+     "prior5d": -0.32,
+     "next5d": 0.75,
+     "next21d": 13.28
     },
     {
-     "date": "2025-04-02",
-     "move1d": 1.65,
-     "prior5d": -1.37,
-     "next5d": -6.46,
-     "next21d": -1.2
+     "date": "2024-08-09",
+     "move1d": -0.17,
+     "prior5d": -1.35,
+     "next5d": 2.93,
+     "next21d": 0.79
     },
     {
-     "date": "2026-03-31",
-     "move1d": 3.41,
-     "prior5d": -0.36,
-     "next5d": 4.97,
-     "next21d": 12.16
+     "date": "2026-04-01",
+     "move1d": 0.64,
+     "prior5d": -0.95,
+     "next5d": 4.93,
+     "next21d": 11.96
     }
    ],
    "relations": [
@@ -649,14 +649,13 @@
     },
     {
      "factorId": "brent",
-     "corr": -0.28,
+     "corr": -0.29,
      "beta": -0.1,
      "lag": 1,
      "n": 250
     }
    ],
    "series": [
-    2956.45,
     2920.13,
     2953.17,
     2968.27,
@@ -715,7 +714,8 @@
     2714.31,
     2655.11,
     2581.79,
-    2669.66
+    2669.66,
+    2684.94
    ],
    "why": null
   },
@@ -728,67 +728,67 @@
    "symbol": "^GSPTSE",
    "about": "Canadian stocks, heavy in banks and energy",
    "stats": {
-    "last": 34082.1015625,
-    "prevClose": 33189.8984375,
-    "asOf": "2026-11-23",
-    "change1d": 2.69,
-    "change5d": -4.59,
-    "change1m": -4.77,
-    "change3m": -7.17,
-    "changeYtd": 7.47,
-    "change1y": 13.96,
-    "sma50": 35668.73,
-    "sma200": 34795.31,
-    "pctVsSma50": -4.45,
-    "pctVsSma200": -2.05,
-    "rsi14": 37.99,
-    "vol20": 23.1,
+    "last": 33962.30078125,
+    "prevClose": 34082.1015625,
+    "asOf": "2026-11-24",
+    "change1d": -0.35,
+    "change5d": -3.83,
+    "change1m": -5.51,
+    "change3m": -8.1,
+    "changeYtd": 7.09,
+    "change1y": 12.6,
+    "sma50": 35633.93,
+    "sma200": 34802.77,
+    "pctVsSma50": -4.69,
+    "pctVsSma200": -2.41,
+    "rsi14": 37.19,
+    "vol20": 22.8,
     "volPercentile": 97,
-    "drawdown": -7.78,
+    "drawdown": -8.1,
     "high52": 36957.6,
-    "low52": 30160.7,
-    "zScore1d": 2.65,
+    "low52": 30604.4,
+    "zScore1d": -0.33,
     "trend": "sideways",
     "observations": 1255
    },
    "analog": {
-    "condition": "days when the one-day rise was bigger than 1 standard deviation of the previous 60 days",
+    "condition": "ordinary days (one-day move within 1 standard deviation of the previous 60 days)",
     "next1d": {
-     "n": 181,
-     "pctUp": 55,
-     "median": 0.14,
-     "p10": -1.15,
-     "p90": 0.97
+     "n": 835,
+     "pctUp": 57,
+     "median": 0.1,
+     "p10": -0.9,
+     "p90": 0.96
     },
     "next5d": {
-     "n": 181,
-     "pctUp": 56,
-     "median": 0.26,
-     "p10": -2.22,
-     "p90": 2.09
+     "n": 835,
+     "pctUp": 62,
+     "median": 0.4,
+     "p10": -1.87,
+     "p90": 2.36
     }
    },
    "episodes": [
     {
-     "date": "2023-10-05",
-     "move1d": 0.54,
-     "prior5d": -2.31,
-     "next5d": 1.7,
-     "next21d": 3.17
+     "date": "2022-12-07",
+     "move1d": -0.09,
+     "prior5d": -2.35,
+     "next5d": -0.41,
+     "next21d": -0.37
     },
     {
-     "date": "2024-08-08",
-     "move1d": 1.57,
-     "prior5d": -3.83,
-     "next5d": 3.63,
-     "next21d": 3.61
+     "date": "2023-10-24",
+     "move1d": -0.32,
+     "prior5d": -3.59,
+     "next5d": -0.6,
+     "next21d": 5.94
     },
     {
-     "date": "2025-03-14",
-     "move1d": 1.45,
-     "prior5d": -0.83,
-     "next5d": 1.69,
-     "next21d": -2.8
+     "date": "2024-08-07",
+     "move1d": -0.45,
+     "prior5d": -4.13,
+     "next5d": 4.02,
+     "next21d": 4.11
     },
     {
      "date": "2026-03-09",
@@ -798,11 +798,11 @@
      "next21d": 1.3
     },
     {
-     "date": "2026-03-23",
-     "move1d": 1.81,
-     "prior5d": -3.02,
-     "next5d": 0.16,
-     "next21d": 6.5
+     "date": "2026-03-24",
+     "move1d": 0.18,
+     "prior5d": -3,
+     "next5d": 2.59,
+     "next21d": 6.17
     }
    ],
    "relations": [
@@ -829,7 +829,6 @@
     }
    ],
    "series": [
-    36553.9,
     36270.5,
     35825.7,
     36091.6,
@@ -888,7 +887,8 @@
     34578.1,
     34028.7,
     33189.9,
-    34082.1
+    34082.1,
+    33962.3
    ],
    "why": null
   },
@@ -901,26 +901,26 @@
    "symbol": "^BVSP",
    "about": "Brazilian stocks, heavy in commodities and banks",
    "stats": {
-    "last": 164796,
-    "prevClose": 166376,
-    "asOf": "2026-11-23",
-    "change1d": -0.95,
-    "change5d": -4.44,
-    "change1m": -20.19,
-    "change3m": -1.86,
-    "changeYtd": 2.28,
-    "change1y": 4.86,
-    "sma50": 185480.14,
-    "sma200": 181059.26,
-    "pctVsSma50": -11.15,
-    "pctVsSma200": -8.98,
-    "rsi14": 30.69,
-    "vol20": 51.6,
+    "last": 164089.8125,
+    "prevClose": 164796,
+    "asOf": "2026-11-24",
+    "change1d": -0.43,
+    "change5d": -3.07,
+    "change1m": -19.61,
+    "change3m": -4.06,
+    "changeYtd": 1.84,
+    "change1y": 4.03,
+    "sma50": 184996.56,
+    "sma200": 180951.34,
+    "pctVsSma50": -11.3,
+    "pctVsSma200": -9.32,
+    "rsi14": 29.98,
+    "vol20": 51.3,
     "volPercentile": 99,
-    "drawdown": -21.18,
+    "drawdown": -21.51,
     "high52": 209067,
     "low52": 154770,
-    "zScore1d": -0.41,
+    "zScore1d": -0.18,
     "trend": "sideways",
     "observations": 1248
    },
@@ -950,18 +950,18 @@
      "next21d": 1.85
     },
     {
-     "date": "2023-01-03",
-     "move1d": -2.08,
-     "prior5d": -4.2,
-     "next5d": 6.48,
-     "next21d": 7.81
+     "date": "2023-01-04",
+     "move1d": 1.12,
+     "prior5d": -2.78,
+     "next5d": 6.1,
+     "next21d": 4.37
     },
     {
-     "date": "2023-04-26",
-     "move1d": -0.88,
-     "prior5d": -3.63,
-     "next5d": -0.13,
-     "next21d": 8.4
+     "date": "2023-04-20",
+     "move1d": 0.44,
+     "prior5d": -1.96,
+     "next5d": 0.06,
+     "next21d": 5.33
     },
     {
      "date": "2024-12-19",
@@ -971,11 +971,11 @@
      "next21d": 1.07
     },
     {
-     "date": "2026-08-12",
-     "move1d": -0.23,
-     "prior5d": -5.76,
-     "next5d": 0.2,
-     "next21d": 11.77
+     "date": "2026-08-17",
+     "move1d": -0.09,
+     "prior5d": -3.13,
+     "next5d": 3.07,
+     "next21d": 11.25
     }
    ],
    "relations": [
@@ -988,7 +988,6 @@
     }
    ],
    "series": [
-    174586,
     175135,
     175665,
     177419,
@@ -1047,7 +1046,8 @@
     169817,
     167538,
     166376,
-    164796
+    164796,
+    164089.81
    ],
    "why": {
     "technical": "Bloomberg reported Brazil's real hit a 19-month low as a post-election selloff deepened.",
@@ -1066,81 +1066,81 @@
    "symbol": "^MXX",
    "about": "Mexican large companies",
    "stats": {
-    "last": 69355.6171875,
-    "prevClose": 68629.4609375,
-    "asOf": "2026-11-23",
-    "change1d": 1.06,
-    "change5d": -2.6,
-    "change1m": -1.27,
-    "change3m": 5.52,
-    "changeYtd": 7.85,
-    "change1y": 11.72,
-    "sma50": 67499.03,
-    "sma200": 67648.25,
-    "pctVsSma50": 2.75,
-    "pctVsSma200": 2.52,
-    "rsi14": 49.35,
+    "last": 69301.40625,
+    "prevClose": 69355.6171875,
+    "asOf": "2026-11-24",
+    "change1d": -0.08,
+    "change5d": -1.55,
+    "change1m": -0.84,
+    "change3m": 5.37,
+    "changeYtd": 7.76,
+    "change1y": 12.37,
+    "sma50": 67602.92,
+    "sma200": 67640.71,
+    "pctVsSma50": 2.51,
+    "pctVsSma200": 2.46,
+    "rsi14": 48.91,
     "vol20": 11.8,
     "volPercentile": 14,
-    "drawdown": -3.68,
+    "drawdown": -3.76,
     "high52": 72006.05,
-    "low52": 61672.19,
-    "zScore1d": 1.31,
+    "low52": 61877.27,
+    "zScore1d": -0.1,
     "trend": "sideways",
     "observations": 1258
    },
    "analog": {
-    "condition": "days when the one-day rise was bigger than 1 standard deviation of the previous 60 days",
+    "condition": "ordinary days (one-day move within 1 standard deviation of the previous 60 days)",
     "next1d": {
-     "n": 185,
-     "pctUp": 60,
-     "median": 0.16,
-     "p10": -1.01,
-     "p90": 1.44
+     "n": 844,
+     "pctUp": 49,
+     "median": -0.02,
+     "p10": -1.16,
+     "p90": 1.13
     },
     "next5d": {
-     "n": 185,
-     "pctUp": 60,
-     "median": 0.46,
-     "p10": -1.94,
-     "p90": 2.99
+     "n": 842,
+     "pctUp": 49,
+     "median": -0.04,
+     "p10": -2.73,
+     "p90": 2.78
     }
    },
    "episodes": [
     {
-     "date": "2023-02-13",
-     "move1d": 1.08,
-     "prior5d": -1.85,
-     "next5d": 1.62,
-     "next21d": -0.68
+     "date": "2023-06-01",
+     "move1d": -0.02,
+     "prior5d": -1.9,
+     "next5d": 3.06,
+     "next21d": 1.52
     },
     {
-     "date": "2023-05-25",
-     "move1d": 0.66,
-     "prior5d": -2.75,
-     "next5d": -1.9,
-     "next21d": -0.75
+     "date": "2023-07-20",
+     "move1d": -0.33,
+     "prior5d": -1.26,
+     "next5d": 2.23,
+     "next21d": -0.69
     },
     {
-     "date": "2023-08-04",
-     "move1d": 1.02,
-     "prior5d": -1.74,
-     "next5d": -1.39,
-     "next21d": -1.78
+     "date": "2023-08-14",
+     "move1d": 0.09,
+     "prior5d": -1.37,
+     "next5d": -0.34,
+     "next21d": -2.69
     },
     {
-     "date": "2024-04-18",
-     "move1d": 0.58,
-     "prior5d": -1.92,
-     "next5d": 2.39,
-     "next21d": 2.97
+     "date": "2024-02-27",
+     "move1d": 0.08,
+     "prior5d": -1.72,
+     "next5d": -1.36,
+     "next21d": 2.51
     },
     {
-     "date": "2025-08-05",
-     "move1d": 0.74,
-     "prior5d": -1.3,
-     "next5d": 2.81,
-     "next21d": 4.52
+     "date": "2025-07-10",
+     "move1d": 0.09,
+     "prior5d": -1.99,
+     "next5d": -0.04,
+     "next21d": 2.34
     }
    ],
    "relations": [
@@ -1153,7 +1153,7 @@
     },
     {
      "factorId": "brent",
-     "corr": -0.31,
+     "corr": -0.3,
      "beta": -0.09,
      "lag": 1,
      "n": 250
@@ -1167,7 +1167,6 @@
     }
    ],
    "series": [
-    65829.98,
     65484.32,
     65430.32,
     64514.25,
@@ -1226,7 +1225,8 @@
     69154.17,
     68713.6,
     68629.46,
-    69355.62
+    69355.62,
+    69301.41
    ],
    "why": null
   },
@@ -1239,26 +1239,26 @@
    "symbol": "^FTSE",
    "about": "100 large UK companies, global earners",
    "stats": {
-    "last": 10465.5302734375,
+    "last": 10467.0703125,
     "prevClose": 10480.7998046875,
     "asOf": "2026-11-24",
-    "change1d": -0.15,
-    "change5d": -2.1,
-    "change1m": -2.8,
-    "change3m": -3.79,
-    "changeYtd": 5.38,
-    "change1y": 8.91,
-    "sma50": 10674.21,
-    "sma200": 10560.52,
-    "pctVsSma50": -1.95,
-    "pctVsSma200": -0.9,
-    "rsi14": 40.27,
+    "change1d": -0.13,
+    "change5d": -2.08,
+    "change1m": -2.79,
+    "change3m": -3.78,
+    "changeYtd": 5.39,
+    "change1y": 8.92,
+    "sma50": 10674.24,
+    "sma200": 10560.53,
+    "pctVsSma50": -1.94,
+    "pctVsSma200": -0.89,
+    "rsi14": 40.33,
     "vol20": 14.6,
     "volPercentile": 81,
-    "drawdown": -4.08,
+    "drawdown": -4.07,
     "high52": 10910.6,
     "low52": 9642,
-    "zScore1d": -0.19,
+    "zScore1d": -0.17,
     "trend": "sideways",
     "observations": 1262
    },
@@ -1336,7 +1336,7 @@
      "corr": -0.25,
      "beta": -0.2,
      "lag": 0,
-     "n": 244
+     "n": 245
     }
    ],
    "series": [
@@ -1399,7 +1399,7 @@
     10452.7,
     10346.3,
     10480.8,
-    10465.53
+    10467.07
    ],
    "why": null
   },
@@ -1412,87 +1412,87 @@
    "symbol": "^GDAXI",
    "about": "40 large German companies, export and industry heavy",
    "stats": {
-    "last": 25153.66015625,
-    "prevClose": 25337.26953125,
-    "asOf": "2026-11-24",
-    "change1d": -0.72,
-    "change5d": -3.42,
-    "change1m": -1.01,
-    "change3m": -4.6,
-    "changeYtd": 2.71,
-    "change1y": 7.2,
-    "sma50": 25604.74,
-    "sma200": 25000.88,
-    "pctVsSma50": -1.76,
-    "pctVsSma200": 0.61,
-    "rsi14": 41.47,
-    "vol20": 21.7,
+    "last": 25337.26953125,
+    "prevClose": 24802.779296875,
+    "asOf": "2026-11-23",
+    "change1d": 2.15,
+    "change5d": -4.74,
+    "change1m": 0.62,
+    "change3m": -3.61,
+    "changeYtd": 3.46,
+    "change1y": 9.03,
+    "sma50": 25609.71,
+    "sma200": 24999.37,
+    "pctVsSma50": -1.06,
+    "pctVsSma200": 1.35,
+    "rsi14": 43.49,
+    "vol20": 21.8,
     "volPercentile": 82,
-    "drawdown": -6.04,
+    "drawdown": -5.36,
     "high52": 26771.88,
     "low52": 22300.75,
-    "zScore1d": -0.7,
+    "zScore1d": 2.15,
     "trend": "sideways",
-    "observations": 1275
+    "observations": 1274
    },
    "analog": {
-    "condition": "ordinary days (one-day move within 1 standard deviation of the previous 60 days)",
+    "condition": "days when the one-day rise was bigger than 1 standard deviation of the previous 60 days",
     "next1d": {
-     "n": 855,
-     "pctUp": 53,
+     "n": 195,
+     "pctUp": 52,
      "median": 0.06,
-     "p10": -1.12,
-     "p90": 1.22
+     "p10": -1.28,
+     "p90": 1.09
     },
     "next5d": {
-     "n": 855,
-     "pctUp": 58,
-     "median": 0.38,
-     "p10": -2.31,
-     "p90": 2.73
+     "n": 195,
+     "pctUp": 57,
+     "median": 0.23,
+     "p10": -2.32,
+     "p90": 2.84
     }
    },
    "episodes": [
     {
-     "date": "2023-03-17",
-     "move1d": -1.33,
-     "prior5d": -4.28,
-     "next5d": 1.28,
-     "next21d": 7.63
+     "date": "2023-03-16",
+     "move1d": 1.57,
+     "prior5d": -4.26,
+     "next5d": 1.63,
+     "next21d": 6.12
     },
     {
-     "date": "2025-03-31",
-     "move1d": -1.33,
-     "prior5d": -3.02,
-     "next5d": -10.71,
-     "next21d": 4.17
+     "date": "2024-08-07",
+     "move1d": 1.5,
+     "prior5d": -4.83,
+     "next5d": 1.54,
+     "next21d": 5.46
     },
     {
-     "date": "2026-03-11",
-     "move1d": -1.37,
-     "prior5d": -2.34,
-     "next5d": -0.58,
-     "next21d": 0.43
+     "date": "2025-04-01",
+     "move1d": 1.7,
+     "prior5d": -2.47,
+     "next5d": -10.03,
+     "next21d": 3.57
     },
     {
-     "date": "2026-05-12",
-     "move1d": -1.62,
-     "prior5d": -1.83,
-     "next5d": 1.86,
-     "next21d": 1
+     "date": "2026-03-04",
+     "move1d": 1.74,
+     "prior5d": -3.86,
+     "next5d": -2.34,
+     "next21d": -4.29
     },
     {
-     "date": "2026-06-10",
-     "move1d": -0.97,
-     "prior5d": -2.42,
-     "next5d": 3.06,
-     "next21d": 3.81
+     "date": "2026-05-13",
+     "move1d": 0.76,
+     "prior5d": -3.14,
+     "next5d": 2.49,
+     "next21d": 0.3
     }
    ],
    "relations": [
     {
      "factorId": "brent",
-     "corr": -0.44,
+     "corr": -0.45,
      "beta": -0.13,
      "lag": 1,
      "n": 250
@@ -1502,17 +1502,18 @@
      "corr": -0.43,
      "beta": -0.05,
      "lag": 0,
-     "n": 246
+     "n": 245
     },
     {
      "factorId": "copper",
      "corr": 0.3,
-     "beta": 0.17,
+     "beta": 0.18,
      "lag": 1,
      "n": 250
     }
    ],
    "series": [
+    25970.11,
     25839.33,
     26003.32,
     26046.4,
@@ -1571,8 +1572,7 @@
     25736.24,
     25463.81,
     24802.78,
-    25337.27,
-    25153.66
+    25337.27
    ],
    "why": {
     "technical": "Morningstar reported European chip stocks fell after the Huang boost faded.",
@@ -1591,81 +1591,81 @@
    "symbol": "^FCHI",
    "about": "40 large French companies, luxury heavy",
    "stats": {
-    "last": 8049.14990234375,
-    "prevClose": 8044.83984375,
-    "asOf": "2026-11-24",
-    "change1d": 0.05,
-    "change5d": -2.04,
-    "change1m": 2.57,
-    "change3m": -3.25,
-    "changeYtd": -1.23,
-    "change1y": -0.62,
-    "sma50": 8019.47,
-    "sma200": 8201.53,
-    "pctVsSma50": 0.37,
-    "pctVsSma200": -1.86,
-    "rsi14": 47.02,
-    "vol20": 15.7,
-    "volPercentile": 68,
-    "drawdown": -7.76,
+    "last": 8044.83984375,
+    "prevClose": 7927.75,
+    "asOf": "2026-11-23",
+    "change1d": 1.48,
+    "change5d": -3.68,
+    "change1m": 3.37,
+    "change3m": -4.93,
+    "changeYtd": -1.28,
+    "change1y": -0.64,
+    "sma50": 8020.29,
+    "sma200": 8202.99,
+    "pctVsSma50": 0.31,
+    "pctVsSma200": -1.93,
+    "rsi14": 46.76,
+    "vol20": 15.8,
+    "volPercentile": 69,
+    "drawdown": -7.81,
     "high52": 8726.03,
     "low52": 7665.62,
-    "zScore1d": 0.06,
+    "zScore1d": 1.77,
     "trend": "sideways",
-    "observations": 1281
+    "observations": 1280
    },
    "analog": {
-    "condition": "ordinary days (one-day move within 1 standard deviation of the previous 60 days)",
+    "condition": "days when the one-day rise was bigger than 1 standard deviation of the previous 60 days",
     "next1d": {
-     "n": 877,
-     "pctUp": 53,
-     "median": 0.06,
-     "p10": -1.04,
-     "p90": 1.15
+     "n": 178,
+     "pctUp": 47,
+     "median": -0.07,
+     "p10": -1.22,
+     "p90": 0.84
     },
     "next5d": {
-     "n": 876,
-     "pctUp": 56,
-     "median": 0.28,
-     "p10": -2.3,
-     "p90": 2.59
+     "n": 178,
+     "pctUp": 53,
+     "median": 0.19,
+     "p10": -2.66,
+     "p90": 2.26
     }
    },
    "episodes": [
     {
-     "date": "2023-10-17",
-     "move1d": 0.11,
-     "prior5d": -1.85,
-     "next5d": -1.94,
-     "next21d": 2.56
+     "date": "2022-12-21",
+     "move1d": 2.01,
+     "prior5d": -2.24,
+     "next5d": -0.1,
+     "next21d": 6.32
     },
     {
-     "date": "2024-07-02",
-     "move1d": -0.3,
-     "prior5d": -1.62,
-     "next5d": -0.39,
-     "next21d": -0.09
+     "date": "2024-06-17",
+     "move1d": 0.91,
+     "prior5d": -4.08,
+     "next5d": 1.79,
+     "next21d": 0.11
     },
     {
-     "date": "2024-07-30",
-     "move1d": 0.42,
-     "prior5d": -1.63,
-     "next5d": -4.61,
-     "next21d": 1.37
+     "date": "2024-07-01",
+     "move1d": 1.09,
+     "prior5d": -1.89,
+     "next5d": 0.88,
+     "next21d": -1.14
     },
     {
-     "date": "2025-08-06",
-     "move1d": 0.18,
-     "prior5d": -2.89,
-     "next5d": 2.23,
-     "next21d": 0.84
+     "date": "2024-10-04",
+     "move1d": 0.85,
+     "prior5d": -3.21,
+     "next5d": 0.48,
+     "next21d": -2.25
     },
     {
-     "date": "2025-08-28",
-     "move1d": 0.24,
-     "prior5d": -2.21,
-     "next5d": -0.82,
-     "next21d": 1.39
+     "date": "2025-08-04",
+     "move1d": 1.14,
+     "prior5d": -2.16,
+     "next5d": 0.87,
+     "next21d": 0.29
     }
    ],
    "relations": [
@@ -1684,14 +1684,15 @@
      "n": 246
     },
     {
-     "factorId": "copper",
-     "corr": 0.29,
-     "beta": 0.15,
-     "lag": 1,
-     "n": 250
+     "factorId": "usdinr",
+     "corr": -0.29,
+     "beta": -0.56,
+     "lag": 0,
+     "n": 222
     }
    ],
    "series": [
+    8301.85,
     8280.63,
     8286.4,
     8278.77,
@@ -1750,8 +1751,7 @@
     8146.83,
     8080.74,
     7927.75,
-    8044.84,
-    8049.15
+    8044.84
    ],
    "why": null
   },
@@ -1764,107 +1764,108 @@
    "symbol": "^STOXX50E",
    "about": "50 blue-chip companies across the euro area",
    "stats": {
-    "last": 6034.6298828125,
-    "prevClose": 6074.47021484375,
-    "asOf": "2026-11-24",
-    "change1d": -0.66,
-    "change5d": -2.86,
-    "change1m": -1.33,
-    "change3m": -6.07,
-    "changeYtd": 4.11,
-    "change1y": 8.34,
-    "sma50": 6213.12,
-    "sma200": 6129.59,
-    "pctVsSma50": -2.87,
-    "pctVsSma200": -1.55,
-    "rsi14": 40.62,
-    "vol20": 20.8,
-    "volPercentile": 79,
-    "drawdown": -7.89,
+    "last": 6074.47021484375,
+    "prevClose": 5941.9501953125,
+    "asOf": "2026-11-23",
+    "change1d": 2.23,
+    "change5d": -4.31,
+    "change1m": 0.1,
+    "change3m": -6.12,
+    "changeYtd": 4.8,
+    "change1y": 9.61,
+    "sma50": 6217.16,
+    "sma200": 6129.65,
+    "pctVsSma50": -2.3,
+    "pctVsSma200": -0.9,
+    "rsi14": 42.5,
+    "vol20": 20.9,
+    "volPercentile": 80,
+    "drawdown": -7.28,
     "high52": 6551.22,
     "low52": 5501.28,
-    "zScore1d": -0.65,
+    "zScore1d": 2.31,
     "trend": "sideways",
-    "observations": 1257
+    "observations": 1256
    },
    "analog": {
-    "condition": "ordinary days (one-day move within 1 standard deviation of the previous 60 days)",
+    "condition": "days when the one-day rise was bigger than 1 standard deviation of the previous 60 days",
     "next1d": {
-     "n": 847,
-     "pctUp": 53,
-     "median": 0.05,
-     "p10": -1.11,
-     "p90": 1.2
+     "n": 186,
+     "pctUp": 50,
+     "median": 0,
+     "p10": -1.25,
+     "p90": 1
     },
     "next5d": {
-     "n": 846,
-     "pctUp": 57,
-     "median": 0.39,
-     "p10": -2.33,
-     "p90": 2.89
+     "n": 186,
+     "pctUp": 54,
+     "median": 0.32,
+     "p10": -2.67,
+     "p90": 2.57
     }
    },
    "episodes": [
     {
-     "date": "2023-03-17",
-     "move1d": -1.26,
-     "prior5d": -3.89,
-     "next5d": 1.61,
-     "next21d": 8.08
+     "date": "2023-03-16",
+     "move1d": 2.03,
+     "prior5d": -3.95,
+     "next5d": 2.19,
+     "next21d": 6.73
     },
     {
-     "date": "2023-08-18",
-     "move1d": -0.35,
-     "prior5d": -2.51,
-     "next5d": 0.55,
-     "next21d": 0.78
+     "date": "2024-08-07",
+     "move1d": 2.03,
+     "prior5d": -3.57,
+     "next5d": 1.28,
+     "next21d": 3.15
     },
     {
-     "date": "2024-08-08",
-     "move1d": 0.01,
-     "prior5d": -4.19,
-     "next5d": 2.98,
-     "next21d": 1.48
+     "date": "2025-04-01",
+     "move1d": 1.37,
+     "prior5d": -2.83,
+     "next5d": -10.27,
+     "next21d": -0.7
     },
     {
-     "date": "2026-03-18",
-     "move1d": -0.56,
-     "prior5d": -1,
-     "next5d": -1.53,
-     "next21d": 4.28
+     "date": "2026-03-04",
+     "move1d": 1.72,
+     "prior5d": -4.9,
+     "next5d": -1.3,
+     "next21d": -3.03
     },
     {
-     "date": "2026-05-15",
-     "move1d": -0.57,
-     "prior5d": -2.43,
-     "next5d": 3.29,
-     "next21d": 7.37
+     "date": "2026-03-23",
+     "move1d": 1.33,
+     "prior5d": -2.87,
+     "next5d": -0.58,
+     "next21d": 5.75
     }
    ],
    "relations": [
     {
-     "factorId": "vix",
-     "corr": -0.48,
-     "beta": -0.05,
-     "lag": 0,
-     "n": 245
-    },
-    {
      "factorId": "brent",
-     "corr": -0.47,
+     "corr": -0.48,
      "beta": -0.14,
      "lag": 1,
      "n": 250
     },
     {
+     "factorId": "vix",
+     "corr": -0.47,
+     "beta": -0.05,
+     "lag": 0,
+     "n": 245
+    },
+    {
      "factorId": "copper",
-     "corr": 0.33,
+     "corr": 0.34,
      "beta": 0.19,
      "lag": 1,
      "n": 250
     }
    ],
    "series": [
+    6368.98,
     6362.15,
     6382.59,
     6392.93,
@@ -1923,8 +1924,7 @@
     6154.39,
     6113.86,
     5941.95,
-    6074.47,
-    6034.63
+    6074.47
    ],
    "why": {
     "technical": "Morningstar reported European chip stocks fell after the Huang boost faded.",
@@ -1943,81 +1943,81 @@
    "symbol": "^IBEX",
    "about": "Spanish large companies, banks heavy",
    "stats": {
-    "last": 19063.599609375,
-    "prevClose": 19181.099609375,
-    "asOf": "2026-11-24",
-    "change1d": -0.61,
-    "change5d": -2.86,
-    "change1m": 0.16,
-    "change3m": -4.11,
-    "changeYtd": 10.14,
-    "change1y": 16.51,
-    "sma50": 19338.69,
-    "sma200": 18816.92,
-    "pctVsSma50": -1.42,
-    "pctVsSma200": 1.31,
-    "rsi14": 43.96,
+    "last": 19181.099609375,
+    "prevClose": 18873.099609375,
+    "asOf": "2026-11-23",
+    "change1d": 1.63,
+    "change5d": -3.84,
+    "change1m": 1.01,
+    "change3m": -4.42,
+    "changeYtd": 10.82,
+    "change1y": 17.24,
+    "sma50": 19348.54,
+    "sma200": 18811.08,
+    "pctVsSma50": -0.87,
+    "pctVsSma200": 1.97,
+    "rsi14": 45.97,
     "vol20": 20.7,
     "volPercentile": 87,
-    "drawdown": -5.69,
+    "drawdown": -5.11,
     "high52": 20213.6,
-    "low52": 16371.6,
-    "zScore1d": -0.57,
+    "low52": 16361.8,
+    "zScore1d": 1.56,
     "trend": "sideways",
-    "observations": 1279
+    "observations": 1278
    },
    "analog": {
-    "condition": "ordinary days (one-day move within 1 standard deviation of the previous 60 days)",
+    "condition": "days when the one-day rise was bigger than 1 standard deviation of the previous 60 days",
     "next1d": {
-     "n": 853,
-     "pctUp": 55,
-     "median": 0.09,
-     "p10": -1.15,
-     "p90": 1.16
+     "n": 211,
+     "pctUp": 54,
+     "median": 0.06,
+     "p10": -1.09,
+     "p90": 1.24
     },
     "next5d": {
-     "n": 852,
-     "pctUp": 60,
-     "median": 0.53,
-     "p10": -2.06,
-     "p90": 2.78
+     "n": 211,
+     "pctUp": 59,
+     "median": 0.64,
+     "p10": -2.45,
+     "p90": 3.11
     }
    },
    "episodes": [
     {
-     "date": "2023-10-19",
-     "move1d": -0.72,
-     "prior5d": -2.03,
-     "next5d": -2.01,
-     "next21d": 6.72
+     "date": "2023-03-14",
+     "move1d": 2.23,
+     "prior5d": -2.68,
+     "next5d": -1.2,
+     "next21d": 2.23
     },
     {
-     "date": "2025-03-12",
-     "move1d": -0.57,
-     "prior5d": -3.1,
-     "next5d": 4.72,
-     "next21d": -3.88
+     "date": "2024-08-07",
+     "move1d": 2.01,
+     "prior5d": -4.21,
+     "next5d": 1.45,
+     "next21d": 6.36
     },
     {
-     "date": "2025-11-21",
-     "move1d": -1.04,
-     "prior5d": -3.21,
-     "next5d": 3.47,
-     "next21d": 8.44
+     "date": "2025-11-20",
+     "move1d": 0.63,
+     "prior5d": -3.55,
+     "next5d": 2.33,
+     "next21d": 7.39
     },
     {
-     "date": "2026-04-29",
-     "move1d": -0.74,
-     "prior5d": -2.02,
-     "next5d": 2.37,
-     "next21d": 4.08
+     "date": "2026-03-04",
+     "move1d": 2.49,
+     "prior5d": -5.28,
+     "next5d": -0.77,
+     "next21d": 0.39
     },
     {
-     "date": "2026-05-15",
-     "move1d": -1.05,
-     "prior5d": -1.49,
-     "next5d": 2.06,
-     "next21d": 8
+     "date": "2026-05-13",
+     "move1d": 0.46,
+     "prior5d": -2.48,
+     "next5d": 2.25,
+     "next21d": 3.6
     }
    ],
    "relations": [
@@ -2038,12 +2038,13 @@
     {
      "factorId": "copper",
      "corr": 0.29,
-     "beta": 0.17,
+     "beta": 0.18,
      "lag": 1,
      "n": 250
     }
    ],
    "series": [
+    19824,
     19779,
     20000.2,
     20050.7,
@@ -2102,8 +2103,7 @@
     19373.3,
     19186.2,
     18873.1,
-    19181.1,
-    19063.6
+    19181.1
    ],
    "why": null
   },
@@ -2116,35 +2116,35 @@
    "symbol": "FTSEMIB.MI",
    "about": "Italian large companies, banks and energy",
    "stats": {
-    "last": 48590.71875,
-    "prevClose": 49022,
-    "asOf": "2026-11-24",
-    "change1d": -0.88,
-    "change5d": -4.44,
-    "change1m": -1.21,
-    "change3m": -7.03,
-    "changeYtd": 8.11,
-    "change1y": 13.8,
-    "sma50": 50471.07,
-    "sma200": 49804.97,
-    "pctVsSma50": -3.73,
-    "pctVsSma200": -2.44,
-    "rsi14": 36.76,
-    "vol20": 19.2,
+    "last": 49022,
+    "prevClose": 48704,
+    "asOf": "2026-11-23",
+    "change1d": 0.65,
+    "change5d": -4.85,
+    "change1m": 0.95,
+    "change3m": -7.3,
+    "changeYtd": 9.07,
+    "change1y": 15.9,
+    "sma50": 50530.36,
+    "sma200": 49793.13,
+    "pctVsSma50": -2.99,
+    "pctVsSma200": -1.55,
+    "rsi14": 39.26,
+    "vol20": 19.3,
     "volPercentile": 74,
-    "drawdown": -9.54,
+    "drawdown": -8.74,
     "high52": 53717,
-    "low52": 42841,
-    "zScore1d": -0.79,
+    "low52": 42699,
+    "zScore1d": 0.59,
     "trend": "sideways",
-    "observations": 1271
+    "observations": 1270
    },
    "analog": {
     "condition": "ordinary days (one-day move within 1 standard deviation of the previous 60 days)",
     "next1d": {
-     "n": 857,
+     "n": 856,
      "pctUp": 56,
-     "median": 0.1,
+     "median": 0.11,
      "p10": -1.16,
      "p90": 1.3
     },
@@ -2158,18 +2158,11 @@
    },
    "episodes": [
     {
-     "date": "2023-10-20",
-     "move1d": -1.41,
-     "prior5d": -3.12,
-     "next5d": -0.26,
-     "next21d": 7.99
-    },
-    {
-     "date": "2024-06-19",
-     "move1d": -0.29,
-     "prior5d": -3.31,
-     "next5d": 0.97,
-     "next21d": 3.94
+     "date": "2024-06-17",
+     "move1d": 0.74,
+     "prior5d": -4.73,
+     "next5d": 2.82,
+     "next21d": 4.44
     },
     {
      "date": "2024-08-08",
@@ -2186,11 +2179,18 @@
      "next21d": 7.5
     },
     {
-     "date": "2026-10-08",
-     "move1d": -1.35,
-     "prior5d": -1.87,
-     "next5d": 0.2,
-     "next21d": 1.53
+     "date": "2026-03-24",
+     "move1d": 0.42,
+     "prior5d": -3.38,
+     "next5d": 2.17,
+     "next21d": 9.88
+    },
+    {
+     "date": "2026-10-23",
+     "move1d": 0.36,
+     "prior5d": -2.6,
+     "next5d": 1.94,
+     "next21d": 0.95
     }
    ],
    "relations": [
@@ -2199,24 +2199,25 @@
      "corr": -0.44,
      "beta": -0.05,
      "lag": 0,
-     "n": 246
+     "n": 245
     },
     {
      "factorId": "brent",
-     "corr": -0.41,
+     "corr": -0.42,
      "beta": -0.12,
      "lag": 1,
      "n": 250
     },
     {
      "factorId": "copper",
-     "corr": 0.34,
-     "beta": 0.2,
+     "corr": 0.35,
+     "beta": 0.21,
      "lag": 1,
      "n": 250
     }
    ],
    "series": [
+    51915,
     51792,
     52245,
     52100,
@@ -2275,8 +2276,7 @@
     50174,
     49941,
     48704,
-    49022,
-    48590.72
+    49022
    ],
    "why": null
   },
@@ -2289,81 +2289,81 @@
    "symbol": "^SSMI",
    "about": "Swiss large companies, defensive sectors",
    "stats": {
-    "last": 14711.98046875,
-    "prevClose": 14735.6396484375,
-    "asOf": "2026-11-24",
-    "change1d": -0.16,
-    "change5d": -1.76,
-    "change1m": 1.19,
-    "change3m": 2.28,
-    "changeYtd": 10.89,
-    "change1y": 17.29,
-    "sma50": 14375.48,
-    "sma200": 13863.89,
-    "pctVsSma50": 2.34,
-    "pctVsSma200": 6.12,
-    "rsi14": 49.75,
+    "last": 14735.6396484375,
+    "prevClose": 14572.1396484375,
+    "asOf": "2026-11-23",
+    "change1d": 1.12,
+    "change5d": -3.01,
+    "change1m": 1.89,
+    "change3m": 1.33,
+    "changeYtd": 11.07,
+    "change1y": 17.6,
+    "sma50": 14357.42,
+    "sma200": 13857.92,
+    "pctVsSma50": 2.63,
+    "pctVsSma200": 6.33,
+    "rsi14": 50.58,
     "vol20": 14.1,
     "volPercentile": 75,
-    "drawdown": -3.16,
+    "drawdown": -3.01,
     "high52": 15192.58,
     "low52": 12320.99,
-    "zScore1d": -0.2,
+    "zScore1d": 1.39,
     "trend": "up",
-    "observations": 1256
+    "observations": 1255
    },
    "analog": {
-    "condition": "ordinary days (one-day move within 1 standard deviation of the previous 60 days)",
+    "condition": "days when the one-day rise was bigger than 1 standard deviation of the previous 60 days",
     "next1d": {
-     "n": 863,
+     "n": 165,
      "pctUp": 55,
-     "median": 0.1,
-     "p10": -0.88,
-     "p90": 0.93
+     "median": 0.05,
+     "p10": -0.91,
+     "p90": 0.87
     },
     "next5d": {
-     "n": 862,
-     "pctUp": 57,
-     "median": 0.21,
-     "p10": -1.95,
-     "p90": 2.21
+     "n": 165,
+     "pctUp": 59,
+     "median": 0.42,
+     "p10": -1.97,
+     "p90": 2.48
     }
    },
    "episodes": [
     {
-     "date": "2023-06-09",
-     "move1d": -0.48,
-     "prior5d": -1.65,
-     "next5d": 1.17,
-     "next21d": -2.95
+     "date": "2024-09-09",
+     "move1d": 0.61,
+     "prior5d": -3.78,
+     "next5d": 0.21,
+     "next21d": 0.25
     },
     {
-     "date": "2024-11-05",
-     "move1d": -0.26,
-     "prior5d": -1.94,
-     "next5d": -1.3,
-     "next21d": -0.69
+     "date": "2025-03-12",
+     "move1d": 1.39,
+     "prior5d": -1.86,
+     "next5d": 1.34,
+     "next21d": -12.62
     },
     {
-     "date": "2025-03-13",
-     "move1d": -0.25,
-     "prior5d": -1.48,
-     "next5d": 2.03,
-     "next21d": -12.44
+     "date": "2025-04-01",
+     "move1d": 0.7,
+     "prior5d": -2.51,
+     "next5d": -10.46,
+     "next21d": -3.58
     },
     {
-     "date": "2025-03-28",
-     "move1d": -0.21,
-     "prior5d": -1.8,
-     "next5d": -9.28,
-     "next21d": -5.63
+     "date": "2026-03-04",
+     "move1d": 0.79,
+     "prior5d": -3.34,
+     "next5d": -4.09,
+     "next21d": -3.91
     },
     {
-     "date": "2026-06-02",
-     "move1d": 0,
-     "prior5d": -1.63,
-     "next5d": 0.38,
-     "next21d": 6.07
+     "date": "2026-09-14",
+     "move1d": 0.75,
+     "prior5d": -2.81,
+     "next5d": 0.56,
+     "next21d": 0.35
     }
    ],
    "relations": [
@@ -2379,7 +2379,7 @@
      "corr": -0.31,
      "beta": -0.24,
      "lag": 0,
-     "n": 243
+     "n": 244
     },
     {
      "factorId": "vix",
@@ -2390,6 +2390,7 @@
     }
    ],
    "series": [
+    14334.79,
     14362.97,
     14394.77,
     14395.94,
@@ -2448,8 +2449,7 @@
     14886.12,
     14721.84,
     14572.14,
-    14735.64,
-    14711.98
+    14735.64
    ],
    "why": null
   },
@@ -2462,81 +2462,81 @@
    "symbol": "^AEX",
    "about": "Dutch large companies, chips and consumer",
    "stats": {
-    "last": 1082.1500244140625,
-    "prevClose": 1089.0799560546875,
-    "asOf": "2026-11-24",
-    "change1d": -0.64,
-    "change5d": -2.5,
-    "change1m": -4.5,
-    "change3m": -1.92,
-    "changeYtd": 13.76,
-    "change1y": 15.14,
-    "sma50": 1121.34,
-    "sma200": 1067.17,
-    "pctVsSma50": -3.5,
-    "pctVsSma200": 1.4,
-    "rsi14": 36.99,
-    "vol20": 17.2,
-    "volPercentile": 78,
-    "drawdown": -5.5,
+    "last": 1089.0799560546875,
+    "prevClose": 1066.1500244140625,
+    "asOf": "2026-11-23",
+    "change1d": 2.15,
+    "change5d": -3.97,
+    "change1m": -3.76,
+    "change3m": -1.69,
+    "changeYtd": 14.48,
+    "change1y": 15.41,
+    "sma50": 1121.62,
+    "sma200": 1066.7,
+    "pctVsSma50": -2.9,
+    "pctVsSma200": 2.1,
+    "rsi14": 38.91,
+    "vol20": 17.4,
+    "volPercentile": 79,
+    "drawdown": -4.9,
     "high52": 1145.14,
     "low52": 929.6,
-    "zScore1d": -0.79,
+    "zScore1d": 2.83,
     "trend": "sideways",
-    "observations": 1281
+    "observations": 1280
    },
    "analog": {
-    "condition": "ordinary days (one-day move within 1 standard deviation of the previous 60 days)",
+    "condition": "days when the one-day rise was bigger than 1 standard deviation of the previous 60 days",
     "next1d": {
-     "n": 878,
-     "pctUp": 55,
-     "median": 0.08,
-     "p10": -0.94,
-     "p90": 1.06
+     "n": 182,
+     "pctUp": 46,
+     "median": -0.08,
+     "p10": -0.92,
+     "p90": 0.95
     },
     "next5d": {
-     "n": 877,
-     "pctUp": 56,
-     "median": 0.24,
-     "p10": -2.05,
-     "p90": 2.54
+     "n": 182,
+     "pctUp": 62,
+     "median": 0.47,
+     "p10": -2.9,
+     "p90": 2.2
     }
    },
    "episodes": [
     {
-     "date": "2023-03-17",
-     "move1d": -0.64,
-     "prior5d": -2.77,
-     "next5d": 1.3,
-     "next21d": 5.23
+     "date": "2023-03-16",
+     "move1d": 1.48,
+     "prior5d": -3.47,
+     "next5d": 2.27,
+     "next21d": 4.96
     },
     {
-     "date": "2024-10-16",
-     "move1d": -0.74,
-     "prior5d": -2.51,
-     "next5d": -0.31,
-     "next21d": -2.05
+     "date": "2024-08-07",
+     "move1d": 2.24,
+     "prior5d": -3.75,
+     "next5d": 0.47,
+     "next21d": 0.65
     },
     {
-     "date": "2025-08-06",
-     "move1d": -0.35,
-     "prior5d": -2.8,
-     "next5d": 1.83,
-     "next21d": 1.84
+     "date": "2024-09-09",
+     "move1d": 1.03,
+     "prior5d": -3.52,
+     "next5d": 0.84,
+     "next21d": 2.46
     },
     {
-     "date": "2026-03-05",
-     "move1d": -0.45,
-     "prior5d": -2.63,
-     "next5d": 0.51,
-     "next21d": -2.37
+     "date": "2025-07-17",
+     "move1d": 1.37,
+     "prior5d": -1.39,
+     "next5d": -0.05,
+     "next21d": -2.04
     },
     {
-     "date": "2026-03-31",
-     "move1d": -0.49,
-     "prior5d": -1.48,
-     "next5d": 4.72,
-     "next21d": 4.71
+     "date": "2026-03-04",
+     "move1d": 0.99,
+     "prior5d": -2.92,
+     "next5d": 0.29,
+     "next21d": -2.42
     }
    ],
    "relations": [
@@ -2549,20 +2549,21 @@
     },
     {
      "factorId": "brent",
-     "corr": -0.28,
+     "corr": -0.29,
      "beta": -0.07,
      "lag": 1,
      "n": 250
     },
     {
      "factorId": "copper",
-     "corr": 0.27,
+     "corr": 0.28,
      "beta": 0.13,
      "lag": 1,
      "n": 250
     }
    ],
    "series": [
+    1101.92,
     1103.67,
     1104.62,
     1113.5,
@@ -2621,8 +2622,7 @@
     1098.73,
     1091.94,
     1066.15,
-    1089.08,
-    1082.15
+    1089.08
    ],
    "why": null
   },
@@ -2635,107 +2635,108 @@
    "symbol": "^N225",
    "about": "225 large Japanese companies, sensitive to the yen",
    "stats": {
-    "last": 58644.62890625,
-    "prevClose": 56436.6484375,
-    "asOf": "2026-11-24",
-    "change1d": 3.91,
-    "change5d": -1.71,
-    "change1m": -6.78,
-    "change3m": -10.23,
-    "changeYtd": 16.5,
-    "change1y": 16.64,
-    "sma50": 63917.9,
-    "sma200": 62291.53,
-    "pctVsSma50": -8.25,
-    "pctVsSma200": -5.85,
-    "rsi14": 40.77,
-    "vol20": 39,
-    "volPercentile": 95,
-    "drawdown": -18.96,
+    "last": 56436.6484375,
+    "prevClose": 59444.2109375,
+    "asOf": "2026-11-20",
+    "change1d": -5.06,
+    "change5d": -7.7,
+    "change1m": -12.67,
+    "change3m": -16.34,
+    "changeYtd": 12.11,
+    "change1y": 10.91,
+    "sma50": 64073.01,
+    "sma200": 62264.97,
+    "pctVsSma50": -11.92,
+    "pctVsSma200": -9.36,
+    "rsi14": 31.32,
+    "vol20": 35.7,
+    "volPercentile": 93,
+    "drawdown": -22.01,
     "high52": 72366.34,
     "low52": 48537.7,
-    "zScore1d": 2.17,
+    "zScore1d": -3,
     "trend": "sideways",
-    "observations": 1221
+    "observations": 1220
    },
    "analog": {
-    "condition": "days when the one-day rise was bigger than 1 standard deviation of the previous 60 days",
+    "condition": "days when the one-day fall was bigger than 1 standard deviation of the previous 60 days",
     "next1d": {
-     "n": 176,
-     "pctUp": 57,
+     "n": 163,
+     "pctUp": 55,
      "median": 0.15,
-     "p10": -1.44,
-     "p90": 1.61
+     "p10": -2.06,
+     "p90": 1.79
     },
     "next5d": {
-     "n": 176,
+     "n": 162,
      "pctUp": 58,
-     "median": 0.41,
-     "p10": -2.72,
-     "p90": 4.45
+     "median": 0.7,
+     "p10": -3.33,
+     "p90": 4.17
     }
    },
    "episodes": [
     {
-     "date": "2024-09-12",
-     "move1d": 3.41,
-     "prior5d": 0.48,
-     "next5d": 2.42,
-     "next21d": 6.37
+     "date": "2024-08-02",
+     "move1d": -5.81,
+     "prior5d": -4.67,
+     "next5d": -2.46,
+     "next21d": 7.73
     },
     {
-     "date": "2024-10-03",
-     "move1d": 1.97,
-     "prior5d": -0.96,
-     "next5d": 2.15,
-     "next21d": -0.2
+     "date": "2025-04-04",
+     "move1d": -2.75,
+     "prior5d": -9,
+     "next5d": -0.58,
+     "next21d": 9.32
     },
     {
-     "date": "2025-04-17",
-     "move1d": 1.35,
-     "prior5d": -0.67,
-     "next5d": 1.92,
-     "next21d": 8.5
+     "date": "2026-03-23",
+     "move1d": -3.48,
+     "prior5d": -4.28,
+     "next5d": 0.72,
+     "next21d": 15.21
     },
     {
-     "date": "2026-03-24",
-     "move1d": 1.43,
-     "prior5d": -2.79,
-     "next5d": -2.27,
-     "next21d": 14.03
+     "date": "2026-07-28",
+     "move1d": -3.95,
+     "prior5d": -5.84,
+     "next5d": 2.55,
+     "next21d": 6.04
     },
     {
-     "date": "2026-07-31",
-     "move1d": 4.03,
-     "prior5d": -0.39,
-     "next5d": 1.93,
-     "next21d": 2.88
+     "date": "2026-10-15",
+     "move1d": -4.9,
+     "prior5d": -8.01,
+     "next5d": -2.36,
+     "next21d": -7.39
     }
    ],
    "relations": [
     {
      "factorId": "vix",
-     "corr": -0.48,
+     "corr": -0.47,
      "beta": -0.1,
      "lag": 1,
      "n": 250
     },
     {
      "factorId": "copper",
-     "corr": 0.27,
-     "beta": 0.3,
+     "corr": 0.26,
+     "beta": 0.28,
      "lag": 1,
      "n": 250
     },
     {
      "factorId": "gold",
-     "corr": 0.22,
-     "beta": 0.24,
+     "corr": 0.21,
+     "beta": 0.22,
      "lag": 1,
      "n": 250
     }
    ],
    "series": [
+    65528.09,
     65856.43,
     66262.16,
     66131.98,
@@ -2794,8 +2795,7 @@
     58860.43,
     59024.28,
     59444.21,
-    56436.65,
-    58644.63
+    56436.65
    ],
    "why": {
     "technical": "Bloomberg reported Japan stocks rebounded as Huang's return revived the AI trade; Investing.com reported the Nikkei 225 up 4.11% at the close.",
@@ -2815,53 +2815,53 @@
    "symbol": "^HSI",
    "about": "Hong Kong market, China tech and financials",
    "stats": {
-    "last": 22219.650390625,
-    "prevClose": 22383.740234375,
-    "asOf": "2026-11-24",
-    "change1d": -0.73,
-    "change5d": -5.48,
-    "change1m": -4.27,
-    "change3m": -12.9,
-    "changeYtd": -13.31,
-    "change1y": -16.38,
-    "sma50": 23958.34,
-    "sma200": 25070.67,
-    "pctVsSma50": -7.26,
-    "pctVsSma200": -11.37,
-    "rsi14": 29.27,
+    "last": 22383.740234375,
+    "prevClose": 22410.80078125,
+    "asOf": "2026-11-23",
+    "change1d": -0.12,
+    "change5d": -5.77,
+    "change1m": -3.07,
+    "change3m": -12.28,
+    "changeYtd": -12.67,
+    "change1y": -17.32,
+    "sma50": 24010.05,
+    "sma200": 25096.5,
+    "pctVsSma50": -6.77,
+    "pctVsSma200": -10.81,
+    "rsi14": 30.75,
     "vol20": 21.7,
     "volPercentile": 54,
-    "drawdown": -20.55,
+    "drawdown": -19.97,
     "high52": 27968.09,
-    "low52": 22219.65,
-    "zScore1d": -0.66,
+    "low52": 22383.74,
+    "zScore1d": -0.11,
     "trend": "down",
-    "observations": 1229
+    "observations": 1228
    },
    "analog": {
     "condition": "ordinary days (one-day move within 1 standard deviation of the previous 60 days)",
     "next1d": {
-     "n": 817,
+     "n": 816,
      "pctUp": 49,
      "median": -0.03,
      "p10": -1.83,
      "p90": 1.88
     },
     "next5d": {
-     "n": 815,
+     "n": 814,
      "pctUp": 50,
      "median": 0.12,
-     "p10": -4.05,
+     "p10": -4.03,
      "p90": 3.83
     }
    },
    "episodes": [
     {
-     "date": "2023-05-29",
-     "move1d": -1.04,
-     "prior5d": -4.62,
-     "next5d": 3,
-     "next21d": 3.35
+     "date": "2023-06-01",
+     "move1d": -0.1,
+     "prior5d": -4.7,
+     "next5d": 5.94,
+     "next21d": 5.98
     },
     {
      "date": "2023-06-26",
@@ -2871,11 +2871,11 @@
      "next21d": 3.04
     },
     {
-     "date": "2023-08-16",
-     "move1d": -1.36,
-     "prior5d": -4.76,
-     "next5d": -2.64,
-     "next21d": -2.18
+     "date": "2023-08-17",
+     "move1d": -0.01,
+     "prior5d": -4.79,
+     "next5d": -0.62,
+     "next21d": -1.8
     },
     {
      "date": "2023-09-12",
@@ -2896,19 +2896,27 @@
     {
      "factorId": "gold",
      "corr": 0.27,
-     "beta": 0.17,
+     "beta": 0.18,
      "lag": 1,
      "n": 250
     },
     {
      "factorId": "vix",
-     "corr": -0.24,
+     "corr": -0.26,
      "beta": -0.03,
+     "lag": 1,
+     "n": 250
+    },
+    {
+     "factorId": "copper",
+     "corr": 0.2,
+     "beta": 0.13,
      "lag": 1,
      "n": 250
     }
    ],
    "series": [
+    25584.79,
     25566.99,
     25329.73,
     25311.21,
@@ -2967,8 +2975,7 @@
     23294.75,
     22841.62,
     22410.8,
-    22383.74,
-    22219.65
+    22383.74
    ],
    "why": null
   },
@@ -2981,42 +2988,42 @@
    "symbol": "000001.SS",
    "about": "All stocks on the Shanghai exchange",
    "stats": {
-    "last": 3548.369384765625,
-    "prevClose": 3538.947998046875,
-    "asOf": "2026-11-24",
-    "change1d": 0.27,
-    "change5d": -1.01,
-    "change1m": -4.03,
-    "change3m": -8.89,
-    "changeYtd": -10.59,
-    "change1y": -11.7,
-    "sma50": 3742.54,
-    "sma200": 3953.42,
-    "pctVsSma50": -5.19,
-    "pctVsSma200": -10.25,
-    "rsi14": 33.04,
-    "vol20": 14,
-    "volPercentile": 60,
-    "drawdown": -16.36,
+    "last": 3538.947998046875,
+    "prevClose": 3533.79296875,
+    "asOf": "2026-11-23",
+    "change1d": 0.15,
+    "change5d": -1.77,
+    "change1m": -4.11,
+    "change3m": -11.31,
+    "changeYtd": -10.83,
+    "change1y": -11.47,
+    "sma50": 3750.23,
+    "sma200": 3956.36,
+    "pctVsSma50": -5.63,
+    "pctVsSma200": -10.55,
+    "rsi14": 30.98,
+    "vol20": 14.5,
+    "volPercentile": 66,
+    "drawdown": -16.58,
     "high52": 4242.57,
     "low52": 3533.79,
-    "zScore1d": 0.34,
+    "zScore1d": 0.19,
     "trend": "down",
-    "observations": 1212
+    "observations": 1211
    },
    "analog": {
     "condition": "ordinary days (one-day move within 1 standard deviation of the previous 60 days)",
     "next1d": {
-     "n": 844,
+     "n": 843,
      "pctUp": 51,
      "median": 0.02,
      "p10": -1,
-     "p90": 1
+     "p90": 1.01
     },
     "next5d": {
-     "n": 841,
+     "n": 840,
      "pctUp": 51,
-     "median": 0.04,
+     "median": 0.05,
      "p10": -2.42,
      "p90": 2.21
     }
@@ -3030,11 +3037,11 @@
      "next21d": 7.16
     },
     {
-     "date": "2023-12-25",
-     "move1d": 0.14,
-     "prior5d": -0.41,
-     "next5d": 1.49,
-     "next21d": -3.36
+     "date": "2023-12-19",
+     "move1d": 0.05,
+     "prior5d": -2.37,
+     "next5d": -1.14,
+     "next21d": -2.95
     },
     {
      "date": "2024-01-18",
@@ -3044,18 +3051,18 @@
      "next21d": 4.61
     },
     {
-     "date": "2024-08-06",
-     "move1d": 0.23,
-     "prior5d": -0.42,
-     "next5d": 0.02,
-     "next21d": -2.89
+     "date": "2024-08-07",
+     "move1d": 0.09,
+     "prior5d": -2.35,
+     "next5d": -0.67,
+     "next21d": -2.84
     },
     {
-     "date": "2026-10-26",
-     "move1d": 0.19,
-     "prior5d": -0.9,
-     "next5d": -1.61,
-     "next21d": -4.03
+     "date": "2026-10-16",
+     "move1d": 0.24,
+     "prior5d": -2.56,
+     "next5d": -0.69,
+     "next21d": -3.06
     }
    ],
    "relations": [
@@ -3082,6 +3089,7 @@
     }
    ],
    "series": [
+    3882.01,
     3889.45,
     3912.52,
     3956.57,
@@ -3140,8 +3148,7 @@
     3587.83,
     3577.62,
     3533.79,
-    3538.95,
-    3548.37
+    3538.95
    ],
    "why": null
   },
@@ -3154,81 +3161,81 @@
    "symbol": "399001.SZ",
    "about": "500 Shenzhen stocks, tech and growth heavy",
    "stats": {
-    "last": 10423.603515625,
-    "prevClose": 10454.3701171875,
-    "asOf": "2026-11-24",
-    "change1d": -0.29,
-    "change5d": -2.02,
-    "change1m": -9.63,
-    "change3m": -24.96,
-    "changeYtd": -22.93,
-    "change1y": -22.37,
-    "sma50": 12011.59,
-    "sma200": 13958.72,
-    "pctVsSma50": -13.22,
-    "pctVsSma200": -25.33,
-    "rsi14": 32.49,
-    "vol20": 32.1,
-    "volPercentile": 88,
-    "drawdown": -36.33,
+    "last": 10454.3701171875,
+    "prevClose": 10256.3896484375,
+    "asOf": "2026-11-23",
+    "change1d": 1.93,
+    "change5d": -2.21,
+    "change1m": -10.45,
+    "change3m": -28.5,
+    "changeYtd": -22.7,
+    "change1y": -22.01,
+    "sma50": 12078.61,
+    "sma200": 13978.8,
+    "pctVsSma50": -13.45,
+    "pctVsSma200": -25.21,
+    "rsi14": 32.92,
+    "vol20": 33,
+    "volPercentile": 89,
+    "drawdown": -36.15,
     "high52": 16372.5,
     "low52": 10256.39,
-    "zScore1d": -0.18,
+    "zScore1d": 1.22,
     "trend": "down",
-    "observations": 1212
+    "observations": 1211
    },
    "analog": {
-    "condition": "ordinary days (one-day move within 1 standard deviation of the previous 60 days)",
+    "condition": "days when the one-day rise was bigger than 1 standard deviation of the previous 60 days",
     "next1d": {
-     "n": 820,
-     "pctUp": 49,
-     "median": -0.05,
-     "p10": -1.54,
-     "p90": 1.72
+     "n": 161,
+     "pctUp": 44,
+     "median": -0.13,
+     "p10": -1.53,
+     "p90": 1.4
     },
     "next5d": {
-     "n": 818,
-     "pctUp": 48,
-     "median": -0.2,
-     "p10": -3.72,
-     "p90": 3.48
+     "n": 161,
+     "pctUp": 53,
+     "median": 0.35,
+     "p10": -3.62,
+     "p90": 3.4
     }
    },
    "episodes": [
     {
-     "date": "2024-01-26",
-     "move1d": -1.06,
-     "prior5d": -0.28,
-     "next5d": -8.06,
-     "next21d": 7.47
+     "date": "2022-12-26",
+     "move1d": 1.19,
+     "prior5d": -1.31,
+     "next5d": 1.26,
+     "next21d": 10.74
     },
     {
-     "date": "2024-02-26",
-     "move1d": -0.04,
-     "prior5d": 1.84,
-     "next5d": 4.1,
-     "next21d": 4.23
+     "date": "2024-01-24",
+     "move1d": 1,
+     "prior5d": -0.89,
+     "next5d": -5.41,
+     "next21d": 8.67
     },
     {
-     "date": "2024-04-22",
-     "move1d": -0.43,
-     "prior5d": -1.39,
-     "next5d": 4.7,
-     "next21d": 2.01
+     "date": "2024-03-08",
+     "move1d": 1.1,
+     "prior5d": -0.7,
+     "next5d": 2.6,
+     "next21d": -0.76
     },
     {
-     "date": "2024-08-07",
-     "move1d": -0.17,
-     "prior5d": -3.48,
-     "next5d": -1.64,
-     "next21d": -2.37
+     "date": "2024-08-15",
+     "move1d": 0.71,
+     "prior5d": -0.9,
+     "next5d": -2.48,
+     "next21d": -4.62
     },
     {
-     "date": "2026-10-26",
-     "move1d": -1.19,
-     "prior5d": -2.4,
-     "next5d": -4.54,
-     "next21d": -9.63
+     "date": "2026-10-23",
+     "move1d": 2.79,
+     "prior5d": -1.09,
+     "next5d": -7.2,
+     "next21d": -10.45
     }
    ],
    "relations": [
@@ -3242,7 +3249,7 @@
     {
      "factorId": "gold",
      "corr": 0.25,
-     "beta": 0.23,
+     "beta": 0.24,
      "lag": 1,
      "n": 250
     },
@@ -3255,6 +3262,7 @@
     }
    ],
    "series": [
+    13794.29,
     13745.87,
     13841.33,
     14048.88,
@@ -3313,8 +3321,7 @@
     10659.41,
     10583.2,
     10256.39,
-    10454.37,
-    10423.6
+    10454.37
    ],
    "why": null
   },
@@ -3685,107 +3692,108 @@
    "symbol": "^KS11",
    "about": "South Korean stocks, memory chips and autos",
    "stats": {
-    "last": 5006.02978515625,
-    "prevClose": 4708.5400390625,
-    "asOf": "2026-11-24",
-    "change1d": 6.32,
-    "change5d": 0.76,
-    "change1m": -8.47,
-    "change3m": -27.58,
-    "changeYtd": 18.79,
-    "change1y": 20.62,
-    "sma50": 5979.5,
-    "sma200": 6522.2,
-    "pctVsSma50": -16.28,
-    "pctVsSma200": -23.25,
-    "rsi14": 40.26,
-    "vol20": 59.4,
-    "volPercentile": 93,
-    "drawdown": -45.08,
+    "last": 4708.5400390625,
+    "prevClose": 4869.9599609375,
+    "asOf": "2026-11-23",
+    "change1d": -3.31,
+    "change5d": -7.68,
+    "change1m": -15.17,
+    "change3m": -31.29,
+    "changeYtd": 11.73,
+    "change1y": 14.66,
+    "sma50": 6020.41,
+    "sma200": 6523.03,
+    "pctVsSma50": -21.79,
+    "pctVsSma200": -27.82,
+    "rsi14": 31.21,
+    "vol20": 55.5,
+    "volPercentile": 92,
+    "drawdown": -48.34,
     "high52": 9114.55,
     "low52": 3846.06,
-    "zScore1d": 2.24,
+    "zScore1d": -1.18,
     "trend": "down",
-    "observations": 1221
+    "observations": 1220
    },
    "analog": {
-    "condition": "days when the one-day rise was bigger than 1 standard deviation of the previous 60 days",
+    "condition": "days when the one-day fall was bigger than 1 standard deviation of the previous 60 days",
     "next1d": {
-     "n": 180,
+     "n": 154,
      "pctUp": 53,
-     "median": 0.04,
-     "p10": -1.56,
-     "p90": 1.67
+     "median": 0.11,
+     "p10": -2.15,
+     "p90": 2.29
     },
     "next5d": {
-     "n": 180,
-     "pctUp": 57,
-     "median": 0.45,
-     "p10": -3.97,
-     "p90": 5.23
+     "n": 153,
+     "pctUp": 52,
+     "median": 0.23,
+     "p10": -4.21,
+     "p90": 5.39
     }
    },
    "episodes": [
     {
-     "date": "2026-07-21",
-     "move1d": 3.56,
-     "prior5d": -0.87,
-     "next5d": -10.73,
-     "next21d": 1.55
+     "date": "2022-12-29",
+     "move1d": -1.93,
+     "prior5d": -5.11,
+     "next5d": 2.4,
+     "next21d": 9.54
     },
     {
-     "date": "2026-08-12",
-     "move1d": 3.68,
-     "prior5d": -0.29,
-     "next5d": 4.16,
-     "next21d": 5.03
+     "date": "2026-07-28",
+     "move1d": -10.84,
+     "prior5d": -10.73,
+     "next5d": 5.57,
+     "next21d": 14.75
     },
     {
-     "date": "2026-09-07",
-     "move1d": 4.61,
-     "prior5d": 2.57,
-     "next5d": -4.45,
+     "date": "2026-09-02",
+     "move1d": -3.99,
+     "prior5d": -3.61,
+     "next5d": 7.45,
+     "next21d": 5.77
+    },
+    {
+     "date": "2026-09-16",
+     "move1d": 1.37,
+     "prior5d": -4.73,
+     "next5d": 5.4,
+     "next21d": -14.62
+    },
+    {
+     "date": "2026-10-20",
+     "move1d": -3.73,
+     "prior5d": -8,
+     "next5d": 1.54,
      "next21d": -8.74
-    },
-    {
-     "date": "2026-10-01",
-     "move1d": 1.95,
-     "prior5d": -0.66,
-     "next5d": -8.42,
-     "next21d": -18.97
-    },
-    {
-     "date": "2026-10-21",
-     "move1d": 3.29,
-     "prior5d": -4.55,
-     "next5d": 4.83,
-     "next21d": -10.42
     }
    ],
    "relations": [
     {
      "factorId": "vix",
-     "corr": -0.37,
+     "corr": -0.36,
      "beta": -0.14,
      "lag": 1,
      "n": 250
     },
     {
      "factorId": "copper",
-     "corr": 0.24,
-     "beta": 0.49,
+     "corr": 0.23,
+     "beta": 0.47,
      "lag": 1,
      "n": 250
     },
     {
      "factorId": "gold",
-     "corr": 0.23,
-     "beta": 0.45,
+     "corr": 0.22,
+     "beta": 0.43,
      "lag": 1,
      "n": 250
     }
    ],
    "series": [
+    6808.21,
     6912.37,
     6788.88,
     6820.02,
@@ -3844,8 +3852,7 @@
     5067.44,
     5137.89,
     4869.96,
-    4708.54,
-    5006.03
+    4708.54
    ],
    "why": {
     "technical": "Economic Times reported KOSPI rebounded after hitting a ten-month low, driven by tech stocks after Huang's return as Nvidia CEO.",
@@ -3864,28 +3871,28 @@
    "symbol": "^AXJO",
    "about": "Australian stocks, banks and miners",
    "stats": {
-    "last": 8726.400390625,
+    "last": 8688.7998046875,
     "prevClose": 8570.599609375,
-    "asOf": "2026-11-24",
-    "change1d": 1.82,
-    "change5d": -1.77,
-    "change1m": -0.95,
-    "change3m": -3.45,
-    "changeYtd": 0.14,
-    "change1y": 1.39,
-    "sma50": 8811.39,
-    "sma200": 8832.88,
-    "pctVsSma50": -0.96,
-    "pctVsSma200": -1.21,
-    "rsi14": 42.55,
-    "vol20": 16.5,
-    "volPercentile": 85,
-    "drawdown": -5.88,
+    "asOf": "2026-11-25",
+    "change1d": 1.38,
+    "change5d": -2.19,
+    "change1m": -1.37,
+    "change3m": -3.87,
+    "changeYtd": -0.29,
+    "change1y": 0.96,
+    "sma50": 8810.64,
+    "sma200": 8832.69,
+    "pctVsSma50": -1.38,
+    "pctVsSma200": -1.63,
+    "rsi14": 40.15,
+    "vol20": 15.9,
+    "volPercentile": 82,
+    "drawdown": -6.29,
     "high52": 9271.6,
     "low52": 8365.9,
-    "zScore1d": 2.45,
+    "zScore1d": 1.86,
     "trend": "down",
-    "observations": 1265
+    "observations": 1264
    },
    "analog": {
     "condition": "days when the one-day rise was bigger than 1 standard deviation of the previous 60 days",
@@ -3913,18 +3920,18 @@
      "next21d": 7.07
     },
     {
+     "date": "2023-03-22",
+     "move1d": 0.87,
+     "prior5d": -0.75,
+     "next5d": 0.49,
+     "next21d": 4.37
+    },
+    {
      "date": "2023-07-11",
      "move1d": 1.5,
      "prior5d": -2.34,
      "next5d": 2.46,
      "next21d": 3.22
-    },
-    {
-     "date": "2024-08-09",
-     "move1d": 1.25,
-     "prior5d": -2.08,
-     "next5d": 2.49,
-     "next21d": 2.71
     },
     {
      "date": "2025-11-24",
@@ -3944,22 +3951,22 @@
    "relations": [
     {
      "factorId": "vix",
-     "corr": -0.39,
-     "beta": -0.04,
-     "lag": 1,
-     "n": 250
-    },
-    {
-     "factorId": "gold",
-     "corr": 0.36,
-     "beta": 0.16,
+     "corr": -0.38,
+     "beta": -0.03,
      "lag": 1,
      "n": 250
     },
     {
      "factorId": "brent",
-     "corr": -0.35,
+     "corr": -0.34,
      "beta": -0.08,
+     "lag": 1,
+     "n": 250
+    },
+    {
+     "factorId": "gold",
+     "corr": 0.34,
+     "beta": 0.14,
      "lag": 1,
      "n": 250
     }
@@ -4024,7 +4031,7 @@
     8730.4,
     8592.6,
     8570.6,
-    8726.4
+    8688.8
    ],
    "why": null
   },
@@ -4037,37 +4044,37 @@
    "symbol": "^TWII",
    "about": "Taiwan market, dominated by chip makers",
    "stats": {
-    "last": 40122.3515625,
-    "prevClose": 36811.890625,
-    "asOf": "2026-11-24",
-    "change1d": 8.99,
-    "change5d": 0.08,
-    "change1m": -12.86,
-    "change3m": -10.71,
-    "changeYtd": 38.53,
-    "change1y": 45.1,
-    "sma50": 45308.71,
-    "sma200": 41597.05,
-    "pctVsSma50": -11.45,
-    "pctVsSma200": -3.55,
-    "rsi14": 42.91,
-    "vol20": 61.7,
-    "volPercentile": 100,
-    "drawdown": -19.47,
+    "last": 36811.890625,
+    "prevClose": 36033.2890625,
+    "asOf": "2026-11-23",
+    "change1d": 2.16,
+    "change5d": -10.3,
+    "change1m": -21.49,
+    "change3m": -17.68,
+    "changeYtd": 27.1,
+    "change1y": 31.94,
+    "sma50": 45448.38,
+    "sma200": 41555.17,
+    "pctVsSma50": -19,
+    "pctVsSma200": -11.41,
+    "rsi14": 29.46,
+    "vol20": 50.4,
+    "volPercentile": 99,
+    "drawdown": -26.11,
     "high52": 49822.55,
     "low52": 26434.94,
-    "zScore1d": 4.23,
+    "zScore1d": 1.03,
     "trend": "sideways",
-    "observations": 1212
+    "observations": 1211
    },
    "analog": {
     "condition": "days when the one-day rise was bigger than 1 standard deviation of the previous 60 days",
     "next1d": {
-     "n": 188,
-     "pctUp": 62,
+     "n": 187,
+     "pctUp": 61,
      "median": 0.21,
      "p10": -1.24,
-     "p90": 1.78
+     "p90": 1.71
     },
     "next5d": {
      "n": 187,
@@ -4079,53 +4086,53 @@
    },
    "episodes": [
     {
-     "date": "2024-08-07",
-     "move1d": 3.87,
-     "prior5d": -4.07,
-     "next5d": 3.44,
-     "next21d": -0.51
+     "date": "2022-12-08",
+     "move1d": -0.53,
+     "prior5d": -3.06,
+     "next5d": 1.24,
+     "next21d": 1.37
     },
     {
-     "date": "2025-04-23",
-     "move1d": 4.5,
-     "prior5d": 0.88,
-     "next5d": 3.03,
-     "next21d": 10.25
+     "date": "2024-08-06",
+     "move1d": 3.38,
+     "prior5d": -7.75,
+     "next5d": 6.32,
+     "next21d": 2.89
     },
     {
-     "date": "2026-03-11",
-     "move1d": 4.1,
-     "prior5d": 3.92,
-     "next5d": 0.69,
-     "next21d": 3.94
+     "date": "2024-09-05",
+     "move1d": 0.45,
+     "prior5d": -4.57,
+     "next5d": 2.2,
+     "next21d": 6.94
     },
     {
-     "date": "2026-04-01",
-     "move1d": 4.58,
-     "prior5d": -0.79,
-     "next5d": 6.76,
-     "next21d": 22.89
+     "date": "2025-04-11",
+     "move1d": 2.78,
+     "prior5d": -8.31,
+     "next5d": -0.68,
+     "next21d": 9.22
     },
     {
-     "date": "2026-07-31",
-     "move1d": 7.98,
-     "prior5d": -1.23,
-     "next5d": 2.57,
-     "next21d": 6.98
+     "date": "2026-07-30",
+     "move1d": -0.26,
+     "prior5d": -10.96,
+     "next5d": 11.18,
+     "next21d": 16.02
     }
    ],
    "relations": [
     {
      "factorId": "vix",
-     "corr": -0.46,
-     "beta": -0.1,
+     "corr": -0.43,
+     "beta": -0.09,
      "lag": 1,
      "n": 250
     },
     {
      "factorId": "usdjpy",
-     "corr": -0.23,
-     "beta": -1.04,
+     "corr": -0.22,
+     "beta": -0.96,
      "lag": 1,
      "n": 250
     },
@@ -4134,10 +4141,11 @@
      "corr": 0.21,
      "beta": 0.42,
      "lag": 0,
-     "n": 244
+     "n": 245
     }
    ],
    "series": [
+    45169.46,
     45832.62,
     45975.22,
     46331.45,
@@ -4196,8 +4204,7 @@
     40194.91,
     38426.89,
     36033.29,
-    36811.89,
-    40122.35
+    36811.89
    ],
    "why": {
     "technical": "Straits Times reported Taiwan's 9% stock rally as battered tech shares rebounded after Huang's comeback.",
@@ -4216,33 +4223,33 @@
    "symbol": "^STI",
    "about": "30 Singapore companies, banks and property",
    "stats": {
-    "last": 4958.8701171875,
-    "prevClose": 4953.81005859375,
-    "asOf": "2026-11-24",
-    "change1d": 0.1,
-    "change5d": -2.94,
-    "change1m": -8.54,
-    "change3m": -13.33,
-    "changeYtd": 6.73,
-    "change1y": 10.96,
-    "sma50": 5423.26,
-    "sma200": 5261.95,
-    "pctVsSma50": -8.56,
-    "pctVsSma200": -5.76,
-    "rsi14": 22.08,
-    "vol20": 14.7,
+    "last": 4953.81005859375,
+    "prevClose": 4975.169921875,
+    "asOf": "2026-11-23",
+    "change1d": -0.43,
+    "change5d": -4.43,
+    "change1m": -8.52,
+    "change3m": -13.63,
+    "changeYtd": 6.62,
+    "change1y": 9.8,
+    "sma50": 5438.45,
+    "sma200": 5262.03,
+    "pctVsSma50": -8.91,
+    "pctVsSma200": -5.86,
+    "rsi14": 21.34,
+    "vol20": 14.6,
     "volPercentile": 91,
-    "drawdown": -14.53,
+    "drawdown": -14.62,
     "high52": 5801.96,
-    "low52": 4485.63,
-    "zScore1d": 0.12,
+    "low52": 4469.14,
+    "zScore1d": -0.51,
     "trend": "sideways",
-    "observations": 1256
+    "observations": 1255
    },
    "analog": {
     "condition": "ordinary days (one-day move within 1 standard deviation of the previous 60 days)",
     "next1d": {
-     "n": 863,
+     "n": 862,
      "pctUp": 51,
      "median": 0.03,
      "p10": -0.72,
@@ -4265,11 +4272,11 @@
      "next21d": 5.27
     },
     {
-     "date": "2023-10-25",
-     "move1d": -0.17,
-     "prior5d": -1.84,
-     "next5d": -0.07,
-     "next21d": 0.52
+     "date": "2023-10-23",
+     "move1d": -0.76,
+     "prior5d": -3.49,
+     "next5d": 0.36,
+     "next21d": 2.02
     },
     {
      "date": "2023-11-14",
@@ -4286,18 +4293,18 @@
      "next21d": 5.11
     },
     {
-     "date": "2024-01-18",
-     "move1d": -0.08,
-     "prior5d": -1.93,
-     "next5d": 0.25,
-     "next21d": 2.74
+     "date": "2024-08-12",
+     "move1d": -0.81,
+     "prior5d": -4.32,
+     "next5d": 3.71,
+     "next21d": 8.57
     }
    ],
    "relations": [
     {
      "factorId": "vix",
      "corr": -0.42,
-     "beta": -0.03,
+     "beta": -0.04,
      "lag": 1,
      "n": 250
     },
@@ -4310,6 +4317,7 @@
     }
    ],
    "series": [
+    5755.36,
     5710.37,
     5744.11,
     5747.71,
@@ -4368,8 +4376,7 @@
     5054.89,
     5079.49,
     4975.17,
-    4953.81,
-    4958.87
+    4953.81
    ],
    "why": null
   },
@@ -4383,26 +4390,26 @@
    "unit": "pts",
    "about": "Expected 30-day swings in the S&P 500; the \"fear gauge\"",
    "stats": {
-    "last": 28.59000015258789,
+    "last": 26.360000610351562,
     "prevClose": 26.6200008392334,
     "asOf": "2026-11-24",
-    "change1d": 7.4,
-    "change5d": 12.29,
-    "change1m": 55.46,
-    "change3m": 97.04,
-    "changeYtd": 91.24,
-    "change1y": 54.04,
-    "sma50": 18.85,
-    "sma200": 18.76,
-    "pctVsSma50": 51.64,
-    "pctVsSma200": 52.42,
-    "rsi14": 58.01,
-    "vol20": 327,
+    "change1d": -0.98,
+    "change5d": 3.53,
+    "change1m": 43.34,
+    "change3m": 81.67,
+    "changeYtd": 76.32,
+    "change1y": 42.03,
+    "sma50": 18.81,
+    "sma200": 18.75,
+    "pctVsSma50": 40.15,
+    "pctVsSma200": 40.61,
+    "rsi14": 55.53,
+    "vol20": 327.2,
     "volPercentile": 100,
-    "drawdown": -20.34,
+    "drawdown": -26.55,
     "high52": 35.89,
     "low52": 13.47,
-    "zScore1d": 0.57,
+    "zScore1d": -0.07,
     "trend": "up",
     "observations": 1257
    },
@@ -4453,11 +4460,11 @@
      "next21d": -47.18
     },
     {
-     "date": "2026-06-25",
-     "move1d": 1.4,
-     "prior5d": 2.44,
-     "next5d": -14.51,
-     "next21d": -1.16
+     "date": "2025-05-01",
+     "move1d": -0.4,
+     "prior5d": -7.06,
+     "next5d": -8.62,
+     "next21d": -25.37
     }
    ],
    "relations": [],
@@ -4521,7 +4528,7 @@
     28.44,
     35.89,
     26.62,
-    28.59
+    26.36
    ],
    "why": null
   },
@@ -4535,26 +4542,26 @@
    "unit": "%",
    "about": "Benchmark borrowing cost; drives valuations everywhere",
    "stats": {
-    "last": 4.918000221252441,
-    "prevClose": 4.9120001792907715,
-    "asOf": "2026-11-23",
-    "change1d": 0.12,
-    "change5d": -3.96,
-    "change1m": -1.4,
-    "change3m": 6.01,
-    "changeYtd": 18.14,
-    "change1y": 19.78,
-    "sma50": 5.08,
+    "last": 4.904000282287598,
+    "prevClose": 4.918000221252441,
+    "asOf": "2026-11-24",
+    "change1d": -0.28,
+    "change5d": -3.9,
+    "change1m": -1.64,
+    "change3m": 5.15,
+    "changeYtd": 17.8,
+    "change1y": 20.7,
+    "sma50": 5.07,
     "sma200": 4.61,
-    "pctVsSma50": -3.11,
-    "pctVsSma200": 6.76,
-    "rsi14": 41.89,
+    "pctVsSma50": -3.35,
+    "pctVsSma200": 6.38,
+    "rsi14": 40.94,
     "vol20": 19.6,
     "volPercentile": 38,
-    "drawdown": -7.4,
+    "drawdown": -7.66,
     "high52": 5.31,
     "low52": 3.96,
-    "zScore1d": 0.11,
+    "zScore1d": -0.25,
     "trend": "sideways",
     "observations": 1255
    },
@@ -4577,11 +4584,11 @@
    },
    "episodes": [
     {
-     "date": "2025-01-17",
-     "move1d": 0.07,
-     "prior5d": -3.5,
-     "next5d": -1.76,
-     "next21d": -1.61
+     "date": "2025-02-20",
+     "move1d": -0.77,
+     "prior5d": -2.95,
+     "next5d": -4.78,
+     "next21d": -5.51
     },
     {
      "date": "2025-05-30",
@@ -4598,23 +4605,22 @@
      "next21d": 2.68
     },
     {
-     "date": "2026-04-02",
-     "move1d": -0.14,
-     "prior5d": -2.33,
-     "next5d": 0.09,
-     "next21d": 3.08
+     "date": "2026-05-27",
+     "move1d": -0.27,
+     "prior5d": -3.99,
+     "next5d": 0.22,
+     "next21d": -2.43
     },
     {
-     "date": "2026-05-29",
+     "date": "2026-10-26",
      "move1d": -0.04,
-     "prior5d": -2.9,
-     "next5d": 1.86,
-     "next21d": -0.79
+     "prior5d": -2.92,
+     "next5d": -1.85,
+     "next21d": -1.64
     }
    ],
    "relations": [],
    "series": [
-    4.758,
     4.796,
     4.796,
     4.762,
@@ -4673,7 +4679,8 @@
     5.066,
     5.052,
     4.912,
-    4.918
+    4.918,
+    4.904
    ],
    "why": null
   },
@@ -4687,44 +4694,44 @@
    "unit": "pts",
    "about": "Dollar against a basket of major currencies",
    "stats": {
-    "last": 104.0479965209961,
+    "last": 103.8479995727539,
     "prevClose": 104.31999969482422,
     "asOf": "2026-11-24",
-    "change1d": -0.26,
-    "change5d": 0.54,
-    "change1m": 2.05,
-    "change3m": 4.92,
-    "changeYtd": 5.87,
-    "change1y": 3.86,
+    "change1d": -0.45,
+    "change5d": 0.35,
+    "change1m": 1.85,
+    "change3m": 4.72,
+    "changeYtd": 5.67,
+    "change1y": 3.66,
     "sma50": 102.07,
     "sma200": 100.08,
-    "pctVsSma50": 1.94,
-    "pctVsSma200": 3.97,
-    "rsi14": 67.49,
-    "vol20": 5.6,
-    "volPercentile": 38,
-    "drawdown": -0.26,
+    "pctVsSma50": 1.74,
+    "pctVsSma200": 3.77,
+    "rsi14": 64.19,
+    "vol20": 5.8,
+    "volPercentile": 41,
+    "drawdown": -0.45,
     "high52": 104.32,
     "low52": 96.22,
-    "zScore1d": -0.84,
+    "zScore1d": -1.45,
     "trend": "up",
     "observations": 1257
    },
    "analog": {
-    "condition": "ordinary days (one-day move within 1 standard deviation of the previous 60 days)",
+    "condition": "days when the one-day fall was bigger than 1 standard deviation of the previous 60 days",
     "next1d": {
-     "n": 824,
-     "pctUp": 51,
-     "median": 0.01,
-     "p10": -0.54,
-     "p90": 0.52
+     "n": 180,
+     "pctUp": 53,
+     "median": 0.04,
+     "p10": -0.58,
+     "p90": 0.56
     },
     "next5d": {
-     "n": 822,
-     "pctUp": 51,
-     "median": 0.03,
-     "p10": -1.09,
-     "p90": 1.1
+     "n": 180,
+     "pctUp": 52,
+     "median": 0.05,
+     "p10": -1.18,
+     "p90": 1.31
     }
    },
    "episodes": [
@@ -4736,32 +4743,32 @@
      "next21d": -1.41
     },
     {
-     "date": "2024-06-26",
-     "move1d": -0.13,
-     "prior5d": 0.3,
-     "next5d": -0.97,
-     "next21d": -1.27
+     "date": "2024-04-30",
+     "move1d": -0.43,
+     "prior5d": -0.09,
+     "next5d": -0.2,
+     "next21d": -1.03
     },
     {
-     "date": "2025-01-03",
-     "move1d": -0.4,
-     "prior5d": 0.76,
-     "next5d": 0.64,
-     "next21d": -0.91
+     "date": "2024-06-11",
+     "move1d": -0.55,
+     "prior5d": 0.36,
+     "next5d": 0.9,
+     "next21d": -0.44
     },
     {
-     "date": "2026-05-19",
-     "move1d": -0.19,
-     "prior5d": 0.64,
-     "next5d": -0.09,
-     "next21d": 1.93
+     "date": "2025-01-06",
+     "move1d": -0.63,
+     "prior5d": 0.24,
+     "next5d": 1.57,
+     "next21d": -0.63
     },
     {
-     "date": "2026-09-24",
-     "move1d": -0.32,
-     "prior5d": 0.75,
-     "next5d": 0.95,
-     "next21d": 0.98
+     "date": "2026-10-12",
+     "move1d": -0.39,
+     "prior5d": 0.34,
+     "next5d": -0.44,
+     "next21d": 0.71
     }
    ],
    "relations": [],
@@ -4825,7 +4832,7 @@
     103.9,
     103.81,
     104.32,
-    104.05
+    103.85
    ],
    "why": null
   },
@@ -4839,26 +4846,26 @@
    "unit": "USD",
    "about": "Dollars per euro",
    "stats": {
-    "last": 1.0948106050491333,
+    "last": 1.0963709354400635,
     "prevClose": 1.097152829170227,
     "asOf": "2026-11-24",
-    "change1d": -0.21,
-    "change5d": -0.46,
-    "change1m": -2.4,
-    "change3m": -6.06,
-    "changeYtd": -6.8,
-    "change1y": -5.85,
+    "change1d": -0.07,
+    "change5d": -0.31,
+    "change1m": -2.26,
+    "change3m": -5.93,
+    "changeYtd": -6.67,
+    "change1y": -5.71,
     "sma50": 1.12,
     "sma200": 1.15,
-    "pctVsSma50": -2.42,
-    "pctVsSma200": -4.78,
-    "rsi14": 26.33,
+    "pctVsSma50": -2.28,
+    "pctVsSma200": -4.64,
+    "rsi14": 27.46,
     "vol20": 5.5,
     "volPercentile": 28,
-    "drawdown": -8.9,
+    "drawdown": -8.77,
     "high52": 1.2,
-    "low52": 1.09,
-    "zScore1d": -0.75,
+    "low52": 1.1,
+    "zScore1d": -0.25,
     "trend": "down",
     "observations": 1300
    },
@@ -4881,39 +4888,39 @@
    },
    "episodes": [
     {
-     "date": "2022-12-22",
-     "move1d": -0.16,
-     "prior5d": -0.62,
-     "next5d": 0.18,
-     "next21d": 2.11
+     "date": "2022-12-29",
+     "move1d": -0.07,
+     "prior5d": 0.18,
+     "next5d": -0.22,
+     "next21d": 2.49
     },
     {
-     "date": "2023-10-03",
+     "date": "2024-12-31",
+     "move1d": -0.22,
+     "prior5d": 0,
+     "next5d": -0.58,
+     "next21d": 0.18
+    },
+    {
+     "date": "2025-01-17",
+     "move1d": 0.06,
+     "prior5d": 0.04,
+     "next5d": 1.11,
+     "next21d": 1.82
+    },
+    {
+     "date": "2025-01-31",
+     "move1d": -0.27,
+     "prior5d": -0.18,
+     "next5d": -0.11,
+     "next21d": 0.16
+    },
+    {
+     "date": "2026-10-14",
      "move1d": -0.08,
-     "prior5d": -0.92,
-     "next5d": 1.27,
-     "next21d": 1.1
-    },
-    {
-     "date": "2025-01-02",
-     "move1d": -0.52,
-     "prior5d": -0.49,
-     "next5d": -0.36,
-     "next21d": 0.44
-    },
-    {
-     "date": "2025-01-20",
-     "move1d": -0.24,
-     "prior5d": 0.32,
-     "next5d": 1.85,
-     "next21d": 2.02
-    },
-    {
-     "date": "2026-10-12",
-     "move1d": -0.4,
-     "prior5d": -0.51,
-     "next5d": 0.5,
-     "next21d": 0.08
+     "prior5d": -0.06,
+     "next5d": 0.35,
+     "next21d": -1.29
     }
    ],
    "relations": [],
@@ -4977,7 +4984,7 @@
     1.0972,
     1.097,
     1.0972,
-    1.0948
+    1.0964
    ],
    "why": null
   },
@@ -5143,26 +5150,26 @@
    "unit": "JPY",
    "about": "Yen per dollar",
    "stats": {
-    "last": 159.15699768066406,
+    "last": 159.2989959716797,
     "prevClose": 158.93099975585938,
     "asOf": "2026-11-24",
-    "change1d": 0.14,
-    "change5d": -0.23,
-    "change1m": 1.48,
-    "change3m": -0.06,
-    "changeYtd": 1.75,
-    "change1y": 2.15,
+    "change1d": 0.23,
+    "change5d": -0.14,
+    "change1m": 1.57,
+    "change3m": 0.03,
+    "changeYtd": 1.85,
+    "change1y": 2.24,
     "sma50": 158.06,
     "sma200": 158.9,
-    "pctVsSma50": 0.69,
-    "pctVsSma200": 0.16,
-    "rsi14": 54.78,
-    "vol20": 4.8,
+    "pctVsSma50": 0.78,
+    "pctVsSma200": 0.25,
+    "rsi14": 55.92,
+    "vol20": 4.9,
     "volPercentile": 9,
-    "drawdown": -2.87,
+    "drawdown": -2.79,
     "high52": 163.86,
     "low52": 152.45,
-    "zScore1d": 0.29,
+    "zScore1d": 0.47,
     "trend": "sideways",
     "observations": 1300
    },
@@ -5192,18 +5199,11 @@
      "next21d": 1.5
     },
     {
-     "date": "2024-03-04",
-     "move1d": 0.01,
-     "prior5d": -0.26,
-     "next5d": -2.22,
-     "next21d": 0.98
-    },
-    {
-     "date": "2024-07-08",
-     "move1d": 0.14,
-     "prior5d": -0.41,
-     "next5d": -1.69,
-     "next21d": -10.02
+     "date": "2024-03-05",
+     "move1d": 0.24,
+     "prior5d": -0.07,
+     "next5d": -2.48,
+     "next21d": 0.71
     },
     {
      "date": "2025-12-08",
@@ -5211,6 +5211,13 @@
      "prior5d": -0.38,
      "next5d": 0.35,
      "next21d": 0.9
+    },
+    {
+     "date": "2026-09-01",
+     "move1d": 0.28,
+     "prior5d": 0.61,
+     "next5d": -4.19,
+     "next21d": -1.65
     },
     {
      "date": "2026-10-15",
@@ -5281,7 +5288,7 @@
     159.38,
     159.71,
     158.93,
-    159.16
+    159.3
    ],
    "why": null
   },
@@ -5295,26 +5302,26 @@
    "unit": "USD/bbl",
    "about": "International oil benchmark",
    "stats": {
-    "last": 86.72000122070312,
+    "last": 88.41000366210938,
     "prevClose": 89.37000274658203,
     "asOf": "2026-11-24",
-    "change1d": -2.97,
-    "change5d": -6.89,
-    "change1m": -25.12,
-    "change3m": -1.28,
-    "changeYtd": 42.51,
-    "change1y": 38.62,
-    "sma50": 102.58,
-    "sma200": 94.79,
-    "pctVsSma50": -15.46,
-    "pctVsSma200": -8.52,
-    "rsi14": 30.99,
-    "vol20": 59.8,
+    "change1d": -1.07,
+    "change5d": -5.08,
+    "change1m": -23.66,
+    "change3m": 0.65,
+    "changeYtd": 45.29,
+    "change1y": 41.32,
+    "sma50": 102.62,
+    "sma200": 94.8,
+    "pctVsSma50": -13.85,
+    "pctVsSma200": -6.74,
+    "rsi14": 32.79,
+    "vol20": 59.5,
     "volPercentile": 91,
-    "drawdown": -26.73,
+    "drawdown": -25.3,
     "high52": 118.35,
     "low52": 58.92,
-    "zScore1d": -1,
+    "zScore1d": -0.36,
     "trend": "sideways",
     "observations": 1257
    },
@@ -5331,45 +5338,45 @@
      "n": 844,
      "pctUp": 51,
      "median": 0.11,
-     "p10": -5.85,
+     "p10": -5.81,
      "p90": 6.19
     }
    },
    "episodes": [
     {
-     "date": "2025-04-30",
-     "move1d": -1.57,
-     "prior5d": -6.64,
-     "next5d": 1.14,
-     "next21d": 4.02
+     "date": "2024-10-28",
+     "move1d": -0.42,
+     "prior5d": -6.47,
+     "next5d": 6.2,
+     "next21d": 2.4
     },
     {
-     "date": "2026-05-28",
-     "move1d": -1.77,
-     "prior5d": -10.27,
-     "next5d": 1.13,
-     "next21d": -20.78
+     "date": "2025-06-29",
+     "move1d": -0.24,
+     "prior5d": -5.41,
+     "next5d": 3.76,
+     "next21d": 8.33
     },
     {
-     "date": "2026-06-11",
-     "move1d": -3.37,
-     "prior5d": -6.19,
-     "next5d": -10.8,
-     "next21d": -2.73
+     "date": "2026-06-08",
+     "move1d": -2.97,
+     "prior5d": -4.74,
+     "next5d": -13.66,
+     "next21d": -16.88
     },
     {
-     "date": "2026-07-27",
-     "move1d": -4.83,
-     "prior5d": -7.6,
-     "next5d": -5.62,
-     "next21d": 4.46
+     "date": "2026-07-30",
+     "move1d": 1.22,
+     "prior5d": -6.88,
+     "next5d": -7.29,
+     "next21d": 0.41
     },
     {
-     "date": "2026-08-24",
-     "move1d": -3.89,
-     "prior5d": -2.68,
-     "next5d": 6.85,
-     "next21d": 20.34
+     "date": "2026-08-25",
+     "move1d": -0.84,
+     "prior5d": -4.13,
+     "next5d": 8.87,
+     "next21d": 18.76
     }
    ],
    "relations": [],
@@ -5433,7 +5440,7 @@
     91.98,
     92.57,
     89.37,
-    86.72
+    88.41
    ],
    "why": null
   },
@@ -5447,26 +5454,26 @@
    "unit": "USD/bbl",
    "about": "US oil benchmark",
    "stats": {
-    "last": 79.94999694824219,
+    "last": 81.63999938964844,
     "prevClose": 80.16999816894531,
     "asOf": "2026-11-24",
-    "change1d": -0.27,
-    "change5d": -7.05,
-    "change1m": -21.43,
-    "change3m": -2.77,
-    "changeYtd": 39.24,
-    "change1y": 37.7,
-    "sma50": 93.21,
-    "sma200": 88.45,
-    "pctVsSma50": -14.22,
-    "pctVsSma200": -9.61,
-    "rsi14": 31.71,
-    "vol20": 50.3,
-    "volPercentile": 84,
-    "drawdown": -29.22,
+    "change1d": 1.83,
+    "change5d": -5.08,
+    "change1m": -19.77,
+    "change3m": -0.72,
+    "changeYtd": 42.18,
+    "change1y": 40.61,
+    "sma50": 93.24,
+    "sma200": 88.46,
+    "pctVsSma50": -12.44,
+    "pctVsSma200": -7.71,
+    "rsi14": 35.52,
+    "vol20": 51.2,
+    "volPercentile": 85,
+    "drawdown": -27.72,
     "high52": 112.95,
     "low52": 55.27,
-    "zScore1d": -0.09,
+    "zScore1d": 0.62,
     "trend": "sideways",
     "observations": 1256
    },
@@ -5483,45 +5490,45 @@
      "n": 842,
      "pctUp": 49,
      "median": -0.15,
-     "p10": -6.65,
+     "p10": -6.61,
      "p90": 6.83
     }
    },
    "episodes": [
     {
-     "date": "2024-09-04",
-     "move1d": -0.07,
-     "prior5d": -7.21,
-     "next5d": -0.26,
-     "next21d": 7.56
+     "date": "2024-09-08",
+     "move1d": 1.54,
+     "prior5d": -6.58,
+     "next5d": 2.01,
+     "next21d": 7.07
     },
     {
-     "date": "2024-10-28",
-     "move1d": -0.25,
-     "prior5d": -6.77,
-     "next5d": 7.11,
-     "next21d": 2.25
+     "date": "2025-04-30",
+     "move1d": 1.77,
+     "prior5d": -5.65,
+     "next5d": 1.13,
+     "next21d": 5.54
     },
     {
-     "date": "2025-05-01",
-     "move1d": -1.6,
-     "prior5d": -7.51,
-     "next5d": 4.68,
-     "next21d": 8.78
+     "date": "2026-06-09",
+     "move1d": 2.07,
+     "prior5d": -6.24,
+     "next5d": -14.71,
+     "next21d": -13.21
     },
     {
-     "date": "2026-06-11",
-     "move1d": -3.23,
-     "prior5d": -6.25,
-     "next5d": -11.85,
-     "next21d": -6.22
+     "date": "2026-07-30",
+     "move1d": 1.29,
+     "prior5d": -5.2,
+     "next5d": -7.67,
+     "next21d": 1.29
     },
     {
-     "date": "2026-08-25",
-     "move1d": -0.16,
-     "prior5d": -4.19,
-     "next5d": 10.68,
-     "next21d": 12.38
+     "date": "2026-08-26",
+     "move1d": 1.58,
+     "prior5d": -4.9,
+     "next5d": 9.3,
+     "next21d": 10.86
     }
    ],
    "relations": [],
@@ -5585,7 +5592,7 @@
     83.21,
     83.98,
     80.17,
-    79.95
+    81.64
    ],
    "why": null
   },
@@ -5599,81 +5606,81 @@
    "unit": "USD/oz",
    "about": "Classic safe-haven asset",
    "stats": {
-    "last": 3623.699951171875,
+    "last": 3552.39990234375,
     "prevClose": 3651.39990234375,
     "asOf": "2026-11-24",
-    "change1d": -0.76,
-    "change5d": -6.22,
-    "change1m": -10.27,
-    "change3m": -22.13,
-    "changeYtd": -16.53,
-    "change1y": -11.17,
-    "sma50": 4082.67,
-    "sma200": 4430.76,
-    "pctVsSma50": -11.24,
-    "pctVsSma200": -18.21,
-    "rsi14": 32.14,
-    "vol20": 33.8,
+    "change1d": -2.71,
+    "change5d": -8.07,
+    "change1m": -12.03,
+    "change3m": -23.66,
+    "changeYtd": -18.17,
+    "change1y": -12.92,
+    "sma50": 4081.24,
+    "sma200": 4430.4,
+    "pctVsSma50": -12.96,
+    "pctVsSma200": -19.82,
+    "rsi14": 29.73,
+    "vol20": 34.6,
     "volPercentile": 96,
-    "drawdown": -31.86,
+    "drawdown": -33.21,
     "high52": 5318.4,
     "low52": 3515.4,
-    "zScore1d": -0.49,
+    "zScore1d": -1.76,
     "trend": "down",
     "observations": 1257
    },
    "analog": {
-    "condition": "ordinary days (one-day move within 1 standard deviation of the previous 60 days)",
+    "condition": "days when the one-day fall was bigger than 1 standard deviation of the previous 60 days",
     "next1d": {
-     "n": 851,
-     "pctUp": 53,
-     "median": 0.06,
-     "p10": -1.29,
-     "p90": 1.48
+     "n": 152,
+     "pctUp": 59,
+     "median": 0.23,
+     "p10": -1.06,
+     "p90": 1.41
     },
     "next5d": {
-     "n": 851,
-     "pctUp": 55,
-     "median": 0.21,
-     "p10": -2.76,
-     "p90": 3.2
+     "n": 149,
+     "pctUp": 60,
+     "median": 0.47,
+     "p10": -2.71,
+     "p90": 4.19
     }
    },
    "episodes": [
     {
-     "date": "2026-06-10",
-     "move1d": -0.47,
-     "prior5d": -8.68,
-     "next5d": 3.21,
-     "next21d": -1.08
+     "date": "2026-03-25",
+     "move1d": -3.87,
+     "prior5d": -4.98,
+     "next5d": 6.93,
+     "next21d": 7.25
     },
     {
-     "date": "2026-06-28",
-     "move1d": -1.4,
-     "prior5d": -3.9,
-     "next5d": 2.93,
-     "next21d": -0.06
+     "date": "2026-06-23",
+     "move1d": -3.39,
+     "prior5d": -7.94,
+     "next5d": 1.84,
+     "next21d": 1.55
     },
     {
-     "date": "2026-07-15",
-     "move1d": -1.47,
-     "prior5d": -3.59,
+     "date": "2026-07-12",
+     "move1d": -2.63,
+     "prior5d": -3.88,
+     "next5d": 0.25,
+     "next21d": 10.87
+    },
+    {
+     "date": "2026-08-31",
+     "move1d": -1.9,
+     "prior5d": -6.35,
      "next5d": 1.46,
-     "next21d": 11.15
+     "next21d": -4.41
     },
     {
-     "date": "2026-09-28",
-     "move1d": 0.27,
-     "prior5d": -4.49,
-     "next5d": 0.18,
-     "next21d": -3.06
-    },
-    {
-     "date": "2026-10-22",
-     "move1d": -1.29,
-     "prior5d": -4.14,
-     "next5d": -2.72,
-     "next21d": -8.89
+     "date": "2026-09-27",
+     "move1d": -3.54,
+     "prior5d": -4.92,
+     "next5d": -0.28,
+     "next21d": -2.25
     }
    ],
    "relations": [],
@@ -5737,7 +5744,7 @@
     3685.5,
     3515.4,
     3651.4,
-    3623.7
+    3552.4
    ],
    "why": null
   },
@@ -5751,26 +5758,26 @@
    "unit": "USD/lb",
    "about": "Industrial metal; a read on global growth",
    "stats": {
-    "last": 5.507999897003174,
+    "last": 5.480999946594238,
     "prevClose": 5.626999855041504,
     "asOf": "2026-11-24",
-    "change1d": -2.11,
-    "change5d": -7.83,
-    "change1m": -15.37,
-    "change3m": -16.48,
-    "changeYtd": -2.17,
-    "change1y": 9.97,
+    "change1d": -2.59,
+    "change5d": -8.28,
+    "change1m": -15.78,
+    "change3m": -16.89,
+    "changeYtd": -2.65,
+    "change1y": 9.43,
     "sma50": 6.4,
     "sma200": 6.22,
-    "pctVsSma50": -13.89,
-    "pctVsSma200": -11.45,
-    "rsi14": 26.68,
-    "vol20": 29,
-    "volPercentile": 75,
-    "drawdown": -19.04,
+    "pctVsSma50": -14.31,
+    "pctVsSma200": -11.89,
+    "rsi14": 26.17,
+    "vol20": 29.3,
+    "volPercentile": 76,
+    "drawdown": -19.44,
     "high52": 6.8,
     "low52": 4.96,
-    "zScore1d": -1.32,
+    "zScore1d": -1.61,
     "trend": "sideways",
     "observations": 1257
    },
@@ -5807,18 +5814,11 @@
      "next21d": 6.62
     },
     {
-     "date": "2024-06-26",
-     "move1d": -0.89,
-     "prior5d": -6.27,
-     "next5d": 7.62,
-     "next21d": -6.16
-    },
-    {
-     "date": "2024-07-18",
-     "move1d": -1.1,
-     "prior5d": -8.25,
-     "next5d": -2.71,
-     "next21d": -1.24
+     "date": "2024-07-17",
+     "move1d": -3.02,
+     "prior5d": -5.38,
+     "next5d": -3.6,
+     "next21d": -3.25
     },
     {
      "date": "2024-11-12",
@@ -5826,6 +5826,13 @@
      "prior5d": -7.44,
      "next5d": 0.25,
      "next21d": 1.83
+    },
+    {
+     "date": "2025-10-09",
+     "move1d": -4.47,
+     "prior5d": -4.14,
+     "next5d": 1.71,
+     "next21d": 4.92
     }
    ],
    "relations": [],
@@ -5889,7 +5896,7 @@
     5.625,
     5.477,
     5.627,
-    5.508
+    5.481
    ],
    "why": null
   },
@@ -5903,26 +5910,26 @@
    "unit": "USD",
    "about": "Risk-appetite gauge",
    "stats": {
-    "last": 59577.6484375,
+    "last": 59761.26171875,
     "prevClose": 61210.984375,
     "asOf": "2026-11-24",
-    "change1d": -2.67,
-    "change5d": -3.75,
-    "change1m": -22.97,
-    "change3m": -30.86,
-    "changeYtd": -31.92,
-    "change1y": -19.41,
-    "sma50": 75634.36,
-    "sma200": 72129.04,
-    "pctVsSma50": -21.23,
-    "pctVsSma200": -17.4,
-    "rsi14": 24.69,
-    "vol20": 39.7,
+    "change1d": -2.37,
+    "change5d": -3.46,
+    "change1m": -22.73,
+    "change3m": -30.65,
+    "changeYtd": -31.71,
+    "change1y": -19.16,
+    "sma50": 75638.03,
+    "sma200": 72129.96,
+    "pctVsSma50": -20.99,
+    "pctVsSma200": -17.15,
+    "rsi14": 24.93,
+    "vol20": 39.6,
     "volPercentile": 58,
-    "drawdown": -31.21,
+    "drawdown": -30.99,
     "high52": 86602.91,
     "low52": 58558.86,
-    "zScore1d": -1.35,
+    "zScore1d": -1.2,
     "trend": "sideways",
     "observations": 1827
    },
@@ -5945,11 +5952,18 @@
    },
    "episodes": [
     {
-     "date": "2024-09-06",
-     "move1d": -3.94,
-     "prior5d": -5.89,
-     "next5d": 6.29,
-     "next21d": 21.95
+     "date": "2023-02-08",
+     "move1d": -1.4,
+     "prior5d": -2.17,
+     "next5d": -4.93,
+     "next21d": 3.08
+    },
+    {
+     "date": "2024-09-05",
+     "move1d": -3.12,
+     "prior5d": -4.76,
+     "next5d": 2.65,
+     "next21d": 16.06
     },
     {
      "date": "2025-04-02",
@@ -5964,13 +5978,6 @@
      "prior5d": -3.11,
      "next5d": -3.49,
      "next21d": 0.61
-    },
-    {
-     "date": "2025-12-01",
-     "move1d": -4.51,
-     "prior5d": -4.64,
-     "next5d": 3.42,
-     "next21d": 2.51
     },
     {
      "date": "2025-12-14",
@@ -6041,7 +6048,7 @@
     60094.09,
     61161.91,
     61210.98,
-    59577.65
+    59761.26
    ],
    "why": null
   }
@@ -6844,9 +6851,9 @@
     "sp500",
     "nasdaq"
    ],
-   "asOf": "2026-11-23",
-   "change1d": 1.9,
-   "change5d": -1.05
+   "asOf": "2026-11-24",
+   "change1d": 1.43,
+   "change5d": 0.61
   },
   {
    "symbol": "MSFT",
@@ -6856,9 +6863,9 @@
     "nasdaq",
     "dow"
    ],
-   "asOf": "2026-11-23",
-   "change1d": 1.65,
-   "change5d": -4.92
+   "asOf": "2026-11-24",
+   "change1d": 0.74,
+   "change5d": -2
   },
   {
    "symbol": "NVDA",
@@ -6867,9 +6874,9 @@
     "sp500",
     "nasdaq"
    ],
-   "asOf": "2026-11-23",
-   "change1d": 31.48,
-   "change5d": 5.71
+   "asOf": "2026-11-24",
+   "change1d": -5.86,
+   "change5d": -0.05
   },
   {
    "symbol": "AMZN",
@@ -6878,9 +6885,9 @@
     "sp500",
     "nasdaq"
    ],
-   "asOf": "2026-11-23",
-   "change1d": 3.47,
-   "change5d": -0.92
+   "asOf": "2026-11-24",
+   "change1d": -1.21,
+   "change5d": -2.17
   },
   {
    "symbol": "GOOGL",
@@ -6889,9 +6896,9 @@
     "sp500",
     "nasdaq"
    ],
-   "asOf": "2026-11-23",
-   "change1d": 6.34,
-   "change5d": -0.57
+   "asOf": "2026-11-24",
+   "change1d": -1.08,
+   "change5d": -0.41
   },
   {
    "symbol": "META",
@@ -6900,9 +6907,9 @@
     "sp500",
     "nasdaq"
    ],
-   "asOf": "2026-11-23",
-   "change1d": 6.55,
-   "change5d": -4.6
+   "asOf": "2026-11-24",
+   "change1d": -1.3,
+   "change5d": -4.69
   },
   {
    "symbol": "AVGO",
@@ -6911,9 +6918,9 @@
     "sp500",
     "nasdaq"
    ],
-   "asOf": "2026-11-23",
-   "change1d": 3,
-   "change5d": -5.95
+   "asOf": "2026-11-24",
+   "change1d": -3.98,
+   "change5d": -11.86
   },
   {
    "symbol": "TSLA",
@@ -6922,9 +6929,9 @@
     "sp500",
     "nasdaq"
    ],
-   "asOf": "2026-11-23",
-   "change1d": 11.46,
-   "change5d": 1.51
+   "asOf": "2026-11-24",
+   "change1d": -0.2,
+   "change5d": 1.2
   },
   {
    "symbol": "BRK-B",
@@ -6932,9 +6939,9 @@
    "indices": [
     "sp500"
    ],
-   "asOf": "2026-11-23",
-   "change1d": 0.41,
-   "change5d": -3.46
+   "asOf": "2026-11-24",
+   "change1d": 0.85,
+   "change5d": -1.63
   },
   {
    "symbol": "JPM",
@@ -6943,9 +6950,9 @@
     "sp500",
     "dow"
    ],
-   "asOf": "2026-11-23",
-   "change1d": 1.97,
-   "change5d": -6.37
+   "asOf": "2026-11-24",
+   "change1d": 0.14,
+   "change5d": -3.9
   },
   {
    "symbol": "GS",
@@ -6953,9 +6960,9 @@
    "indices": [
     "dow"
    ],
-   "asOf": "2026-11-23",
-   "change1d": 4.16,
-   "change5d": -7.62
+   "asOf": "2026-11-24",
+   "change1d": -2.14,
+   "change5d": -8.15
   },
   {
    "symbol": "UNH",
@@ -6963,9 +6970,9 @@
    "indices": [
     "dow"
    ],
-   "asOf": "2026-11-23",
-   "change1d": -1.11,
-   "change5d": -18.43
+   "asOf": "2026-11-24",
+   "change1d": 1.73,
+   "change5d": -12.27
   },
   {
    "symbol": "HD",
@@ -6973,9 +6980,9 @@
    "indices": [
     "dow"
    ],
-   "asOf": "2026-11-23",
-   "change1d": 2.07,
-   "change5d": -0.42
+   "asOf": "2026-11-24",
+   "change1d": 2.2,
+   "change5d": 4.33
   },
   {
    "symbol": "CAT",
@@ -6983,9 +6990,9 @@
    "indices": [
     "dow"
    ],
-   "asOf": "2026-11-23",
-   "change1d": 7.17,
-   "change5d": -4.11
+   "asOf": "2026-11-24",
+   "change1d": -1.17,
+   "change5d": -5.28
   },
   {
    "symbol": "RY.TO",
@@ -6993,9 +7000,9 @@
    "indices": [
     "tsx"
    ],
-   "asOf": "2026-11-23",
-   "change1d": 2.75,
-   "change5d": -5.39
+   "asOf": "2026-11-24",
+   "change1d": -0.24,
+   "change5d": -4.04
   },
   {
    "symbol": "SHOP.TO",
@@ -7003,9 +7010,9 @@
    "indices": [
     "tsx"
    ],
-   "asOf": "2026-11-23",
-   "change1d": 8.96,
-   "change5d": -8.74
+   "asOf": "2026-11-24",
+   "change1d": -2.13,
+   "change5d": -6.89
   },
   {
    "symbol": "VALE3.SA",
@@ -7013,9 +7020,9 @@
    "indices": [
     "bovespa"
    ],
-   "asOf": "2026-11-23",
-   "change1d": -0.12,
-   "change5d": -8.02
+   "asOf": "2026-11-24",
+   "change1d": -5.51,
+   "change5d": -9.08
   },
   {
    "symbol": "PETR4.SA",
@@ -7023,9 +7030,9 @@
    "indices": [
     "bovespa"
    ],
-   "asOf": "2026-11-23",
-   "change1d": -3.21,
-   "change5d": -8.83
+   "asOf": "2026-11-24",
+   "change1d": -1.82,
+   "change5d": -7.88
   },
   {
    "symbol": "ITUB4.SA",
@@ -7033,9 +7040,9 @@
    "indices": [
     "bovespa"
    ],
-   "asOf": "2026-11-23",
-   "change1d": -0.85,
-   "change5d": -6.01
+   "asOf": "2026-11-24",
+   "change1d": 0.03,
+   "change5d": -3.78
   },
   {
    "symbol": "SHEL.L",
@@ -7044,8 +7051,8 @@
     "ftse100"
    ],
    "asOf": "2026-11-24",
-   "change1d": -0.48,
-   "change5d": -3.36
+   "change1d": -0.42,
+   "change5d": -3.31
   },
   {
    "symbol": "AZN.L",
@@ -7054,8 +7061,8 @@
     "ftse100"
    ],
    "asOf": "2026-11-24",
-   "change1d": 0.89,
-   "change5d": -1.03
+   "change1d": 2.9,
+   "change5d": 0.94
   },
   {
    "symbol": "HSBA.L",
@@ -7064,8 +7071,8 @@
     "ftse100"
    ],
    "asOf": "2026-11-24",
-   "change1d": -0.7,
-   "change5d": -4.15
+   "change1d": -2.73,
+   "change5d": -6.11
   },
   {
    "symbol": "ULVR.L",
@@ -7074,8 +7081,8 @@
     "ftse100"
    ],
    "asOf": "2026-11-24",
-   "change1d": 0.99,
-   "change5d": -0.94
+   "change1d": 1.95,
+   "change5d": 0.01
   },
   {
    "symbol": "BP.L",
@@ -7084,8 +7091,8 @@
     "ftse100"
    ],
    "asOf": "2026-11-24",
-   "change1d": -0.55,
-   "change5d": -4.3
+   "change1d": -0.4,
+   "change5d": -4.15
   },
   {
    "symbol": "SAP.DE",
@@ -7094,9 +7101,9 @@
     "dax",
     "eurostoxx50"
    ],
-   "asOf": "2026-11-24",
-   "change1d": -1.13,
-   "change5d": -8.57
+   "asOf": "2026-11-23",
+   "change1d": 1.45,
+   "change5d": -12.68
   },
   {
    "symbol": "SIE.DE",
@@ -7105,9 +7112,9 @@
     "dax",
     "eurostoxx50"
    ],
-   "asOf": "2026-11-24",
-   "change1d": -1.51,
-   "change5d": -3.21
+   "asOf": "2026-11-23",
+   "change1d": 4.12,
+   "change5d": -2.72
   },
   {
    "symbol": "ALV.DE",
@@ -7116,9 +7123,9 @@
     "dax",
     "eurostoxx50"
    ],
-   "asOf": "2026-11-24",
-   "change1d": 0.04,
-   "change5d": -1.99
+   "asOf": "2026-11-23",
+   "change1d": 1.15,
+   "change5d": -3.83
   },
   {
    "symbol": "DTE.DE",
@@ -7127,9 +7134,9 @@
     "dax",
     "eurostoxx50"
    ],
-   "asOf": "2026-11-24",
-   "change1d": 0.88,
-   "change5d": -2.36
+   "asOf": "2026-11-23",
+   "change1d": -0.34,
+   "change5d": -2.78
   },
   {
    "symbol": "MC.PA",
@@ -7138,9 +7145,9 @@
     "cac40",
     "eurostoxx50"
    ],
-   "asOf": "2026-11-24",
-   "change1d": 0.18,
-   "change5d": -0.89
+   "asOf": "2026-11-23",
+   "change1d": 1.79,
+   "change5d": -3.76
   },
   {
    "symbol": "TTE.PA",
@@ -7149,9 +7156,9 @@
     "cac40",
     "eurostoxx50"
    ],
-   "asOf": "2026-11-24",
-   "change1d": -0.61,
-   "change5d": -6.05
+   "asOf": "2026-11-23",
+   "change1d": -0.9,
+   "change5d": -5.45
   },
   {
    "symbol": "SAN.PA",
@@ -7160,9 +7167,9 @@
     "cac40",
     "eurostoxx50"
    ],
-   "asOf": "2026-11-24",
-   "change1d": 6.04,
-   "change5d": 4.45
+   "asOf": "2026-11-23",
+   "change1d": 0.4,
+   "change5d": -3.46
   },
   {
    "symbol": "AIR.PA",
@@ -7171,9 +7178,9 @@
     "cac40",
     "eurostoxx50"
    ],
-   "asOf": "2026-11-24",
-   "change1d": -0.36,
-   "change5d": -3.02
+   "asOf": "2026-11-23",
+   "change1d": 3.03,
+   "change5d": -4.13
   },
   {
    "symbol": "ASML.AS",
@@ -7182,9 +7189,9 @@
     "aex",
     "eurostoxx50"
    ],
-   "asOf": "2026-11-24",
-   "change1d": -2.44,
-   "change5d": 0.36
+   "asOf": "2026-11-23",
+   "change1d": 8.92,
+   "change5d": -2.63
   },
   {
    "symbol": "SAN.MC",
@@ -7192,9 +7199,9 @@
    "indices": [
     "ibex35"
    ],
-   "asOf": "2026-11-24",
-   "change1d": -0.95,
-   "change5d": -3
+   "asOf": "2026-11-23",
+   "change1d": 2.46,
+   "change5d": -4.06
   },
   {
    "symbol": "IBE.MC",
@@ -7202,9 +7209,9 @@
    "indices": [
     "ibex35"
    ],
-   "asOf": "2026-11-24",
-   "change1d": -0.35,
-   "change5d": -0.57
+   "asOf": "2026-11-23",
+   "change1d": 0.71,
+   "change5d": -1.34
   },
   {
    "symbol": "ITX.MC",
@@ -7212,9 +7219,9 @@
    "indices": [
     "ibex35"
    ],
-   "asOf": "2026-11-24",
-   "change1d": -0.75,
-   "change5d": -2.22
+   "asOf": "2026-11-23",
+   "change1d": 1.56,
+   "change5d": -2.69
   },
   {
    "symbol": "ENEL.MI",
@@ -7222,9 +7229,9 @@
    "indices": [
     "ftsemib"
    ],
-   "asOf": "2026-11-24",
-   "change1d": -0.68,
-   "change5d": -2.53
+   "asOf": "2026-11-23",
+   "change1d": 0.92,
+   "change5d": -2.58
   },
   {
    "symbol": "ISP.MI",
@@ -7232,9 +7239,9 @@
    "indices": [
     "ftsemib"
    ],
-   "asOf": "2026-11-24",
-   "change1d": -1.58,
-   "change5d": -7.17
+   "asOf": "2026-11-23",
+   "change1d": -1.07,
+   "change5d": -7.01
   },
   {
    "symbol": "UCG.MI",
@@ -7242,9 +7249,9 @@
    "indices": [
     "ftsemib"
    ],
-   "asOf": "2026-11-24",
-   "change1d": -0.21,
-   "change5d": -6.49
+   "asOf": "2026-11-23",
+   "change1d": -1.89,
+   "change5d": -7.84
   },
   {
    "symbol": "NESN.SW",
@@ -7252,9 +7259,9 @@
    "indices": [
     "smi"
    ],
-   "asOf": "2026-11-24",
-   "change1d": 0.9,
-   "change5d": -1.26
+   "asOf": "2026-11-23",
+   "change1d": -0.78,
+   "change5d": -3.68
   },
   {
    "symbol": "NOVN.SW",
@@ -7262,9 +7269,9 @@
    "indices": [
     "smi"
    ],
-   "asOf": "2026-11-24",
-   "change1d": -0.42,
-   "change5d": -4.35
+   "asOf": "2026-11-23",
+   "change1d": 0.2,
+   "change5d": -5.7
   },
   {
    "symbol": "9983.T",
@@ -7551,9 +7558,9 @@
    "indices": [
     "asx200"
    ],
-   "asOf": "2026-11-24",
-   "change1d": 1.35,
-   "change5d": -2.11
+   "asOf": "2026-11-25",
+   "change1d": -2.89,
+   "change5d": -4.88
   },
   {
    "symbol": "CBA.AX",
@@ -7561,9 +7568,9 @@
    "indices": [
     "asx200"
    ],
-   "asOf": "2026-11-24",
-   "change1d": 1.82,
-   "change5d": -0.74
+   "asOf": "2026-11-25",
+   "change1d": 0.2,
+   "change5d": -0.8
   },
   {
    "symbol": "CSL.AX",
@@ -7571,9 +7578,9 @@
    "indices": [
     "asx200"
    ],
-   "asOf": "2026-11-24",
-   "change1d": 2.57,
-   "change5d": 2.45
+   "asOf": "2026-11-25",
+   "change1d": 1.38,
+   "change5d": 3.95
   },
   {
    "symbol": "D05.SI",
@@ -7598,54 +7605,353 @@
  ],
  "headlines": [
   {
-   "title": "Why France is at risk of recession — and what could keep it out of one",
-   "url": "https://www.cnbc.com/2026/11/24/france-recession-risk-pmi.html",
-   "publisher": "CNBC",
-   "tier": "press",
-   "published": "2026-11-24T11:15:30.000Z",
-   "about": []
-  },
-  {
-   "title": "Oil Holds Decline on Signs of Continuing US-Iran Diplomacy",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdTVqRHVCelVPeW5pSEVHY2NRTVVFNUVLemNoM3M5a0N1MERHM2t6OEdOUGlSRVA5VW5wYzhuNVUzTlFYYzBXMmlIbmZ4bkNVT09ON280dld0WFBPbnJpaG1NODN0XzJZV1ZTRFcyR3hUZGZ3NW5Pc04zZ1JIaG5mR2hicHdTcGxuYTNhNE1LemwtclRGTllHQ04wcng4Zw?oc=5",
+   "title": "Anthropic Drops",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5PWW5MTjgyMUs2QVRIRHpDalhPaGRhWXZGbUkzODQ5bUd1WnM1YjR5VUxMS0ZtUk1nRUUydGRPZzRMOWwtZ3lORFdZTEVqTUdBYmtjSkdNWngweDdFMWt1ckdsekUxeHhLZW5VRzRKSkFteGwzMFFGWlRGckY?oc=5",
    "publisher": "Bloomberg",
    "tier": "press",
-   "published": "2026-11-24T11:15:04.000Z",
+   "published": "2026-11-24T23:48:01.000Z",
    "about": []
   },
   {
-   "title": "AI boom looms over Warsh’s Fed as inflation worries grow",
-   "url": "https://www.investing.com/news/economy-news/ai-boom-looms-over-warshs-fed-as-inflation-worries-grow-5047641",
-   "publisher": "Investing.com",
-   "tier": "data",
-   "published": "2026-11-24T11:13:56.000Z",
+   "title": "Shein to pay $100 million to settle US shipping, customer service claims",
+   "url": "https://www.straitstimes.com/business/shein-to-pay-100-million-to-settle-us-shipping-customer-service-claims",
+   "publisher": "Straits Times",
+   "tier": "press",
+   "published": "2026-11-24T23:48:00.000Z",
    "about": []
   },
   {
-   "title": "UK retailers report best month for sales since late 2022: CBI",
-   "url": "https://www.investing.com/news/economic-indicators/uk-retailers-report-best-month-for-sales-since-late-2022-cbi-5047636",
-   "publisher": "Investing.com",
-   "tier": "data",
-   "published": "2026-11-24T11:13:39.000Z",
+   "title": "The WSJ Dollar Index Falls 0.27% to 98.75",
+   "url": "https://www.wsj.com/articles/dollar-stays-strong-after-nvidia-news-boosts-u-s-tech-stocks-a0c603c2?mod=rss_markets_main",
+   "publisher": "WSJ",
+   "tier": "press",
+   "published": "2026-11-24T23:44:00.000Z",
    "about": []
   },
   {
-   "title": "U.S. stock futures slip after Nvidia-led Wall Street rally",
-   "url": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-after-nvidialed-wall-street-rally-5046750",
+   "title": "Earnings call transcript: GoodRx beats Q3 2026 revenue forecast, shares rise after hours",
+   "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-goodrx-beats-q3-2026-revenue-forecast-shares-rise-after-hours-93CH-5049375",
    "publisher": "Investing.com",
    "tier": "data",
-   "published": "2026-11-24T11:13:35.000Z",
+   "published": "2026-11-24T23:42:03.000Z",
+   "about": []
+  },
+  {
+   "title": "US Readies Tariff Hike on China, EU Goods",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-24/us-readies-tariff-hike-on-china-eu-goods-video-mwvca1k8",
+   "publisher": "Bloomberg",
+   "tier": "press",
+   "published": "2026-11-24T23:41:59.000Z",
+   "about": []
+  },
+  {
+   "title": "Huang’s Return Hits the Reset Button for AI Bets",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaGs4SDdIR0lmclpsRmgzQm1XRmRZQkY5QmdUcEZwOXhQOWc2RkpxYXVBbTJfcG83REtMbXI2Q1ByNUdRVzg2VGhHZ3RRXy01RWtEb2RKU0hfSTZQRTVncjNKNlpHa2RpeE9ES2w4X1JLNVVJVU85dFU0UVNiQ2FQSzhBdVh1SnJ5bVNYMjZOejlPSUZtUzY0bWkzaUozZmZiZ1pyNg?oc=5",
+   "publisher": "Bloomberg",
+   "tier": "press",
+   "published": "2026-11-24T23:35:31.000Z",
+   "about": []
+  },
+  {
+   "title": "Alamo Group director Robert P. Bauer buys $132,580 in stock",
+   "url": "https://www.investing.com/news/insider-trading-news/alamo-group-director-robert-p-bauer-buys-132580-in-stock-93CH-5049372",
+   "publisher": "Investing.com",
+   "tier": "data",
+   "published": "2026-11-24T23:30:52.000Z",
+   "about": []
+  },
+  {
+   "title": "Reliance Worldwide hits 20-month high as AustralianSuper backs Brookfield bid (Nov. 24)",
+   "url": "https://www.investing.com/news/stock-market-news/reliance-worldwide-hits-20month-high-as-australiansuper-backs-brookfield-bid-nov-24-5049371",
+   "publisher": "Investing.com",
+   "tier": "data",
+   "published": "2026-11-24T23:30:33.000Z",
+   "about": []
+  },
+  {
+   "title": "Bonta Says Blanche ‘Prejudged’ Nvidia Conduct",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-24/bonta-says-blanche-prejudged-nvidia-conduct-video",
+   "publisher": "Bloomberg",
+   "tier": "press",
+   "published": "2026-11-24T23:29:51.000Z",
+   "about": []
+  },
+  {
+   "title": "Carter’s director Jevin S. Eagle to step down after 2027 annual meeting",
+   "url": "https://www.investing.com/news/sec-filings/carters-director-jevin-s-eagle-to-step-down-after-2027-annual-meeting-93CH-5049361",
+   "publisher": "Investing.com",
+   "tier": "data",
+   "published": "2026-11-24T23:29:33.000Z",
+   "about": []
+  },
+  {
+   "title": "Bioventus director Guy P. Nohra resigns from board and committees",
+   "url": "https://www.investing.com/news/sec-filings/bioventus-director-guy-p-nohra-resigns-from-board-and-committees-93CH-5049360",
+   "publisher": "Investing.com",
+   "tier": "data",
+   "published": "2026-11-24T23:26:02.000Z",
+   "about": []
+  },
+  {
+   "title": "Nvidia option trader scores 1,984% gain after CEO Huang’s return",
+   "url": "https://www.straitstimes.com/business/nvidia-option-trader-scores-1984-gain-after-ceo-huangs-return",
+   "publisher": "Straits Times",
+   "tier": "press",
+   "published": "2026-11-24T23:25:00.000Z",
+   "about": []
+  },
+  {
+   "title": "WebBeds 1H27 slides: revenue up 17%, A$57m tax charge drives statutory loss",
+   "url": "https://www.investing.com/news/company-news/webbeds-1h27-slides-revenue-up-17-a57m-tax-charge-drives-statutory-loss-93CH-5049358",
+   "publisher": "Investing.com",
+   "tier": "data",
+   "published": "2026-11-24T23:24:03.000Z",
+   "about": []
+  },
+  {
+   "title": "Esper on Nvidia, Iran and Ukraine",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-24/esper-on-nvidia-iran-and-ukraine-video",
+   "publisher": "Bloomberg",
+   "tier": "press",
+   "published": "2026-11-24T23:24:01.000Z",
+   "about": []
+  },
+  {
+   "title": "US stocks slide as Nvidia rally fizzles out, dollar falls",
+   "url": "https://www.livemint.com/market/us-stocks-slide-as-nvidia-rally-fizzles-out-dollar-falls-11795561223195.html",
+   "publisher": "Mint",
+   "tier": "press",
+   "published": "2026-11-24T23:00:22.000Z",
    "about": [
     "sp500"
    ]
   },
   {
-   "title": "Nvidia board’s Huang reversal raises doubts about independence, critics say",
-   "url": "https://www.investing.com/news/stock-market-news/nvidia-boards-huang-reversal-raises-doubts-about-independence-critics-say-5047621",
-   "publisher": "Investing.com",
+   "title": "Wall Street's $1.4 Trillion Bubble May Be on the Verge of Bursting -- but It's Not Artificial Intelligence (AI)",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNR3RjcmgzaktFaFBfbzRReFRUOUlzUEVrYlhnb04yVUx4bFBHRjZiRUhnbV9JeWxHdlYydkdRUEZCRlRhVHRTbDV6UHBNdDFuUTFaZ2FUMEREZXZqekY0Q0pVLWltdm5WekNULWxpeThjSWxBd1V2WkRpLVdBT2NrSTI3cS1aU0tGa0x6aVdXMUtQUzhI?oc=5",
+   "publisher": "Yahoo Finance",
    "tier": "data",
-   "published": "2026-11-24T11:13:11.000Z",
-   "about": []
+   "published": "2026-11-24T22:20:02.000Z",
+   "about": [
+    "sp500"
+   ]
+  },
+  {
+   "title": "Stock Market Today, Nov. 24: Tech Sell-Off Drags Nasdaq as Dow Gains on Value Rotation",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRGtvc1R6Y1RvSXFZeW5KTVdmOUkzMnE3MEFvNWt6UTJkSi1pUDZTSWs4YzdvTk5DR1NLYmtVOHBZOWhRY1NwVXZUVEVKOWNGeHpySXlpOF9qcmo5YllkTWpvb1MwRi0zOUEtbDFpQUJnMmdSUXZWSWhjdVhVOVZlbzhmUHhzQlZSRms3T2otRlV5YTlv?oc=5",
+   "publisher": "Yahoo Finance",
+   "tier": "data",
+   "published": "2026-11-24T22:11:48.000Z",
+   "about": [
+    "nasdaq"
+   ]
+  },
+  {
+   "title": "U.S. Stocks Mixed as Huang Relief Rally Fades",
+   "url": "https://www.wsj.com/finance/stocks/u-s-stocks-mixed-as-huang-relief-rally-fades-9fa9750a?mod=rss_markets_main",
+   "publisher": "WSJ",
+   "tier": "press",
+   "published": "2026-11-24T22:03:00.000Z",
+   "about": [
+    "sp500",
+    "nasdaq"
+   ]
+  },
+  {
+   "title": "Nasdaq, S&P 500 slip following Monday's Nvidia-fueled rally",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSTdTSVk1YVg0WC1SRVJKVW1XYTZJbjRhRVctYkNzZHZRcW5TaVE3MVdSd2JfYUNaV3otX1FzR1lxYkwyWWZtbS1ONDdiem9UVUI0ckV6c2tiOEt0TGViNlUxZFdSeDV0aVJ4cjZkSkE5Nk9veE1UTmxad0xxaXhScndGMV9IdWVrNUpOQnY0Y0hXVmpZVFgwbTFQMDZiX0NqdExaejlYMzJnbjg?oc=5",
+   "publisher": "Reuters",
+   "tier": "press",
+   "published": "2026-11-24T22:01:00.000Z",
+   "about": [
+    "sp500",
+    "nasdaq"
+   ]
+  },
+  {
+   "title": "BOJ Likely to Lift Rate to 2% by Mid-2027, Ex-Board Member Says",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-24/boj-likely-to-lift-rate-to-2-by-mid-2027-ex-board-member-says",
+   "publisher": "Bloomberg",
+   "tier": "press",
+   "published": "2026-11-24T22:00:00.000Z",
+   "about": [
+    "nikkei"
+   ]
+  },
+  {
+   "title": "TSX ends lower as tech and mining shares fall",
+   "url": "https://www.livemint.com/market/tsx-ends-lower-as-tech-and-mining-shares-fall-11795556702667.html",
+   "publisher": "Mint",
+   "tier": "press",
+   "published": "2026-11-24T21:45:02.000Z",
+   "about": [
+    "tsx"
+   ]
+  },
+  {
+   "title": "Nasdaq, S&P 500 end lower following Nov 23’s Nvidia-fuelled rally",
+   "url": "https://www.straitstimes.com/business/companies-markets/nasdaq-sp-500-end-lower-following-nov-23s-nvidia-fuelled-rally",
+   "publisher": "Straits Times",
+   "tier": "press",
+   "published": "2026-11-24T21:28:42.000Z",
+   "about": [
+    "sp500",
+    "dow",
+    "nasdaq"
+   ]
+  },
+  {
+   "title": "Lula Urged to Fast Track Brazil Central Bank Picks",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-24/lula-urged-to-fast-track-brazil-central-bank-picks",
+   "publisher": "Bloomberg",
+   "tier": "press",
+   "published": "2026-11-24T18:29:23.000Z",
+   "about": [
+    "bovespa"
+   ]
+  },
+  {
+   "title": "Opinion | Taiwan Is the West Berlin of Our Time",
+   "url": "https://www.wsj.com/opinion/taiwan-is-the-west-berlin-of-our-time-1efef112?mod=rss_worldnews",
+   "publisher": "WSJ",
+   "tier": "press",
+   "published": "2026-11-24T17:44:00.000Z",
+   "about": [
+    "taiex"
+   ]
+  },
+  {
+   "title": "UK's FTSE 100 slips as miners, bank stocks weigh",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSlVDUmRqS0pZQW9lX21HUU02M2tLUmFtSHBQeHp1RHBKc25VMTBWTHhadlNIZHgwOXYxcWhVNkJ3dlc1ZkItQ25Wa0tYR2VXWkF2Z3d2N3l6N2ZKcGdMYkNNUExDUG1oMVlDb0REa2xxRFdsX3hJS0JFdENpd1gxMS1RRHNqaGsxMVA2YTNmOFhJcnlR?oc=5",
+   "publisher": "Reuters",
+   "tier": "press",
+   "published": "2026-11-24T17:21:28.000Z",
+   "about": [
+    "ftse100"
+   ]
+  },
+  {
+   "title": "LONDON MARKET CLOSE: Miners peg back FTSE 100 while Anthropic slumps",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQMzAtVkw2M0E1NF8wdVo5TGI3Zi1JMUJBaDN0V2dGaEpEUFZEVnF0aEJjM2ZERDdSUkltcTluaG5fZDdaMkx4Nzd0bXJ2QVF5dHdCU29lWTZxSFY5RExTVG5CUXo3X3ZBcThiRlZfS0VSemQ1dnNYNWRPMFh3cGNOelo1U21pX0ZGNFpYRzU5R3dhcVpIRndISTdJaFBMYVpLeUcwUmZub18zWXhBOGNJaGFVWk9nTDFvY2RJZUpMcVlQQzJ0Nmlhek1MMmY4eWM?oc=5",
+   "publisher": "Morningstar",
+   "tier": "data",
+   "published": "2026-11-24T17:05:51.000Z",
+   "about": [
+    "ftse100"
+   ]
+  },
+  {
+   "title": "US markets slide, Asian markets rebound as Nvidia rally fizzles out",
+   "url": "https://www.business-standard.com/markets/news/us-markets-slide-asian-markets-rebound-as-nvidia-rally-fizzles-out-126112401181_1.html",
+   "publisher": "Business Standard",
+   "tier": "press",
+   "published": "2026-11-24T16:58:55.000Z",
+   "about": [
+    "nasdaq",
+    "kospi"
+   ]
+  },
+  {
+   "title": "Trump readies raft of new tariffs on major economies",
+   "url": "https://www.ft.com/content/335b593d-1478-4550-ab0a-71fec6280eb0?syn-25a6b1a6=1",
+   "publisher": "Financial Times",
+   "tier": "press",
+   "published": "2026-11-24T16:30:35.000Z",
+   "about": [
+    "nikkei",
+    "kospi"
+   ]
+  },
+  {
+   "title": "Shanghai’s powerful Communist Party boss toppled as Xi escalates purge",
+   "url": "https://www.ft.com/content/02240d42-ccd8-4b4d-b0e3-49a04c950eea?syn-25a6b1a6=1",
+   "publisher": "Financial Times",
+   "tier": "press",
+   "published": "2026-11-24T15:55:20.000Z",
+   "about": [
+    "shanghai"
+   ]
+  },
+  {
+   "title": "China Takes Down Shanghai Party Boss Once Seen as Potential Leader",
+   "url": "https://www.wsj.com/world/china/china-takes-down-shanghai-party-boss-once-seen-as-potential-leader-5d6d06e0?mod=rss_worldnews",
+   "publisher": "WSJ",
+   "tier": "press",
+   "published": "2026-11-24T15:42:00.000Z",
+   "about": [
+    "shanghai"
+   ]
+  },
+  {
+   "title": "Bank of Japan’s Ueda Vows to Keep Careful Eye on Fed Moves",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSnNza2NNRXZGYWpkOFZlTS1qYV9TRUQyMTFnSWxTQVlIQW01R0tzTm41dVhsa2VUZHRkcHJkbko1NjNVZ0I4emgwdXcxcElXa3ViRnA5NWZDWndSeExsQk5CQTJ0NS1JX1duQ0dORTZ6MVludnFYOFBKM2h1aWNyXzk2SG9JVDlwU0YxUkVpdzhtVENLSmgzZnlvbFRVdXhCeW5naU5TSHhOcjdmLWptUVRXT1A?oc=5",
+   "publisher": "WSJ",
+   "tier": "press",
+   "published": "2026-11-24T15:25:03.000Z",
+   "about": [
+    "nikkei"
+   ]
+  },
+  {
+   "title": "Brazil Real Gains on Reports Lula Backs More Spending Curbs",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-24/brazil-real-rallies-on-reports-lula-backs-further-spending-curbs",
+   "publisher": "Bloomberg",
+   "tier": "press",
+   "published": "2026-11-24T15:12:01.000Z",
+   "about": [
+    "bovespa"
+   ]
+  },
+  {
+   "title": "Brazil's tax revenue extends record run in October, buoyed by higher oil prices",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxORmVvMEdpSWJqdEg5V2VKRlRfYlYzcTY0c3p0RU5PVk9ORHZ5S3E2NUxRYjVZYVFPUVlhY2ZRbDR2d3l3ZGpTc3VvNkNDd3B5bFA2azFNX0ExZWtXUWxFemFuWEMzNXBQaFV0eTgtVjVLMDNfek5qc1E5cUZvaEdYTThmSVZZZDJraXJYTEtZUXY3UmRnN2dKeEdFakJEbHBZcmdPaEZNS3pOY1oyLV9hZW85X0NmSmJwcWU4UDZGR0hkaG8?oc=5",
+   "publisher": "Reuters",
+   "tier": "press",
+   "published": "2026-11-24T15:03:45.000Z",
+   "about": [
+    "bovespa"
+   ]
+  },
+  {
+   "title": "Mexico's inflation hits six-month high but core measure undershoots forecasts",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQcldRaUVWak5KdEVRemN1Z3BJUGdUTkpxMkRRWUNTMGVDWVp4RWxGUjdTcGMteW1pN1NkUmRNM0RicWRxSDJNV2kwSmN0RHhRTlNPSTUzcElMTGFMczZ1U1FfYXBJRzc0MkZPbzZVZlFmWVZ1V1RlUlpKNkxhNFhkUlFvbldsMzNNY0ZySlgwZHR3cmtxYXhMZXliZ3pTa013U2F1T1FjN0FvNWRlV3NHX0h4Sm5HLXdLRGN5SWxLai0?oc=5",
+   "publisher": "Reuters",
+   "tier": "press",
+   "published": "2026-11-24T13:08:09.000Z",
+   "about": [
+    "ipc"
+   ]
+  },
+  {
+   "title": "Russian Warplanes Trigger Alarm Among U.S. Partners in Asia",
+   "url": "https://www.wsj.com/world/russian-warplanes-trigger-alarm-among-u-s-partners-in-asia-8c2a2157?mod=rss_worldnews",
+   "publisher": "WSJ",
+   "tier": "press",
+   "published": "2026-11-24T12:23:00.000Z",
+   "about": [
+    "nikkei",
+    "kospi"
+   ]
+  },
+  {
+   "title": "Mexico’s Headline Inflation Ticks Up After Surprise Rate Cut",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-24/mexico-s-headline-inflation-ticks-up-after-surprise-rate-cut",
+   "publisher": "Bloomberg",
+   "tier": "press",
+   "published": "2026-11-24T12:12:27.000Z",
+   "about": [
+    "ipc"
+   ]
+  },
+  {
+   "title": "Xi Probes Shanghai Boss, Widening Biggest Shakeup in Decades",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-24/china-probes-politburo-member-and-shanghai-chief-chen-jining",
+   "publisher": "Bloomberg",
+   "tier": "press",
+   "published": "2026-11-24T11:36:08.000Z",
+   "about": [
+    "shanghai"
+   ]
   },
   {
    "title": "China to Suspend Some Critical-Material Export Curbs to U.S. Until January",
@@ -7655,124 +7961,6 @@
    "published": "2026-11-24T11:13:00.000Z",
    "about": [
     "shenzhen"
-   ]
-  },
-  {
-   "title": "Jensen Huang returns to Nvidia, vows to be ’a better CEO’",
-   "url": "https://www.investing.com/news/stock-market-news/jensen-huangs-comeback-to-nvidia-underscores-his-outsized-grip-on-ai-5046711",
-   "publisher": "Investing.com",
-   "tier": "data",
-   "published": "2026-11-24T11:12:57.000Z",
-   "about": []
-  },
-  {
-   "title": "Zoom stock holds Buy rating at BTIG on enterprise growth strength",
-   "url": "https://www.investing.com/news/analyst-ratings/zoom-stock-holds-buy-rating-at-btig-on-enterprise-growth-strength-93CH-5047634",
-   "publisher": "Investing.com",
-   "tier": "data",
-   "published": "2026-11-24T11:12:48.000Z",
-   "about": []
-  },
-  {
-   "title": "Freedom Capital initiates Littelfuse stock with buy rating on datacenter growth",
-   "url": "https://www.investing.com/news/analyst-ratings/freedom-capital-initiates-littelfuse-stock-with-buy-rating-on-datacenter-growth-93CH-5047632",
-   "publisher": "Investing.com",
-   "tier": "data",
-   "published": "2026-11-24T11:12:47.000Z",
-   "about": []
-  },
-  {
-   "title": "Climb Bio stock holds Buy rating at BTIG ahead of ASH data",
-   "url": "https://www.investing.com/news/analyst-ratings/climb-bio-stock-holds-buy-rating-at-btig-ahead-of-ash-data-93CH-5047633",
-   "publisher": "Investing.com",
-   "tier": "data",
-   "published": "2026-11-24T11:12:47.000Z",
-   "about": []
-  },
-  {
-   "title": "Oppenheimer initiates Aspen Neuroscience stock with outperform rating",
-   "url": "https://www.investing.com/news/analyst-ratings/oppenheimer-initiates-aspen-neuroscience-stock-with-outperform-rating-93CH-5047631",
-   "publisher": "Investing.com",
-   "tier": "data",
-   "published": "2026-11-24T11:12:45.000Z",
-   "about": []
-  },
-  {
-   "title": "Oppenheimer raises Symbotic stock price target on margin gains",
-   "url": "https://www.investing.com/news/analyst-ratings/oppenheimer-raises-symbotic-stock-price-target-on-margin-gains-93CH-5047630",
-   "publisher": "Investing.com",
-   "tier": "data",
-   "published": "2026-11-24T11:12:44.000Z",
-   "about": []
-  },
-  {
-   "title": "These Technical Measures Warned of Stock Market Whiplash",
-   "url": "https://www.wsj.com/finance/stocks/these-technical-measures-warned-of-stock-market-whiplash-33fdca3d?mod=rss_markets_main",
-   "publisher": "WSJ",
-   "tier": "press",
-   "published": "2026-11-24T11:10:00.000Z",
-   "about": []
-  },
-  {
-   "title": "US tech stocks set to slip after blistering rally",
-   "url": "https://www.ft.com/content/c0cb932a-076e-4471-8009-91749fde5f47?syn-25a6b1a6=1",
-   "publisher": "Financial Times",
-   "tier": "press",
-   "published": "2026-11-24T11:04:25.000Z",
-   "about": []
-  },
-  {
-   "title": "AI Selloff a Realignment of Expectations, Not Broken Investment Cycle",
-   "url": "https://www.wsj.com/finance/stocks/nikkei-rises-2-7-led-by-chip-metals-stocks-82c1bb9d?mod=rss_markets_main",
-   "publisher": "WSJ",
-   "tier": "press",
-   "published": "2026-11-24T11:04:00.000Z",
-   "about": []
-  },
-  {
-   "title": "Dollar’s Fortunes Closely Linked to AI Trade",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcmhxcnlVWWtmSkJUUjRLMldDNG5MbHU0YXhtcDV6UjBkUVBRdjkybVRqUnRCQkZoVEJ2ZkUtTlE4ZmpHSDFTUWlPLUR4YkQwazRIckpGQVhOMjhWcEdlbkhkUVY1SG5sbUJYMFZ5WnNlR1MyT0p3Nk1xdVJldkRZektYc1FQcTlicEtHM3I5YUJYdkNjaXh1VzR2ZkNhQkk?oc=5",
-   "publisher": "WSJ",
-   "tier": "press",
-   "published": "2026-11-24T11:03:45.000Z",
-   "about": []
-  },
-  {
-   "title": "Turkey Toll-Debt Furor Adds to Public Anger After Fund Crisis",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-24/turkey-toll-debt-furor-adds-to-public-anger-after-fund-crisis",
-   "publisher": "Bloomberg",
-   "tier": "press",
-   "published": "2026-11-24T11:03:06.000Z",
-   "about": []
-  },
-  {
-   "title": "Forced Buying Aided Biggest Rally Since April 2025, Nomura Says",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-24/forced-buying-aided-biggest-rally-since-april-2025-nomura-says",
-   "publisher": "Bloomberg",
-   "tier": "press",
-   "published": "2026-11-24T11:02:40.000Z",
-   "about": [
-    "sp500"
-   ]
-  },
-  {
-   "title": "31.5% surge in Nvidia share adds $34 billion to Jensen Huang's wealth in a day; what's his net worth now?",
-   "url": "https://www.livemint.com/market/stock-market-news/315-surge-in-nvidia-share-adds-34-billion-to-jensen-huangs-wealth-in-a-day-whats-his-net-worth-now-11795516605100.html",
-   "publisher": "Mint",
-   "tier": "press",
-   "published": "2026-11-24T10:50:42.000Z",
-   "about": [
-    "nasdaq"
-   ]
-  },
-  {
-   "title": "Nasdaq Futures Fall as Questions Linger Over AI Trade",
-   "url": "https://www.wsj.com/finance/stocks/nasdaq-futures-fall-as-questions-linger-over-ai-trade-68ba6d71?mod=rss_markets_main",
-   "publisher": "WSJ",
-   "tier": "press",
-   "published": "2026-11-24T10:13:00.000Z",
-   "about": [
-    "nasdaq"
    ]
   },
   {
@@ -7806,36 +7994,6 @@
    ]
   },
   {
-   "title": "Nasdaq Turns Red For The Year",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5RaUhWLVdDQi05aHVLU1hiMkdFRnIyYmNObm9fNV93R3Z5ZEt1b0QzTHdUSmVJOWZaNGlheDdnckJWNWNKcW5zNkMtOUJHWmg3Q1hNUkFyTUwxSFNlMUVacV95dGllbkM1MlUxV2FlUVl3YmRMdXpjdWxWemV1Zw?oc=5",
-   "publisher": "WSJ",
-   "tier": "press",
-   "published": "2026-11-24T08:53:54.000Z",
-   "about": [
-    "nasdaq"
-   ]
-  },
-  {
-   "title": "MPF members hitting ‘panic switch’ to ditch US stocks amid volatility: Manulife",
-   "url": "https://www.scmp.com/business/banking-finance/article/3375606/mpf-members-hitting-panic-switch-ditch-us-stocks-amid-volatility-manulife",
-   "publisher": "SCMP",
-   "tier": "press",
-   "published": "2026-11-24T08:52:16.000Z",
-   "about": [
-    "sp500"
-   ]
-  },
-  {
-   "title": "Philippines to Upgrade Airport Near Taiwan for Easier US Access",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-24/philippines-to-upgrade-airport-near-taiwan-for-easier-us-access",
-   "publisher": "Bloomberg",
-   "tier": "press",
-   "published": "2026-11-24T08:50:19.000Z",
-   "about": [
-    "taiex"
-   ]
-  },
-  {
    "title": "Alibaba disputes US blacklisting of Singapore subsidiary over chip rerouting risks",
    "url": "https://www.straitstimes.com/business/alibaba-disputes-us-blacklisting-of-singapore-subsidiary-over-chip-rerouting-risks",
    "publisher": "Straits Times",
@@ -7843,16 +8001,6 @@
    "published": "2026-11-24T08:40:00.000Z",
    "about": [
     "straitstimes"
-   ]
-  },
-  {
-   "title": "South Korea Offers $375,000 Reward to Catch Test Cheaters Using AI",
-   "url": "https://www.wsj.com/world/asia/south-korea-offers-375-000-reward-to-catch-test-cheaters-using-ai-5908db9d?mod=rss_worldnews",
-   "publisher": "WSJ",
-   "tier": "press",
-   "published": "2026-11-24T08:21:00.000Z",
-   "about": [
-    "kospi"
    ]
   },
   {
@@ -7866,16 +8014,6 @@
    ]
   },
   {
-   "title": "Hong Kong Hedge Fund Tax Breaks Offer Win for Pod Shop Stars",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-24/hong-kong-s-hedge-fund-tax-breaks-offer-boon-for-pod-shop-stars",
-   "publisher": "Bloomberg",
-   "tier": "press",
-   "published": "2026-11-24T08:03:36.000Z",
-   "about": [
-    "hangseng"
-   ]
-  },
-  {
    "title": "Investors mint Rs 34.61 lakh cr in November as markets rally nearly 11%",
    "url": "https://economictimes.indiatimes.com/markets/stocks/news/investors-mint-rs-34-61-lakh-cr-in-november-as-markets-rally-nearly-11/articleshow/136123662.cms",
    "publisher": "Economic Times",
@@ -7886,61 +8024,11 @@
    ]
   },
   {
-   "title": "Japan Pledges Financial Support For International Criminal Court",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-24/japan-pledges-financial-support-for-international-criminal-court",
-   "publisher": "Bloomberg",
+   "title": "AI Boost Puts Singapore Economy on Track for Best Performance in Years",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZHlXM2VYeTJTbmV6LXBQUmMwZ2c2WnhsV21SN2tRdmVFbG03SXRvUWVtOC1HMU1HNVdLUWllMWVraFBFczJITFZUSmpsdGpsZ0pEYnN4ZnpnUE1WekFOZTA5Um5TY3FpaHBZdzEweGF5a1FsRDJlLWN3eHFDcGJqSkZFdlB4ZTBzSVUxM3VLR2FubDhzdXZUQURsQndNSnhqMHQ1QUJuWDVTV1lfbm13?oc=5",
+   "publisher": "WSJ",
    "tier": "press",
-   "published": "2026-11-24T07:22:51.000Z",
-   "about": [
-    "nikkei"
-   ]
-  },
-  {
-   "title": "Singapore, China Deepen Yuan Ties With Focus on Corporates",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeVUxTklJQ3pjYVBIcmh6SVdMU1M1NkVOSnA5OFU4Z3FxRTNpRkVuMVlCNWZmbDgxSVc4M1pVLVBTNzByTU1pREFKVFUzT1NWblZQTi1uNmdFNHBHeUhiLUVIUzNyRHdVUnJaUTVwdnQtczdMY3Zqal9RTTNaSU0wazBRSUVpdXplbVhWXzVSVGFxbm41VVpkajhIRllGbEMzeExqSzJaci0tNG1YdHk2cw?oc=5",
-   "publisher": "Bloomberg",
-   "tier": "press",
-   "published": "2026-11-24T07:16:00.000Z",
-   "about": [
-    "straitstimes"
-   ]
-  },
-  {
-   "title": "Japan Stocks Rebound as Huang’s Return Resuscitates AI Trade",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbWpRYlBYN3VtUGhlZEpFMWdsam1hT2lnS0tneDc4bHI4WHFBLUc1S3Y5LWZocVdEclNJZlFwWXBtVFpIaE5TbnZMOVVkRGVnNjhtdVZjREU1X3Vwajk0Y0dNdHBpUkJDaGJBV2tRUkY0ZksyZWtWX250Y01abDBnNXRPZ2lZSHV2ZE1oMTUtVWNpTDNHdzZlS01ncVplZ2ozc0JQLVQySTNKc1NGZjJhNw?oc=5",
-   "publisher": "Bloomberg",
-   "tier": "press",
-   "published": "2026-11-24T07:13:00.000Z",
-   "about": [
-    "nikkei"
-   ]
-  },
-  {
-   "title": "Japan stocks higher at close of trade; Nikkei 225 up 4.11%",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQUV0N21BelBWbzNyRnZ5Mi1zendwZmIweU1pZ3hwYWJlbXNCOHNVamNpdkRwRzVJdktMVE9UeWEydnFMWUpab0lXWUJUZzlSeFBaUTNuLTFTWWJNVHJ5aWtvblBmZHc0VXp5d3VvUGRwZy1kUTc2Z20zdEJnUnhNUjNCRmkxYnpYelM1RlNOQU5HeUo1ZlV2R1BqZ0RNV28xZkZjLVhNcWIyeHNXVllaRnJB?oc=5",
-   "publisher": "Investing.com",
-   "tier": "data",
-   "published": "2026-11-24T07:07:14.000Z",
-   "about": [
-    "nikkei"
-   ]
-  },
-  {
-   "title": "Spain’s Housing Crisis Fuels Anger Ahead of Election",
-   "url": "https://www.bloomberg.com/news/videos/2026-11-24/spain-s-housing-crisis-fuels-anger-ahead-of-election-video",
-   "publisher": "Bloomberg",
-   "tier": "press",
-   "published": "2026-11-24T07:05:21.000Z",
-   "about": [
-    "eurostoxx50"
-   ]
-  },
-  {
-   "title": "Singapore is no backdoor for US chips, says PM",
-   "url": "https://www.ft.com/content/6ca21b39-ff62-42e0-9695-9220b438f7eb?syn-25a6b1a6=1",
-   "publisher": "Financial Times",
-   "tier": "press",
-   "published": "2026-11-24T06:12:20.000Z",
+   "published": "2026-11-24T06:11:00.000Z",
    "about": [
     "straitstimes"
    ]
@@ -7957,6 +8045,16 @@
    ]
   },
   {
+   "title": "BlackRock taps Hong Kong stablecoins for new money market fund",
+   "url": "https://www.scmp.com/business/banking-finance/article/3375575/blackrock-taps-hong-kong-stablecoins-new-money-market-fund",
+   "publisher": "SCMP",
+   "tier": "press",
+   "published": "2026-11-24T06:07:29.000Z",
+   "about": [
+    "hangseng"
+   ]
+  },
+  {
    "title": "Jensen Huang reinstated NVIDIA CEO! How may it impact Sensex, Nifty recovery as bets are high for AI trade revival?",
    "url": "https://www.livemint.com/market/stock-market-news/jensen-huang-reinstated-nvidia-ceo-how-may-it-impact-sensex-nifty-recovery-as-bets-are-high-for-ai-trade-revival-11795493533422.html",
    "publisher": "Mint",
@@ -7965,6 +8063,16 @@
    "about": [
     "nifty50",
     "sensex"
+   ]
+  },
+  {
+   "title": "Singapore-listed tech stocks surge after Jensen Huang returns as Nvidia CEO",
+   "url": "https://www.straitstimes.com/business/companies-markets/singapore-listed-tech-stocks-surge-after-jensen-huang-returns-as-nvidia-ceo",
+   "publisher": "Straits Times",
+   "tier": "press",
+   "published": "2026-11-24T05:00:00.000Z",
+   "about": [
+    "straitstimes"
    ]
   },
   {
@@ -7978,16 +8086,6 @@
    ]
   },
   {
-   "title": "South Korea Scrambles Jets as Russian Warplanes Near Airspace",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPenFyUGVQejJJUkVBTGFNcjJTZ0Qtb2JGbGpDemhMMXZ2dVk2N0NCWGNaRDRoVHBxSkRRSm5lbFdSbWloMU8xQmdrajE2UU5VRGlnU2tyRVRDS1BBM0EzOXRnOVRPbV84SWNlZGlHbmhmcDlPb1k2UlJGWkdUcUN4TjU3QVZYRi0yVHI1SDE4cVZwcU5pMzVBNHlNMmtOU0tNT1ZNNXRCSVlTWE5PS1R0b2REdw?oc=5",
-   "publisher": "Bloomberg",
-   "tier": "press",
-   "published": "2026-11-24T04:06:00.000Z",
-   "about": [
-    "kospi"
-   ]
-  },
-  {
    "title": "Persistent Systems, Ather Energy shares: Top 2 stocks to buy on 25 Nov; check expected returns, stop loss, target price",
    "url": "https://www.livemint.com/market/stock-market-news/persistent-systems-ather-energy-shares-top-2-stocks-to-buy-on-25-nov-check-expected-returns-stop-loss-target-price-11795486721247.html",
    "publisher": "Mint",
@@ -7996,16 +8094,6 @@
    "about": [
     "nifty50",
     "sensex"
-   ]
-  },
-  {
-   "title": "South Korea’s Kospi rockets 8% as AI-linked stocks get breather after Jensen Huang’s return as Nvidia CEO. Worst over?",
-   "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/south-korean-shares-rebound-as-huangs-nvidia-return-lifts-ai-stocks/articleshow/136118071.cms",
-   "publisher": "Economic Times",
-   "tier": "press",
-   "published": "2026-11-24T03:05:02.000Z",
-   "about": [
-    "kospi"
    ]
   },
   {
@@ -8042,26 +8130,6 @@
    ]
   },
   {
-   "title": "Brazil’s Real Hits 19-Month Low as Post-Election Selloff Deepens",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcTNBWkU4bUcyVXBJREpxeTctZXpZNUthRUtjWXc5bTA1S0ZSOE1HQzh1YkctUUNSTTZJQWNzVHllMjBkLWY3WmFNSlZJVjBxM0lzMUNkekEwaVhHZGJxbUU0VWdoYU5DaDJZSGNIdTFJd1VkaFRoZzRjS0dnVDVWVGVZWThCb2ZicklkRFdxS1M1cVZUbnUzUmlBMWV2cUN2dkdBMF9KSXdvcDFyRGtPS0Rudkg?oc=5",
-   "publisher": "Bloomberg",
-   "tier": "press",
-   "published": "2026-11-23T20:59:11.000Z",
-   "about": [
-    "bovespa"
-   ]
-  },
-  {
-   "title": "Brazil targets primary surplus of up to 2% of GDP by end of Lula's next term",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNXRXb0VIMmxZYmNIOVdsNkdhel8zUlJGWEo3RWxCUE1KcHFHN3FhUEZ1TnMyQl81N25Eb1hEWmlLUUpnck1GWHVWc21aczMzcUk0NDhVaGd5NmxoaC1YZVQ5TVdXeVp1VHFRa1NXTXhlU0sxNlhlQUc1dWlUVXNjQW55dVhtY09iSjNnSVlfRTRXRG11UVhFSkR2TjMwR0lPYzZJMG9UTHNrbTVOVXZ5Y2VEVQ?oc=5",
-   "publisher": "Reuters",
-   "tier": "press",
-   "published": "2026-11-23T19:31:42.000Z",
-   "about": [
-    "bovespa"
-   ]
-  },
-  {
    "title": "European Stocks Rally as Nvidia Reinstates Jensen Huang, Sending Semiconductor Shares Sharply Higher: DAX, CAC, FTSE100",
    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSlJwaHdlTUNCVXY5M29Wd0RvVl95WFNkTFlPTy0wU0UtemdRaVBpQ0dHRUZlbFRfeFpZUXljRmR0Q0pVUlV0R1pQMzRNaEpMV2FlZTdIQml4aGN5UFo3M1FxYjlINEhmblhsc053MEJBOU9BcS04TmZuVnhSVjQ5V0lwcXlTOHl0b2plYm1adXRXUQ?oc=5",
    "publisher": "Yahoo Finance",
@@ -8073,26 +8141,6 @@
    ]
   },
   {
-   "title": "Mexican Economy Grows Faster as Optimism for US Deal Rises",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-23/mexico-economy-sees-faster-growth-as-optimism-for-us-deal-rises",
-   "publisher": "Bloomberg",
-   "tier": "press",
-   "published": "2026-11-23T12:11:28.000Z",
-   "about": [
-    "ipc"
-   ]
-  },
-  {
-   "title": "Brazil Analysts Lift 2027 Key Rate and Inflation Forecasts",
-   "url": "https://www.bloomberg.com/news/articles/2026-11-23/brazil-analysts-lift-2027-key-rate-and-inflation-forecasts-again",
-   "publisher": "Bloomberg",
-   "tier": "press",
-   "published": "2026-11-23T11:53:11.000Z",
-   "about": [
-    "bovespa"
-   ]
-  },
-  {
    "title": "Dow Jones Top Markets Headlines at 5 AM ET: Stock Futures Rally as Dust Settles After AI-Driven Selloff | Oil ...",
    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNNlliaXhtdXR6NlcyTGx5dGFQZ0g0bUNDWmlRWmVwVGtIYVRFQURETkRwSHlLUVJFbW5yNGs3ZHpxWWVuaG50YnFIT25qdXNjWm9fVFNGYkhLbldvOXk1aGlaamZUMXZjTmMybWd0S0QxUkJrMWc1b0VWY0JJRjIzLTROUWNfaHdZaHlmT1YxVllRdHNEVEpSNWlDUWppWkF1ODNZZF80YXJ4Z3dBRHNidDZTTmp2Um5rR1ZtZS1mU3A1UFJ1VHVyOE1ZU0FiXzVZWWt3QThxX1lXNFozX2pZREF3aWN4Ry1rR0NaS3ktZE1rMmtz?oc=5",
    "publisher": "Morningstar",
@@ -8100,6 +8148,16 @@
    "published": "2026-11-23T10:15:00.000Z",
    "about": [
     "dow"
+   ]
+  },
+  {
+   "title": "Germany and France on Diverging Economic Paths, Surveys Show",
+   "url": "https://www.wsj.com/economy/global/germany-and-france-on-diverging-economic-paths-surveys-show-fe961a0d?mod=rss_socialeconomyfeed",
+   "publisher": "WSJ",
+   "tier": "press",
+   "published": "2026-11-23T10:02:00.000Z",
+   "about": [
+    "eurostoxx50"
    ]
   },
   {
@@ -8131,48 +8189,6 @@
    "published": "2026-11-23T08:15:00.000Z",
    "about": [
     "dow"
-   ]
-  },
-  {
-   "title": "Dow Jones Top Markets Headlines at 1 AM ET: Asian Regulators Step Up Efforts to Calm AI-Driven Market Turmoil | Stock ...",
-   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPSVJweTNyYjNIX1pCUGxCMG5xVTFXdGt1M0NVNFdBUmtGQ3ZzRlJlS1Q4OENPT2JaaVBUaDh0QlM2d2h1QUJSSW55a2RidnZMOWdwcGN4aXd1WnowMTlqZUQ2Mkl1NTlIcEpweHQ2b0lkRFpFZGJxMzltZC1ueDE2SU9WMnQ2YzN2WG5YMk1HS3l3MFNKblg4b2F0czV2YmxOdE9DdDhselcwdEI4aTFEbDFfOFBzRUxJQXhJMGRKUHJQSENLeWtTbUJEeElkenlKdHhacTlxQWJPQzZZNWtFVVpDTHExS3hWU3UxSGpVSEJHNVlRRnhwT0lHX1lHUQ?oc=5",
-   "publisher": "Morningstar",
-   "tier": "data",
-   "published": "2026-11-23T06:28:45.000Z",
-   "about": [
-    "dow"
-   ]
-  },
-  {
-   "title": "FTSE TWSE Taiwan 50 Total Return Index AUD End of Day, FTTW50AUDT:FSI Historical Prices",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1rei1hdFJUTkMwTlNTcGxxTXZfS2w5ZlVWNF9oM2hWTDFvUC1LWm1UYkJzcWpmT21UZnFNWVFfSzk4LUdqc1lvUDR6cWNPU3BXQ3JqcnhreDZ2QTQ1Y25CRHZ2WUZBbUNIanlBXy1wSDdsNlktTVNuNE5GNzNDZw?oc=5",
-   "publisher": "Financial Times",
-   "tier": "press",
-   "published": "2026-11-23T02:44:18.000Z",
-   "about": [
-    "ftse100",
-    "taiex"
-   ]
-  },
-  {
-   "title": "Mainland China stock exchanges make moves to raise liquidity and activity to stem decline",
-   "url": "https://www.scmp.com/business/markets/article/3375388/mainland-china-stock-exchanges-make-moves-raise-liquidity-and-activity-stem-decline",
-   "publisher": "SCMP",
-   "tier": "press",
-   "published": "2026-11-23T00:00:13.000Z",
-   "about": [
-    "shanghai",
-    "shenzhen"
-   ]
-  },
-  {
-   "title": "Drug Kingpin’s Capture in Mexico Risks Bloody Succession Battle",
-   "url": "https://www.wsj.com/world/americas/drug-kingpins-capture-in-mexico-threatens-to-touch-off-bloody-succession-battle-8df2bff0?mod=rss_worldnews",
-   "publisher": "WSJ",
-   "tier": "press",
-   "published": "2026-11-22T21:10:00.000Z",
-   "about": [
-    "ipc"
    ]
   }
  ],
@@ -8523,13 +8539,13 @@
   }
  ],
  "warnings": [
-  "3 news feed(s) could not be read this time: Guardian business (HTTP 403); Google News: site:barrons.com central bank inflation oil dollar (no items); Google News: site:economist.com central bank inflation oil dollar (no items).",
-  "Dropped \"Asia-Pacific: tech-led bounce, China and Hong Kong lag\": number(s) 200 not found in its cited evidence."
+  "5 news feed(s) could not be read this time: Euronews business (HTTP 406); Guardian business (HTTP 403); Google News: site:barrons.com central bank inflation oil dollar (no items); Google News: site:economist.com central bank inflation oil dollar (no items); Google News: Nikkei Tokyo stocks Bank of Japan yen (HTTP 429).",
+  "The written analysis is from 2026-11-24 and is being refreshed; the numbers are current."
  ],
  "usage": {
   "headlines": 60,
-  "feedsOk": 52,
-  "feedsFailed": 3,
+  "feedsOk": 50,
+  "feedsFailed": 5,
   "inputTokens": 0,
   "outputTokens": 0
  }
