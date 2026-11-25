@@ -118,8 +118,8 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** S&P 500 rose 4.73% on 2026-11-23 as Nvidia surged 31.5% after Huang's reinstatement (Mint); Asia followed (TAIEX 8.99%, KOSPI 6.32%) while Europe slipped and Nasdaq futures fell (WSJ).
-- Company effect, Nvidia (up on sp500, nasdaq): Mint reported Nvidia's board reinstated Huang as CEO, triggering a 31.5% share-price surge that lifted other AI-related stocks and the Nasdaq; shares remain below their record high.
+**Headline:** US stocks gave back part of Monday's Nvidia-led rally: S&P 500 1d -0.50%, Nasdaq Composite 1d -1.48%, while the Dow Jones Industrial Average rose 1d 0.85% on a value rotation, per Yahoo Finance.
+- Company effect, Nvidia (down on sp500, nasdaq): CNBC reported Nvidia shares fell more than 5% as the Huang comeback rally cooled.
 
 ## Headlines collected today
 
@@ -187,7 +187,7 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 5 news feed(s) could not be read this time: Euronews business (HTTP 406); Guardian business (HTTP 403); Google News: site:barrons.com central bank inflation oil dollar (no items); Google News: site:economist.com central bank inflation oil dollar (no items); Google News: Nikkei Tokyo stocks Bank of Japan yen (HTTP 429).
-- The written analysis is from 2026-11-24 and is being refreshed; the numbers are current.
+- Dropped "Nvidia": number(s) 5.86 not found in its cited evidence.
 
 ## How to use this file
 
