@@ -118,8 +118,12 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** US stocks gave back part of Monday's Nvidia-led rally: S&P 500 1d -0.50%, Nasdaq Composite 1d -1.48%, while the Dow Jones Industrial Average rose 1d 0.85% on a value rotation, per Yahoo Finance.
-- Company effect, Nvidia (down on sp500, nasdaq): CNBC reported Nvidia shares fell more than 5% as the Huang comeback rally cooled.
+**Headline:** AI-trade doubts hit Asian tech: KOSPI -6.16%, TAIEX -4.80%, Nikkei 225 -2.78%, while Nifty 50 rose 1.85% on foreign inflows and lower crude.
+- Company effect, Nvidia (down on sp500, nasdaq): Nvidia fell among the largest Nasdaq names after its rally; CNBC reported Nvidia reinstated CEO Jensen Huang after Trump pressure.
+- Company effect, Dell (down on sp500): Yahoo Finance: Dell stock tanked after blowout earnings as Wall Street was not impressed.
+- Company effect, Larsen & Toubro (up on nifty50, sensex): L&T jumped over 2% on a ₹2,500 crore battery storage project win in Gujarat (Business Standard).
+- Company effect, Dabur, Godrej Consumer, HUL (up on nifty50): Business Standard: the Nifty FMCG index was the top gainer, up 3.18%; Dabur, Godrej Consumer and HUL rallied up to 8%.
+- Company effect, Seatrium (down on straitstimes): Seatrium shares sank more than 7% after it announced job cuts of about 220 in Singapore (Straits Times).
 
 ## Headlines collected today
 
@@ -187,7 +191,6 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 5 news feed(s) could not be read this time: Euronews business (HTTP 406); Guardian business (HTTP 403); Moneycontrol market reports (no items); Google News: site:economist.com stock markets indices (no items); Google News: site:economist.com central bank inflation oil dollar (no items).
-- The written analysis is from 2026-11-25 and is being refreshed; the numbers are current.
 
 ## How to use this file
 
