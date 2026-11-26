@@ -118,10 +118,10 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** Asian equities rebounded on 26 Nov as investors shrugged off new US tariff proposals (WSJ, CNBC); Nasdaq is still 1m -10.92% and the VIX closed at 28.29.
-- Company effect, Nvidia (down on nasdaq, sp500): Nvidia ended down 3.9% at $149.30 on Wednesday (Business Standard); S&P Global Ratings said its credit rating could be cut by one notch (CNBC).
-- Company effect, Alphabet (down on nasdaq, sp500): Economic Times reported Alphabet shares plunged over 5% amid AI investment concerns, regulatory challenges and broader technology weakness.
-- Company effect, CATL (down on shenzhen): SCMP reported a production cut sent CATL's market capitalisation below the 1 trillion yuan mark; analysts expect weak battery demand to keep weighing.
+**Headline:** Financial Times reported global stocks climbed after volatile US trading over AI risks; the FTSE 100 gained 1.75% and the DAX 2.08% while US markets were shut for Thanksgiving, with the VIX at 26.80.
+- Company effect, Imperial Brands (up on ftse100): Morningstar said Imperial Brands lit up the FTSE; Bloomberg reported Altria and Japan Tobacco are exploring a takeover of Imperial Brands.
+- Company effect, Nvidia (mixed on nasdaq, sp500): WSJ said Nvidia told partners to pause Southeast Asia shipments; CNBC cited its sharp losses and latest comeback.
+- Company effect, Ramsay Health Care (down on asx200): Yahoo Finance Australia said Australian shares closed higher while Ramsay Health Care slid after a block trade sale.
 
 ## Headlines collected today
 
@@ -189,7 +189,6 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 5 news feed(s) could not be read this time: Euronews business (HTTP 406); Guardian business (HTTP 403); Google News: site:economist.com stock markets indices (no items); Google News: site:economist.com central bank inflation oil dollar (no items); Google News: Bovespa Brazil Mexico stocks (no items).
-- The written analysis is from 2026-11-26 and is being refreshed; the numbers are current.
 
 ## How to use this file
 
