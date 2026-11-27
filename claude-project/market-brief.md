@@ -118,10 +118,9 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** Financial Times reported global stocks climbed after volatile US trading over AI risks; the FTSE 100 gained 1.75% and the DAX 2.08% while US markets were shut for Thanksgiving, with the VIX at 26.80.
-- Company effect, Imperial Brands (up on ftse100): Morningstar said Imperial Brands lit up the FTSE; Bloomberg reported Altria and Japan Tobacco are exploring a takeover of Imperial Brands.
-- Company effect, Nvidia (mixed on nasdaq, sp500): WSJ said Nvidia told partners to pause Southeast Asia shipments; CNBC cited its sharp losses and latest comeback.
-- Company effect, Ramsay Health Care (down on asx200): Yahoo Finance Australia said Australian shares closed higher while Ramsay Health Care slid after a block trade sale.
+**Headline:** Bloomberg reported Wall Street flipped from AI euphoria to gloom; the S&P 500 is -6.99% over 1m, the Nasdaq Composite -10.92%, and the VIX closed at 26.80.
+- Company effect, Imperial Brands (up on ftse100): Morningstar's London close report said Imperial Brands lit up the FTSE as stocks rallied.
+- Company effect, WiseTech Global (up on asx200): Mint's midday report said Australian shares were set for their best week since August as financials and WiseTech rallied.
 
 ## Headlines collected today
 
@@ -189,7 +188,7 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 10 news feed(s) could not be read this time: Euronews business (HTTP 406); Guardian business (HTTP 403); Google News: site:ft.com stock markets indices (HTTP 429); Google News: site:wsj.com central bank inflation oil dollar (HTTP 429); Google News: site:barrons.com stock markets indices (HTTP 429); Google News: site:economist.com central bank inflation oil dollar (no items).
-- The written analysis is from 2026-11-26 and is being refreshed; the numbers are current.
+- Dropped "Asia-Pacific: shares rise after tech rout": number(s) 200 not found in its cited evidence.
 
 ## How to use this file
 

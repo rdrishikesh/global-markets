@@ -2,9 +2,9 @@
  "schemaVersion": 2,
  "generatedAt": "2026-11-27T05:01:38.914Z",
  "models": {
-  "synthesis": "claude-sonnet-5-5"
+  "synthesis": "Claude (scheduled task)"
  },
- "inputHash": "d747fec23c9cb1b8",
+ "inputHash": "2047c016911bbfd0",
  "mood": {
   "label": "Risk-on",
   "basis": [
@@ -185,7 +185,14 @@
     7201.09,
     7182.78
    ],
-   "why": null
+   "why": {
+    "technical": "Straits Times: Nasdaq and S&P 500 ended down but well off lows as investors bought bargains; Bloomberg reported Wall Street flipped from AI euphoria to gloom.",
+    "layman": "US shares ended lower but well off their lows as investors bought bargains, while worries about AI weighed.",
+    "sources": [
+     1,
+     6
+    ]
+   }
   },
   {
    "id": "dow",
@@ -358,7 +365,13 @@
     50018.7,
     50182.95
    ],
-   "why": null
+   "why": {
+    "technical": "Straits Times reported the Dow Jones Industrial Average rose as investors bought bargains.",
+    "layman": "The Dow rose a little as investors bought shares at lower prices.",
+    "sources": [
+     6
+    ]
+   }
   },
   {
    "id": "nasdaq",
@@ -532,10 +545,11 @@
     23585.8
    ],
    "why": {
-    "technical": "Straits Times said the Nasdaq and S&P 500 slipped following the prior session's Nvidia-fuelled rally.",
-    "layman": "Straits Times said the Nasdaq and S&P 500 slipped after a rally led by Nvidia.",
+    "technical": "Bloomberg reported Wall Street flipped from AI euphoria to gloom; Straits Times said the Nasdaq ended down but well off lows.",
+    "layman": "The Nasdaq fell as worries about AI stocks grew, though it ended well off its lows.",
     "sources": [
-     31
+     1,
+     6
     ]
    }
   },
@@ -1050,11 +1064,12 @@
     176800
    ],
    "why": {
-    "technical": "Bloomberg and Reuters reported Brazil's inflation undershot forecasts.",
-    "layman": "Brazil's inflation came in lower than expected, Reuters and Bloomberg reported.",
+    "technical": "Bloomberg: Brazilian assets rallied after Lula named a banker as finance minister; FT said the move followed a sell-off in the country's assets.",
+    "layman": "Brazilian shares jumped after President Lula named a well-known banker as finance minister to calm markets.",
     "sources": [
-     6,
-     7
+     7,
+     8,
+     36
     ]
    }
   },
@@ -1403,10 +1418,10 @@
     10609.3
    ],
    "why": {
-    "technical": "Morningstar said Imperial Brands lit up the FTSE as stocks rallied.",
-    "layman": "Morningstar said Imperial Brands helped push London shares higher.",
+    "technical": "Morningstar: Imperial Brands lit up the FTSE 100 as UK stocks rallied.",
+    "layman": "Britain's FTSE 100 rose, led by Imperial Brands.",
     "sources": [
-     32
+     12
     ]
    }
   },
@@ -1582,11 +1597,11 @@
     25215.52
    ],
    "why": {
-    "technical": "Yahoo Finance UK said European stocks rallied as US tariff proposals eased concerns and tech shares recovered.",
-    "layman": "Yahoo Finance said German and European shares rose as tariff worries eased.",
+    "technical": "Yahoo Finance: European stocks rallied as US tariff concerns eased and technology shares recovered.",
+    "layman": "German shares rose because worries about US tariffs eased and tech shares recovered.",
     "sources": [
-     9,
-     10
+     10,
+     11
     ]
    }
   },
@@ -1935,11 +1950,11 @@
     6014.74
    ],
    "why": {
-    "technical": "Yahoo Finance UK said European stocks rallied as US tariff concerns eased and falling bond yields supported sentiment.",
-    "layman": "Yahoo Finance said European shares rose on easing tariff worries and lower bond yields.",
+    "technical": "Yahoo Finance: European stocks rallied as US tariff concerns eased and falling bond yields supported sentiment.",
+    "layman": "European shares rose as tariff worries eased and falling bond yields helped the mood.",
     "sources": [
-     9,
-     10
+     10,
+     11
     ]
    }
   },
@@ -2806,7 +2821,14 @@
     57499.16,
     58625.09
    ],
-   "why": null
+   "why": {
+    "technical": "Al Jazeera: Japanese shares rose after an earlier tech rout; Economic Times: Japan gauge climbed as Asia advanced for a second day.",
+    "layman": "Japanese shares rose after an earlier tech sell-off, as most of Asia advanced.",
+    "sources": [
+     14,
+     15
+    ]
+   }
   },
   {
    "id": "hangseng",
@@ -2979,7 +3001,13 @@
     22226.88,
     22416.44
    ],
-   "why": null
+   "why": {
+    "technical": "Al Jazeera: Hong Kong shares rose after an earlier tech rout in Asia.",
+    "layman": "Hong Kong shares rose after an earlier tech sell-off in Asia.",
+    "sources": [
+     14
+    ]
+   }
   },
   {
    "id": "shanghai",
@@ -3498,13 +3526,7 @@
     25884.5,
     25772.3
    ],
-   "why": {
-    "technical": "Mint said the Nifty rebounded 12.3% in November on lower oil prices, changing global AI sentiment and better earnings prospects.",
-    "layman": "Mint said India's Nifty rose 12.3% in November as oil fell and earnings hopes improved.",
-    "sources": [
-     25
-    ]
-   }
+   "why": null
   },
   {
    "id": "sensex",
@@ -3851,10 +3873,11 @@
     4890.4
    ],
    "why": {
-    "technical": "The Financial Express said an AI selloff hit Asia, with the Kospi sinking on tumbling tech stocks.",
-    "layman": "The Financial Express said an AI-related selloff hit Korean shares.",
+    "technical": "Al Jazeera: South Korean shares rose after an earlier tech rout; Economic Times: South Korea gauge climbed.",
+    "layman": "South Korean shares rose after an earlier tech sell-off.",
     "sources": [
-     33
+     14,
+     15
     ]
    }
   },
@@ -4029,7 +4052,13 @@
     8763.8,
     8836.6
    ],
-   "why": null
+   "why": {
+    "technical": "Mint: Australian shares set for their best week since August as financials and WiseTech rallied.",
+    "layman": "Australian shares are heading for their best week since August, led by banks and WiseTech.",
+    "sources": [
+     35
+    ]
+   }
   },
   {
    "id": "taiex",
@@ -4202,13 +4231,7 @@
     39151.81,
     39346.91
    ],
-   "why": {
-    "technical": "The Financial Express said an AI selloff hit Asia, with Taiwan falling as tech stocks tumbled.",
-    "layman": "The Financial Express said an AI selloff pulled Taiwan's market down.",
-    "sources": [
-     33
-    ]
-   }
+   "why": null
   },
   {
    "id": "straitstimes",
@@ -6050,99 +6073,103 @@
   }
  ],
  "report": {
-  "generatedAt": "2026-11-26T23:23:46.768Z",
+  "generatedAt": "2026-11-27T10:39:55.494Z",
   "headline": {
-   "technical": "Financial Times reported global stocks climbed after volatile US trading over AI risks; the FTSE 100 gained 1.75% and the DAX 2.08% while US markets were shut for Thanksgiving, with the VIX at 26.80.",
-   "layman": "Stocks in Europe rose Thursday after a wobbly week for AI shares. US markets were closed for the Thanksgiving holiday."
+   "technical": "Bloomberg reported Wall Street flipped from AI euphoria to gloom; the S&P 500 is -6.99% over 1m, the Nasdaq Composite -10.92%, and the VIX closed at 26.80.",
+   "layman": "Bloomberg says Wall Street's mood on AI turned gloomy. The S&P 500 is down 6.99% in a month, though Asian shares rose on Friday."
   },
   "global": {
-   "title": "AI jitters meet a holiday-shortened market",
+   "title": "AI worries and Fed rate-hike bets weigh on markets",
    "status": {
-    "technical": "Financial Times reported global stocks climbed after volatile US trading over AI risks; Bloomberg said Wall Street flipped from AI euphoria to gloom. US markets were shut for Thanksgiving. The VIX closed at 26.80; Nasdaq Composite is -14.54% from its 52-week high.",
-    "layman": "Financial Times said stocks around the world rose after a bumpy stretch for AI shares. US markets were closed for a holiday. The Nasdaq is still well below its recent high, and the VIX fear gauge is at 26.80."
+    "technical": "Bloomberg reported Wall Street flipped from AI euphoria to gloom. S&P 500 1m -6.99%, Nasdaq Composite 1m -10.92%; VIX closed 26.80. Reuters reported shares found footing after a bruising month, with the dollar set for a third monthly gain.",
+    "layman": "Investors have turned nervous about AI stocks. The Nasdaq is down 10.92% in a month. Reuters says shares have steadied a little, while the US dollar is set for a third monthly gain."
    },
    "consequence": {
-    "technical": "If worries over whether the AI boom can last persist (per FT), tech-heavy indices may stay volatile: Nasdaq Composite 20-day volatility is at percentile 97.",
-    "layman": "If doubts about the AI boom stay, shares of tech companies may keep swinging up and down a lot."
+    "technical": "If AI-trade doubts persist alongside Fed rate rises (FT: Fed to press ahead with rate rises), equities could stay volatile. Mint links the AI-trade rupture and rising rates to safe-haven dollar demand. Base rates are not predictions.",
+    "layman": "If worries about AI and higher interest rates continue, share prices may keep swinging. Mint says this mix is pushing investors toward safe places like the dollar."
    },
    "impact": {
-    "technical": "Barron's said stocks' swoon plus higher interest rates are a bad combo for the economy; FT said the Fed is poised to raise rates despite the turmoil.",
-    "layman": "Barron's warned that falling stocks plus higher interest rates can hurt the economy. The FT said the Fed looks ready to raise rates anyway."
+    "technical": "Mint says the dollar is poised for its longest monthly winning streak in two years; the US Dollar Index closed 103.75. The Nasdaq is most exposed to AI doubts, with a drawdown from 52w high of -14.54%. Evidence on other sectors is thin.",
+    "layman": "Tech-focused investors feel it most: the Nasdaq sits 14.54% below its 52-week high. The dollar has been strengthening. The notes say little about other groups, so evidence is thin."
    },
    "outlook": {
-    "technical": "For the S&P 500, history after ordinary days: next day rose 54% of 845 times; next 5 days rose 59% of 844 times. These are historical base rates, not predictions.",
-    "layman": "After ordinary days like this, the S&P 500 rose the next day 54% of 845 times, and over the next 5 days 59% of 844 times. That is history, not a prediction."
+    "technical": "Base rates, not predictions: after ordinary days the S&P 500 rose the next day 54% of 845 times (median 0.09%) and over the next 5 days 59% of 844 times (median 0.37%).",
+    "layman": "History is a guide, not a forecast. After calm days like this, the S&P 500 rose the next day 54% of the time and over the next five days 59% of the time."
    },
    "quant": [
-    "vix",
+    "sp500",
     "nasdaq",
-    "sp500"
+    "vix",
+    "dxy"
    ],
    "sources": [
     1,
     2,
     3,
-    4,
-    5
+    4
    ]
   },
   "regions": [
    {
-    "title": "Americas: Brazil rallies on softer inflation",
+    "title": "Americas: US tech steadies, Brazil jumps",
     "status": {
-     "technical": "Bovespa closed up 3.95%, IPC down -1.19%, TSX up 0.77%. Reuters reported Brazil's mid-November inflation eased and came in below expectations; Bloomberg called it a 'positive' print while flagging fiscal and currency risks.",
-     "layman": "Brazil's stock index rose 3.95% and Mexico's fell -1.19%. Reuters said Brazil's inflation eased more than expected."
+     "technical": "Straits Times: Nasdaq and S&P 500 ended down but well off lows. S&P 500 1d -0.25%, Dow 0.33%, Nasdaq -0.62%. Bloomberg reported Brazilian assets rallied after a banker was named finance minister; Bovespa 1d 6.07%, IPC 1d -1.43%.",
+     "layman": "US shares ended slightly lower but well above their lows. Brazil's stock market rose 6.07% in a day after President Lula picked a well-known banker as finance minister."
     },
     "consequence": {
-     "technical": "If inflation keeps undershooting, borrowing pressure on households may ease, though Bloomberg notes policymakers still face fiscal and currency risks. Brazil's central bank tightened consumer lending rules.",
-     "layman": "If Brazil's price rises stay low, life may get a little easier for borrowers. Bloomberg says risks remain, and the central bank tightened lending rules."
+     "technical": "If the tech rebound reported by the FT holds, US sentiment could steady. FT framed Brazil's appointment as an attempt to calm markets after a sell-off. Base rate: after big rises Bovespa rose the next day 54% of 191 times. Not a prediction.",
+     "layman": "If tech keeps recovering, US markets may calm. Brazil shows how fast markets can react to one appointment, made to calm markets after a sell-off."
     },
     "impact": {
-     "technical": "Brazilian households are the group most directly affected: Bloomberg said the lending curbs respond to soaring household debt. Evidence on other Americas markets is thin in the notes.",
-     "layman": "Families in Brazil are most affected. The notes say little about other countries in the Americas."
+     "technical": "Bloomberg: Banxico raised its 2026 growth forecast to 1.9% from 1.5% on stronger exports and investment, yet the IPC fell 1.43% on the day. Brazilian assets gained on the finance-minister news. Evidence on US sectors beyond tech is thin.",
+     "layman": "Mexico's central bank raised its 2026 growth forecast to 1.9% from 1.5%. Brazilian investors gained on the appointment. The notes say little about other US sectors."
     },
     "outlook": {
-     "technical": "For the Bovespa, after rises bigger than 1 standard deviation: next day rose 54% of 191 times; next 5 days rose 51% of 191 times. These are historical base rates, not predictions.",
-     "layman": "After big up days, Brazil's index rose the next day 54% of 191 times and over 5 days 51% of 191 times. That is history, not a prediction."
+     "technical": "Base rates, not predictions: after ordinary days the S&P 500 rose next day 54% of 845 times; after big rises the Bovespa rose next day 54% of 191 times (median 0.08%) and over the next 5 days 51% of 191 times (median 0.26%).",
+     "layman": "History is only a guide. After calm days the S&P 500 rose the next day 54% of the time. After big jumps Brazil's Bovespa rose the next day 54% of the time."
     },
     "quant": [
+     "sp500",
+     "dow",
+     "nasdaq",
      "bovespa",
-     "ipc",
-     "tsx"
+     "ipc"
     ],
     "sources": [
+     5,
      6,
      7,
-     8
+     8,
+     9
     ]
    },
    {
-    "title": "Europe: tariff fears ease, ECB picks a chief",
+    "title": "Europe: stocks rally as tariff worries ease",
     "status": {
-     "technical": "FTSE 100 +1.75%, DAX +2.08%, Euro Stoxx 50 +2.04%, CAC 40 +1.61%. Yahoo Finance UK said European stocks rallied as US tariff concerns eased and tech shares recovered, and falling bond yields supported sentiment.",
-     "layman": "European stocks rose. Yahoo Finance said worries about US tariffs eased and tech shares recovered, and lower bond yields helped."
+     "technical": "Yahoo Finance reported European stocks rallied as US tariff concerns eased and technology shares recovered. DAX 1d 2.08%, FTSE 100 1.75%, CAC 40 1.61%, Euro Stoxx 50 2.04%. Morningstar said Imperial Brands lit up the FTSE.",
+     "layman": "European shares rose on Thursday. Yahoo Finance says worries about US tariffs eased. Germany's DAX rose 2.08% and Britain's FTSE 100 rose 1.75%."
     },
     "consequence": {
-     "technical": "If tariff concerns stay lower and yields keep falling, the rally could hold; Reuters reported stocks rallied as Europe sized up the next ECB chief.",
-     "layman": "If tariff worries stay calmer and bond yields stay lower, the rise could continue. Reuters also tied the rally to the news about the next ECB chief."
+     "technical": "If tariff worries stay subdued, as the Yahoo Finance reports suggest, the rally could extend. Base rate: after big rises the DAX rose over the next 5 days 57% of 195 times. Base rates are not predictions.",
+     "layman": "If tariff worries stay quiet, European shares could hold their gains. History only gives odds, not promises."
     },
     "impact": {
-     "technical": "Spain's Pablo Hernández de Cos was named to succeed Christine Lagarde at the ECB next year. The ECB main refinancing rate stands at 2.65 %.",
-     "layman": "Spain's Pablo Hernández de Cos will take over from Christine Lagarde at the European Central Bank next year."
+     "technical": "Straits Times: SAP weighs cutting at least 10,000 positions in AI restructuring; SAP closed -0.14% on the day. The ECB deposit facility rate is 2.5 %, previous 2.25. Evidence on other sectors is thin.",
+     "layman": "Software firm SAP is weighing at least 10,000 job cuts as it restructures around AI. The European Central Bank's deposit rate is 2.5 %. The notes say little about other sectors."
     },
     "outlook": {
-     "technical": "For the DAX, after rises bigger than 1 standard deviation: next day rose 52% of 196 times; next 5 days rose 57% of 195 times. These are historical base rates, not predictions.",
-     "layman": "After big up days, Germany's DAX rose the next day 52% of 196 times and over 5 days 57% of 195 times. That is history, not a prediction."
+     "technical": "Base rates, not predictions: after big rises the DAX rose the next day 52% of 196 times (median 0.05%) and over the next 5 days 57% of 195 times (median 0.23%).",
+     "layman": "History is a guide, not a forecast. After big up days the DAX rose the next day 52% of the time and over the next five days 57% of the time."
     },
     "quant": [
-     "ftse100",
      "dax",
-     "eurostoxx50",
+     "ftse100",
      "cac40",
-     "macro:ecb_refi"
+     "eurostoxx50",
+     "hw:dax",
+     "macro:ecb_deposit"
     ],
     "sources": [
-     9,
      10,
      11,
      12,
@@ -6150,55 +6177,119 @@
     ]
    },
    {
-    "title": "Asia-Pacific: tech rout, then stabilisation",
+    "title": "Asia-Pacific: shares rise after tech rout",
     "status": {
-     "technical": "KOSPI -6.16%, TAIEX -4.80%, Nikkei 225 -2.78% at the latest closes; Nifty 50 +1.85%. Straits Times reported Asian stocks stabilised after the tech rout, led by Seoul, Tokyo and Taipei tech firms.",
-     "layman": "Asian tech-heavy markets fell sharply at their latest closes, then Straits Times said they steadied. India's Nifty rose 1.85%."
+     "technical": "Al Jazeera: indices in Japan, South Korea, Australia and Hong Kong rose after an earlier tech rout. Nikkei 225 1d 1.96%, KOSPI 3.80%, the Australian index 0.83%, Hang Seng 0.85%, Nifty 50 -0.43%. Economic Times: MSCI Asia Pacific gauge rose 0.6%.",
+     "layman": "Most Asian stock markets rose after an earlier tech sell-off. Japan's Nikkei rose 1.96% and South Korea's KOSPI rose 3.80%. India's Nifty 50 slipped 0.43%."
     },
     "consequence": {
-     "technical": "If the AI trade keeps rebounding, beaten-down Asian tech could extend gains; WSJ said the Bank of Korea resumed rate hikes and Straits Times said it raised rates to 3.25%.",
-     "layman": "If AI shares keep recovering, Asian tech could bounce further. South Korea's central bank raised rates to 3.25%."
+     "technical": "If AI sentiment stays stable, as WSJ reported on Friday, tech-linked Asian markets could keep recovering. But KOSPI is -17.64% over 1m with 20-day volatility of 58.3%, so large swings remain possible.",
+     "layman": "If AI worries keep easing, Asian tech-linked markets could keep recovering. Swings are still large: South Korea's KOSPI is down 17.64% in a month."
     },
     "impact": {
-     "technical": "Straits Times said South Korea's private consumption is down, with little growth filtering through to households. Mint reported J.P. Morgan sees Indian stocks as a 'safe haven' from AI trades.",
-     "layman": "In South Korea, households are not feeling the growth. J.P. Morgan sees India as a safe place away from AI shares, Mint reported."
+     "technical": "CNBC: China's industrial profit growth hit a 5-month high of 20.1% in October, driven by AI-related manufacturing and exports while household consumption lagged. Straits Times: Tokyo inflation backs the case for a Bank of Japan rate hike; Ueda speaks Nov 30.",
+     "layman": "China's factory profits grew 20.1% in October, led by AI-related exports, while household spending lagged. Faster inflation in Tokyo strengthens the case for a Japanese rate rise."
     },
     "outlook": {
-     "technical": "For the KOSPI, after falls bigger than 1 standard deviation: next day rose 53% of 154 times; next 5 days rose 51% of 152 times. These are historical base rates, not predictions.",
-     "layman": "After big down days, Korea's KOSPI rose the next day 53% of 154 times and over 5 days 51% of 152 times. That is history, not a prediction."
+     "technical": "Base rates, not predictions: after big rises the Nikkei rose the next day 56% of 176 times (median 0.14%) and over the next 5 days 58% of 175 times (median 0.44%); KOSPI rose next day 52% of 181 times.",
+     "layman": "History is only a guide. After big up days the Nikkei rose the next day 56% of the time and over the next five days 58% of the time."
     },
     "quant": [
-     "kospi",
-     "taiex",
      "nikkei",
-     "nifty50"
+     "kospi",
+     "asx200",
+     "hangseng",
+     "nifty50",
+     "shanghai"
     ],
     "sources": [
      14,
      15,
      16,
-     17
+     17,
+     18
     ]
    }
   ],
   "drivers": [
    {
-    "title": "AI trade whipsaw",
+    "title": "Fed rate-hike expectations and a strong dollar",
     "status": {
-     "technical": "Bloomberg said Wall Street flipped from AI euphoria to gloom while stocks and Nasdaq futures climbed as the AI trade rebounded. Nvidia fell -3.91% on the day.",
-     "layman": "Bloomberg said the mood on Wall Street swung from AI excitement to gloom, then AI shares rebounded in futures trading. Nvidia fell -3.91%."
+     "technical": "FT: Fed to press ahead with rate rises. Economic Times reported forecasts point to a possible hike next month and that the dollar index reached a 22-month peak this week. The US Dollar Index closed 103.75, 1m 1.52%; the US 10-year yield closed 4.85.",
+     "layman": "The Financial Times says the Fed will keep raising interest rates, and a hike may come next month. The US dollar hit a 22-month high this week and has strengthened over the past month."
     },
     "consequence": {
-     "technical": "If AI doubts persist, tech-heavy indices may stay volatile; the Nasdaq Composite is -14.54% from its 52-week high.",
-     "layman": "If doubts about AI continue, tech shares could keep swinging."
+     "technical": "StoneX said a hawkish Fed sets a high bar for a durable gold recovery (WSJ). If hikes proceed, the dollar and yields could stay firm; gold closed 3664.20 with 3m -19.11%. Base rates are not predictions.",
+     "layman": "If the Fed keeps raising rates, the dollar may stay strong. StoneX says that makes a lasting gold recovery harder. Gold is down 19.11% over three months."
     },
     "impact": {
-     "technical": "WSJ said Nvidia told partners to pause shipments to Southeast Asia after Washington closed a remote-access loophole. Evidence on wider effects is thin.",
-     "layman": "WSJ said Nvidia told partners to pause shipments to Southeast Asia. The notes say little about wider effects."
+     "technical": "Kitco reported gold slipped in holiday trading as Fed hike expectations persisted; gold 1d 3.63%. Investors in gold and dollar-sensitive assets are most affected. Evidence on other groups is thin.",
+     "layman": "People holding gold are affected most, since gold has fallen a lot recently. The notes say little about other groups, so evidence is thin."
     },
     "outlook": {
-     "technical": "For the Nasdaq Composite, history after ordinary days: next day rose 55% of 825 times; next 5 days rose 59% of 824 times. These are historical base rates, not predictions.",
-     "layman": "After ordinary days, the Nasdaq rose the next day 55% of 825 times and over 5 days 59% of 824 times. History, not a prediction."
+     "technical": "Base rates, not predictions: after ordinary days the US Dollar Index rose the next day 51% of 824 times (median 0.01%) and over the next 5 days 51% of 822 times (median 0.03%).",
+     "layman": "History is a guide, not a forecast. After calm days the dollar index rose the next day about 51% of the time."
+    },
+    "quant": [
+     "dxy",
+     "us10y",
+     "gold"
+    ],
+    "sources": [
+     4,
+     19,
+     20,
+     21,
+     22
+    ]
+   },
+   {
+    "title": "Oil and Middle East supply risk",
+    "status": {
+     "technical": "Economic Times: Brent trades near the month's high as Mideast conflict threatens supply, citing tanker attacks in the Strait of Hormuz and assaults on Saudi energy infrastructure. Investing.com: WTI jumped 2.5%. Brent closed 92.27 (1d -2.47%); WTI 85.79 (1d 2.52%).",
+     "layman": "Oil is near this month's high because of conflict in the Middle East. Ships were attacked near the Strait of Hormuz and Saudi energy sites were hit. WTI rose 2.52% in a day."
+    },
+    "consequence": {
+     "technical": "If attacks on energy infrastructure continue (ANZ cited rising attacks, per WSJ), supply fears could keep oil elevated. Base rate: after look-alike days Brent rose over the next 5 days 1 of 5 times (median -6.19%). Not a prediction.",
+     "layman": "If attacks on energy sites go on, oil prices could stay high. History shows prices often cooled after similar days, but that is not a promise."
+    },
+    "impact": {
+     "technical": "Investing.com: Asia FX weakened as high oil prices weighed. Oil-importing economies and consumers face the cost; Brent is up 51.64% year to date. Al Jazeera reported an attack on Saudi Arabia's Jazan refinery killed one person.",
+     "layman": "High oil prices weigh on currencies in Asia and on fuel costs. Brent is up 51.64% so far this year. An attack on a Saudi refinery killed one person."
+    },
+    "outlook": {
+     "technical": "Base rates, not predictions: after ordinary days Brent rose the next day 53% of 847 times (median 0.14%) and over the next 5 days 51% of 845 times (median 0.11%).",
+     "layman": "History is only a guide. After calm days Brent rose the next day 53% of the time."
+    },
+    "quant": [
+     "brent",
+     "wti"
+    ],
+    "sources": [
+     23,
+     24,
+     25,
+     26,
+     27
+    ]
+   },
+   {
+    "title": "The AI trade: wobble and partial rebound",
+    "status": {
+     "technical": "Bloomberg: Wall Street flipped from AI euphoria to gloom; its Nov 26 wrap said Nasdaq futures climbed as the AI trade rebounded. WSJ: AI-linked exports and investment still drive Asian growth for now. Nvidia -3.91% 1d; Broadcom -15.02% 5d.",
+     "layman": "AI stocks have swung from excitement to worry and back. WSJ says AI still drives growth in Asia for now. Nvidia fell 3.91% in a day and Broadcom is down 15.02% over five days."
+    },
+    "consequence": {
+     "technical": "If worries about the AI boom's sustainability persist, tech selloffs could recur; Mint noted a brutal Kioxia selloff has made it Japan's cheapest blue chip, backing bullish analysts. Base rates are not predictions.",
+     "layman": "If doubts about the AI boom last, tech shares could keep falling. Some analysts see bargains after the sell-off."
+    },
+    "impact": {
+     "technical": "Nasdaq Composite drawdown from 52w high is -14.54%. Tech-heavy investors and AI-linked Asian exporters are most exposed; the notes give little on other groups, so evidence is thin.",
+     "layman": "Tech-heavy investors and AI-linked exporters feel it most. The Nasdaq is 14.54% below its 52-week high. The notes say little about others."
+    },
+    "outlook": {
+     "technical": "Base rates, not predictions: after ordinary days the Nasdaq Composite rose the next day 55% of 825 times (median 0.13%) and over the next 5 days 59% of 824 times (median 0.6%).",
+     "layman": "History is a guide, not a forecast. After calm days the Nasdaq rose the next day 55% of the time."
     },
     "quant": [
      "nasdaq",
@@ -6206,151 +6297,86 @@
     ],
     "sources": [
      1,
-     18,
-     19
-    ]
-   },
-   {
-    "title": "Fed rate-hike expectations",
-    "status": {
-     "technical": "FT said a hawkish Fed is poised to raise rates despite stock market turmoil, with inflation its top concern. The US 10-year yield closed at 4.85 and the US Dollar Index at 103.78.",
-     "layman": "The FT said the Fed looks ready to raise interest rates because inflation is its main worry. The 10-year US yield is 4.85."
-    },
-    "consequence": {
-     "technical": "Mint said persistent inflation may prompt further rate hikes, supporting the dollar and pressuring gold, while a pause could offer relief.",
-     "layman": "Mint said more rate rises would help the dollar and hurt gold; a pause could help gold."
-    },
-    "impact": {
-     "technical": "Mint said fears of Fed rate hikes weighed on gold. Gold closed at 3593.40, trend down.",
-     "layman": "Mint said fears of Fed rate rises pushed gold lower. Gold is at 3593.40."
-    },
-    "outlook": {
-     "technical": "For the US 10-year yield, after falls bigger than 1 standard deviation: next day rose 46% of 156 times; next 5 days rose 57% of 155 times. These are historical base rates, not predictions.",
-     "layman": "After big drops, the US 10-year yield rose the next day 46% of 156 times and over 5 days 57% of 155 times. History, not a prediction."
-    },
-    "quant": [
-     "us10y",
-     "dxy",
-     "gold"
-    ],
-    "sources": [
-     3,
-     20,
-     21
-    ]
-   },
-   {
-    "title": "Oil and Middle East risk",
-    "status": {
-     "technical": "Brent closed at 91.73. Morningstar said OPEC and allies face tough choices as a surplus builds and Hormuz risks persist; FT said two Italians were killed in an Iranian strike on Kuwait.",
-     "layman": "Oil (Brent) closed at 91.73. Morningstar said OPEC faces tough choices as supply builds up and risks around the Strait of Hormuz remain."
-    },
-    "consequence": {
-     "technical": "If Middle East tension keeps oil elevated, Economic Times said Indian bonds can fall; Mint said lower oil helped India's November rebound.",
-     "layman": "If oil stays high, Indian bonds can suffer; Mint said lower oil helped India's stocks recover in November."
-    },
-    "impact": {
-     "technical": "Indian bonds and Indian equities are the affected markets the notes name. Evidence on other regions is thin.",
-     "layman": "India is the place the notes say is most affected by oil swings."
-    },
-    "outlook": {
-     "technical": "For Brent, after falls bigger than 1 standard deviation: next day rose 49% of 172 times; next 5 days rose 53% of 171 times. These are historical base rates, not predictions.",
-     "layman": "After big oil drops, Brent rose the next day 49% of 172 times and over 5 days 53% of 171 times. History, not a prediction."
-    },
-    "quant": [
-     "brent"
-    ],
-    "sources": [
-     22,
-     23,
-     24,
-     25
-    ]
-   },
-   {
-    "title": "US tariff pressure",
-    "status": {
-     "technical": "CNBC reported the US planned a fresh tariff salvo on 14 trading partners while offering lower rates to countries that secure trade deals. Bloomberg said China refrained from retaliating yet, while Singapore and Japan seek talks.",
-     "layman": "CNBC said the US plans new tariffs on 14 trading partners but offers lower rates for countries that sign deals. China has not hit back yet."
-    },
-    "consequence": {
-     "technical": "If more partners sign deals, Jefferies sees India's rate falling to 17% with a pact (Business Standard); Yahoo Finance UK said tariff proposals eased concerns in Europe.",
-     "layman": "If countries sign trade deals, tariff rates could fall; Jefferies sees India's rate at 17% with a pact."
-    },
-    "impact": {
-     "technical": "Business Standard said Jefferies sees chemical, textile and capital goods exporters most exposed in India. Singapore's DPM Gan said over $9 billion of goods are affected.",
-     "layman": "Indian chemical, textile and capital goods exporters are most exposed, per Jefferies. Singapore says over $9 billion of its goods are affected."
-    },
-    "outlook": {
-     "technical": "For the DAX, after rises bigger than 1 standard deviation: next 5 days rose 57% of 195 times. These are historical base rates, not predictions.",
-     "layman": "After big up days, Germany's DAX rose over the next 5 days 57% of 195 times. History, not a prediction."
-    },
-    "quant": [
-     "dax"
-    ],
-    "sources": [
-     9,
-     26,
-     27,
      28,
-     29
+     29,
+     30
     ]
    },
    {
-    "title": "Central banks keep tightening",
+    "title": "Bank of Japan rate-hike expectations",
     "status": {
-     "technical": "WSJ said the Bank of Korea resumed rate hikes, to 3.25% per Straits Times. The ECB main refinancing rate is 2.65 % and its deposit rate 2.5 %; Reuters said accounts show large support for an October hike.",
-     "layman": "Central banks are tightening: Korea raised rates to 3.25% and the ECB's accounts show strong support for an October hike."
+     "technical": "WSJ: short-term JGB yields rose on elevated Tokyo inflation data, lifting expectations of a BOJ rate increase. Straits Times: Governor Ueda speaks Nov 30 before the Dec 18 BOJ decision. Nikkei 225 1d 1.96%.",
+     "layman": "Prices are rising faster in Tokyo, so investors expect Japan's central bank to raise interest rates. Its governor speaks on Nov 30 ahead of a Dec 18 decision."
     },
     "consequence": {
-     "technical": "If inflation stays above target, Straits Times said South Korea signalled further tightening (Straits Times, WSJ).",
-     "layman": "If prices keep rising faster than hoped, Korea's central bank signalled more rate rises."
+     "technical": "Mint: Japanese bank shares face further unwind risk as funding costs bite. If the BOJ hikes, higher rates may boost profits less than expected given competition. Base rates are not predictions.",
+     "layman": "If Japan raises rates, banks may not gain as much as hoped, because competition and funding costs eat into profits, says Mint."
     },
     "impact": {
-     "technical": "Households and borrowers in Korea and the euro area face higher borrowing costs; Straits Times said Korean private consumption is down.",
-     "layman": "Borrowers in Korea and Europe may pay more. Korean spending is down."
+     "technical": "Japanese banks and holders of short-term JGBs are most affected per the notes. Evidence on other groups is thin.",
+     "layman": "Japanese banks and bond investors are affected most. The notes say little about others, so evidence is thin."
     },
     "outlook": {
-     "technical": "For the Euro Stoxx 50, after rises bigger than 1 standard deviation, history is mixed; These are historical base rates, not predictions.",
-     "layman": "History for stocks after big up days is mixed. That is not a prediction."
+     "technical": "Base rates, not predictions: after big rises the Nikkei rose the next day 56% of 176 times (median 0.14%) and over the next 5 days 58% of 175 times (median 0.44%).",
+     "layman": "History is only a guide. After big up days the Nikkei rose the next day 56% of the time."
     },
     "quant": [
-     "macro:ecb_refi",
-     "macro:ecb_deposit"
+     "nikkei"
     ],
     "sources": [
-     15,
-     16,
-     30
+     18,
+     31,
+     32
+    ]
+   },
+   {
+    "title": "China: strong factory profits, weak consumers",
+    "status": {
+     "technical": "CNBC: China's industrial profit growth surged to a 5-month high of 20.1% in October, with AI-related manufacturing and exports powering growth while household consumption lagged. WSJ: China extended its suspension of some critical-material export curbs to the U.S. until January.",
+     "layman": "China's factory profits grew 20.1% in October thanks to AI-related exports, but households are spending less. China also paused some export limits on key materials to the US until January."
+    },
+    "consequence": {
+     "technical": "An analyst note says China's property debt crisis is entering a new phase with developers at risk of defaulting again. If consumption stays weak, growth stays reliant on exports. Base rates are not predictions.",
+     "layman": "Analysts say China's property problems are entering a new phase. If households keep spending less, growth leans on exports."
+    },
+    "impact": {
+     "technical": "Shanghai Composite is -12.15% year to date and Shenzhen Component -23.83%. Export-linked tech firms are favoured per the notes; households and property developers face pressure. Evidence is thin beyond that.",
+     "layman": "China's stock markets are down this year: Shanghai by 12.15%, Shenzhen by 23.83%. Exporters are doing better than households and property firms."
+    },
+    "outlook": {
+     "technical": "Base rates, not predictions: after ordinary days the Shanghai Composite rose the next day 51% of 843 times (median 0.02%) and over the next 5 days 51% of 840 times (median 0.05%).",
+     "layman": "History is a guide, not a forecast. After calm days Shanghai rose the next day about 51% of the time."
+    },
+    "quant": [
+     "shanghai",
+     "shenzhen"
+    ],
+    "sources": [
+     17,
+     33,
+     34
     ]
    }
   ],
   "events": [
    {
-    "when": "November 27, 2026",
-    "title": "RBI 3-day Variable Rate Repo auction",
-    "technical": "The RBI said it will run a 3-day VRR auction on Friday, November 27, 2026 after reviewing near-term liquidity conditions.",
-    "layman": "India's central bank will run a short-term cash auction on Friday to manage cash in the banking system.",
+    "when": "27 November",
+    "title": "Wall Street reopens for shortened post-Thanksgiving session",
+    "technical": "FT: Wall Street was set to open higher for a shortened session after the Thanksgiving holiday, as tech stocks regained ground at the end of a volatile week.",
+    "layman": "US markets reopen for a short trading day after Thanksgiving. The FT says they were set to open higher after a bumpy week.",
     "sources": [
-     34
+     5,
+     37
     ]
    },
    {
-    "when": "Friday",
-    "title": "US retail inventories and goods trade balance",
-    "technical": "Investing.com listed retail inventories and goods trade balance among economic data due Friday.",
-    "layman": "Two US economic reports are due Friday, according to Investing.com.",
+    "when": "Nov 30",
+    "title": "Bank of Japan Governor Ueda speech",
+    "technical": "Straits Times: Governor Kazuo Ueda speaks before the Dec 18 BOJ decision; Tokyo inflation has strengthened the case for a rate hike.",
+    "layman": "Japan's central bank chief speaks on Nov 30. Investors will listen for hints on interest rates because prices in Tokyo are rising faster.",
     "sources": [
-     35
-    ]
-   },
-   {
-    "when": "next week",
-    "title": "Royal Bank (RY) earnings",
-    "technical": "Yahoo Finance said Royal Bank earnings are expected to grow ahead of next week's release.",
-    "layman": "Canada's Royal Bank reports earnings next week; Yahoo Finance expects growth.",
-    "sources": [
-     36
+     18,
+     31
     ]
    }
   ],
@@ -6361,38 +6387,22 @@
      "ftse100"
     ],
     "direction": "up",
-    "technical": "Morningstar said Imperial Brands lit up the FTSE; Bloomberg reported Altria and Japan Tobacco are exploring a takeover of Imperial Brands.",
-    "layman": "Imperial Brands helped lift London shares. Bloomberg reported Altria and Japan Tobacco are looking at buying it.",
+    "technical": "Morningstar's London close report said Imperial Brands lit up the FTSE as stocks rallied.",
+    "layman": "Imperial Brands shares helped push Britain's FTSE 100 higher, according to Morningstar.",
     "sources": [
-     32,
-     37,
-     38
+     12
     ]
    },
    {
-    "company": "Nvidia",
-    "indices": [
-     "nasdaq",
-     "sp500"
-    ],
-    "direction": "mixed",
-    "technical": "WSJ said Nvidia told partners to pause Southeast Asia shipments; CNBC cited its sharp losses and latest comeback.",
-    "layman": "Nvidia has swung sharply, CNBC said, and WSJ said it paused some shipments to Southeast Asia.",
-    "sources": [
-     19,
-     39
-    ]
-   },
-   {
-    "company": "Ramsay Health Care",
+    "company": "WiseTech Global",
     "indices": [
      "asx200"
     ],
-    "direction": "down",
-    "technical": "Yahoo Finance Australia said Australian shares closed higher while Ramsay Health Care slid after a block trade sale.",
-    "layman": "Australian shares rose, but Ramsay Health Care fell after a large share sale.",
+    "direction": "up",
+    "technical": "Mint's midday report said Australian shares were set for their best week since August as financials and WiseTech rallied.",
+    "layman": "WiseTech shares, along with banks, helped Australian shares toward their best week since August.",
     "sources": [
-     40
+     35
     ]
    }
   ]
@@ -8219,66 +8229,74 @@
    "title": "Wall Street Flips From AI Euphoria to Gloom",
    "publisher": "Bloomberg",
    "tier": "press",
-   "pageAge": "2026-11-26"
+   "pageAge": "2026-11-27"
   },
   {
    "n": 2,
-   "url": "https://www.ft.com/content/6e217409-9fbb-456c-b405-2eb15bb69679?syn-25a6b1a6=1",
-   "title": "Global stocks climb after volatile US trading over AI risks",
-   "publisher": "Financial Times",
+   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeDB1T1E2SVA0LVpuZFR6d2d5dWFobkEwdkN5aFVmZUZKN1pSVWExbEJzWlZhV0tKcklRQ09yZlFTZklkLTBNSGFwbHBfbHR2SWZoQTdXcWtFdEViWGdQamN2a0JjWjZ4M0Mydmlpc1lrQUdYaFBNVkFBdTQ4djVpbjZrRQ?oc=5",
+   "title": "Shares find footing after bruising month, dollar set for third monthly gain",
+   "publisher": "Reuters",
    "tier": "press",
-   "pageAge": "2026-11-26"
+   "pageAge": "2026-11-27"
   },
   {
    "n": 3,
-   "url": "https://www.ft.com/content/3890f725-66dd-4613-8a60-d9e3ea38d25a?syn-25a6b1a6=1",
-   "title": "Hawkish Fed poised to raise rates despite stock market turmoil",
-   "publisher": "Financial Times",
+   "url": "https://www.livemint.com/market/ai-risk-sets-dollar-for-longest-winning-run-since-2024-11795741053164.html",
+   "title": "AI Risk Sets Dollar for Longest Winning Run Since 2024",
+   "publisher": "Mint",
    "tier": "press",
-   "pageAge": "2026-11-26"
+   "pageAge": "2026-11-27"
   },
   {
    "n": 4,
-   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQaGZZSW5hcF9tVkRJTG1lVk8ta3Y0VjJEQ1VkeDJ6M19XcC1KSnVNbGtXWlhVX1pscG1KNWY2MHFXLXIwUFFLdTdXb09kUGFmUFQ3VkxTZlEzRmZGWmhzSTVOMzA2dVFaSW1xeE1BRloyYkQ3R2RlYURsOVBRMFN3eA?oc=5",
-   "title": "Stocks’ Swoon and Higher Interest Rates Are a Bad Combo for the Economy",
-   "publisher": "Barron's",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeUdWMkc4bm1uX2x3ZFZmS1owVGVSeGpaeEFyeWxfQVVVNl9EaXRGMFl4d0FPVF8zLTlkMlBYSUttcGRpY2wzeU01Vnp6WWtuczdWWGtqSmVVNHFsQnRpek5xaWsxdmxPWUt3cVlVWUdGMEJaUkFXaEJMZThWOGcxckE0aG4?oc=5",
+   "title": "FirstFT: Fed to press ahead with rate rises",
+   "publisher": "Financial Times",
    "tier": "press",
    "pageAge": "2026-11-26"
   },
   {
    "n": 5,
-   "url": "https://www.livemint.com/market/stock-market-news/us-stock-market-open-or-closed-today-thursday-26-nov-check-nyse-and-nasdaq-trading-schedule-holiday-calendar-11795689325619.html",
-   "title": "US stock market open or closed today Thursday, 26 Nov? Check NYSE and Nasdaq trading schedule, holiday calendar",
-   "publisher": "Mint",
+   "url": "https://www.ft.com/content/fedc6392-ad25-43e4-9d9f-20216cbf331e?syn-25a6b1a6=1",
+   "title": "Tech stocks regain ground at end of volatile trading week",
+   "publisher": "Financial Times",
    "tier": "press",
-   "pageAge": "2026-11-26"
+   "pageAge": "2026-11-27"
   },
   {
    "n": 6,
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNR1Y0bzlCd0lTS3FZTV9nZjV5ZVZ1ZlhIQ3pDVE9JRERtZllJTGdERHo3R1YzR0R4LVpEWDhWTTdDM2hobHlsQlNVclhwV0R0ZHhYaFpQVlZmcVdfSS00ekNldzdTSENDVnFaV0VDX1ZhdmFBcVBUTi1vb1Q2QUthdzd6eW16Nk9Way1OOEtUbzZHaXllX2pxSDVjemlvTjYzZi1VQmd0cS1oSWtwaHpMdg?oc=5",
-   "title": "Brazil mid-November inflation eases, comes in below expectations",
-   "publisher": "Reuters",
+   "url": "https://www.straitstimes.com/business/companies-markets/nasdaq-sp-500-end-down-but-well-off-lows-as-investors-buy-bargains",
+   "title": "Nasdaq, S&P 500 end down, but well off lows as investors buy bargains",
+   "publisher": "Straits Times",
    "tier": "press",
-   "pageAge": "2026-11-26"
+   "pageAge": "2026-11-25"
   },
   {
    "n": 7,
-   "url": "https://www.bloomberg.com/news/articles/2026-11-26/brazil-consumer-prices-rise-less-than-forecast-by-all-analysts",
-   "title": "Brazil Inflation Undershoots Forecasts in ‘Positive’ Print",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-27/brazil-assets-rally-after-lula-names-banker-luiz-carlos-trabuco-cappi-finance-minister",
+   "title": "Brazil Assets Rally After Lula Names Banker as Finance Minister",
    "publisher": "Bloomberg",
    "tier": "press",
-   "pageAge": "2026-11-26"
+   "pageAge": "2026-11-27"
   },
   {
    "n": 8,
-   "url": "https://www.bloomberg.com/news/articles/2026-11-26/brazil-tightens-consumer-lending-rules-as-household-debt-soars",
-   "title": "Brazil Tightens Consumer Lending Rules as Family Debt Soars",
+   "url": "https://www.ft.com/content/94f93408-476b-479c-be0e-d7f7942f9491?syn-25a6b1a6=1",
+   "title": "Lula names banker as Brazil finance minister in attempt to calm markets",
+   "publisher": "Financial Times",
+   "tier": "press",
+   "pageAge": "2026-11-27"
+  },
+  {
+   "n": 9,
+   "url": "https://www.bloomberg.com/news/articles/2026-11-26/mexico-central-bank-lifts-growth-outlook-in-boost-to-sheinbaum",
+   "title": "Banxico Raises Growth Outlook as Investment, Exports Pick up",
    "publisher": "Bloomberg",
    "tier": "press",
    "pageAge": "2026-11-26"
   },
   {
-   "n": 9,
+   "n": 10,
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZDAxVGFpS2R1UjZqMXF1ZG94NHZweWw0MU1LTEJzN0ZDZUFjdDl5eW1fOWZ5dEZ3ZzFDQWFhVTFHUEptQ25WOXI0dEtNd1JtcVBfXzEyaTllV0g3RXFrWVRXU0ppbE94U0hBT0pITzd1YmtqTHJZc0ZQdHZVeVdMMjZ1YkFCZms?oc=5",
    "title": "European Stocks Rally as US Tariff Proposals Ease Concerns and Technology Shares Recover: DAX, CAC, FTSE100",
    "publisher": "Yahoo Finance",
@@ -8286,7 +8304,7 @@
    "pageAge": "2026-11-26"
   },
   {
-   "n": 10,
+   "n": 11,
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTnlXWHNZOXZ4UEt2YmNabEF2ZVZkamhCcmNQeF93TWR5NmdKc1hwbmtzM2hPVHRqMEg4UkhEX0o2Vk5LOTkyS0x3cDhjNlJXT21QdW9JNUVMRkljei0zZnpPOGFvT1hHb2ZscnhwN1plQ2trLXBRTDZXdUhZVjM5aklweGdFNms?oc=5",
    "title": "European Stocks Rally as US Tariff Concerns Ease and Falling Bond Yields Support Sentiment: DAX, CAC, FTSE100",
    "publisher": "Yahoo Finance",
@@ -8294,175 +8312,7 @@
    "pageAge": "2026-11-26"
   },
   {
-   "n": 11,
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUWRTQ2N0czgwTVhPdVhvZDUzeDNDRUJ6cFd0MWx1N05aSTJHaUlOdTQ5X2xieEVueHJ3VTRrb0ppNEtzbFVBRm1fU3VvV0xpMWVlUWg3c0NvWXJxS2ZabkwwejhwenhCVmhYRUdweUwwdHhTTWd1bTh2QlR1dFpvVDFHVQ?oc=5",
-   "title": "Stocks rally, Europe sizes up next ECB chief",
-   "publisher": "Reuters",
-   "tier": "press",
-   "pageAge": "2026-11-26"
-  },
-  {
    "n": 12,
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOV8wZkxRVTY5U0ZQeVZwSGtCMVZJTjV2d2t5TlhsSVoxQmpLRXI4OTV1R0QwQkV1QmZma3BDN0lrOEJTNGFVeloyeE5HbnhmWDZfR1VrbzN5TzZrck5WTTlKNTBaeFhVbDd4RldhY0hZMnFsczlsTURLY0FpWWgzeE5YVVc2NUZqMy1KbldQVDJfcUtsVEhINHF2emJ5SEFrMXozWUdTM3BFQQ?oc=5",
-   "title": "Spain's De Cos to take over as ECB president from Lagarde",
-   "publisher": "Reuters",
-   "tier": "press",
-   "pageAge": "2026-11-26"
-  },
-  {
-   "n": 13,
-   "url": "https://www.ft.com/content/88a0691a-6ce8-4c97-abf4-7aee0351fd51?syn-25a6b1a6=1",
-   "title": "Pablo Hernández de Cos wins race for ECB presidency",
-   "publisher": "Financial Times",
-   "tier": "press",
-   "pageAge": "2026-11-26"
-  },
-  {
-   "n": 14,
-   "url": "https://www.straitstimes.com/business/asian-stocks-enjoy-another-bounce-as-tech-holds-court",
-   "title": "Asian stocks stabilise after tech rout",
-   "publisher": "Straits Times",
-   "tier": "press",
-   "pageAge": "2026-11-26"
-  },
-  {
-   "n": 15,
-   "url": "https://www.wsj.com/economy/central-banking/bank-of-korea-resumes-rate-hikes-as-ai-boom-fuels-growth-f28c5cdb?mod=rss_socialeconomyfeed",
-   "title": "Bank of Korea Resumes Rate Hikes as AI Boom Fuels Growth",
-   "publisher": "WSJ",
-   "tier": "press",
-   "pageAge": "2026-11-26"
-  },
-  {
-   "n": 16,
-   "url": "https://www.straitstimes.com/business/south-korea-hikes-interest-rates-again-to-3-25-as-ai-boom-powers-growth-and-inflation",
-   "title": "South Korea hikes interest rates again to 3.25% as AI boom powers growth and inflation",
-   "publisher": "Straits Times",
-   "tier": "press",
-   "pageAge": "2026-11-26"
-  },
-  {
-   "n": 17,
-   "url": "https://www.livemint.com/market/stock-market-news/nifty-50-to-hit-29-000-j-p-morgan-calls-indian-stocks-a-safe-haven-from-ai-trades-sees-12-upside-key-reasons-11795710323279.html",
-   "title": "Nifty 50 to hit 29,000? J.P. Morgan calls Indian stocks a 'safe haven' from AI trades; sees 12% upside. Key reasons",
-   "publisher": "Mint",
-   "tier": "press",
-   "pageAge": "2026-11-26"
-  },
-  {
-   "n": 18,
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeEQtTUQwY0ZyTEpubU1fOUV6eVQzR2llam9uaF9UUnQ5LVNvcWJFT0dRYW9NRHM2cDQtYkpaOF9rS1ZuVE8zaDhmYWk0S1IzdU1sOER5aWJLOTQteFZFTjRkMUJwUTdta0ZnemNITTBEa1VVb1c1MGJkUnZoMFRKNDZjM1d6SDBqZ1g2NDZTenZfSEZK?oc=5",
-   "title": "Stocks, Nasdaq Futures Climb as AI Trade Rebounds: Markets Wrap",
-   "publisher": "Bloomberg",
-   "tier": "press",
-   "pageAge": "2026-11-26"
-  },
-  {
-   "n": 19,
-   "url": "https://www.wsj.com/tech/nvidia-tells-partners-to-pause-shipments-to-southeast-asia-5b791cb0?mod=rss_worldnews",
-   "title": "Nvidia Tells Partners to Pause Shipments to Southeast Asia",
-   "publisher": "WSJ",
-   "tier": "press",
-   "pageAge": "2026-11-26"
-  },
-  {
-   "n": 20,
-   "url": "https://www.livemint.com/market/commodities/what-will-happen-to-gold-rates-crash-or-surge-after-the-us-fed-fomc-meeting-outcome-scenarios-explained-11795701687070.html",
-   "title": "What will happen to gold rates? Crash or surge after the US Fed FOMC meeting outcome - Scenarios explained",
-   "publisher": "Mint",
-   "tier": "press",
-   "pageAge": "2026-11-26"
-  },
-  {
-   "n": 21,
-   "url": "https://www.livemint.com/market/gold-drifts-lower-as-fed-rate-hike-fears-loom-11795720313647.html",
-   "title": "Gold drifts lower as Fed rate-hike fears loom",
-   "publisher": "Mint",
-   "tier": "press",
-   "pageAge": "2026-11-26"
-  },
-  {
-   "n": 22,
-   "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQa2dScUJUUVFoekswQVNtV3I5WE00Zks0ZHBGMk85ZFZXejh2NUYzSkFQNlQ0aXNuSVZ4Ym9DVjBlZnJtVXVBNXE1NzRTMUJVV2pLYVJxWG1tNGxjNjhCS0ZlQzNZcFRnOEVGbWdtdW5WMmZiYUFieTdFOWRSakVqNVhqVWxGcGN4SjdEbmpWQ0E2YUtqYTF4N19LT3J4aW9XZVFRUTdYQS1NZzdsTVM3U2pWNXh2MFBDZjJ5dzhwN24zTlRDOEg4RzBxb01kc3p5dWlFQUFyRFZzS29jWXc?oc=5",
-   "title": "OPEC, Allies Face Tough Choices as Surplus Builds, Hormuz Risks Persist — Commodities Roundup",
-   "publisher": "Morningstar",
-   "tier": "data",
-   "pageAge": "2026-11-26"
-  },
-  {
-   "n": 23,
-   "url": "https://www.ft.com/content/e5f3128d-5f8b-416c-90d1-2549175cb091?syn-25a6b1a6=1",
-   "title": "Two Italians killed in Iranian strike on Kuwait",
-   "publisher": "Financial Times",
-   "tier": "press",
-   "pageAge": "2026-11-26"
-  },
-  {
-   "n": 24,
-   "url": "https://economictimes.indiatimes.com/markets/bonds/india-bonds-tumble-as-brent-tops-95-per-barrel-rbi-flags-food-inflation-risks/articleshow/136193320.cms",
-   "title": "India bonds tumble as Brent tops $95 per barrel, RBI flags food inflation risks",
-   "publisher": "Economic Times",
-   "tier": "press",
-   "pageAge": "2026-11-26"
-  },
-  {
-   "n": 25,
-   "url": "https://www.livemint.com/market/stock-market-news/nifty-surges-over-12-in-november-eyes-biggest-monthly-gain-in-six-years-bse-eternal-trent-among-top-gainers-11795694066553.html",
-   "title": "Nifty surges over 12% in November, eyes biggest monthly gain in six years; BSE, Eternal, Trent among top gainers",
-   "publisher": "Mint",
-   "tier": "press",
-   "pageAge": "2026-11-26"
-  },
-  {
-   "n": 26,
-   "url": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html",
-   "title": "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
-   "publisher": "CNBC",
-   "tier": "press",
-   "pageAge": "2026-11-26"
-  },
-  {
-   "n": 27,
-   "url": "https://www.bloomberg.com/news/newsletters/2026-11-26/trading-partners-respond-to-trump-tariff-plans",
-   "title": "Trading partners respond to Trump tariff plans",
-   "publisher": "Bloomberg",
-   "tier": "press",
-   "pageAge": "2026-11-26"
-  },
-  {
-   "n": 28,
-   "url": "https://www.business-standard.com/economy/news/tariff-threat-likely-to-hasten-india-us-trade-deal-says-jefferies-report-126112601345_1.html",
-   "title": "Tariff threat likely to hasten India-US trade deal, says Jefferies report",
-   "publisher": "Business Standard",
-   "tier": "press",
-   "pageAge": "2026-11-26"
-  },
-  {
-   "n": 29,
-   "url": "https://www.straitstimes.com/business/over-9-billion-of-spore-goods-affected-by-us-tariffs-trade-deal-will-involve-compromises-dpm-gan",
-   "title": "Over $9 billion of S’pore goods affected by US tariffs; trade deal will involve compromises: DPM Gan",
-   "publisher": "Straits Times",
-   "tier": "press",
-   "pageAge": "2026-11-26"
-  },
-  {
-   "n": 30,
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOT0pwMG9feGVEYVhMdnB4SDFTdFNQV0FtWmt1QWdhS0t4akxqbVJhTW96MXVlU1k2T21mc1VJaVRMM3huQUZLanZrdXVlcTRneXhCUGRpcUJaSEZ2T2VMUTRSR252S2FzYkhkR0wzbHRpQjNhb3kwM09TaVVrUndBaHBBc3BmZXl2TDVVZUxJcTVELWc1WUlJZ0JKNDNOaUxLQldaQWtFTm9CX0p4?oc=5",
-   "title": "ECB already had large support for rate hike in Oct, accounts show",
-   "publisher": "Reuters",
-   "tier": "press",
-   "pageAge": "2026-11-26"
-  },
-  {
-   "n": 31,
-   "url": "https://www.straitstimes.com/business/companies-markets/nasdaq-sp-500-end-lower-following-nov-23s-nvidia-fuelled-rally",
-   "title": "Nasdaq, S&P 500 slip following Nov 23’s Nvidia-fuelled rally",
-   "publisher": "Straits Times",
-   "tier": "press",
-   "pageAge": "2026-11-24"
-  },
-  {
-   "n": 32,
    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONDRoTnAwbHVCWk1BdWJXZ3UwRlNjNjhzeWRBcTh3c2JxOC1YbmlTTUZob1d0NnN4TzI3TVYtcUhSeWxZdjhtS3h4Wmp0SkpDZ3o2VGZTSktlVklMM0JSOXlUZnpDeDBfd0tHOUpOTW1Pb1Zua2ItN1FxdG5yY2hRc185aXNSaWdaNmNDRHU2SnNIdE4xbURzWS1lQ09FSDQyRm1XbGxScUhVR0JPVE9lNEdkS040YVFyVGE2RFNYOF91eURWcm5uci0zZDJKbWJWWGk2WmRIZHVsQQ?oc=5",
    "title": "LONDON MARKET CLOSE: Imperial Brands lights up FTSE as stocks rally",
    "publisher": "Morningstar",
@@ -8470,73 +8320,209 @@
    "pageAge": "2026-11-26"
   },
   {
-   "n": 33,
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNY0ZMMGR2U2hjNG5tRkxrNWRWcHVDSWFqSFhoeW5tQXpVRzFzcTNtSTJhU1pNT2wzeHJhQUFKSEltYXRRakhHeWl3X0ptWWNZdGRvRjZIdWRrTnZyYjVnbk1WYmEwc1NkZzU1cnhEOWZzZXEwNlVtRFZxQnlJMWo4WmJ4UWdSLWZuUmpXRVpRWkNORFBLNnpNMVMxc0tPanp3Z3dFamdvT083eDRjQ0NTZm5RUy1EVVZLLXA5RFR2clZTTmtEdHFERVB5d2FqNnZCMFBmbGR5QdIB3gFBVV95cUxQVGpZYXk5el9QNW1YbUhLNW1SRVBJNnljWUVPbEFnTE0tcUxYVU5vNW9WanM0all5NEVDWk54SzhHcndkRVJJNVg4aWNGcUpZd3BacXdENDZlLXZ3ZFN6RlZxUmR0VWJkNE9WS3RTcUdqXzBhbUx2MjE3c2RtRloweC1pcjQyNTVlbFJoaWYzcVhQU3RfR3ZUUUFVSWhYYnA1WWdlS3o4LUFkRUhZZEhQRWZJdGZRYzlNeXF0R1pYTXVncXU5cDU1LTJWS2pKbWc2ZkVuY0hoaFhETkZpemc?oc=5",
-   "title": "AI selloff hits Asia: Kospi sinks 6%, Taiwan drops nearly 5% as tech stocks tumble",
-   "publisher": "Financial Express",
+   "n": 13,
+   "url": "https://www.straitstimes.com/business/sap-weighs-cutting-at-least-10000-positions-in-ai-restructuring",
+   "title": "SAP weighs cutting at least 10,000 positions in AI restructuring",
+   "publisher": "Straits Times",
    "tier": "press",
-   "pageAge": "2026-11-25"
+   "pageAge": "2026-11-26"
+  },
+  {
+   "n": 14,
+   "url": "https://www.aljazeera.com/economy/2026/11/27/asian-stock-markets-rise-after-earlier-tech-rout?traffic_source=rss",
+   "title": "Asian stock markets rise after earlier tech rout",
+   "publisher": "Al Jazeera",
+   "tier": "press",
+   "pageAge": "2026-11-27"
+  },
+  {
+   "n": 15,
+   "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-rise-for-second-day-crude-oil-gains/articleshow/136206178.cms",
+   "title": "Global Market Today: Asian stocks rise for second day, crude oil gains",
+   "publisher": "Economic Times",
+   "tier": "press",
+   "pageAge": "2026-11-27"
+  },
+  {
+   "n": 16,
+   "url": "https://www.wsj.com/finance/asian-markets-mostly-higher-as-sentiment-stabilizes-8f998c4d?mod=rss_markets_main",
+   "title": "Asian Markets Mostly Higher as Sentiment Stabilizes",
+   "publisher": "WSJ",
+   "tier": "press",
+   "pageAge": "2026-11-27"
+  },
+  {
+   "n": 17,
+   "url": "https://www.cnbc.com/2026/11/27/china-industrial-profits-october.html",
+   "title": "China industrial profits growth surges to a 5-month high of 20.1% in October",
+   "publisher": "CNBC",
+   "tier": "press",
+   "pageAge": "2026-11-27"
+  },
+  {
+   "n": 18,
+   "url": "https://www.straitstimes.com/business/tokyos-faster-pace-of-inflation-backs-case-for-bank-of-japan-rate-hike",
+   "title": "Tokyo’s faster pace of inflation backs case for Bank of Japan rate hike",
+   "publisher": "Straits Times",
+   "tier": "press",
+   "pageAge": "2026-11-27"
+  },
+  {
+   "n": 19,
+   "url": "https://economictimes.indiatimes.com/markets/forex/forex-news/dollar-lingers-near-22-month-peak-as-ai-worries-simmer/articleshow/136207046.cms",
+   "title": "Dollar lingers near 22-month peak as AI worries simmer",
+   "publisher": "Economic Times",
+   "tier": "press",
+   "pageAge": "2026-11-27"
+  },
+  {
+   "n": 20,
+   "url": "https://economictimes.indiatimes.com/markets/commodities/news/gold-steady-heads-for-weekly-gain-as-markets-await-fed-signals/articleshow/136206965.cms",
+   "title": "Gold steady, heads for weekly gain as markets await Fed signals",
+   "publisher": "Economic Times",
+   "tier": "press",
+   "pageAge": "2026-11-27"
+  },
+  {
+   "n": 21,
+   "url": "https://www.wsj.com/finance/commodities-futures/gold-fortunes-tied-to-stocks-in-near-term-42ce98be?mod=rss_markets_main",
+   "title": "Gold Stabilizes But Faces Fragile Recovery",
+   "publisher": "WSJ",
+   "tier": "press",
+   "pageAge": "2026-11-27"
+  },
+  {
+   "n": 22,
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeG5mODVrQkQyYUR6RjI2N25WejFPYUNfbVJNVFRTeVhXWndLWVdmNUNlcmRlM0JWZUdXWU0ydmdFNXZPU2JQNVJWZ2hCbFRTcUlpNjdXN2FpU0lybGlPVC1uR2pmYXI5THlqd3BRR0o1Vzh1Um8tOWNBRGE3NndHc09iNnl1RFFLZjNNRDhlOVNmSDhBanFzLTZUWTdkNklsT1RNV0NFWVl4TGhpVTVJTlpWSzZZemxWY2dDQQ?oc=5",
+   "title": "Gold slips, silver gains as Fed rate hike expectations persist in holiday trading - Kitco PM Report",
+   "publisher": "Kitco",
+   "tier": "press",
+   "pageAge": "2026-11-26"
+  },
+  {
+   "n": 23,
+   "url": "https://economictimes.indiatimes.com/markets/commodities/news/brent-trades-near-months-high-as-mideast-conflict-threatens-supply/articleshow/136207059.cms",
+   "title": "Brent trades near month's high as Mideast conflict threatens supply",
+   "publisher": "Economic Times",
+   "tier": "press",
+   "pageAge": "2026-11-27"
+  },
+  {
+   "n": 24,
+   "url": "https://www.investing.com/news/commodities-news/oil-heads-for-first-weekly-gain-in-november-as-gulf-attacks-threaten-supply-recove-5052813",
+   "title": "Oil set for first weekly gain in November as WTI jumps 2.5%, Brent steadies",
+   "publisher": "Investing.com",
+   "tier": "data",
+   "pageAge": "2026-11-27"
+  },
+  {
+   "n": 25,
+   "url": "https://www.wsj.com/finance/commodities-futures/oil-mixed-as-markets-track-mideast-developments-u-s-inventories-6daf3fb1?mod=rss_markets_main",
+   "title": "Oil Mixed as Markets Track Mideast Developments, U.S. Inventories",
+   "publisher": "WSJ",
+   "tier": "press",
+   "pageAge": "2026-11-27"
+  },
+  {
+   "n": 26,
+   "url": "https://www.investing.com/news/forex-news/asia-fx-weakens-as-high-oil-prices-weigh-dollar-edges-lower-in-holiday-trade-5052845",
+   "title": "Asia FX weakens as high oil prices weigh; dollar edges lower in holiday trade",
+   "publisher": "Investing.com",
+   "tier": "data",
+   "pageAge": "2026-11-27"
+  },
+  {
+   "n": 27,
+   "url": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations?traffic_source=rss",
+   "title": "Attack on Saudi’s Jazan refinery kills one person, disrupts operations",
+   "publisher": "Al Jazeera",
+   "tier": "press",
+   "pageAge": "2026-11-26"
+  },
+  {
+   "n": 28,
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPeEQtTUQwY0ZyTEpubU1fOUV6eVQzR2llam9uaF9UUnQ5LVNvcWJFT0dRYW9NRHM2cDQtYkpaOF9rS1ZuVE8zaDhmYWk0S1IzdU1sOER5aWJLOTQteFZFTjRkMUJwUTdta0ZnemNITTBEa1VVb1c1MGJkUnZoMFRKNDZjM1d6SDBqZ1g2NDZTenZfSEZK?oc=5",
+   "title": "Stocks, Nasdaq Futures Climb as AI Trade Rebounds: Markets Wrap",
+   "publisher": "Bloomberg",
+   "tier": "press",
+   "pageAge": "2026-11-26"
+  },
+  {
+   "n": 29,
+   "url": "https://www.wsj.com/tech/ai/the-ai-boom-looks-alive-and-well-in-asia-59841697?mod=rss_worldnews",
+   "title": "The AI Boom Looks Alive and Well in Asia",
+   "publisher": "WSJ",
+   "tier": "press",
+   "pageAge": "2026-11-27"
+  },
+  {
+   "n": 30,
+   "url": "https://www.livemint.com/market/ai-rout-makes-kioxia-japan-s-cheapest-blue-chip-backing-bulls-11795734114734.html",
+   "title": "AI Rout Makes Kioxia Japan’s Cheapest Blue Chip, Backing Bulls",
+   "publisher": "Mint",
+   "tier": "press",
+   "pageAge": "2026-11-26"
+  },
+  {
+   "n": 31,
+   "url": "https://www.wsj.com/finance/investing/short-term-jgb-yields-rise-on-elevated-tokyo-inflation-data-713a900b?mod=rss_markets_main",
+   "title": "Short-Term JGB Yields Rise on Elevated Tokyo Inflation Data",
+   "publisher": "WSJ",
+   "tier": "press",
+   "pageAge": "2026-11-27"
+  },
+  {
+   "n": 32,
+   "url": "https://www.livemint.com/market/japan-bank-shares-risk-further-unwind-as-funding-cost-bites-11795741729928.html",
+   "title": "Japan Bank Shares Risk Further Unwind as Funding Cost Bites",
+   "publisher": "Mint",
+   "tier": "press",
+   "pageAge": "2026-11-27"
+  },
+  {
+   "n": 33,
+   "url": "https://www.wsj.com/economy/trade/china-to-suspend-some-critical-material-export-curbs-to-u-s-until-january-35bc8dca?mod=rss_worldnews",
+   "title": "China to Suspend Some Critical-Material Export Curbs to U.S. Until January",
+   "publisher": "WSJ",
+   "tier": "press",
+   "pageAge": "2026-11-24"
   },
   {
    "n": 34,
-   "url": "https://www.rbi.org.in/scripts/BS_PressReleaseDisplay.aspx?prid=64051",
-   "title": "RBI to conduct 3-day Variable Rate Repo (VRR) auction under LAF on November 27, 2026",
-   "publisher": "RBI",
-   "tier": "official",
-   "pageAge": "2026-11-26"
+   "url": "https://www.scmp.com/business/markets/article/3375947/chinas-property-debt-crisis-deepens-second-wave-restructurings-looms",
+   "title": "China’s property debt crisis deepens as second wave of restructurings looms",
+   "publisher": "SCMP",
+   "tier": "press",
+   "pageAge": "2026-11-27"
   },
   {
    "n": 35,
-   "url": "https://www.investing.com/news/stock-market-news/retail-inventories-and-goods-trade-balance-among-economic-data-due-friday-93CH-5052685",
-   "title": "Retail inventories and goods trade balance among economic data due Friday",
-   "publisher": "Investing.com",
-   "tier": "data",
-   "pageAge": "2026-11-26"
+   "url": "https://www.livemint.com/market/australian-shares-set-for-best-week-since-august-as-financials-wisetech-rally-11795741118736.html",
+   "title": "Australian shares set for best week since August as financials, WiseTech rally",
+   "publisher": "Mint",
+   "tier": "press",
+   "pageAge": "2026-11-27"
   },
   {
    "n": 36,
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYnY4VWw5RTY3SG84aEp4clRob052dkxNZHg1RWRoQXFiMmc0cnBUQ1FzYUZIY09PdVFDaDVvUkJZLWxqcG42SWEwSjRWYzZqeFl1MGdnYXloWm5rZHluNldIRlhjaWFDZzlidWNCWDV6Mm9YWklSOFFFY051WlRZZ2tkV043X1VpUm5hVmp2Y2hXbVNhc2N0R0YwNXk?oc=5",
-   "title": "Royal Bank (RY) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
-   "publisher": "Yahoo Finance",
-   "tier": "data",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUUdGMkRlVGkwcEg5VnNJSzBsdHRZZ2djT0xsWUJXeE1DZU1jSkk3X0U5UWR2eElxM21LYmIzR0djbUJXZENFQ0lkMDVHSTdXYWxVMHhPaVlOaWRVQlVsS1BSTE1GZXRqcUZULTVpUHRSOGkzSTZYYVpZVndkLVg0MVZ0aWxLMzhaWnJvT2pQbUxSUmliZDZDNy1qSUtEckR1VzZCazNYcnJGcm4zSlhWdGpNMFBfcWx3R1ZsNW5TTHc?oc=5",
+   "title": "Bradesco chairman Trabuco agrees to become Brazil's finance minister",
+   "publisher": "Reuters",
+   "tier": "press",
    "pageAge": "2026-11-26"
   },
   {
    "n": 37,
-   "url": "https://www.bloomberg.com/news/articles/2026-11-26/altria-studies-deal-for-cigarette-maker-imperial-brands",
-   "title": "Altria, Japan Tobacco Explore Takeover of Imperial Brands",
-   "publisher": "Bloomberg",
+   "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOdjlWczRRM3hITjVfeHQ4RlV4bmZqYUFqY05FSmNoZW1ZV2tSM2J2djdNQmFaLUdxaEhVeG9QalZKdWNHakhIRWNYSmpGZXo1TThQbm1DbTVOWWlzSEFxZEdiTHlSTzJnam5wamJMdk1PLXExRG9mLWNBV0l2T3lzOWxjcjYtQVhHRURTdXBHYjJEbXB5c1A2RUozbHRTLUFPX1AtWHFLX3JoS3FiYjlPalcxcDVhaXVuV1hDV01xVkF3UjBCakEyVjhxbVlrVEpYLTRZLUlHVXN4RXBjS21jMWNzR0JycXExdnN1cmRjV1RWLUJGQ1JDVGpJQkxXTk9WX3VJd3o3Rk5NVWlpX0lGUVZqWWUwZXdPR3hIVHk1RTNzUDV3VUhKMERNazZrajlU0gGqAkFVX3lxTE1pcG92OGRHakVYbVJ5UE1aOVJMME41VUJvNWJQbDI1cHJHNUpDMkNaTU50V0pxVVlQWFFidUdvTmhDTW9uZ1B2Y3hjWjZveWVsRnMydUo1dVhfWmxlc1ZZc2ZJbGVSd1RfRDdUajJQY1FUX19Ga1Q3a21wSGFuY1otNE9iSXpmUGtKOERoSllEM0RRM0h6b2tkOVh4c1lWcUV2ZlVJbE12QzFlYlRsNktTdG5GVG1pa2R6RXc2aDMySTREbUhsOEU3czZ2NGx1d3BQWVBqRml1Q1JHSmJWUnBoZ2ZMM1U5Vk1XcHRhSXpXN1J2MUJNYmRJUFc1aFdQb3BxSWo0ZE1XNzhXQnp4MnU1REZHakJOMWRISEF2azNqWWlqeFhodHMxeXc?oc=5",
+   "title": "US Stock Market on Black Friday: Key things to watch out for S&P 500, Nasdaq, Dow Jones, Wall Street trade",
+   "publisher": "Economic Times",
    "tier": "press",
-   "pageAge": "2026-11-26"
-  },
-  {
-   "n": 38,
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNFdXbncyRHB5NjBnaExxRnNkY1NtMkctVmRtVU04NkxBN3JmNmcyMWpwVlNXczk2WW9BOFhXR204dV9CZ3VJMzZFUHdZaTdOeW82c1BudkJFcFZnaGFkMERwMF9zQ0VlanVpMjFzR3p0SS16LVFqN1JzVWJZRExqSjZ1enhZS29OVUZhc0gwTGJ2c1lkNFc2UEo0LXU2Zw?oc=5",
-   "title": "Japan Tobacco Studies Deal for Imperial Brands",
-   "publisher": "Bloomberg",
-   "tier": "press",
-   "pageAge": "2026-11-26"
-  },
-  {
-   "n": 39,
-   "url": "https://www.cnbc.com/2026/11/26/nvidias-volatile-swings-expose-risks-of-single-stock-etfs.html",
-   "title": "Buyer beware? Nvidia's volatile swings expose risks of single-stock ETFs",
-   "publisher": "CNBC",
-   "tier": "press",
-   "pageAge": "2026-11-26"
-  },
-  {
-   "n": 40,
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPc1hVYkUzX0xyUVBLQThkalhybmZrZXF5Rl8tSDBKZ3NpVDJ3dXJVOE5IdnpEbk5XY0dITjRzYmllcU1mSEF0LS1NTEhQa2ZOc1NjVmJIN3l0QVJlM1YybE54RWlYSUdHTDdMYnRQaG9nSlBZZUIxR3h0c2pkUHFWNUFVZnUyMk5xQnlWR08tUQ?oc=5",
-   "title": "Australian Shares Close Higher; Ramsay Health Care Slides After Block Trade Sale",
-   "publisher": "Yahoo Finance",
-   "tier": "data",
    "pageAge": "2026-11-26"
   }
  ],
  "warnings": [
   "10 news feed(s) could not be read this time: Euronews business (HTTP 406); Guardian business (HTTP 403); Google News: site:ft.com stock markets indices (HTTP 429); Google News: site:wsj.com central bank inflation oil dollar (HTTP 429); Google News: site:barrons.com stock markets indices (HTTP 429); Google News: site:economist.com central bank inflation oil dollar (no items).",
-  "The written analysis is from 2026-11-26 and is being refreshed; the numbers are current."
+  "Dropped \"Asia-Pacific: shares rise after tech rout\": number(s) 200 not found in its cited evidence."
  ],
  "usage": {
   "headlines": 60,
