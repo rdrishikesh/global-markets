@@ -118,9 +118,11 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 
 ## Written analysis already produced (each item was checked against its sources)
 
-**Headline:** Bloomberg reported Wall Street flipped from AI euphoria to gloom; the S&P 500 is -6.99% over 1m, the Nasdaq Composite -10.92%, and the VIX closed at 26.80.
-- Company effect, Imperial Brands (up on ftse100): Morningstar's London close report said Imperial Brands lit up the FTSE as stocks rallied.
-- Company effect, WiseTech Global (up on asx200): Mint's midday report said Australian shares were set for their best week since August as financials and WiseTech rallied.
+**Headline:** US stocks rose (S&P 500 1.60%, Nasdaq Composite 2.31%) as investors bought battered AI shares (Mint), but CNBC reported the S&P 500 is in a November correction.
+- Company effect, Nvidia (mixed on sp500, nasdaq): CNBC said Huang's return did little to ease AI jitters. Weights are not provided.
+- Company effect, Broadcom (up on sp500, nasdaq): Mint named Broadcom among shares that rebounded as investors returned to battered AI shares.
+- Company effect, SAP (mixed on dax, eurostoxx50): CNBC reported SAP is reportedly cutting at least 10,000 jobs in an AI push.
+- Company effect, Imperial Brands (up on ftse100): Morningstar said Imperial Brands lit up the FTSE as stocks rallied; Bloomberg reported Altria and Japan Tobacco eye Imperial.
 
 ## Headlines collected today
 
@@ -188,7 +190,11 @@ Prices are Yahoo Finance daily closes; macro figures are official releases. Stat
 ## Data warnings
 
 - 5 news feed(s) could not be read this time: Euronews business (HTTP 406); Guardian business (HTTP 403); Google News: site:economist.com stock markets indices (no items); Google News: site:economist.com central bank inflation oil dollar (no items); Google News: Bovespa Brazil Mexico stocks (no items).
-- The written analysis is from 2026-11-27 and is being refreshed; the numbers are current.
+- Dropped "Asia-Pacific: China support lifts sentiment, AI unwind lingers": number(s) 200 not found in its cited evidence.
+- Dropped "Nvidia": number(s) 0.80, 3.09 not found in its cited evidence.
+- Dropped "Broadcom": number(s) 9.90 not found in its cited evidence.
+- Dropped "SAP": number(s) 0.77, 6.51 not found in its cited evidence.
+- Dropped "Asia-Pacific: China support lifts sentiment, AI unwind lingers": number(s) 200 not found in its cited evidence.
 
 ## How to use this file
 
